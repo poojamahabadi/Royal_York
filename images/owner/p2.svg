@@ -1,0 +1,30 @@
+<svg width="397" height="396" viewBox="0 0 397 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dii_1270_1197)">
+<rect width="349.66" height="310" rx="100" transform="matrix(0.707286 -0.706928 0.707286 0.706928 -38 206.185)" fill="#6B5E7A"/>
+</g>
+<defs>
+<filter id="filter0_dii_1270_1197" x="0.431641" y="-6.58887" width="395.705" height="402.51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="3" dy="6"/>
+<feGaussianBlur stdDeviation="3"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0875 0 0 0 0 0.0875 0 0 0 0 0.0875 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1270_1197"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1270_1197" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="2" operator="erode" in="SourceAlpha" result="effect2_innerShadow_1270_1197"/>
+<feOffset dx="-3" dy="8"/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.36756 0 0 0 0 0.310556 0 0 0 0 0.433333 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_1270_1197"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-2" dy="-7"/>
+<feGaussianBlur stdDeviation="7"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.666295 0 0 0 0 0.59375 0 0 0 0 0.75 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="effect2_innerShadow_1270_1197" result="effect3_innerShadow_1270_1197"/>
+</filter>
+</defs>
+</svg>
