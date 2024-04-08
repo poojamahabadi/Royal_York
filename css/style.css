@@ -1611,8 +1611,66 @@ p.name{
 .section_fourprop{
 	margin-bottom: 6em;
 }
+
+/* owner page animation */
+.servicesmobile_image{
+	text-align: center;
+	position: relative;
+}
+.rightchat_anim img{
+    position: absolute;
+    height: 27px;
+}
+.leftchat_anim img{
+	position: absolute;
+	height: 60px;
+}
+.leftchat_anim img:first-child{
+	top: 325px;
+    left: -130px;
+}
+.leftchat_anim img:nth-child(2) {
+	top: 377px;
+    left: -137px;
+}
+.leftchat_anim img:nth-child(3) {
+    top: 431px;
+    left: -142px;
+}
+.rightchat_anim img:first-child{
+    top: 102px;
+    right: -91px;
+}
+.rightchat_anim img:nth-child(2) {
+    top: 133px;
+    right: -92px;
+    height: 28px;
+}
+.rightchat_anim img:nth-child(3) {
+    top: 165px;
+    left: 136px;
+}
+.showing_request img{
+	height: 55px;
+	position: absolute;
+}
+.showing_request img:first-child {
+    bottom: 284px;
+    right: -92px;
+}
+.showing_request img:nth-child(2) {
+    bottom: 221px;
+    right: -92px;
+}
+.showing_request img:nth-child(3) {
+    bottom: 157px;
+    right: -92px;
+}
 .servicesmobile_image img{
-	width: 100%;
+	width: 82%;
+}
+.management_services .card-deck .card-body{
+	padding:0.9em;
 }
 .management_services .card-deck h3{
 	font-family: "Outfit", sans-serif;
