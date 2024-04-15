@@ -613,6 +613,6 @@
 
   AOS.init({
     offset:30,
-    duration:600,
+    duration:1000,
     easing: 'ease-in-out',
   });

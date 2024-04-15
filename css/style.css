@@ -395,7 +395,7 @@ span.redcolr{
 .table-striped tbody tr:nth-of-type(odd){
 	background-color: rgba(232, 238, 243, 0.5);
 }
-.table-striped tbody td:nth-child(2),.table-striped tbody td:nth-child(3){
+.table-striped tbody td:nth-child(2),.table-striped tbody td:nth-child(3),.table-striped tbody td:nth-child(4){
 	text-align: center;
 }
 .property_mgmt tbody tr td{
@@ -1106,6 +1106,29 @@ p.name{
 	justify-content: space-between;
 	align-items: baseline;
 }
+.hear_about select:focus,.hear_about select:active,.hear_about select:hover{
+	outline: none;
+}
+.hear_about select{
+	border: none;
+    height: 24px;
+    width: 43px;
+    padding-left: 7px;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #315D80;
+	background: rgba(49, 93, 128, 0.2);
+	border-radius: 20px;
+}
+.hear_about label{
+	font-family: "Outfit", sans-serif;
+	color:#315D80;
+	font-size: 0.8em;
+	font-weight: 300;
+}
 .tenant_owner p,.hear_about p{
 	font-size: 0.9em;
 }
@@ -1431,7 +1454,21 @@ p.name{
 	padding: 24px 10px;
 	display: flex;
 }
-.addressinfo_div li:first-child:before,.addressinfo_div li:nth-child(2):before{
+.office_locations .main.maps .nav-tabs li.headoffice a {
+	background: linear-gradient(281.64deg, #F8B195 -63.17%, #F2727F 63.95%);
+	box-shadow: 7px 7px 15px 0px #FFB0AB inset;
+}
+.office_locations .main.maps .nav-tabs li.headoffice a .addressinfo_div li {
+    color: #ffffff;
+}
+.office_locations .main.maps .nav-tabs li.headoffice h3{
+color:#ffffff;
+}
+.nav-tabs li.headoffice .addressinfo_div li:first-child:before{
+
+	background-image: url('../images/contact/map/phonecont.svg');
+}
+.addressinfo_div li:first-child:before{
 	background-image: url('../images/contact/map/mail.svg');
 }
 .addressinfo_div li:first-child:before,.addressinfo_div li:nth-child(2):before{
@@ -1444,6 +1481,9 @@ p.name{
 	height: 15px;
 	width: 17px;
 	content: '';
+}
+.nav-tabs li.headoffice .addressinfo_div li:nth-child(2):before{
+	background-image: url('../images/contact/map/mailcont.svg');
 }
 .addressinfo_div li:nth-child(2):before{
 	background-image: url('../images/contact/map/call.svg');
@@ -1462,7 +1502,6 @@ p.name{
 }
 .maps .nav-tabs li a{
 	background: #EDF2FA;
-
 	border-radius: 20px;
 	padding: 16px 10px;
 	margin: 0 15px 0px 0px;
@@ -1725,12 +1764,13 @@ p.name{
 }
 .management_services .card-deck{
 	background: #F8F8F8;
-	box-shadow:0px -10px 19px 0px rgba(133 ,178,255,0.31), 0px 12px 7px 0px #F8F8F8,0px 4px 4px 2px rgba(189, 215, 255,0.30) inset;;
+	box-shadow:0px -10px 19px 0px rgba(133 ,178,255,0.31), 0px 12px 7px 0px #F8F8F8,0px 4px 4px 2px rgba(189, 215, 255,0.30) inset;
 	margin: 15px 8px;
 }
 .management_services .card-deck .card{
 	background-color: unset;
 	border: unset;
+	    margin: 5px;
 }
 .flex_css{
 	display: flex;
@@ -2133,4 +2173,669 @@ position: absolute;
     top: 199px;
     position: absolute;
     z-index: -1;
+}
+
+/* tenant guarantee */
+.propmgmt_video.ready_rental{
+	width: 93%;
+    margin: 4em auto 2em auto;
+}
+.ready_rental .video_descrip h3.heading{
+    line-height: 37px;
+	margin: 0px 0px 0.3em 0px;
+}
+.ready_rental .video_descrip p{
+    line-height: 20px;
+    font-size: 0.9em;
+    text-transform: capitalize;
+}
+.rental_gua h3.heading{
+    margin: 2em 0 0.2em 0;
+}
+.rental_gua p.royal_p{
+	font-family: "Outfit", sans-serif;
+	font-weight: 400;
+	color: #51617C;
+	font-size: 14px;
+	text-transform: capitalize;	
+}
+.rental_gua_img{
+	text-align: center;
+	position: relative;
+}
+.rental_gua_imgrent img{
+	width: 82%;
+}
+.rental_gua_imgdiv{
+	margin: 11em 0 8em 0;
+}
+.rental_gua_sec .absol_div{
+    top: 50%;
+    width: 76%;
+}
+.card.card_monthly{
+	background: #F8F8F8;
+	padding: 26px 0;
+	border: unset;
+	margin: 5em 0 0 0;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0px -10px 19px 0px rgba(133, 178 ,255,0.31), 0px 12px 7px 0px #F8F8F8, 0px 4px 4px 2px rgba(189, 215, 255,0.30) inset;
+}
+.card.card_monthly .card-header,.card.card_monthly .card-footer{
+background-color: unset;
+border: unset;
+}
+.card.card_monthly .card-header{
+    color: #315D80;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 20px 42px 0px 42px;
+}
+.rate_monthly{
+	font-size: 2.5em;
+	color: #F2727F;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+	margin: 0;
+}
+.rental_gua{
+	width: 97%;
+    margin: 0 auto;
+}
+.btn.btn-price{
+	background: #315D80;
+	box-shadow:3px 4px 5px 0px rgba(0, 0 ,0 ,0.10), 4px 4px 10px 1px #468DC3 inset;
+	color: #ffffff;
+	font-family: "Outfit", sans-serif;
+    font-weight: 700;
+	border-radius: 40px;
+	padding: 5px 40px;
+}
+.card.card_monthly .card-body{
+	padding: 5px 0;
+}
+.compre,.standard{
+	text-align: center;
+    color: #EEF4FF;
+    border-radius: 30px 30px 0 0;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.4em;
+    padding: 15px 10px;
+}
+.compre {
+    background: #925A79;
+    box-shadow: 4px 4px 10px 2px #875470 inset;
+}
+.standard {
+    background: linear-gradient(280.77deg, #F8B195 -3.96%, #F2727F 72.68%);
+    box-shadow: 4px 3px 15px 0px rgba(97, 19, 19,0.45) inset;
+}
+.prop_mgmt_paysfor{
+	margin: 6em 0 0 0;
+}
+.prop_mgmt_paysfor h3.heading{
+	margin: 0 0 1.7em 0;
+}
+.management_services.prop_mgmt_paysfor .card-deck{
+width: 100%;
+}
+.management_services.prop_mgmt_paysfor .card-deck .card-body {
+    padding: 2.5em 0.9em;
+}
+.management_services.prop_mgmt_paysfor .card-deck.evic h3{
+	color: #6B5E7A;
+}
+.management_services.prop_mgmt_paysfor .card-deck.legal h3{
+	color: #FFB6A3;
+}
+.management_services.prop_mgmt_paysfor .card-deck.sheriff h3{
+	color: #C06A87;
+}
+.rental_gua_img img.mobilewidth{
+	width: 60%;
+}
+.rental_gua_img{
+	text-align: center;
+}
+.rentalimg1,.rentalimg2,.rentalimg3,.rentalimg4,.rentalimg5{
+	position: absolute;
+}
+.rentalimg1{
+    top: -6px;
+    left: -14px;
+    z-index: -1;
+    height: 40px;
+}
+.rentalimg2 {
+    top: 298px;
+    left: 15px;
+    height: 31px;
+}
+.rentalimg3 {
+    top: 115px;
+    right: 15px;
+    height: 31px;
+}
+.rentalimg4 {
+    top: 168px;
+    right: -44px;
+    height: 128px;
+    z-index: -1;
+}
+.rentalimg5 {
+    top: 324px;
+    right: -29px;
+    height: 32px;
+}
+.prop_mgmt_paysfor .leftchat_anim img:nth-child(2) {
+    height: 63px;
+    top: 270px;
+    left: -99px;
+    z-index: -1;
+}
+.prop_mgmt_paysfor .leftchat_anim img:first-child {
+    top: -51px;
+    left: -63px;
+    z-index: -1;
+}
+.prop_mgmt_paysfor .rightchat_anim img:first-child {
+    bottom: 73px;
+    right: -91px;
+    height: 64px;
+	top: unset;
+}
+.rental_gua_imgrent{
+	position: relative;
+}
+.leftrental_imgs img,.rightrental_imgs img,.mobileoptions img{
+	position: absolute;
+}
+.leftrental_imgs img:first-child {
+    top: -16px;
+    left: -115px;
+    z-index: -1;
+    height: 34px;
+}
+.leftrental_imgs img:nth-child(2) {
+    height: 41px;
+    top: 54px;
+    left: -146px;
+    z-index: -1;
+}
+.leftrental_imgs img:nth-child(3) {
+    height: 41px;
+    top: 98px;
+    left: -123px;
+    z-index: -1;
+}
+.leftrental_imgs img:nth-child(4) {
+    height: 41px;
+    top: 142px;
+    left: -99px;
+    z-index: -1;
+}
+.leftrental_imgs img:nth-child(5) {
+    height: 25px;
+    top: 234px;
+    left: -139px;
+}
+.leftrental_imgs img:nth-child(6) {
+	height: 27px;
+    top: 264px;
+    left: -112px;
+    z-index: -1;
+}
+.rightalign{
+	text-align: right;
+}
+.leftrental_imgs img:nth-child(7) {
+    height: 27px;
+    bottom: -14px;
+    left: 8px;
+    z-index: 1;
+}
+.rightrental_imgs img:first-child {
+    top: -55px;
+    right: -191px;
+    z-index: 1;
+    height: 75px;
+}
+.rightrental_imgs img:nth-child(2) {
+	height: 55px;
+    top: 33px;
+    right: -185px;
+    z-index: -1;
+}
+.rightrental_imgs img:nth-child(3) {
+    height: 30px;
+    top: 149px;
+    right: -180px;
+    z-index: -1;
+}
+.rightrental_imgs img:nth-child(4) {
+    height: 30px;
+    top: 182px;
+    right: -195px;
+    z-index: -1;
+}
+.rightrental_imgs img:nth-child(5) {
+    height: 31px;
+    top: 216px;
+    right: -209px;
+    z-index: -1;
+}
+.rightrental_imgs img:nth-child(6) {
+    height: 79px;
+    top: 266px;
+    right: -154px;
+    z-index: -1;
+}
+.mobileoptions img:first-child {
+    top: -9px;
+    right: 108px;
+    z-index: -1;
+    height: 34px;
+}
+.mobileoptions img:nth-child(2) {
+    height: 55px;
+    top: 71px;
+    right: -24px;
+    z-index: -1;
+}
+.our_monthly_price_rental{
+	margin: 6em 0 0 0;
+}
+.our_monthly_price_rental h3.heading{
+	margin: 0px 0px 1.2em 0px;
+}
+.req_descrip.list_services{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 0 1em 0;
+}
+.serv_absol_div{
+	background: #F8F8F8;
+	box-shadow: 0px -10px 19px 0px #85B2FF4F,0px 12px 7px 0px #F8F8F8,0px 4px 4px 2px #BDD7FF4D inset;
+	border-radius: 30px;
+}
+.section_servdetails img:first-child{
+	width: 100%;
+    height: 188px;
+}
+.section_servdetails.img_extraheight img {
+	   height: 297px;
+}
+.services_offer h3.heading{
+    text-align: center;
+    margin: 0 0 17px 0;
+}
+.services_offer p.serv_descrip{
+    color: #315D80;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    width: 69%;
+    margin: 0 auto 4em auto;
+    text-align: center;
+}
+.section_servdetails h3{
+	color: #315D80;
+	font-weight: 700;
+    font-family: "Outfit", sans-serif;
+	font-size: 1em;
+}
+.section_servdetails p{
+    color: #51617C;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.8em;
+}
+.serv_absol_div.absol_div{
+    top: 15em;
+	padding: 1em 1.9em;
+}
+.services_offer{
+	margin:4em 0 5em 0;
+}
+.maintenance_request .btn.get_started{
+	width: 69%;
+}
+.req_btn_main{
+	margin: 0 0 0 5em;
+}
+.maintenance_request{
+    margin: 5em auto 5em auto;
+    width: 89%;
+}
+.req_content p,.painting_serv_div p{
+	color: #51617C;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.96em;
+}
+.req_content h3.heading{
+	margin: 0 0 0.4em 0;
+}
+.gettouchbtn{
+    margin: 5em 0 0 0;
+	text-align: center;
+}
+.quotebtn .btn.btn-letsstart{
+	width: 61%;
+    text-transform: capitalize;
+}
+.pricing_div{
+	margin: 3.5em 0 0 0;
+}
+.pricing_div h4{
+    color: #F2727F;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+    font-size: 1em;
+    margin: 0 0 1em 0;
+}
+.quotebtn{
+	margin: 1.3em 0 0 0;
+}
+.painting_serv_div h3.heading{
+	margin:0 0 0.4em 0;
+}
+.price_one li:first-child,.price_two li:first-child{
+	font-weight: 400;
+    font-family: "Outfit", sans-serif;
+	font-size: 0.8em;
+	color:#315D80;
+}
+.list_services ul.price_one li:first-child::before{
+	display: none;
+}
+.price_one{
+	margin-right: 2.5em;
+}
+.list_services ul.price_one li:first-child{
+	margin-bottom: 18px;
+}
+.list_services ul.price_one li{
+	font-weight: 400;
+    font-family: "Outfit", sans-serif;
+	color:#315D80;
+	margin-bottom: 1.9em;
+}
+.flex_ul_price.list_services{
+	display: flex;
+} 
+.list_services ul.price_two li:first-child{
+	background-color: unset;
+	box-shadow: unset;
+	padding: 0;
+	text-align: center;
+}
+.list_services ul.price_two li:before{
+	display: none;
+}
+.price_two li{
+	background: #EDF2FA;
+	box-shadow: 5px 6px 5px -1px #89AEEA0A,4px 5px 5px 0px #397CEE1F inset;
+	border-radius: 36px;
+	padding: 9px 13px;
+}
+.painting_serv_img img:nth-child(3){
+	width: 45%;
+}
+.painting_serv_img{
+	text-align: center;
+	position: relative;
+	right: 6em;
+}
+.painting_serv_img.cleaning_img{
+	left: -47px;
+}
+.painting_serv_div.cleaning_decrp{
+	margin: 4em 0 0 0;
+}
+.painting_serv_img img{
+position: absolute;
+}
+.painting_serv_img img:first-child{
+	left: 9em;
+    width: 31%;
+    top: 5.5em;
+    z-index: 1;
+}
+.painting_serv_img img:nth-child(2){
+	left: 13.7em;
+    top: 15.8em;
+    width: 24%;
+}
+.painting_serv_img img:nth-child(4){
+    right: -30px;
+    top: -1.9em;
+    width: 24%;
+}
+.painting_serv_img img:nth-child(5){
+	right: -3.7em;
+    top: 12.5em;
+    width: 24%;
+    z-index: -1;
+}
+.painting_serv_img img:nth-child(6){
+    right: -2em;
+    top: 21em;
+    width: 24%;
+    z-index: -1;
+}
+.painting_serv_img.cleaning_img img:nth-child(4){
+    right:139px;
+    top: 6.9em;
+    width: 37%;
+}
+.cleaning_decrp .quotebtn {
+    margin: 2.6em 0 0 0;
+}
+.painting_serv_img.cleaning_img img:first-child{
+	left: 7em;
+    top: 4em;
+    z-index: -1;
+    height: 86px;
+}
+.painting_serv_img.cleaning_img img:nth-child(2){
+	left: 6.2em;
+    top: 10.6em;
+    width: 30%;
+}
+.painting_serv_img.cleaning_img img:nth-child(3){
+    left: 6.6em;
+    top: 22.4em;
+    width: 30%;
+    z-index: 1;
+}
+.painting_serv_img.cleaning_img{
+	right: unset;
+}
+.painting_serv_img.cleaning_img img:nth-child(5) {
+    right: unset;
+    top: 27.3em;
+    width: 29%;
+    z-index: -1;
+    left: 140px;
+}
+.painting_serv_img.cleaning_img img:nth-child(6) {
+    right: 3em;
+    top: 14em;
+    width: auto;
+    z-index: -1;
+    height: 78px;
+}
+.painting_serv_img.cleaning_img img:nth-child(7) {
+    right: 6.4em;
+    top: 19.6em;
+    width: auto;
+    z-index: -1;
+    height: 17px;
+}
+.painting_serv_img.cleaning_img img:nth-child(8) {
+    right: 1.7em;
+    top: 20.3em;
+    width: auto;
+    z-index: -1;
+    height: 17px;
+}
+.painting_serv_img.cleaning_img img:nth-child(9),.painting_serv_img.cleaning_img img:nth-child(10){
+	position: absolute;
+}
+.painting_serv_img.cleaning_img img:nth-child(9) {
+    right: 2em;
+    top: 23.9em;
+    width: auto;
+    z-index: -1;
+    height: 17px;
+}
+.painting_serv_img.cleaning_img img:nth-child(10) {
+    right: 4.2em;
+    top: 21.2em;
+    width: auto;
+    height: 40px;
+}
+.leftmobile_chatimages{
+	position: relative;
+	text-align: right;
+}
+.leftmobile_chatimages img{
+	position: absolute;
+}
+.leftmobile_chatimages img:first-child{
+    height: 30px;
+    top: -1.6em;
+}
+.leftmobile_chatimages img:nth-child(2){
+	height: 32px;
+    top: 1em;
+    left: 4.3em;
+    z-index: -1;
+}
+.leftmobile_chatimages img:nth-child(3){
+	height: 32px;
+    top: 3.3em;
+    left: 3.3em;
+    z-index: -1;
+}
+.leftmobile_chatimages img:nth-child(4){
+    height: 32px;
+    top: 5.7em;
+    left: 2.4em;
+    z-index: -1;
+}
+.leftmobile_chatimages img:nth-child(5){
+    height: 30px;
+    top: -1.3em;
+    right: 177px;
+}
+.leftmobile_chatimages img:nth-child(6){
+    height: 18px;
+    top: -2.7em;
+    right: -2.8em;
+}
+.leftmobile_chatimages img:nth-child(7){
+    height: 54px;
+    top: -0.9em;
+    right: -41px;
+}
+.leftmobile_chatimages img:nth-child(13){
+    height: 30px;
+    top: -0.7em;
+    right: 7em;
+    z-index: -1;
+}
+.leftmobile_chatimages img:nth-child(8){
+	height: 30px;
+	top: 9em;
+}
+.leftmobile_chatimages img:nth-child(9){
+    height: 54px;
+    top: 2.8em;
+    right: -75px;
+}
+.leftmobile_chatimages img:nth-child(10){
+    height: 353px;
+    width: 81%;
+    position: unset;
+}
+.leftmobile_chatimages img:nth-child(11){
+    height: 76px;
+    top: 16em;
+    left: 6.5em;
+}
+.leftmobile_chatimages img:nth-child(12){
+    height: 47px;
+    top: 20.6em;
+    left: 8.5em;
+    z-index: -1;
+}
+.leftmobile_chatimages img:nth-child(14){
+	height: 30px;
+	top: 10em;
+}
+.leftmobile_chatimages img:nth-child(15){
+	height: 30px;
+	top: 10em;
+}
+.leftmobile_chatimages img:nth-child(16){
+	height: 30px;
+	top: 10em;
+}
+.leftmobile_chatimages img:nth-child(17){
+	height: 30px;
+	top: 10em;
+}
+.leftmobile_chatimages img:nth-child(18){
+	height: 30px;
+	top: 10em;
+}
+.leftmobile_chatimages img:nth-child(19){
+	height: 30px;
+	top: 10em;
+}
+.rightmobile_chatimages{
+	position: relative;
+    top: 60px;
+	text-align: center;
+}
+.rightmobile_chatimages img:first-child{
+    height: 321px;
+    position: unset;
+}
+.rightmobile_chatimages img{
+	position: absolute;
+}
+.rightmobile_chatimages img:nth-child(2){
+    top: 1em;
+    height: 26px;
+    right: 136px;
+}
+.rightmobile_chatimages img:nth-child(3){
+	top: 2.9em;
+    height: 34px;
+    right: 108px;
+}
+.rightmobile_chatimages img:nth-child(4){
+	top: 3em;
+    height: 26px;
+    right: 136px;
+}
+.rightmobile_chatimages img:nth-child(5){
+	top: 4em;
+    height: 26px;
+    right: 136px;
+}
+.rightmobile_chatimages img:nth-child(6){
+	top: 5em;
+    height: 26px;
+    right: 136px;
+}
+.rightmobile_chatimages img:nth-child(7){
+	top: 6em;
+    height: 26px;
+    right: 136px;
 }
