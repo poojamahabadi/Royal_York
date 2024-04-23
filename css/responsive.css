@@ -1684,6 +1684,12 @@ margin-top: 0px;
 /* end of contact page */
 
 /* property page */
+.select_options .custom-control-label {
+    font-size: 0.8em;
+}
+.div_blocks {
+    padding: 18px 7px 3px 7px;
+}
 .descrip_rental p, .decrip_services p, .text_description, .select_options p {
 font-size: 0.9em;
 }
@@ -1771,8 +1777,13 @@ font-size: 0.9em;
 .tenant_image img {
 height: 287px;
 }
-.logoimg img{
+.logoimg img,.publications .publi_img img{
 height: 72px;
+width: 70%;
+margin: 0 auto;
+}
+.get_touch {
+    margin: 0em 0 1.5em 0;
 }
 .team.slick-slide img {
 width: 57%;
@@ -1782,10 +1793,6 @@ margin: 1.7em 0px 0.8em 0px;
 }
 .tenant_decrip,.maintenance p{
 font-size: 0.9em;
-}
-.publications .publi_img img{
-height: 67px;
-width: 117px;
 }
 /* end of property page */
 
@@ -1880,6 +1887,9 @@ font-size: 1.4em;
 }
 /* end of contact page */
 /* property page */
+.publications .slick-next, .publications .slick-prev{
+    top:35%;
+}
 .select_optionradio .custom-control.custom-radio {
 padding: 0 19px;
 }
@@ -1906,9 +1916,6 @@ margin: 0;
 height: 195px;
 bottom: 105px;
 }
-.get_touch {
-margin: 0.7em 0 1.5em 0;
-}
 .logoimg img {
 height: 72px;
 }
@@ -1921,10 +1928,7 @@ flex-basis: 43%;
 .team.slick-slide img {
 width: 78%;
 }
-.publications .publi_img img{
-height: 25px;
-width: 100px;
-}
+
 .news_img img {
 height: 184px;
 }
@@ -2132,6 +2136,7 @@ font-size: 13px;
 font-size: 1.2em;
 line-height: 23px;
 }
+
 /* end of property page */
 
 }
@@ -2246,6 +2251,11 @@ font-size: 0.7em;
 .text_heading {
 line-height: 26px;
 }
+.logoimg img, .publications .publi_img img {
+    height: 63px;
+    width: 63%;
+    margin: 0 auto;
+}
 .home_image img {
 width: 96%;
 }
@@ -2309,6 +2319,9 @@ font-size: 0.8em;
 }
 .read_more a {
 font-size: 0.8em;
+}
+.mobile_image img{
+    height: 162px;
 }
 /* end of property page */
 
@@ -2474,8 +2487,8 @@ font-size: 0.9em;
 .team.slick-slide img {
 width: 88%;
 }
-.publications .publi_img img{
-width:86px;
+.maintenance {
+    padding: 2em 0em 12em 0em;
 }
 /* end of property page */
 
@@ -2549,15 +2562,53 @@ font-size: 13px;
 line-height: 23px;
 font-size: 1.1em;
 }
-.rent_prop_img img {
-height: 116px;
-border-radius: 39px;
+.maintenance {
+    padding: 2em 0em 12em 0em;
+}
+.decrip_services h3{
+    margin:1em 0px 0.8em 0px;
+}
+.Contact_Us h3 {
+    font-size: 1.4em;
+}
+.decrip_services h3 {
+    line-height: 23px;
+    font-size: 1.1em;
+}
+.decrip_services > span {
+    padding: 10px 17px;
+}
+.prop_widthmob .col-12{
+    padding: 0px;
+}
+.prop_widthmob .tab-content .container{
+    padding: 0px;
+    max-width: 100%;
+}
+.btn.btn-viewmoreprop{
+    font-size: 0.9em;
+}
+.rent_prop_img {
+    flex-basis: 69%;
 }
 .list_services ul {
 padding: 0px 0px 0px 2em;
 }
 .text_description {
 line-height: 19px;
+}
+.rent_prop_img img {
+    height: 100px;
+    border-radius: 33px;
+}
+.properties_decrip_rental img {
+    height: 27px;
+}
+.descrip_rental p, .decrip_services p, .text_description, .select_options p {
+    font-size: 0.8em;
+}
+.news_img img {
+    height: 125px;
 }
 /* end of property page */
 }
@@ -2596,8 +2647,8 @@ bottom: -58px;
 .testimonial_card .card .card-carousel .carousel-item {
 height: 286px;
 }
-.maintenance h3, .news_articles h3, .contact_client h3 {
-font-size: 1em;
+.heading, .maintenance h3, .news_articles h3, .contact_client h3 {
+font-size: 1.3em;
 }
 .testimonial_card .card .carousel .carousel-item img {
 height: 162px;
@@ -2622,6 +2673,7 @@ margin: 0em 0px 0.8em 0;
 font-size: 0.83em;
 }
 /* end of contact page */
+/* property page */
 }
 @media screen and (max-width:320px) {
 
@@ -2633,4 +2685,9 @@ height: 145px;
 width: 85%;
 }
 /* end of contact page */
+/* property page */
+.news_img img {
+    height: 117px;
+}
+/* end of property page */
 }

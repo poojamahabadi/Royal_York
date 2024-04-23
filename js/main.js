@@ -45,11 +45,19 @@ settings: {
 slidesToShow: 4
 }
 }, {
-breakpoint: 520,
+breakpoint: 767,
 settings: {
-slidesToShow: 3
+slidesToShow: 2,
 }
-}]
+},
+{
+breakpoint: 641,
+settings: {
+arrows: true,
+slidesToShow: 1,
+}
+}
+]
 });
 
 $('.publicationImg').slick({
@@ -66,9 +74,16 @@ settings: {
 slidesToShow: 4
 }
 }, {
-breakpoint: 520,
+breakpoint: 767,
 settings: {
-slidesToShow: 3
+slidesToShow: 2
+}
+},
+{
+breakpoint: 641,
+settings: {
+arrows: true,
+slidesToShow: 1,
 }
 }]
 });
@@ -90,9 +105,17 @@ slidesToShow: 4
 }, {
 breakpoint: 520,
 settings: {
-slidesToShow: 3
+slidesToShow: 2
 }
-}]
+},
+{
+breakpoint: 641,
+settings: {
+arrows: true,
+slidesToShow: 1,
+}
+}
+]
 });
 });
 

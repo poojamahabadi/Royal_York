@@ -1583,6 +1583,7 @@ right: 2px;
 }
 .main.maps .commonslider .slick-track{
 display: flex;
+margin:0;
 }
 .main.maps .commonslider .slick-next,.main.maps .commonslider .slick-prev{
 background-color: #EDF2FA;
