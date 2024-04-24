@@ -2132,6 +2132,13 @@ margin: 0;
 .owners_monthprice .property_mgmt thead tr th{
     padding: 0 0px 0 10px;
 }
+.testimonial_card .carousel-indicators {
+    bottom: -19px;
+    padding: 0;
+    right: unset;
+    left: -16px;
+    margin: 0;
+}
 span.redbutton, span.greenbutton{
 margin: 0;
 }
@@ -2564,10 +2571,10 @@ font-size: 1em;
 font-size: 0.9em;
 }
 .navi {
-bottom: -68px;
-left: 50%;
-right: unset;
-top: unset;
+    bottom: -62px;
+    left: 50%;
+    right: unset;
+    top: unset;
 }
 .contact_client {
 padding: 4em 0;
@@ -2664,6 +2671,10 @@ padding: 2em 0em 1em 0em;
 /* owners */
 .prop_img img {
     width: 77%;
+}
+.testimonial_card .carousel-indicators {
+    bottom: -65px;
+    left: 38%;
 }
 .video_descrip p {
     line-height: 25px;
@@ -2945,6 +2956,12 @@ line-height: 23px;
 /* end of property page */
 
 /* owners page */
+.testimonial_card .carousel-indicators {
+    bottom: -65px;
+    justify-content: center;
+    right: 0;
+    left: 0;
+}
 .prop_management p,.video_descrip,.royal_propdiff .royal_p,.owners_buttonstart{
     text-align: center;
 }

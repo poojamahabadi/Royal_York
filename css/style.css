@@ -1349,6 +1349,26 @@ background-image:url(../images/contact/left.svg);
 .testimonial_card .carousel-control-next-icon{
 background-image:url(../images/contact/right.svg);
 }
+.testimonial_card .carousel-indicators {
+    margin-left: 14.1em;
+    justify-content: flex-start;
+}
+.testimonial_card .carousel-indicators li{
+    width: 40px;
+    height: 10px;
+    border-radius: 40px;
+    border:1px solid #3B4B65;
+    background-color: #3B4B65;
+}
+.testimonial_card .carousel-indicators li.active{
+    width: 19px;
+    height: 10px;
+    background-color: #ffffff;
+    border:1px solid #ffffff;
+}
+.testimonial_card .carousel-indicators {
+    bottom: 25px;
+}
 .name_describe{
 display: flex;
 justify-content: space-between;
