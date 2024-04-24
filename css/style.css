@@ -1240,8 +1240,6 @@ margin: 1em 0px 0px 0px;
 .contact_client{
 background-image: url(../images/contact/bg.svg);
 background-size: 100% 100%;
-position: relative;
-overflow-x: hidden;
 margin: 5em 0px 3em 0px;
 }
 .contact_client p{
@@ -1253,8 +1251,8 @@ text-transform: capitalize;
 text-align: center;
 margin-top: 1em;
 }
-.image_tabs{
-padding-top: 2em;
+.image_tabs {
+    padding: 2em 0;
 }
 .image_tabs .nav-tabs{
 background: #EEF4FF;
@@ -1794,11 +1792,11 @@ right: -92px;
 }
 .showing_request img:nth-child(2) {
 bottom: 221px;
-right: -92px;
+right: -100px;
 }
 .showing_request img:nth-child(3) {
 bottom: 157px;
-right: -92px;
+right: -111px;
 }
 .servicesmobile_image img{
 width: 82%;
@@ -1873,6 +1871,9 @@ justify-content: center;
 }
 .month_pricing img{
 width: 100%;
+}
+.mobileviewview_button{
+    display:none;
 }
 .btn.btn-letsstart{
 font-family: "Outfit", sans-serif;
