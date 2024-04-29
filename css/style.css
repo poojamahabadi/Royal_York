@@ -335,6 +335,7 @@ position: relative;
 margin-bottom: 5em;
 overflow-x: hidden;
 padding: 0px 0px 3em 0px;
+background-repeat: no-repeat;
 }
 .maintenance_img img{
 width: auto;
@@ -886,6 +887,7 @@ background-image: url(../images/Home/news/bg.svg);
 background-size: 100% 100%;
 margin-bottom: 4em;
 padding: 1em 0px 7em 0px;
+background-repeat: no-repeat;
 }
 .news_img img{
 box-shadow: 4px 4px 5px 0px #345F7F33, 4px 4px 10px 6px #35445B40 inset;
@@ -1011,28 +1013,24 @@ line-height: 18px;
 .addrone{
 list-style-type: none;
 }
-.addrone li:first-child:before{
+.addrone li:first-child:before,.addrone li:nth-child(2):before{
 content: '';
 display: inline-block;
-height: 15px;
-width: 17px;
-background-image: url('../images/Home/footer/home.svg');
-background-size: contain;
-background-repeat: no-repeat;
-margin-left: -25px;	
-vertical-align: middle;
-margin-right: 10px;
-}
-.addrone li:nth-child(2):before{
-content: '';
-display: inline-block;
-height: 14px;
-width: 15px;
-background-image: url(../images/Home/footer/mail.svg);
 background-size: contain;
 background-repeat: no-repeat;
 margin-left: -25px;
 vertical-align: middle;
+}
+.addrone li:first-child:before{
+height: 15px;
+width: 17px;
+background-image: url('../images/Home/footer/home.svg');
+margin-right: 10px;
+}
+.addrone li:nth-child(2):before{
+height: 14px;
+width: 15px;
+background-image: url(../images/Home/footer/mail.svg);
 margin-right: 13px;
 }
 .address_txt h4,.social_links h4{
@@ -1241,6 +1239,7 @@ margin: 1em 0px 0px 0px;
 background-image: url(../images/contact/bg.svg);
 background-size: 100% 100%;
 margin: 5em 0px 3em 0px;
+background-repeat: no-repeat;
 }
 .contact_client p{
 font-family: "Outfit", sans-serif;
@@ -1314,7 +1313,7 @@ box-shadow: 4px 4px 5px 0px rgba(52, 95, 127,0.20), 4px 4px 10px 6px rgba(53, 68
 padding: 5px 13px;
 border-radius: 100px;
 }
-.card .carousel .carousel-item img{
+.testimonial_card .card .carousel .carousel-item img{
 height: 240px;
 width: 100%;
 object-fit: cover;

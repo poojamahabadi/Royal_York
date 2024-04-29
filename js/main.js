@@ -107,8 +107,7 @@ breakpoint: 520,
 settings: {
 slidesToShow: 2
 }
-},
-{
+},{
 breakpoint: 641,
 settings: {
 arrows: true,
