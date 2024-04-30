@@ -957,6 +957,7 @@ background-position: right bottom;
 }
 .footer .heading{
 margin-bottom: 0.4em;
+text-align: left;
 }
 .footerservices_img{
 display: flex;
@@ -1878,6 +1879,7 @@ height: 60px;
 background: #F8F8F8;
 box-shadow:0px -10px 19px 0px rgba(133 ,178,255,0.31), 0px 12px 7px 0px #F8F8F8,0px 4px 4px 2px rgba(189, 215, 255,0.30) inset;
 margin: 15px 8px;
+border-radius: 20px;
 }
 .management_services .card-deck .card{
 background-color: unset;
@@ -2304,9 +2306,6 @@ line-height: 20px;
 font-size: 0.9em;
 text-transform: capitalize;
 }
-.rental_gua h3.heading{
-margin: 2em 0 0.2em 0;
-}
 .rental_gua p.royal_p{
 font-family: "Outfit", sans-serif;
 font-weight: 400;
@@ -2323,10 +2322,6 @@ width: 82%;
 }
 .rental_gua_imgdiv{
 margin: 11em 0 8em 0;
-}
-.rental_gua_sec .absol_div{
-top: 50%;
-width: 76%;
 }
 .card.card_monthly{
 background: #F8F8F8;
@@ -2367,6 +2362,8 @@ font-family: "Outfit", sans-serif;
 font-weight: 700;
 border-radius: 40px;
 padding: 5px 40px;
+outline: none;
+border: unset;
 }
 .card.card_monthly .card-body{
 padding: 5px 0;
@@ -2428,6 +2425,7 @@ height: 40px;
 top: 298px;
 left: 15px;
 height: 31px;
+z-index: 1;
 }
 .rentalimg3 {
 top: 115px;
@@ -2496,6 +2494,7 @@ z-index: -1;
 height: 25px;
 top: 234px;
 left: -139px;
+z-index: 1;
 }
 .leftrental_imgs img:nth-child(6) {
 height: 27px;
@@ -2559,6 +2558,9 @@ height: 55px;
 top: 71px;
 right: -24px;
 z-index: -1;
+}
+.rental_gua p.royal_p{
+    margin-top: 1.5em;
 }
 .our_monthly_price_rental{
 margin: 6em 0 0 0;
