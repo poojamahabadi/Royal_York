@@ -295,6 +295,9 @@ margin: 2.5em 0px 1.5em 0px;
 list-style-type: none;
 padding: 0px 5px 0px 0px;
 }
+.price_two{
+    text-align: center;
+}
 .list_services ul li{
 margin-bottom: 0.7em;
 font-family: "Outfit", sans-serif;
@@ -2596,6 +2599,7 @@ font-family: "Outfit", sans-serif;
 width: 69%;
 margin: 0 auto 4em auto;
 text-align: center;
+line-height: 29px;
 }
 .section_servdetails h3{
 color: #315D80;
@@ -2730,15 +2734,16 @@ width: 24%;
 right: -30px;
 top: -1.9em;
 width: 24%;
-}
-.painting_serv_img img:nth-child(5){
-right: -3.7em;
-top: 12.5em;
-width: 24%;
 z-index: -1;
 }
+.painting_serv_img img:nth-child(5){
+    right: -2.2em;
+    top: 12.5em;
+    width: 24%;
+    z-index: -1;
+}
 .painting_serv_img img:nth-child(6){
-right: -2em;
+right: -4em;
 top: 21em;
 width: 24%;
 z-index: -1;
@@ -2752,31 +2757,32 @@ width: 37%;
 margin: 2.6em 0 0 0;
 }
 .painting_serv_img.cleaning_img img:first-child{
-left: 7em;
-top: 4em;
-z-index: -1;
-height: 86px;
+    left: 7.4em;
+    top: 5em;
+    z-index: -1;
+    height: 86px;
 }
 .painting_serv_img.cleaning_img img:nth-child(2){
-left: 6.2em;
-top: 10.6em;
-width: 30%;
+    left: 17.2em;
+    top: 4.6em;
+    width: 30%;
+    z-index: -1;
 }
 .painting_serv_img.cleaning_img img:nth-child(3){
-left: 6.6em;
-top: 22.4em;
-width: 30%;
-z-index: 1;
+    left: 9em;
+    top: 21.7em;
+    width: 30%;
+    z-index: 1;
 }
 .painting_serv_img.cleaning_img{
 right: unset;
 }
 .painting_serv_img.cleaning_img img:nth-child(5) {
-right: unset;
-top: 27.3em;
-width: 29%;
-z-index: -1;
-left: 140px;
+    right: unset;
+    top: 27.3em;
+    width: 29%;
+    z-index: -10;
+    left: 154px;
 }
 .painting_serv_img.cleaning_img img:nth-child(6) {
 right: 3em;
@@ -2793,7 +2799,7 @@ z-index: -1;
 height: 17px;
 }
 .painting_serv_img.cleaning_img img:nth-child(8) {
-right: 1.7em;
+right: 2.4em;
 top: 20.3em;
 width: auto;
 z-index: -1;
@@ -2803,17 +2809,17 @@ height: 17px;
 position: absolute;
 }
 .painting_serv_img.cleaning_img img:nth-child(9) {
-right: 2em;
-top: 23.9em;
-width: auto;
-z-index: -1;
-height: 17px;
+    right: 4em;
+    top: 23.7em;
+    width: auto;
+    z-index: -1;
+    height: 17px;
 }
 .painting_serv_img.cleaning_img img:nth-child(10) {
-right: 4.2em;
-top: 21.2em;
-width: auto;
-height: 40px;
+    right: 4.2em;
+    top: 21.2em;
+    width: auto;
+    height: 33px;
 }
 .leftmobile_chatimages{
 position: relative;
@@ -2849,21 +2855,22 @@ height: 30px;
 top: -1.3em;
 right: 177px;
 }
-.leftmobile_chatimages img:nth-child(6){
-height: 18px;
-top: -2.7em;
-right: -2.8em;
+.leftmobile_chatimages img:nth-child(6) {
+    height: 18px;
+    top: -2.7em;
+    right: -4.6em;
 }
-.leftmobile_chatimages img:nth-child(7){
-height: 54px;
-top: -0.9em;
-right: -41px;
+.leftmobile_chatimages img:nth-child(7) {
+    height: 54px;
+    top: -1em;
+    right: -68px;
+    z-index: 1;
 }
-
-.leftmobile_chatimages img:nth-child(8){
-height: 54px;
-top: 2.8em;
-right: -75px;
+.leftmobile_chatimages img:nth-child(8) {
+    height: 54px;
+    top: 2.8em;
+    z-index: 1;
+    right: -103px;
 }
 .leftmobile_chatimages img:nth-child(9){
 height: 353px;
@@ -2875,17 +2882,17 @@ height: 76px;
 top: 16em;
 left: 4.1em;
 }
-.leftmobile_chatimages img:nth-child(11){
-height: 47px;
-top: 20.6em;
-left: 6.5em;
-z-index: -1;
+.leftmobile_chatimages img:nth-child(11) {
+    height: 47px;
+    top: 20.4em;
+    left: 6.5em;
+    z-index: -1;
 }
-.leftmobile_chatimages img:nth-child(12){
-height: 30px;
-top: -0.7em;
-right: 7em;
-z-index: -1;
+.leftmobile_chatimages img:nth-child(12) {
+    height: 30px;
+    top: -0.6em;
+    right: 7em;
+    z-index: -1;
 }
 .leftmobile_chatimages img:nth-child(13){
 height: 30px;
@@ -2911,10 +2918,10 @@ top: 10em;
 height: 30px;
 top: 10em;
 }
-.rightmobile_chatimages{
-position: relative;
-top: 60px;
-text-align: center;
+.rightmobile_chatimages {
+    position: relative;
+    top: 7px;
+    text-align: center;
 }
 .rightmobile_chatimages img:first-child{
 height: 321px;
@@ -2923,35 +2930,39 @@ position: unset;
 .rightmobile_chatimages img{
 position: absolute;
 }
-.rightmobile_chatimages img:nth-child(2){
-top: 1em;
-height: 26px;
-right: 136px;
+.rightmobile_chatimages img:nth-child(2) {
+    top: -2em;
+    height: 26px;
+    right: 136px;
 }
-.rightmobile_chatimages img:nth-child(3){
-top: 2.9em;
-height: 34px;
-right: 108px;
+.rightmobile_chatimages img:nth-child(3) {
+    top: -0.1em;
+    height: 34px;
+    right: 108px;
 }
-.rightmobile_chatimages img:nth-child(4){
-top: 5.2em;
-height: 26px;
-right: 136px;
+.rightmobile_chatimages img:nth-child(4) {
+    top: 2.2em;
+    height: 26px;
+    right: 136px;
 }
-.rightmobile_chatimages img:nth-child(5){
-top: 7em;
-height: 26px;
-right: 136px;
+.rightmobile_chatimages img:nth-child(5) {
+    top: 4em;
+    height: 26px;
+    right: 136px;
 }
-.rightmobile_chatimages img:nth-child(6){
-top: 8.8em;
-height: 26px;
-right: 136px;
+.rightmobile_chatimages img:nth-child(6) {
+    top: 5.8em;
+    height: 26px;
+    right: 136px;
 }
-.rightmobile_chatimages img:nth-child(7){
-top: 10.6em;
-height: 26px;
-right: 136px;
+.serv_absol_div.absol_div p {
+    line-height: 22px;
+    font-size: 0.9em;
+}
+.rightmobile_chatimages img:nth-child(7) {
+    top: 7.6em;
+    height: 26px;
+    right: 136px;
 }
 .container.images_divmain_services{
 max-width: 100%;
