@@ -3668,6 +3668,9 @@ width: 87%;
 .tenant_image img{
 position: unset;
 }
+.text_heading,.decrip_services h3{
+    text-align: center;
+}
 .decrip_services {
 text-align: center;
 }
@@ -7503,7 +7506,26 @@ height: 52px;
 
 /* maintenance services */
 .leftmobile_chatimages img:first-child {
-    left: -1em;
+    left: -1.5em;
+    top: 5.4em;
+}
+.leftmobile_chatimages img:nth-child(5) {
+    top: 4.9em;
+}
+.leftmobile_chatimages img:nth-child(7) {
+    top: 5.3em;
+    right: -1.7em;
+}
+.leftmobile_chatimages img:nth-child(12) {
+    top: 5.6em;
+}
+.leftmobile_chatimages img:nth-child(6) {
+    height: 11px;
+    top: 4.2em;
+    right: -2em;
+}
+.leftmobile_chatimages img:nth-child(8) {
+    right: -2em;
 }
 .painting_serv_img img:nth-child(3) {
     width: 58%;
@@ -7542,6 +7564,9 @@ height: 52px;
 .maintenance_request .btn.get_started, .quotebtn .btn.btn-letsstart {
     width: auto;
     padding: 8px 17px;
+}
+.rightmobile_chatimages img:first-child {
+    height: 228px;
 }
 /* end of maintenance services */
 
@@ -7717,8 +7742,104 @@ top: 150px;
 .prop_mgmt_paysfor .rightchat_anim img:first-child {
 right: 25px;
 }
-
 /* rental guarantee end */
+
+/* maintenance services */
+.rightmobile_chatimages img:nth-child(2) {
+    top: -6em;
+}
+.rightmobile_chatimages img:nth-child(3) {
+    top: -4em;
+}
+.rightmobile_chatimages img:nth-child(4) {
+    top: -1.6em;
+}
+.rightmobile_chatimages img:nth-child(5) {
+    top: 0.4em;
+}
+.rightmobile_chatimages img:nth-child(6) {
+    top: 2.3em;
+}
+.rightmobile_chatimages img:nth-child(7) {
+    top: 4.2em;
+}
+.leftmobile_chatimages {
+    margin: 0em 0 4em 0;
+}
+.rightmobile_chatimages {
+    height: unset;
+    margin: 0 0 5em 0;
+}
+.serv_absol_div.absol_div {
+    width: 100%;
+}
+.flex_ul_price.list_services {
+    justify-content: space-around;
+}
+.painting_serv_img img:first-child {
+    left: 1.7em;
+}
+.painting_serv_img img:nth-child(2) {
+    left: 1.9em;
+}
+.painting_serv_img.cleaning_img img:nth-child(2) {
+    top: 3em;
+}
+.painting_serv_img img:nth-child(4) {
+    width: 39%;
+    right: -1em;
+    top: -1.2em;
+}
+.painting_serv_img.cleaning_img img:nth-child(4) {
+    width: 57%;
+}
+.painting_serv_img.cleaning_img img:first-child {
+    top: 3.2em;
+    left: 1.5em;
+}
+.painting_serv_img.cleaning_img img:nth-child(3) {
+    top: 16.6em;
+    left: 2em;
+}
+.painting_serv_img.cleaning_img img:nth-child(5) {
+    left: 2em;
+    top: 21em;
+}
+.painting_serv_img.cleaning_img img:nth-child(6) {
+    top: 10em;
+    right: 0.1em;
+}
+.painting_serv_img.cleaning_img img:nth-child(7) {
+    right: 1.5em;
+    top: 14em;
+}
+.painting_serv_img.cleaning_img img:nth-child(10) {
+    height: 20px;
+}
+.painting_serv_img.cleaning_img img:nth-child(8) {
+    right: -1em;
+    top: 15.3em;
+}
+.painting_serv_img.cleaning_img img:nth-child(10) {
+    right: 1.5em;
+    height: 20px;
+}
+.painting_serv_img.cleaning_img img:nth-child(8) {
+    right: -1.5em;
+    top: 15em;
+}
+.price_one {
+    margin-right: 2em;
+}
+.painting_serv_img.cleaning_img img:nth-child(9) {
+    top: 17.4em;
+    right: -0.7em;
+}
+.maintenance_request .btn.get_started, .quotebtn .btn.btn-letsstart {
+    padding: 8px 14px;
+}
+/* end of maintenance services */
+
 }
 
 @media screen and (max-width:320px) {
@@ -7886,5 +8007,129 @@ bottom: -95px;
 right: 22px;
 }
 /* end of rental guarantee */
+
+/* miantenance services  */
+.leftmobile_chatimages img:nth-child(7), .leftmobile_chatimages img:nth-child(8) {
+    height: 29px;
+}
+.leftmobile_chatimages img:first-child {
+    left: -1.8em;
+    top: 5.8em;
+}
+.leftmobile_chatimages img:nth-child(2), .leftmobile_chatimages img:nth-child(3), .leftmobile_chatimages img:nth-child(4) {
+    height: 18px;
+}
+.leftmobile_chatimages img:nth-child(2) {
+    top: 7.5em;
+}
+.leftmobile_chatimages img:nth-child(3) {
+    top: 8.8em;
+}
+.leftmobile_chatimages img:nth-child(10) {
+    height: 28px;
+    left: 0.3em;
+    top: 12em;
+}
+.leftmobile_chatimages img:nth-child(11) {
+    top: 14.3em;
+    height: 24px;
+    left: 1em;
+}
+.leftmobile_chatimages img:nth-child(5), .leftmobile_chatimages img:nth-child(12) {
+    height: 18px;
+}
+.leftmobile_chatimages img:nth-child(5) {
+    top: 5.6em;
+    right: 136px;
+}
+.leftmobile_chatimages img:nth-child(12) {
+    top: 6.1em;
+    right: 5.2em;
+}
+.leftmobile_chatimages img:nth-child(7) {
+    top: 5.7em;
+    right: -1.3em;
+}
+.leftmobile_chatimages img:nth-child(6) {
+    height: 11px;
+    top: 4.7em;
+}
+.leftmobile_chatimages {
+    margin: 0em 0 2em 0;
+}
+.rightmobile_chatimages img:first-child {
+    height: 203px;
+}
+.rightmobile_chatimages img:nth-child(3) {
+    height: 28px;
+    top: -4.2em;
+}
+.rightmobile_chatimages img:nth-child(4) {
+    top: -2.1em;
+}
+.rightmobile_chatimages img:nth-child(5) {
+    top: -0.2em;
+}
+.rightmobile_chatimages img:nth-child(6) {
+    top: 1.6em;
+}
+.rightmobile_chatimages img:nth-child(7) {
+    top: 3.4em;
+}
+.painting_serv_img img:nth-child(5) {
+    right: 1em;
+    top: 8.8em;
+    width: 25%;
+}
+.painting_serv_img img:nth-child(6) {
+    top: 13.5em;
+    right: 1em;
+}
+.painting_serv_img img:first-child {
+    width: 24%;
+    left: 1em;
+}
+.painting_serv_img img:nth-child(2) {
+    left: 1.6em;
+    width: 25%;
+    top: 8.4em;
+}
+.rightmobile_chatimages img:nth-child(6), .rightmobile_chatimages img:nth-child(2), 
+.rightmobile_chatimages img:nth-child(4), .rightmobile_chatimages img:nth-child(5), 
+.rightmobile_chatimages img:nth-child(7) {
+    height: 23px;
+}
+.painting_serv_img.cleaning_img img:first-child {
+    top: 3.3em;
+    left: 1em;
+}
+.painting_serv_img.cleaning_img img:nth-child(2) {
+    top: 3.2em;
+}
+.painting_serv_img.cleaning_img img:nth-child(3) {
+    top: 15.8em;
+    left: 1.8em;
+}
+.painting_serv_img.cleaning_img img:nth-child(5) {
+    left: 1.8em;
+    top: 20em;
+}
+.painting_serv_img.cleaning_img img:nth-child(6) {
+    height: 42px;
+    right: 0.5em;
+}
+.painting_serv_img.cleaning_img img:nth-child(7) {
+    top: 13em;
+}
+.painting_serv_img.cleaning_img img:nth-child(10) {
+    top: 14.7em;
+}
+.painting_serv_img.cleaning_img img:nth-child(8) {
+    top: 14em;
+}
+.painting_serv_img.cleaning_img img:nth-child(9) {
+    top: 16.1em;
+}
+/* end of maintenance services */
 
 }
