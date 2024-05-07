@@ -1680,9 +1680,9 @@ font-size: 1em;
 color: #315D80;
 font-family: "Outfit", sans-serif;
 }
-.video_div .video{
+.video_div iframe{
 width: 100%;
-height: auto;
+height: 321px;
 background: linear-gradient(180deg, rgba(170, 202, 255, 0.14) -21.45%, rgba(148, 165, 194, 0.14) 58.96%, rgba(148, 165, 194, 0.035) 108.1%);
 box-shadow: 4px 5px 5px 0px rgba(208, 226, 255,0.10) inset;
 border-radius: 40px 40px 0px 0px;

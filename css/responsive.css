@@ -468,6 +468,9 @@ font-size: 1em;
 .req_descrip.list_services ul li {
 font-size: 0.7em;
 }
+.section_servdetails h3 {
+    font-size: 1em;
+}
 .maintenance_request .btn.get_started {
 width: 68%;
 font-size: 1em;
