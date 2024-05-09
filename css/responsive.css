@@ -60,7 +60,7 @@ margin: 5em auto 8em auto;
 /* end of maintenance service page */
 
 /* reviews */
-.customer_review p,.recent_descrip p {
+.customer_review p,.recent_descrip p,.leaveus_descrip p {
     line-height: 31px;
 }
 .review_img img {
@@ -76,6 +76,50 @@ margin: 5em auto 8em auto;
     right: 5px;
 }
 /* end of reviews */
+/* tenant screening */
+.prop_img.tenant_screenimg img {
+    width: 100%;
+}
+.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
+.royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
+font-size: 1.4em;
+}
+.tenantscreen_descrip p {
+    font-size: 1.5em;
+    line-height: 32px;
+}
+.leaveus_descrip p{
+    font-size: 1.4em;
+}
+.our_pricing p{
+    font-size: 1.2em;
+}
+.our_pricing h3{
+    font-size: 1.2em;
+}
+.btn.get_started.tenant_pricingbtn {
+    width: 89%;
+    font-size: 1.2em;
+}
+.btn.get_started.tenant_screenbtn{
+    width: 53%;
+    font-size: 1.2em;
+}
+.tenantscreen_table p,.financial_interest ul li{
+    font-size: 1.2em;
+}
+.tenantscreen_table .table thead th{
+    font-size: 1em;
+}
+.finance_img img {
+    width: 96%;
+}
+.btn.get_started{
+    font-size: 1.2em;
+    width: 220px;
+}
+/* end of tenant screening */
+
 }
 
 @media screen and (max-width: 1600px) {
@@ -125,10 +169,6 @@ font-size: 1.5em;
 }
 .serv_absol_div.absol_div {
 top: 20em;
-}
-.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
-.royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
-font-size: 1.4em;
 }
 .contact_client {
     background-size: 100% 109%;
@@ -431,7 +471,7 @@ background-size: 105% 100%;
 /* property page end */
 
 /* owners page */
-.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p,.tenant_descrip p,
+.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
 font-size: 1em;
 }
@@ -493,13 +533,50 @@ top: 1.2em;
 /* end of maintenance services */
 
 /* reviews */
-.customer_review p, .recent_descrip p {
+.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p {
     line-height: 27px;
 }
 .review_block {
     width: 80%;
 }
 /* end of reviews */
+
+/* tenant screening */
+.tenantscreen_descrip p {
+    line-height: 27px;
+}
+.prop_img.tenant_screenimg img {
+    width: 76%;
+}
+.btn.get_started {
+    font-size: 1em;
+    width: 192px;
+}
+.btn.get_started.tenant_screenbtn {
+    width: 43%;
+    font-size: 1em;
+}
+.our_pricing h3 {
+    font-size: 0.9em;
+}
+.our_pricing p {
+    font-size: 0.9em;
+}
+.btn.get_started.tenant_pricingbtn {
+    width: 76%;
+    font-size: 1em;
+}
+.tenantscreen_table p, .financial_interest ul li {
+    font-size: 0.9em;
+}
+.tenantscreen_table .table thead th {
+    font-size: 0.86em;
+}
+.finance_img img {
+    width: 78%;
+}
+/* end of tenant screening */
+
 }
 
 
@@ -775,6 +852,11 @@ font-size: 0.9em;
 }
 /* end of reviews */
 
+/* tenant screening */
+.finance_img img {
+    width: 73%;
+}
+/* end of tenant screening */
 }
 
 
@@ -1594,10 +1676,30 @@ right: -58px;
 .review_block {
     width: 100%;
 }
-.customer_review p, .recent_descrip p {
+.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.tenantscreen_descrip p {
     line-height: 24px;
 }
 /* end of review */
+
+/* tenant screening */
+.prop_img.tenant_screenimg img {
+    width: 92%;
+}
+.leaveus_descrip {
+    width: 100%;
+    padding: 5em 0 1em 0;
+}
+.btn.get_started.tenant_screenbtn {
+    width: 47%;
+}
+.our_pricing h4 {
+    font-size: 2em;
+}
+.btn.get_started.tenant_pricingbtn {
+    width: 93%;
+}
+/* end of tenant screening */
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -1800,7 +1902,7 @@ overflow: unset;
 }
 /* end of property page */
 /* owners page  */
-.video_descrip p,.customer_review p, .recent_descrip p {
+.video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p,.customer_review p,.recent_descrip p, .tenantscreen_title p, .leaveus_descrip p, .tenantscreen_descrip p {
 line-height: 23px;
 }
 .leftprop_img img, .rightprop_img img {
@@ -1904,6 +2006,21 @@ padding: 5px 16px;
     font-size: 0.9em;
 }
 /* end of reviews */
+
+/* screening tenant */
+.tenantscreen_descrip {
+    margin: 2.9em 0 0 0;
+}
+.prop_img.tenant_screenimg img {
+    width: 92%;
+}
+.finance_img img {
+    width: 88%;
+}
+.financial_interest ul {
+    padding: 0px 0px 0px 0px;
+}
+/* end of tenant screening */
 }
 
 
@@ -2239,7 +2356,14 @@ right: -60px;
 }
 /* end of review page */
 
-
+/* tenant screen */
+.btn.get_started{
+    padding: 9px 0;
+}
+.our_pricing h4 {
+    font-size: 1.8em;
+}
+/* tenant screen end*/
 }
 
 
@@ -2635,7 +2759,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
+.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
 max-width: 90%;
@@ -2714,10 +2838,10 @@ margin: 3em 0 0 0;
 .prop_management {
 margin: 4.3em 0px 1px 0px;
 }
-.video_descrip p,.customer_review p, .recent_descrip p {
+.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p {
 line-height: 18px;
 }
-.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
+.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
 .management_services p,.royal_propdiff .royal_p, .contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 0.9em;
 }
@@ -3171,6 +3295,18 @@ width: 100%;
 }
 /* end of review page */
 
+/* tenant screening */
+.our_pricing {
+    width: 100%;
+    padding: 5em 2em;
+}
+.btn.get_started.tenant_screenbtn {
+    width: 66%;
+}
+.finance_img img {
+    width: 100%;
+}
+/* tenant screening end */
 }
 @media screen and (max-width: 768px) {
 /* menu css */
@@ -3770,6 +3906,34 @@ width: 25%;
     right: 23px;
 }
 /* end of review page */
+
+/* tenant screening */
+.tenantscreen_descrip {
+    margin: 0;
+}
+.prop_img.tenant_screenimg img {
+    width: 100%;
+}
+.leaveus_bgimg {
+    padding: 0em 0px 4em 0px;
+    background-position: top;
+}
+.screen_pricing {
+    top: -52px;
+    padding: 4em 0 3em 0;
+}
+.btn.get_started.tenant_pricingbtn {
+    width: 100%;
+}
+.our_pricing {
+    padding: 4em 1em;
+}
+.tenantscreen_table .table thead th {
+    padding-bottom: 0.5em;
+}
+/* end of tenant screening */
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -3996,7 +4160,7 @@ align-items: center;
 .featured_rental img {
 height: 383px;
 }
-.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p,.decrip_services p,.text_description,.select_options p,.prop_management p,.video_descrip p,
+.tenant_descrip p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p,.decrip_services p,.text_description,.select_options p,.prop_management p,.video_descrip p,
 .management_services p,.royal_propdiff .royal_p,.contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 1em;
 text-align: center;
@@ -4081,7 +4245,7 @@ margin: 2em 0px 0em 0px;
 .video_div{
 margin: 0 0 2em 0;
 }
-.video_descrip p,.customer_review p, .recent_descrip p {
+.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p {
 line-height: 22px;
 }
 .propertydivimages {
@@ -4673,6 +4837,49 @@ margin: 0 0 5em 0;
 text-align: left;
 }
 /* end of review page */
+
+/* tenant screening */
+.prop_img.tenant_screenimg img {
+    width: 59%;
+}
+.tenantscreen_descrip {
+    margin: 3em 0 0 0;
+}
+.tenantscreen_descrip p{
+    margin: 0 0 2em 0;
+}
+.leaveus_bgimg {
+    background-position: right;
+}
+.leaveus_descrip {
+    width: 77%;
+    margin: 0 auto;
+}
+.btn.get_started.tenant_screenbtn {
+    width: 46%;
+}
+.our_pricing {
+    padding: 4em 6em;
+    width: 68%;
+    margin: 0 auto 3em auto;
+}
+.screen_pricing {
+    top: -52px;
+    padding: 4em 0 0 0;
+}
+.btn.get_started.tenant_pricingbtn {
+    width: 85%;
+    margin: 0 auto;
+}
+.finance_img{
+    text-align: center;
+}
+.finance_img img {
+    width: 60%;
+}
+
+/* end of tenant screening */
+
 }
 @media screen and (max-width: 640px) {
 /* menu css */
@@ -4756,13 +4963,10 @@ font-size: 0.8em;
 .div_blocks {
 padding: 18px 7px 3px 7px;
 }
-.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, 
+.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, 
 .management_services p, .tenant_descrip p,.royal_propdiff p, .tenant_placementdescr p, .portal_syst p,
 .our_premium p, .decrip_services p,.contact_client p{
 font-size: 0.9em;
-}
-.video_descrip p, .tenant_descrip p {
-line-height: 22px;
 }
 .phone_details img {
 height: 22px;
@@ -5119,9 +5323,7 @@ padding: 12px 7px;
 right: -43px;
 bottom: 22px;
 }
-.video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p {
-line-height: 22px;
-}
+
 .btn.btn-price {
 padding: 5px 25px;
 }
@@ -5286,6 +5488,27 @@ right: 4.5em;
     width: 100%;
 }
 /* end of review page */
+
+/* tenant screening */
+.our_pricing h3 {
+    font-size: 1.1em;
+}
+.our_pricing p {
+    font-size: 1em;
+}
+.finance_img img {
+    width: 80%;
+}
+.btn.get_started.tenant_pricingbtn {
+    margin: 2em auto 0 auto;
+}
+.our_pricing h4 {
+    font-size: 2em;
+}
+.our_pricing {
+    padding: 4em 2em;
+}
+/* end of tenant screening */
 
 }
 @media screen and (max-width: 568px) {
@@ -5496,9 +5719,10 @@ height: 27px;
 .container.owner_width {
 max-width: 98%;
 }
-.property_mgmt tbody tr td, .royal_propdiff p {
+.property_mgmt tbody tr td, .royal_propdiff p,.tenantscreen_table p, .financial_interest ul li  {
 font-size: 0.8em;
 }
+
 /* end of owners */
 
 /* tenant */
@@ -5899,6 +6123,28 @@ width: 95%;
     width: 55%;
 }
 /* end of review page */
+/* tenant screening */
+.btn.get_started.tenant_screenbtn {
+    width: 57%;
+}
+.leaveus_descrip {
+    width: 100%;
+    margin: 0 auto;
+}
+.our_pricing {
+    padding: 3em 2em;
+}
+.leaveus_bgimg {
+    background-position: top;
+}
+.tenantscreen_table .table tr td p {
+    margin-bottom: 0.5em;
+}
+.finance_img img {
+    width: 62%;
+}
+/* end of tenant screening */
+
 }
 
 @media screen and (max-width:480px) {
@@ -6572,6 +6818,32 @@ right: 1.9em;
 }
 /* end of review page */
 
+/* tenant screening */
+.tenantscreen_title {
+    margin: 0 0 2em 0;
+}
+.our_pricing h4 {
+    font-size: 1.7em;
+    margin: 0 0 1.2em 0;
+}
+.btn.get_started.tenant_pricingbtn {
+    width: 97%;
+}
+.our_pricing {
+    padding: 3em 1em;
+}
+.tenantscreen_table .table tr td p:before {
+    display: block;
+    margin-bottom: 6px;
+}
+.tenantscreen_table table.table-borderless .center_td {
+    vertical-align: middle;
+}
+.financial_interest ul li{
+    margin-bottom: 1.3em;
+}
+/* end of tenant screening */
+
 }
 @media screen and (max-width:414px) {
 /* footer */
@@ -7101,8 +7373,25 @@ margin: 0 0 3em 0;
     bottom: 67px;
     right: 86px;
 }
-
 /* end of review page */
+
+/* tenant screening */
+.prop_img.tenant_screenimg img {
+    width: 78%;
+}
+.our_pricing {
+    width: 84%;
+}
+.screen_pricing {
+    padding: 3em 0 0 0;
+}
+.screen_pricing .container,.financial_interest .container{
+    max-width:100%;
+}
+.finance_img img {
+    width: 78%;
+}
+/* end of tenant screening */
 
 }
 @media screen and (max-width:411px) {
@@ -7794,6 +8083,22 @@ right: 1.8em;
     font-size: 0.8em;
 }
 /* end of review page */
+
+/* tenant screening */
+.prop_img.tenant_screenimg img {
+    width: 94%;
+}
+.tenantscreen_descrip {
+    margin: 2em 0 0 0;
+}
+.btn.get_started.tenant_screenbtn {
+    width: 74%;
+}
+.btn.get_started.tenant_pricingbtn {
+    width: 87%;
+}
+/* end of tenant screening */
+
 }
 @media screen and (max-width:360px) {
 /* menu css */
@@ -8095,9 +8400,13 @@ height: 228px;
 .rating_overview h4 {
     font-size: 1.2em;
 }
-
 /* end of review */
 
+/* tenant screening */
+.our_pricing h4 {
+    margin: 0 0 1em 0;
+}
+/* end of tenant screening */
 }
 @media screen and (max-width:340px) {
 /* menu css */
@@ -8391,6 +8700,23 @@ padding: 8px 14px;
 }
 /* end of review page */
 
+/* tenant screening */
+.our_pricing {
+    width: 95%;
+}
+.footer {
+    background-size: 67%;
+}
+.finance_img img {
+    width: 88%;
+}
+.main_serv.tenantscreen_space{
+    margin: 2em 0 0 0;
+}
+.prop_img.tenant_screenimg img {
+    width: 96%;
+}
+/* end of tenant screening */
 }
 
 @media screen and (max-width:320px) {
