@@ -80,16 +80,13 @@ margin: 5em auto 8em auto;
 .prop_img.tenant_screenimg img {
     width: 100%;
 }
-.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
+.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
 font-size: 1.4em;
 }
 .tenantscreen_descrip p {
     font-size: 1.5em;
     line-height: 32px;
-}
-.leaveus_descrip p{
-    font-size: 1.4em;
 }
 .our_pricing p{
     font-size: 1.2em;
@@ -119,6 +116,31 @@ font-size: 1.4em;
     width: 220px;
 }
 /* end of tenant screening */
+
+/* rental guarantee */
+.financial_interest{
+    padding: 3em 0 0 0;
+}
+.finance_imgrental img:nth-child(3) {
+    width: 92%;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 20.1em;
+    left: -20px;
+}
+.finance_imgrental img:first-child {
+    top: 1.1em;
+    right: 187px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 24.6em;
+    right: 12em;
+}
+.finance_imgrental img:nth-child(5) {
+    top: -2.1em;
+    right: -3em;
+}
+/* end of rental guarantee */
 
 }
 
@@ -238,8 +260,14 @@ right: 85px;
 .painting_serv_img img:nth-child(2) {
 left: 12.7em;
 }
-
 /* end of maintenance services */
+
+/* rental guarantee 2 */
+.ready_rental .video_descrip p {
+    line-height: 31px;
+}
+
+/* end of rental guarantee 2 */
 
 }
 
@@ -340,6 +368,11 @@ margin-bottom: 0em;
     right: 0px;
 }
 /* end of review */
+/* rental guarantee 2 */
+.finance_imgrental img:nth-child(5) {
+    right: -2em;
+}
+/* end of rental guarantee 2 */
 
 }
 @media screen and (max-width: 1400px) {
@@ -441,6 +474,16 @@ font-size: 0.9em;
 }
 /* end of maintenance */
 
+/* rental guarantee 2 */
+.rightleaveimg img:nth-child(3) {
+    top: 70px;
+}
+.finance_imgrental img:nth-child(5) {
+    width: 32%;
+    top: -1.7em;
+    right: -1.2em;
+}
+/* end of rental guarantee 2 */
 }
 
 
@@ -471,12 +514,9 @@ background-size: 105% 100%;
 /* property page end */
 
 /* owners page */
-.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p,.tenant_descrip p,
+.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
 font-size: 1em;
-}
-.video_descrip p, .tenant_descrip p,.ready_rental .video_descrip p {
-line-height: 26px;
 }
 .management_services p{
 width: 100%;
@@ -533,7 +573,7 @@ top: 1.2em;
 /* end of maintenance services */
 
 /* reviews */
-.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p {
+.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.video_descrip p, .tenant_descrip p,.ready_rental .video_descrip p,.leave_us p {
     line-height: 27px;
 }
 .review_block {
@@ -576,6 +616,30 @@ top: 1.2em;
     width: 78%;
 }
 /* end of tenant screening */
+
+/* rental guarantee 2 */
+.rightleaveimg img:nth-child(3) {
+    top: 66px;
+}
+.finance_imgrental img:nth-child(3) {
+    width: 75%;
+}
+.finance_imgrental img:first-child {
+    top: 0.6em;
+    right: 188px;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 16.1em;
+    left: 17px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 20.2em;
+    right: 11.7em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: 1em;
+}
+/* end of rental guarantee 2 */
 
 }
 
@@ -1121,6 +1185,28 @@ right: -2px;
 }
 /* end of reviews page */
 
+/* rental guarantee 2 */
+.rightleaveimg img:nth-child(2) {
+    width: 40%;
+}
+.rightleaveimg img:first-child {
+    left: 41px;
+}
+.rightleaveimg img:nth-child(3) {
+    height: 72px;
+}
+.rightleaveimg img:nth-child(4) {
+    top: 8.3em;
+    right: 49px;
+}
+.rightleaveimg img:nth-child(3) {
+    top: 57px;
+    right:84px;
+}
+.rightleaveimg img:nth-child(5) {
+    right: 39px;
+}
+/* end of rental guarantee 2 */
 }
 
 @media screen and (max-width: 1136px) {
@@ -1676,7 +1762,7 @@ right: -58px;
 .review_block {
     width: 100%;
 }
-.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.tenantscreen_descrip p {
+.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.tenantscreen_descrip p,.leave_us p {
     line-height: 24px;
 }
 /* end of review */
@@ -1700,6 +1786,46 @@ right: -58px;
 }
 /* end of tenant screening */
 
+/* rental guarantee 2 */
+.video_div iframe{
+    height: 260px;
+}
+.rightleaveimg img:nth-child(2) {
+    width: 50%;
+}
+.rightleaveimg img:first-child {
+    left: 13px;
+}
+.rightleaveimg img:nth-child(3) {
+    height: 66px;
+    top: 64px;
+    right: 54px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 30px;
+}
+.rightleaveimg img:nth-child(5) {
+    right: 13px;
+}
+.finance_imgrental img:nth-child(3) {
+    width: 93%;
+}
+.finance_imgrental img:first-child {
+    top: 0.8em;
+    right: 148px;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 16.5em;
+    left: -20px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 20.8em;
+    right: 9.3em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: -1.6em;
+}
+/* end of rental guarantee 2 */
 }
 
 @media screen and (max-width: 1080px) {
@@ -1902,7 +2028,7 @@ overflow: unset;
 }
 /* end of property page */
 /* owners page  */
-.video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p,.customer_review p,.recent_descrip p, .tenantscreen_title p, .leaveus_descrip p, .tenantscreen_descrip p {
+.video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p,.customer_review p,.recent_descrip p, .tenantscreen_title p, .leaveus_descrip p, .tenantscreen_descrip p,.leave_us p {
 line-height: 23px;
 }
 .leftprop_img img, .rightprop_img img {
@@ -2021,6 +2147,28 @@ padding: 5px 16px;
     padding: 0px 0px 0px 0px;
 }
 /* end of tenant screening */
+
+/* rental guarantee 2 */
+.rightleaveimg img:nth-child(2) {
+    width: 45%;
+}
+.rightleaveimg img:first-child {
+    left: 22px;
+}
+.rightleaveimg img:nth-child(3) {
+    top: 54px;
+    right: 58px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 35px;
+    top: 7.8em;
+}
+.rightleaveimg img:nth-child(5) {
+    right: 23px;
+    bottom: 18px;
+}
+/* end of rental guarantee 2 */
+
 }
 
 
@@ -2364,6 +2512,28 @@ right: -60px;
     font-size: 1.8em;
 }
 /* tenant screen end*/
+
+/* rental guarantee 2 */
+.finance_imgrental img:nth-child(3) {
+    width: 85%;
+}
+.finance_imgrental img:first-child {
+    top: 0.4em;
+    right: 156px;
+}
+.finance_imgrental img:nth-child(2) {
+    left: -12px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 19em;
+    right: 9.5em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: -0.8em;
+    top: -1.4em;
+}
+/* end of rental guarantee 2 */
+
 }
 
 
@@ -2578,6 +2748,12 @@ font-size: 1.1em;
     margin:4em auto 0 auto;
 }
 /* end of review page */
+
+/* rental guarantee 2 */
+.rightleaveimg img:nth-child(5) {
+    right: 22px;
+}
+/* end of rental guarantee 2 */
 }
 
 @media screen and (max-width: 991px) {
@@ -2759,7 +2935,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
+.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
 max-width: 90%;
@@ -2838,10 +3014,10 @@ margin: 3em 0 0 0;
 .prop_management {
 margin: 4.3em 0px 1px 0px;
 }
-.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p {
+.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.leave_us p {
 line-height: 18px;
 }
-.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
+.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
 .management_services p,.royal_propdiff .royal_p, .contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 0.9em;
 }
@@ -3307,6 +3483,28 @@ width: 100%;
     width: 100%;
 }
 /* tenant screening end */
+
+/* rental guarantee 2 */
+.finance_imgrental img:first-child {
+    top: 0.2em;
+    right: 135px;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 13.5em;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 17em;
+    right: 8.3em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: -0.8em;
+    top: -1.2em;
+}
+.finance_imgrental img:nth-child(2),.finance_imgrental img:nth-child(4){
+    height: 27px;
+}
+/* end of rental guarantee */
+
 }
 @media screen and (max-width: 768px) {
 /* menu css */
@@ -3933,6 +4131,52 @@ width: 25%;
 }
 /* end of tenant screening */
 
+/* rental guarantee page */
+.video_div iframe {
+    height: 210px;
+}
+.rightleaveimg img:nth-child(2) {
+    width: 64%;
+}
+.rightleaveimg img:nth-child(3) {
+    top: 65px;
+    right: 24px;
+    height: 51px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 11px;
+    top: 7.6em;
+}
+.rightleaveimg img:first-child {
+    left: -9px;
+}
+.rightleaveimg img:nth-child(5) {
+    right: -9px;
+}
+.finance_imgrental img:nth-child(3) {
+    width: 100%;
+}
+.finance_imgrental img:first-child{
+    height: 37px;
+    top: 0.4em;
+    right: 99px;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 12.1em;
+    left: -34px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 15.7em;
+    right: 5.9em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: -1.8em;
+    top: -0.9em;
+}
+.rental_gua_imgdiv.rental2{
+    margin-top: 7em;
+}
+/* rental guarantee page 2 end */
 
 }
 
@@ -4115,9 +4359,6 @@ top: unset;
 font-size: 1em;
 vertical-align: middle;
 }
-.list_services ul li, .tenantservices_list ul li {
-font-size: 0.9em;
-}
 .list_services ul li:before, .tenantservices_list ul li:before, .footer_list ul li:before {
 width: 22px;
 height: 15px;
@@ -4160,12 +4401,12 @@ align-items: center;
 .featured_rental img {
 height: 383px;
 }
-.tenant_descrip p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p,.decrip_services p,.text_description,.select_options p,.prop_management p,.video_descrip p,
+.leave_us p,.tenant_descrip p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p,.decrip_services p,.text_description,.select_options p,.prop_management p,.video_descrip p,
 .management_services p,.royal_propdiff .royal_p,.contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 1em;
 text-align: center;
 }
-.list_services ul li, .tenantservices_list ul li {
+.list_services ul li, .tenantservices_list ul li,.financial_interest ul li {
 font-size: 1em;
 }
 .news_img img {
@@ -4245,7 +4486,7 @@ margin: 2em 0px 0em 0px;
 .video_div{
 margin: 0 0 2em 0;
 }
-.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p {
+.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.leave_us p {
 line-height: 22px;
 }
 .propertydivimages {
@@ -4877,9 +5118,60 @@ text-align: left;
 .finance_img img {
     width: 60%;
 }
-
 /* end of tenant screening */
 
+/* rental guarantee page 2 */
+.video_div iframe {
+    height: 383px;
+}
+.leavep_rental {
+    margin-bottom: 1em;
+}
+.rightleaveimg img:first-child, .rightleaveimg img:nth-child(5) {
+    width: 36%;
+}
+.rightleaveimg img:nth-child(2) {
+    width: 41%;
+}
+.rightleaveimg img:nth-child(3) {
+    top: 95px;
+    right: 157px;
+    height: 86px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 112px;
+    top: 11.3em;
+    width: 23%;
+}
+.rightleaveimg img:first-child {
+    top: 97px;
+    left: 93px;
+}
+.rightleaveimg img:nth-child(5) {
+    right: 94px;
+}
+.finance_imgrental img:nth-child(3) {
+    width: 55%;
+}
+.finance_imgrental img:first-child {
+    height: 43px;
+    top: 0.79em;
+    right: 18.3em;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 18em;
+    left: 113px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 22.2em;
+    right: 18.7em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: 5.6em;
+    width: 25%;
+    top: -1.9em;
+}
+/* end of rental guarantee page 2 */
 }
 @media screen and (max-width: 640px) {
 /* menu css */
@@ -4963,7 +5255,7 @@ font-size: 0.8em;
 .div_blocks {
 padding: 18px 7px 3px 7px;
 }
-.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, 
+.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, 
 .management_services p, .tenant_descrip p,.royal_propdiff p, .tenant_placementdescr p, .portal_syst p,
 .our_premium p, .decrip_services p,.contact_client p{
 font-size: 0.9em;
@@ -5510,6 +5802,44 @@ right: 4.5em;
 }
 /* end of tenant screening */
 
+/* rental guarantee 2 */
+.rightleaveimg img:first-child {
+    top: 74px;
+    left: 78px;
+}
+.rightleaveimg img:nth-child(3) {
+    top: 77px;
+    right: 113px;
+    height: 82px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 90px;
+    top: 10em;
+}
+.rightleaveimg img:nth-child(5) {
+    right: 77px;
+}
+.finance_imgrental img:first-child {
+    height: 43px;
+    top: 0.3em;
+    right: 15em;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 14.5em;
+    left: 91px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 18.2em;
+    right: 14.7em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: 4.6em;
+}
+.video_div iframe {
+    height: 327px;
+}
+/* end of rental guarantee 2 */
+
 }
 @media screen and (max-width: 568px) {
 
@@ -5907,7 +6237,6 @@ height: 72px;
 .rental_width .servicesmobile_image {
 margin:4em 0;
 }
-
 /* end of renatl guarantee page */
 
 /* maintenance services */
@@ -6144,6 +6473,51 @@ width: 95%;
     width: 62%;
 }
 /* end of tenant screening */
+/* rental guarantee 2 */
+.video_div iframe {
+    height: 288px;
+}
+.rightleaveimg img:nth-child(2) {
+    width: 46%;
+}
+.rightleaveimg img:first-child {
+    left: 58px;
+}
+.rightleaveimg img:nth-child(3) {
+    top: 68px;
+    right: 81px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 64px;
+    top: 9.8em;
+}
+.rightleaveimg img:nth-child(5) {
+    right: 56px;
+    bottom:31px;
+}
+.finance_imgrental img:nth-child(3) {
+    width: 63%;
+}
+.finance_imgrental img:first-child {
+    top: 0.5em;
+    right: 13em;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 14.9em;
+    left: 56px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 18.4em;
+    right: 12.7em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: 2.8em;
+    top: -1.3em;
+}
+.leave_descrip {
+    width: 100%;
+}
+/* end of rental guarantee 2 */
 
 }
 
@@ -6844,7 +7218,48 @@ right: 1.9em;
 }
 /* end of tenant screening */
 
+/* rental guarantee 2 */
+.video_div iframe {
+    height: 248px;
 }
+.rightleaveimg{
+    margin: 2em 0 0 0;
+}
+.rightleaveimg img:nth-child(3) {
+    height: 75px;
+    top: 60px;
+    right: 63px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 56px;
+    top: 8.7em;
+}
+.rightleaveimg img:first-child {
+    left: 48px;
+}
+.rightleaveimg img:nth-child(5) {
+    right: 48px;
+    bottom: 23px;
+}
+.finance_imgrental img:first-child {
+    top: -0em;
+    right: 10.5em;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 11.9em;
+    left: 39px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 15.4em;
+    right: 10.4em;
+}
+.finance_imgrental img:nth-child(5) {
+    top: -1.1em;
+}
+
+/* end of rental guarantee 2 */
+}
+
 @media screen and (max-width:414px) {
 /* footer */
 .footer {
@@ -7393,6 +7808,48 @@ margin: 0 0 3em 0;
 }
 /* end of tenant screening */
 
+/* rental guarantee 2 */
+.video_div iframe {
+    height: 212px;
+}
+.rightleaveimg img:nth-child(3) {
+    height: 57px;
+    top: 51px;
+    right: 57px;
+}
+.rightleaveimg img:first-child {
+    left: 41px;
+    top: 52px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 47px;
+    top: 7em;
+}
+.rightleaveimg img:nth-child(5) {
+    right: 40px;
+    bottom: 19px;
+}
+.finance_imgrental img:nth-child(3) {
+    width: 72%;
+}
+.finance_imgrental img:first-child {
+    height: 37px;
+    top: 0.4em;
+}
+.finance_imgrental img:nth-child(2), .finance_imgrental img:nth-child(4) {
+    height: 20px;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 13.7em;
+    left: 27px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 16.8em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: 1.3em;
+}
+/* end of rental guarantee 2 */
 }
 @media screen and (max-width:411px) {
 
@@ -8099,6 +8556,40 @@ right: 1.8em;
 }
 /* end of tenant screening */
 
+/* rental guarantee 2 */
+.rightleaveimg img:nth-child(3) {
+    height: 49px;
+    top: 47px;
+    right: 59px;
+}
+.rightleaveimg img:first-child {
+    left: 37px;
+    top: 46px;
+}
+.rightleaveimg img:nth-child(5) {
+    right: 45px;
+    bottom: 15px;
+}
+.rightleaveimg img:nth-child(4) {
+    top: 6.2em;
+}
+.finance_imgrental img:first-child {
+    right: 8.5em;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 12.2em;
+    left: 21px;
+}
+.finance_imgrental img:nth-child(5) {
+    right: 1em;
+    top: -1em;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 15.2em;
+    right: 9em;
+}
+/* end of rental guarantee 2 */
+
 }
 @media screen and (max-width:360px) {
 /* menu css */
@@ -8407,6 +8898,43 @@ height: 228px;
     margin: 0 0 1em 0;
 }
 /* end of tenant screening */
+
+/* rental guarantee 2 */
+.video_div iframe {
+    height: 199px;
+}
+.rightleaveimg img:nth-child(2) {
+    width: 62%;
+}
+.rightleaveimg img:first-child, .rightleaveimg img:nth-child(5) {
+    width: 48%;
+}
+.rightleaveimg img:first-child {
+    left: -2px;
+    top: 60px;
+}
+.rightleaveimg img:nth-child(3) {
+    height: 60px;
+    top: 62px;
+    right: 29px;
+}
+.rightleaveimg img:nth-child(5) {
+    right: -5px;
+    bottom: 20px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 27px;
+        top: 7.8em;
+}
+.finance_imgrental img:first-child {
+    top: 0.2em;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 14.4em;
+    right: 8.5em;
+}
+/* end of rental guarantee 2 */
+
 }
 @media screen and (max-width:340px) {
 /* menu css */
@@ -8717,6 +9245,34 @@ padding: 8px 14px;
     width: 96%;
 }
 /* end of tenant screening */
+
+/* rental guarantee 2 */
+.rightleaveimg img:nth-child(3) {
+    height: 55px;
+    top: 57px;
+    right: 25px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 21px;
+    top: 7.2em;
+}
+.finance_imgrental img:first-child {
+    top: 0em;
+    right: 8em;
+}
+.finance_imgrental img:nth-child(2) {
+    top: 10.8em;
+    left: 16px;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 13.5em;
+    right: 8.3em;
+}
+.finance_imgrental img:nth-child(5) {
+    right: 0.7em;
+    top: -0.9em;
+}
+/* end of rental guarantee 2 */
 }
 
 @media screen and (max-width:320px) {
@@ -9041,4 +9597,40 @@ top: 16.1em;
     width: 53%;
 }
 /* end of reviews */
+
+/* rental guarantee 2 */
+.video_div iframe {
+    height: 184px;
+}
+.rightleaveimg img:nth-child(3) {
+    top: 54px;
+    right: 19px;
+}
+.rightleaveimg img:nth-child(4) {
+    right: 17px;
+    top: 7em;
+}
+.rightleaveimg img:first-child {
+    left: -2px;
+    top: 52px;
+}
+.finance_imgrental img:nth-child(3) {
+    width: 79%;
+}
+.finance_imgrental img:first-child {
+    height: 31px;
+    top: 0.4em;
+    right: 7.5em;
+}
+.finance_imgrental img:nth-child(2) {
+    left: 3px;
+}
+.finance_imgrental img:nth-child(5) {
+    right: -0em;
+}
+.finance_imgrental img:nth-child(4) {
+    top: 13.9em;
+    right: 7.3em;
+}
+/* rental guarantee 2 end */
 }

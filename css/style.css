@@ -2306,7 +2306,7 @@ line-height: 37px;
 margin: 0px 0px 0.3em 0px;
 }
 .ready_rental .video_descrip p{
-line-height: 20px;
+line-height: 25px;
 font-size: 0.9em;
 text-transform: capitalize;
 }
@@ -3299,4 +3299,88 @@ font-weight: 400;
     color:#2B62BF;
     font-size: 0.9em;
 }
+/* end of tenant screening */
 
+/* rental gaurantee 2 */
+.finance_imgrental{
+    text-align: center;
+    position: relative;
+}
+.finance_imgrental img:nth-child(3){
+    width: 70%;
+}
+.finance_imgrental img:first-child,.finance_imgrental img:nth-child(2),.finance_imgrental img:nth-child(4),.finance_imgrental img:nth-child(5){
+    position: absolute;
+    z-index: -1;
+}
+.finance_imgrental img:first-child{
+    top: 0.3em;
+    height: 44px;
+    right: 195px;
+}
+.finance_imgrental img:nth-child(2){
+    top: 15em;
+    z-index: -1;
+    height: 31px;
+    left: 31px;
+}
+.finance_imgrental img:nth-child(4){
+    top: 18.6em;
+    right: 12em;
+    height: 31px;
+}
+.finance_imgrental img:nth-child(5){
+    top: -2.2em;
+    width: 38%;
+    right: 1em;
+}
+.rentalgauratwo{
+    position: unset;
+    padding:5em 0 3em 0;
+}
+.rightleaveimg img:nth-child(2) {
+    width: 46%;
+}
+.rightleaveimg{
+    text-align: center;
+    position: relative;
+}
+.rightleaveimg img:first-child,.rightleaveimg img:nth-child(3),.rightleaveimg img:nth-child(4),.rightleaveimg img:nth-child(5){
+    position: absolute;
+}
+.rightleaveimg img:first-child,.rightleaveimg img:nth-child(5){
+    width: 50%;
+    z-index: -1;
+}
+.rightleaveimg img:first-child{
+    top: 66px;
+    left: 30px;
+}
+.rightleaveimg img:nth-child(3){
+    height: 84px;
+    top: 66px;
+    right: 64px;
+}
+.rightleaveimg img:nth-child(4){
+    top: 9.7em;
+    right: 37px;
+    width: 29%;
+}
+.rightleaveimg img:nth-child(5){
+    bottom: 28px;
+    right: 29px;
+}
+.leave_us p{
+    font-weight: 400;
+    font-size: 1em;
+    color: #315D80;
+    font-family: "Outfit", sans-serif;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+.leavep_rental{
+    margin-bottom: 2em;
+}
+.leave_descrip{
+    width: 92%;
+}
