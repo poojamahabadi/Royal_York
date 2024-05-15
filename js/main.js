@@ -119,3 +119,35 @@ slidesToShow: 1,
 });
 
 
+// tenant page our process
+$(document).ready(function(){
+$('.our_process .media').click(function(){
+    $(".media").removeClass("active");
+     $(this).addClass("active");
+});
+});
+
+$(document).ready(function(){
+    $('.div1 .media').click(function(){
+        $('.ellipse_div img').css({
+            "-webkit-transform": "rotate(0deg)",
+            "-moz-transform": "rotate(0deg)",
+            "transform": "rotate(0deg)" /* For modern browsers(CSS3)  */
+        });
+    });
+    $('.div2 .media').click(function(){
+        $('.ellipse_div img').css({
+            "-webkit-transform": "rotate(90deg)",
+            "-moz-transform": "rotate(90deg)",
+            "transform": "rotate(90deg)" /* For modern browsers(CSS3)  */
+        });
+    });
+    $('.div3 .media').click(function(){
+        $('.ellipse_div img').css({
+            "-webkit-transform": "rotate(180deg)",
+            "-moz-transform": "rotate(180deg)",
+            "transform": "rotate(180deg)" /* For modern browsers(CSS3)  */
+        });
+    });
+});
+

@@ -23,7 +23,7 @@ top: -69px;
 height: 400px;
 }
 .contact_descrip{
-top: 235px;
+    top: 211px;
 }
 /* end of contact page */
 
@@ -80,7 +80,7 @@ margin: 5em auto 8em auto;
 .prop_img.tenant_screenimg img {
     width: 100%;
 }
-.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
+.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
 font-size: 1.4em;
 }
@@ -141,6 +141,30 @@ font-size: 1.4em;
     right: -3em;
 }
 /* end of rental guarantee */
+.days_div {
+    top: -117px;
+    height: 49px;
+}
+.process_descrip p{
+    width: 62%;   
+}
+.tenantportal_btn .btn.get_started,.free_constit .btn.get_started{
+    width: 331px;
+}
+.royalbenefit {
+    height: 588px;
+    padding: 1em 0 0 0;
+}
+.royalbene_p p {
+    width: 93%;
+}
+.free_constit{
+    margin:2em 0 0 0;
+}
+.req_doc{
+    margin:2em 0 0 0;
+}
+/* tenant main page */
 
 }
 
@@ -266,7 +290,18 @@ left: 12.7em;
 .ready_rental .video_descrip p {
     line-height: 31px;
 }
-
+.maintenant_img img {
+    width: 100%;
+}
+.topspace {
+    margin: -6em auto 0 auto;
+}
+.maintenant_descrip {
+    width: 85%;
+}
+.Lifestyle_div p:first-child {
+    margin: 1em 0 1.5em 0;
+}
 /* end of rental guarantee 2 */
 
 }
@@ -514,7 +549,7 @@ background-size: 105% 100%;
 /* property page end */
 
 /* owners page */
-.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p,.tenant_descrip p,
+.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
 font-size: 1em;
 }
@@ -573,7 +608,8 @@ top: 1.2em;
 /* end of maintenance services */
 
 /* reviews */
-.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.video_descrip p, .tenant_descrip p,.ready_rental .video_descrip p,.leave_us p {
+.process_descrip p,.find_property p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.video_descrip p,
+ .tenant_descrip p,.ready_rental .video_descrip p,.leave_us p {
     line-height: 27px;
 }
 .review_block {
@@ -1762,7 +1798,8 @@ right: -58px;
 .review_block {
     width: 100%;
 }
-.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.tenantscreen_descrip p,.leave_us p {
+.process_descrip p,.find_property p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
+.tenantscreen_descrip p,.leave_us p {
     line-height: 24px;
 }
 /* end of review */
@@ -2028,7 +2065,8 @@ overflow: unset;
 }
 /* end of property page */
 /* owners page  */
-.video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p,.customer_review p,.recent_descrip p, .tenantscreen_title p, .leaveus_descrip p, .tenantscreen_descrip p,.leave_us p {
+.process_descrip p,.find_property p,.video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p,.customer_review p,
+.recent_descrip p, .tenantscreen_title p, .leaveus_descrip p, .tenantscreen_descrip p,.leave_us p {
 line-height: 23px;
 }
 .leftprop_img img, .rightprop_img img {
@@ -3014,10 +3052,11 @@ margin: 3em 0 0 0;
 .prop_management {
 margin: 4.3em 0px 1px 0px;
 }
-.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.leave_us p {
+.process_descrip p,.find_property p,.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
+.leave_us p {
 line-height: 18px;
 }
-.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
+.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
 .management_services p,.royal_propdiff .royal_p, .contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 0.9em;
 }
@@ -4401,7 +4440,7 @@ align-items: center;
 .featured_rental img {
 height: 383px;
 }
-.leave_us p,.tenant_descrip p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p,.decrip_services p,.text_description,.select_options p,.prop_management p,.video_descrip p,
+.process_descrip p,.find_property p,.leave_us p,.tenant_descrip p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p,.decrip_services p,.text_description,.select_options p,.prop_management p,.video_descrip p,
 .management_services p,.royal_propdiff .royal_p,.contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 1em;
 text-align: center;
@@ -4486,7 +4525,8 @@ margin: 2em 0px 0em 0px;
 .video_div{
 margin: 0 0 2em 0;
 }
-.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.leave_us p {
+.process_descrip p,.find_property p,.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
+.leave_us p {
 line-height: 22px;
 }
 .propertydivimages {
@@ -5255,7 +5295,7 @@ font-size: 0.8em;
 .div_blocks {
 padding: 18px 7px 3px 7px;
 }
-.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, 
+.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, 
 .management_services p, .tenant_descrip p,.royal_propdiff p, .tenant_placementdescr p, .portal_syst p,
 .our_premium p, .decrip_services p,.contact_client p{
 font-size: 0.9em;

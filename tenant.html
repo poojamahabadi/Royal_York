@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Royal York</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- bootsrap css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="css/font-awesome.css">
+<!-- animation css -->
+<link rel="stylesheet" href="css/animation/aos.css">
+<!-- style css -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive css -->
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg nav_backg sticky-top">
+<a class="navbar-brand logo" href="index.html"><img src="images/menu/logo.svg"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarmenu">
+<ul class="navbar-nav mx-auto">
+<li class="nav-item">
+<a class="nav-link" href="index.html">Properties</a>
+<li class="nav-item">
+<a class="nav-link" href="property_management.html">Owners</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="tenant_placement.html">Tenants</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="review.html">Reviews</a>
+<li class="nav-item">
+<a class="nav-link" href="#">About Us</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="contactus.html">Contact Us</a>
+</li>
+</ul>
+<a class="btn btn-login" href="#"><img src="images/menu/user.svg"> Log In/Sign Up</a>
+</div>
+</nav>
+
+<!-- tenants  -->
+<div class="contact_view main_tenant">
+<div class="container">
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+<div class="contact_descrip main_tenantdecrip">
+<h3 class="heading" data-aos="fade-down" data-aos-delay="20">Tenants</h3>
+<p data-aos="fade-up" data-aos-delay="40">Tech-Enabled Leasing For A Seamless Experience.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- days -->
+<div class="days_div"></div>
+<div class="container main_tenant topspace">
+<div class="row">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="maintenant_img" data-aos="fade-right" data-aos-delay="20">
+    <img src="images/tenants/main_tenant/m1.svg">
+</div>
+</div>
+<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+    <div class="tenant_descrip maintenant_descrip">
+        <h3 class="heading" data-aos="fade-left" data-aos-delay="40">Take Your <span class="redcolr">Lifestyle</span> To <span class="redcolr">The Next Level</span></h3>
+        <p data-aos="fade-up" data-aos-delay="60">Finding a rental property and making sure that all your necessary requirements are in accordance with 
+            the Residential Tenancy Act of 2006 and Rental Fairness Act of 2017 can be a complicated and 
+            time-consuming process. By joining Royal York Property Management, you will have access to our 
+            Leasing Department, which is dedicated to guiding you through the entire leasing process.
+             They are available to service you 24 hours a day, 7 days a week!</p>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="tenant_descrip Lifestyle_div">
+            <p data-aos="fade-right" data-aos-delay="20">We understand that your comfort, security, and peace of mind are key in being successful in
+                 renting a property. Therefore, Royal York Property Management leverages technology to make 
+                 the process as simple as possible. From processing your rental payments to uploading required 
+                 documents through our Online Portal, and even signing your Offer to Lease and Lease Agreement 
+                 electronically, Royal York Property Management is dedicated to making the leasing process as 
+                 convenient as possible. Additionally, Royal York Property Management is at the forefront of 
+                 marketing in the industry, and provide virtual tours and professional photos for all of our 
+                 rental properties available for lease. This gives you the ability to avoid in-person showings.
+                 </p>
+                <p data-aos="fade-right" data-aos-delay="40">Feel free to watch our virtual tour, apply online, submit the payments required, 
+                    and sign all paperwork virtually. You don't even need to pick up your keys, we will have 
+                    them delivered to you!</p>
+        </div>
+        <div class="tenantstart_btn" data-aos="fade-down" data-aos-delay="60">
+            <button class="btn get_started">Let’s Get Started</button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="map_near_prop">
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="find_property">
+                <h3 class="heading" data-aos="fade-up" data-aos-delay="20">Find <span class="redcolr">Properties</span> Near You</h3>
+           <p>See what our tenant placement service includes and learn more about our Rental Guarantee Program!</p>
+            </div>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="mapfilter">
+            <div id="map_canvastenant"></div>
+            <div class="form-search">
+            <form class="searchexp">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                </div>
+                
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="our_process">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="process_descrip">
+                    <h3 class="heading" data-aos="fade-down" data-aos-delay="20">Our <span class="redcolr">Process</span></h3>
+                <p data-aos="fade-up" data-aos-delay="40">See what our tenant placement service includes and learn more about our Rental Guarantee Program!</p>
+                </div>
+                <div class="ellipse_div">
+                    <img src="images/tenants/main_tenant/ellipse.svg" class="active">
+
+                    <div class="div1 common">
+                        <div class="media active" data-aos="fade-right" data-aos-delay="20">
+                           <span class="number_txt">01</span>
+                            <div class="media-body">
+                              <h4>Apply</h4>
+                              <p>Complete a rental application for the property you are interested in.</p>      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div2 common">
+                        <div class="media" data-aos="fade-left" data-aos-delay="40">
+                            <span class="number_txt">02</span>
+                             <div class="media-body">
+                               <h4>Reserve</h4>
+                               <p>Submit a minimum payment of $750 towards your last month's rent, to secure the property. This is 100% refundable if your offer is declined.</p>      
+                             </div>
+                           </div>
+                    </div>
+                    <div class="div3 common">
+                        <div class="media" data-aos="fade-right" data-aos-delay="60">
+                            <span class="number_txt">03</span>
+                             <div class="media-body">
+                               <h4>Apply</h4>
+                               <p>Upload all required documents to the Royal York Property Management portal within 3 days, once your offer has been accepted.</p>      
+                             </div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container main_tenant">
+<div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="tenant_descrip portaldescrip">
+            <h3 class="heading" data-aos="fade-down" data-aos-delay="20"><span class="redcolr">Portal System</span> For Tenants</h3>
+            <p data-aos="fade-up" data-aos-delay="40">Upload your documents, no matter where you are</p>
+            <p data-aos="fade-right" data-aos-delay="60">Our Property Management Software is designed to meet all your requirements, whether you are a landlord or tenant. With Royal York Property Management's web-mobile-based platform, the leasing process is both fast and secure for tenants. Upload documents, track your leases, be on top of your accounting, request a technician, and many more features are available at your fingertips 24/7!</p>
+        </div>
+        <div class="tenantportal_btn" data-aos="fade-up" data-aos-delay="70">
+            <button class="btn get_started">Sign up for our portal system</button>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="portalsystm_image">
+            <img src="images/tenants/main_tenant/circle_progress.svg" data-aos="fade-right" data-aos-delay="30">
+            <img src="images/tenants/main_tenant/portal.svg" data-aos="fade-down" data-aos-delay="10">
+            <img src="images/tenants/main_tenant/p1.svg" data-aos="fade-left" data-aos-delay="50">
+            <img src="images/tenants/main_tenant/p2.svg" data-aos="fade-right" data-aos-delay="60">
+            <img src="images/tenants/main_tenant/p3.svg" data-aos="fade-left" data-aos-delay="70">
+            <img src="images/tenants/main_tenant/p4.svg" data-aos="fade-right" data-aos-delay="80">
+            <img src="images/tenants/main_tenant/p5.svg" data-aos="fade-down" data-aos-delay="90">
+            <img src="images/tenants/main_tenant/p6.svg" data-aos="fade-up" data-aos-delay="100">
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="royalbenefit">
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="tenant_descrip royalbene_p">
+            <h3 class="heading" data-aos="fade-down" data-aos-delay="10">Royal York <span class="redcolr">Benefits</span></h3>
+            <p data-aos="fade-up" data-aos-delay="20">Being a part of the Royal York Property Management family means you benefit from our exclusive 
+                partnerships! From special pricing to exclusive offers, our tenants are eligible for the best 
+                internet, cable, and phone bundles. Additionally, Royal York Property Management also offers 
+                tenant insurance, which includes content and liability, as well as home furniture for your rental 
+                property. We even have preferred rates on cleaning services for our tenants at Royal York Property 
+                Management!</p>
+            </div>
+        </div>
+    </div>
+<div class="royalsec_div">
+    <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="button_royalbenef">
+                <p data-aos="fade-down" data-aos-delay="10">Contact us to find out more!</p>
+                <button class="btn" data-aos="fade-right" data-aos-delay="20">Communication & Internet</button>
+                <button class="btn" data-aos="fade-right" data-aos-delay="30">Cleaning Services</button>
+                <button class="btn" data-aos="fade-right" data-aos-delay="40">Content & Liability Insurance</button>
+                <button class="btn" data-aos="fade-right" data-aos-delay="50">Furniture</button>
+                <button class="btn" data-aos="fade-right" data-aos-delay="60">TV</button>
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="img_collecdiv">
+                <div class="">                
+                    <img src="images/tenants/main_tenant/1.png" data-aos="fade-right" data-aos-delay="20">
+                    <img src="images/tenants/main_tenant/2.png" data-aos="fade-down" data-aos-delay="30">
+                    <img src="images/tenants/main_tenant/3.png" data-aos="fade-left" data-aos-delay="40">
+                </div>
+                <div class="">
+                    <img src="images/tenants/main_tenant/4.png" data-aos="fade-right" data-aos-delay="50">
+                    <img src="images/tenants/main_tenant/5.png" data-aos="fade-right" data-aos-delay="60">
+                    <img src="images/tenants/main_tenant/6.png" data-aos="fade-left" data-aos-delay="70">
+                    <img src="images/tenants/main_tenant/7.png" data-aos="fade-left" data-aos-delay="80">
+                </div>
+                <div class="">
+                    <img src="images/tenants/main_tenant/8.png" data-aos="fade-up" data-aos-delay="90">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<div class="customer_service">
+<div class="container">
+<div class="row">
+    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+        <div class="tenant_descrip cust_service">
+            <h3 class="heading" data-aos="fade-down" data-aos-delay="20">Customer <span class="redcolr">Service</span></h3>
+            <p data-aos="fade-right" data-aos-delay="30">We believe every tenant deserves a smooth and easy experience when it comes to finding the 
+                property they want. As such, Royal York Property Management prides itself in delivering 
+                exceptional Customer Service, 24 hours a day, 7 days a week, 365 days a year, with the purpose of 
+                giving you the best rental experience.</p>
+                <p data-aos="fade-right" data-aos-delay="40">Have a maintenance problem in your unit? Want to discuss a property listing? Curious about the leasing
+                process or your past rental payments? Do not hesitate to contact us at anytime.</p>
+                <div class="free_constit" data-aos="fade-up" data-aos-delay="60">
+                    <button class="btn get_started">Book a Free Consultation</button>
+                </div>
+        </div>
+    </div>
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+        <div class="cust_serv_img">
+            <img src="images/tenants/main_tenant/c2.svg" data-aos="fade-right" data-aos-delay="20">
+            <img src="images/tenants/main_tenant/c3.svg" data-aos="fade-right" data-aos-delay="30">
+            <img src="images/tenants/main_tenant/c4.svg" data-aos="fade-right" data-aos-delay="40">
+            <img src="images/tenants/main_tenant/c1.svg" data-aos="fade-down" data-aos-delay="10">
+            <img src="images/tenants/main_tenant/c5.svg" data-aos="fade-up" data-aos-delay="50">
+            <img src="images/tenants/main_tenant/c6.svg" data-aos="fade-left" data-aos-delay="60">
+            <img src="images/tenants/main_tenant/c4.svg" data-aos="fade-left" data-aos-delay="70">
+            <img src="images/tenants/main_tenant/c7.svg" data-aos="fade-left" data-aos-delay="80">
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- required documents -->
+<div class="req_doc">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="tenant_descrip reqdoc_decrip">
+                    <h3 class="heading" data-aos="fade-down" data-aos-delay="10">Required  <span class="redcolr">Documents</span></h3>
+                    <p data-aos="fade-up" data-aos-delay="20">Please ensure you upload clear, easy-to-read PDF files of all required documents to 
+                        the Royal York Property Management document portal, within 3 days of your Offer to Lease
+                         being approved.</p>
+
+<div class="rew_doc_tabs">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#govern_issue" data-aos="fade-right" data-aos-delay="10">Government Issued ID</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#socialinsu" data-aos="fade-right" data-aos-delay="20">Social Insurance Card or 2nd Piece of Government ID</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#creditreport" data-aos="fade-down" data-aos-delay="30">Credit Report with FICO Score</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#employletter" data-aos="fade-up" data-aos-delay="40">Employment Letter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#recentpay" data-aos="fade-left" data-aos-delay="50">3 Most Recent Pay Stubs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link more" data-toggle="tab" href="#more" data-aos="fade-left" data-aos-delay="60">More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          </li>
+      </ul>
+      
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="govern_issue">
+            <div class="governmentissue">
+                <p data-aos="fade-down" data-aos-delay="10">Must display legal name, date of birth, and signature. Can be any of:</p>
+                <div class="list_government">
+                    <ul>
+                        <li data-aos="fade-right" data-aos-delay="20">Canadian Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="30">Foreign Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="40">Canadian Citizenship Card with photo</li>
+                        <li data-aos="fade-right" data-aos-delay="50">Canadian Permanent Resident Card with signature</li>
+                        <li data-aos="fade-right" data-aos-delay="60">Record of Landing (IMM 1000)</li>
+                        <li data-aos="fade-right" data-aos-delay="70">Confirmation of Permanent Resident (IMM 5292) accompanied by a valid passport from country of origin</li>
+                        <li data-aos="fade-right" data-aos-delay="80">Report Pursuant to the Immigration and Refugee Protection Act (IMM 1442) with photo.</li>
+                        <li data-aos="fade-right" data-aos-delay="90">Student Authorization/Study Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="100">Employment Authorization/Work Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="120">Visitor Record (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="130">Temporary Resident’s Permit (IMM 1442) (formerly Minister’s Permit/Extension of Minister’s Permit)</li>
+                        <li data-aos="fade-right" data-aos-delay="140">Secure Certificate of Indian Status Card (issued on or after December 15, 2009, by 
+                        <li data-aos="fade-right" data-aos-delay="150">Indian & Northern Affairs Canada</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container fade" id="socialinsu">
+            <div class="governmentissue">
+                <p data-aos="fade-down" data-aos-delay="10">Must display legal name, date of birth, and signature. Can be any of:</p>
+                <div class="list_government">
+                    <ul>
+                        <li data-aos="fade-right" data-aos-delay="20">Canadian Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="30">Foreign Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="40">Canadian Citizenship Card with photo</li>
+                        <li data-aos="fade-right" data-aos-delay="50">Canadian Permanent Resident Card with signature</li>
+                        <li data-aos="fade-right" data-aos-delay="60">Record of Landing (IMM 1000)</li>
+                        <li data-aos="fade-right" data-aos-delay="70">Confirmation of Permanent Resident (IMM 5292) accompanied by a valid passport from country of origin</li>
+                        <li data-aos="fade-right" data-aos-delay="80">Report Pursuant to the Immigration and Refugee Protection Act (IMM 1442) with photo.</li>
+                        <li data-aos="fade-right" data-aos-delay="90">Student Authorization/Study Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="100">Employment Authorization/Work Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="120">Visitor Record (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="130">Temporary Resident’s Permit (IMM 1442) (formerly Minister’s Permit/Extension of Minister’s Permit)</li>
+                        <li data-aos="fade-right" data-aos-delay="140">Secure Certificate of Indian Status Card (issued on or after December 15, 2009, by 
+                        <li data-aos="fade-right" data-aos-delay="150">Indian & Northern Affairs Canada</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container fade" id="creditreport">
+            <div class="governmentissue">
+                <p data-aos="fade-down" data-aos-delay="10">Must display legal name, date of birth, and signature. Can be any of:</p>
+                <div class="list_government">
+                    <ul>
+                        <li data-aos="fade-right" data-aos-delay="20">Canadian Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="30">Foreign Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="40">Canadian Citizenship Card with photo</li>
+                        <li data-aos="fade-right" data-aos-delay="50">Canadian Permanent Resident Card with signature</li>
+                        <li data-aos="fade-right" data-aos-delay="60">Record of Landing (IMM 1000)</li>
+                        <li data-aos="fade-right" data-aos-delay="70">Confirmation of Permanent Resident (IMM 5292) accompanied by a valid passport from country of origin</li>
+                        <li data-aos="fade-right" data-aos-delay="80">Report Pursuant to the Immigration and Refugee Protection Act (IMM 1442) with photo.</li>
+                        <li data-aos="fade-right" data-aos-delay="90">Student Authorization/Study Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="100">Employment Authorization/Work Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="120">Visitor Record (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="130">Temporary Resident’s Permit (IMM 1442) (formerly Minister’s Permit/Extension of Minister’s Permit)</li>
+                        <li data-aos="fade-right" data-aos-delay="140">Secure Certificate of Indian Status Card (issued on or after December 15, 2009, by 
+                        <li data-aos="fade-right" data-aos-delay="150">Indian & Northern Affairs Canada</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container fade" id="employletter">
+            <div class="governmentissue">
+                <p data-aos="fade-down" data-aos-delay="10">Must display legal name, date of birth, and signature. Can be any of:</p>
+                <div class="list_government">
+                    <ul>
+                        <li data-aos="fade-right" data-aos-delay="20">Canadian Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="30">Foreign Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="40">Canadian Citizenship Card with photo</li>
+                        <li data-aos="fade-right" data-aos-delay="50">Canadian Permanent Resident Card with signature</li>
+                        <li data-aos="fade-right" data-aos-delay="60">Record of Landing (IMM 1000)</li>
+                        <li data-aos="fade-right" data-aos-delay="70">Confirmation of Permanent Resident (IMM 5292) accompanied by a valid passport from country of origin</li>
+                        <li data-aos="fade-right" data-aos-delay="80">Report Pursuant to the Immigration and Refugee Protection Act (IMM 1442) with photo.</li>
+                        <li data-aos="fade-right" data-aos-delay="90">Student Authorization/Study Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="100">Employment Authorization/Work Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="120">Visitor Record (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="130">Temporary Resident’s Permit (IMM 1442) (formerly Minister’s Permit/Extension of Minister’s Permit)</li>
+                        <li data-aos="fade-right" data-aos-delay="140">Secure Certificate of Indian Status Card (issued on or after December 15, 2009, by 
+                        <li data-aos="fade-right" data-aos-delay="150">Indian & Northern Affairs Canada</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container fade" id="recentpay">
+            <div class="governmentissue">
+                <p data-aos="fade-down" data-aos-delay="10">Must display legal name, date of birth, and signature. Can be any of:</p>
+                <div class="list_government">
+                    <ul>
+                        <li data-aos="fade-right" data-aos-delay="20">Canadian Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="30">Foreign Passport</li>
+                        <li data-aos="fade-right" data-aos-delay="40">Canadian Citizenship Card with photo</li>
+                        <li data-aos="fade-right" data-aos-delay="50">Canadian Permanent Resident Card with signature</li>
+                        <li data-aos="fade-right" data-aos-delay="60">Record of Landing (IMM 1000)</li>
+                        <li data-aos="fade-right" data-aos-delay="70">Confirmation of Permanent Resident (IMM 5292) accompanied by a valid passport from country of origin</li>
+                        <li data-aos="fade-right" data-aos-delay="80">Report Pursuant to the Immigration and Refugee Protection Act (IMM 1442) with photo.</li>
+                        <li data-aos="fade-right" data-aos-delay="90">Student Authorization/Study Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="100">Employment Authorization/Work Permit (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="120">Visitor Record (IMM 1442)</li>
+                        <li data-aos="fade-right" data-aos-delay="130">Temporary Resident’s Permit (IMM 1442) (formerly Minister’s Permit/Extension of Minister’s Permit)</li>
+                        <li data-aos="fade-right" data-aos-delay="140">Secure Certificate of Indian Status Card (issued on or after December 15, 2009, by 
+                        <li data-aos="fade-right" data-aos-delay="150">Indian & Northern Affairs Canada</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- client say -->
+    <div class="contact_client">
+        <div class="container owner_width">
+            <h3>What our clients have to say about us...</h3>
+            <p>Our Ontario local team is ready to find you a qualified tenant while ensuring that your financial
+                interests are protected!</p>
+
+            <div class="image_tabs">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#ratingone"><img
+                                src="images/contact/t1.svg"></a>
+                        <p class="ratings_count">106 Ratings</p>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#ratingtwo"><img src="images/contact/t2.svg"></a>
+                        <p class="ratings_count">106 Ratings</p>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#ratingthree"><img src="images/contact/t3.svg"></a>
+                        <p class="ratings_count">106 Ratings</p>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#ratingfour"><img src="images/contact/t4.svg"></a>
+                        <p class="ratings_count">106 Ratings</p>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#ratingfive"><img src="images/contact/t5.svg"></a>
+                        <p class="ratings_count">106 Ratings</p>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="row">
+                    <div class="col-xl-10 col-lg-10 col-md-9 col-sm-12 col-12">
+                        <div class="tab-content testimonial_card">
+                            <div id="ratingone" class="container tab-pane active">
+                                <div class="card">
+                                    <div id="carouselExampleControls" class="card-carousel carousel slide"
+                                        data-ride="carousel" data-interval="10000">
+                                        <!-- Indicators -->
+                                        <ul class="carousel-indicators">
+                                            <li data-target="#carouselExampleControls" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                                        </ul>
+                                        <div class="w-100 carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="navi">
+                                            <a class="" href="#carouselExampleControls" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="" href="#carouselExampleControls" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="ratingtwo" class="container tab-pane fade">
+                                <div class="card">
+                                    <div id="carouselExampleControlstwo" class="card-carousel carousel slide"
+                                        data-ride="carousel" data-interval="10000">
+                                        <!-- Indicators -->
+                                        <ul class="carousel-indicators">
+                                            <li data-target="#carouselExampleControlstwo" data-slide-to="0"
+                                                class="active"></li>
+                                            <li data-target="#carouselExampleControlstwo" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleControlstwo" data-slide-to="2"></li>
+                                        </ul>
+                                        <div class="w-100 carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="navi">
+                                            <a class="" href="#carouselExampleControlstwo" role="button"
+                                                data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="" href="#carouselExampleControlstwo" role="button"
+                                                data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ratingthree" class="container tab-pane fade">
+                                <div class="card">
+                                    <div id="carouselExampleControlsthird" class="card-carousel carousel slide"
+                                        data-ride="carousel" data-interval="10000">
+                                        <!-- Indicators -->
+                                        <ul class="carousel-indicators">
+                                            <li data-target="#carouselExampleControlsthird" data-slide-to="0"
+                                                class="active"></li>
+                                            <li data-target="#carouselExampleControlsthird" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleControlsthird" data-slide-to="2"></li>
+                                        </ul>
+                                        <div class="w-100 carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="navi">
+                                            <a class="" href="#carouselExampleControlsthird" role="button"
+                                                data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="" href="#carouselExampleControlsthird" role="button"
+                                                data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ratingfour" class="container tab-pane fade">
+                                <div class="card">
+                                    <div id="carouselExampleControlsfour" class="card-carousel carousel slide"
+                                        data-ride="carousel" data-interval="10000">
+                                        <!-- Indicators -->
+                                        <ul class="carousel-indicators">
+                                            <li data-target="#carouselExampleControlsfour" data-slide-to="0"
+                                                class="active"></li>
+                                            <li data-target="#carouselExampleControlsfour" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleControlsfour" data-slide-to="2"></li>
+                                        </ul>
+                                        <div class="w-100 carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="navi">
+                                            <a class="" href="#carouselExampleControlsfour" role="button"
+                                                data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="" href="#carouselExampleControlsfour" role="button"
+                                                data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ratingfive" class="container tab-pane fade">
+                                <div class="card">
+                                    <div id="carouselExampleControlsfive" class="card-carousel carousel slide"
+                                        data-ride="carousel" data-interval="10000">
+                                        <!-- Indicators -->
+                                        <ul class="carousel-indicators">
+                                            <li data-target="#carouselExampleControlsfive" data-slide-to="0"
+                                                class="active"></li>
+                                            <li data-target="#carouselExampleControlsfive" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleControlsfive" data-slide-to="2"></li>
+                                        </ul>
+                                        <div class="w-100 carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-caption">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                            <img src="images/contact/team1.svg">
+                                                        </div>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                            <p>I have been happy with RYPM's services and the service
+                                                                level got enhanced after Fellanza Maliqi joined the
+                                                                team. She is my contact at RYPM and I have been getting
+                                                                top notch services from her. Special thanks to Fellanza!
+                                                                I hope we get this continued support and customer
+                                                                service from RYPM.</p>
+                                                            <div class="name_describe">
+                                                                <span>Sladjana Klacar</span>
+                                                                <span>Leasing Agent</span>
+                                                                <span>21 November, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="navi">
+                                            <a class="" href="#carouselExampleControlsfive" role="button"
+                                                data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="" href="#carouselExampleControlsfive" role="button"
+                                                data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12 mobile-hidden">
+                        <div class="testi_right_image">
+                            <img src="images/contact/team2.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of client say -->
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container foot_container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="areas">
+                        <h3 class="heading">Areas We Service</h3>
+                        <p>Over 40 Locations In Canada And 11 Locations In Europe</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="footerservices_img">
+                        <img src="images/Home/footer/f1.svg">
+                        <img src="images/Home/footer/f2.svg">
+                        <img src="images/Home/footer/f3.svg">
+                        <img src="images/Home/footer/f4.svg">
+                        <img src="images/Home/footer/f5.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="footer_list">
+                        <ul>
+                            <li>Ajax</li>
+                            <li>Barrie</li>
+                            <li>Bowmanville</li>
+                            <li>Bradford</li>
+                            <li>Brampton</li>
+                            <li>Brantford</li>
+                        </ul>
+                        <ul>
+                            <li>Burlington</li>
+                            <li>Calendon</li>
+                            <li>Cambridge</li>
+                            <li>Carlington</li>
+                            <li>Courtice</li>
+                            <li>Etobicoke</li>
+                        </ul>
+                        <ul>
+                            <li>Georgina</li>
+                            <li>Grimsby</li>
+                            <li>Guelph</li>
+                            <li>Hamilton</li>
+                            <li>Innisfil</li>
+                            <li>Kingston</li>
+                        </ul>
+                    </div>
+                    <div class="see_locations">
+                        <a href="" class="btn see_more">See More Locations</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-8 col-sm-12 col-12">
+                    <div class="address_txt">
+                        <h4>North American HQ</h4>
+                        <ul class="addrone">
+                            <li class="loc_icon">789 Don Mills Road 8th floor Toronto, Ontario, M3C 1T5, Canada</li>
+                            <li class="mail_icon">Canada@RoyalYorkPM.com</li>
+                        </ul>
+                    </div>
+                    <div class="address_txt">
+                        <h4>North American HQ</h4>
+                        <ul class="addrone">
+                            <li class="loc_icon">789 Don Mills Road 8th floor Toronto, Ontario, M3C 1T5, Canada</li>
+                            <li class="mail_icon">Canada@RoyalYorkPM.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                    <div class="social_links">
+                        <h4>follow us on</h4>
+                        <ul>
+                            <li><a href=""><img src="images/Home/footer/fb.svg"></a></li>
+                            <li><a href=""><img src="images/Home/footer/ln.svg"></a></li>
+                            <li><a href=""><img src="images/Home/footer/tw.svg"></a></li>
+                            <li><a href=""><img src="images/Home/footer/ins.svg"></a></li>
+                            <li><a href=""><img src="images/Home/footer/yt.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <p class="copyright">Copyright 2024 Royal York Property Management Franchising, inc. All Rights
+                        Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--  slick js -->
+    <script src="js/slick.min.js"></script>
+    <!-- animation js -->
+    <script src="js/animation/aos.js"></script>
+    <!-- custom main js -->
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!-- google map related js -->
+<script type="text/javascript">
+var marker;
+var map;
+function initialize() {
+var styles = [{
+stylers: [{
+saturation: -100
+}]
+}];
+var styledMap = new google.maps.StyledMapType(styles, {
+name: "Styled Map"
+});
+var mapProp = {
+center: new google.maps.LatLng(3.165659, 101.611416),
+zoom: 17,
+panControl: false,
+zoomControl: false,
+mapTypeControl: false,
+scaleControl: true,
+streetViewControl: false,
+overviewMapControl: false,
+rotateControl: true,
+scrollwheel: false,
+mapTypeId: "terrain"
+};
+map = new google.maps.Map(document.getElementById("map_canvastenant"), mapProp);
+
+map.mapTypes.set('map_style', styledMap);
+map.setMapTypeId('map_style')
+
+marker = new google.maps.Marker({
+position: new google.maps.LatLng(3.167244, 101.612950),
+animation: google.maps.Animation.DROP,
+icon: 'https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/location-24-32.png',
+});
+
+marker.setMap(map);
+map.panTo(marker.position);
+}
+
+function changeMarkerPos(lat, lon){
+myLatLng = new google.maps.LatLng(lat, lon)
+marker.setPosition(myLatLng);
+map.panTo(myLatLng);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</body>
+</html>
