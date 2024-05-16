@@ -152,8 +152,9 @@ font-size: 1.4em;
     width: 331px;
 }
 .royalbenefit {
-    height: 588px;
-    padding: 1em 0 0 0;
+    height: 522px;
+    padding: 3em 0 0 0;
+    margin:9em 0px;
 }
 .royalbene_p p {
     width: 93%;
@@ -162,7 +163,13 @@ font-size: 1.4em;
     margin:2em 0 0 0;
 }
 .req_doc{
-    margin:2em 0 0 0;
+    margin:6em 0 0 0;
+}
+.map_near_prop {
+    margin: 3.2em 0 6em 0;
+}
+.list_government ul li{
+    font-size: 1.3em;
 }
 /* tenant main page */
 
@@ -304,6 +311,15 @@ left: 12.7em;
 }
 /* end of rental guarantee 2 */
 
+/* tenant main page */
+.royalbenefit {
+    height: 576px;
+}
+.contact_descrip {
+    top: 192px;
+}
+/* end of tenant page */
+
 }
 
 
@@ -313,7 +329,7 @@ left: 12.7em;
 height: 362px;
 }
 .contact_descrip {
-top: 213px;
+    top: 176px;
 }
 /* end of contact page */
 
@@ -408,6 +424,12 @@ margin-bottom: 0em;
     right: -2em;
 }
 /* end of rental guarantee 2 */
+
+/* tenant main page */
+.maintenant_descrip {
+    width: 97%;
+}
+/* end of tenant main page */
 
 }
 @media screen and (max-width: 1400px) {
@@ -535,7 +557,7 @@ height: 303px;
 top: -48px;
 }
 .contact_descrip {
-top: 132px;
+    top: 114px;
 }
 /* end of contact page */
 
@@ -677,11 +699,31 @@ top: 1.2em;
 }
 /* end of rental guarantee 2 */
 
+/* tenant main page */
+.days_div {
+    top: -97px;
+}
+.maintenant_descrip {
+    width: 80%;
+}
+.maintenant_img img {
+    width: 91%;
+}
+.process_descrip p {
+    width: 44%;
+}
+.royalbenefit {
+    height: 522px;
+}
+.list_government ul li {
+    font-size: 1em;
+}
+/* end of tenant main page */
 }
 
 
 @media screen and (max-width: 1280px) {
-/* cactact page */
+/* contact page */
 #map_canvas{
 border-radius: 0 0 27px 27px;
 }
@@ -957,6 +999,15 @@ font-size: 0.9em;
     width: 73%;
 }
 /* end of tenant screening */
+
+/* tenant main page */
+.days_div {
+    top: -95px;
+}
+.royalbenefit {
+    margin: 6em 0px;
+}
+/* end of tenant main page */
 }
 
 
@@ -1243,6 +1294,58 @@ right: -2px;
     right: 39px;
 }
 /* end of rental guarantee 2 */
+
+/* tenant main page */
+.maintenant_descrip {
+    width: 77%;
+}
+.div1, .div2, .div3 {
+    width: 33%;
+}
+.ellipse_div .media-body h4{
+    font-size: 1em;
+}
+.our_process .media{
+    padding: 16px 22px 22px 0;
+}
+.tenantportal_btn .btn.get_started, .free_constit .btn.get_started {
+    width: 280px;
+}
+.cust_serv_img img:nth-child(4) {
+    width: 46%;
+}
+.cust_serv_img img:nth-child(5) {
+    top: -1.4em;
+    right: 4em;
+    height: 31px;
+}
+.cust_serv_img img:first-child {
+    top: 7em;
+    left: 52px;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 14.5em;
+    left: 5em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 17em;
+    left: 5em;
+}
+.cust_serv_img img:nth-child(8) {
+    bottom: 2em;
+    right: 4.5em;
+    height: 58px;
+}
+.cust_serv_img img:nth-child(6) {
+    top: 4em;
+    right: 3.8em;
+}
+.cust_serv_img img:nth-child(7) {
+    top: 7.5em;
+    right: 4em;
+    height: 18px;
+}
+/* end of tenant main page */
 }
 
 @media screen and (max-width: 1136px) {
@@ -1863,6 +1966,113 @@ right: -58px;
     right: -1.6em;
 }
 /* end of rental guarantee 2 */
+
+/* tenant main page */
+.maintenant_descrip {
+    width: 100%;
+}
+.ellipse_div img {
+    width: 84%;
+}
+.process_descrip p {
+    width: 54%;
+}
+.div1 {
+    top: 8.2em;
+    left: 103px;
+}
+.div2 {
+    top: 18.4em;
+    right: 36px;
+}
+.div3 {
+    bottom: 92px;
+    left: 96px;
+}
+.div1, .div2, .div3 {
+    width: 38%;
+}
+.portalsystm_image img:nth-child(2) {
+    width: 84%;
+}
+.portalsystm_image img:first-child {
+    height: 104px;
+    left: -38px;
+    top: 46px;
+}
+.portalsystm_image img:nth-child(3), .portalsystm_image img:nth-child(4), .portalsystm_image img:nth-child(5) {
+    height: 50px;
+}
+.portalsystm_image img:nth-child(3) {
+    top: 5em;
+    right: -36px;
+}
+.portalsystm_image img:nth-child(4) {
+    top: 7.6em;
+    right: -29px;
+}
+.portalsystm_image img:nth-child(5) {
+    top: 10.3em;
+    right: -22px;
+}
+.portalsystm_image img:nth-child(6) {
+    bottom: 3.5em;
+    height: 24px;
+    right: -11px;
+}
+.portalsystm_image img:nth-child(7) {
+    bottom: 31px;
+}
+.royalbenefit {
+    margin: 4em 0px;
+}
+.portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
+    height: 18px;
+    z-index: -1;
+    right: 9px;
+}
+.img_collecdiv img {
+    margin: 0px 12px 9px 0;
+}
+.royalbenefit {
+    height: 555px;
+}
+.cust_serv_img img:nth-child(4) {
+    width: 55%;
+}
+.cust_serv_img img:first-child {
+    left: 25px;
+}
+.cust_serv_img img:nth-child(2) {
+    left: 2.7em;
+}
+.cust_serv_img img:nth-child(3) {
+    left: 3em;
+}
+.cust_serv_img img:nth-child(5) {
+    top: -1.1em;
+    right: 1.3em;
+}
+.cust_serv_img img:nth-child(6) {
+    right: 1.5em;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 2em;
+}
+.cust_serv_img img:nth-child(8) {
+    bottom: 1.9em;
+    right: 2.5em;
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+    width: 155px;
+    height: 65px;
+    padding: 1em;
+}
+.royalbene_p p {
+    width: 100%;
+}
+/* end of tenant main page */
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -2207,6 +2417,26 @@ padding: 5px 16px;
 }
 /* end of rental guarantee 2 */
 
+/* tenant main page */
+.topspace {
+    margin: -4em auto 0 auto;
+}
+.maintenant_img img {
+    width: 84%;
+}
+.div2 {
+    top: 20.2em;
+}
+.tenant_descrip.portaldescrip p:nth-child(2) {
+    font-size: 1.1em;
+}
+.royalbenefit {
+    height: 498px;
+}
+.cust_serv_img img:nth-child(2),.cust_serv_img img:nth-child(3) {
+    height: 19px;
+}
+/* end of tenant main page */
 }
 
 
@@ -2289,14 +2519,14 @@ height: 250px;
 .images_services img {
 width: 88%;
 }
-.list_services ul li,.tenantservices_list ul li {
+.list_services ul li,.tenantservices_list ul li,.list_government ul li  {
 font-size: 0.8em;
 }
 .phone_details{
 top: 69px;
 right: 49px;
 }
-.list_services ul li:before,.tenantservices_list ul li:before,.footer_list ul li:before{
+.list_services ul li:before,.tenantservices_list ul li:before,.footer_list ul li:before,.list_government ul li :before{
 width: 21px;
 height: 14px;   
 }
@@ -2792,6 +3022,68 @@ font-size: 1.1em;
     right: 22px;
 }
 /* end of rental guarantee 2 */
+
+/* tenant main page */
+.contact_descrip {
+    top: 127px;
+}
+.form-search {
+    width: 36%;
+}
+.process_descrip p {
+    width: 60%;
+}
+.div2 {
+    top: 20em;
+}
+.portalsystm_image img:nth-child(2) {
+    width: 77%;
+}
+.portalsystm_image img:first-child {
+    height: 85px;
+    left: -8px;
+    top: 43px;
+}
+.portalsystm_image img:nth-child(3) {
+    top: 4.5em;
+    right: -24px;
+}
+.portalsystm_image img:nth-child(4) {
+    top: 6.9em;
+    right: -19px;
+}
+.portalsystm_image img:nth-child(5) {
+    top: 9.5em;
+    right: -7px;
+}
+.portalsystm_image img:nth-child(6) {
+    bottom: 3.3em;
+    height: 21px;
+    right: 15px;
+}
+.portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
+    right: 20px;
+}
+.portalsystm_image img:nth-child(7) {
+    bottom: 31px;
+}
+.tenantportal_btn {
+    margin: 2em 0 0 0;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+        left: 3.3em;
+}
+.req_doc {
+    margin: 2em 0 0 0;
+}
+.royalbenefit {
+    height: 479px;
+}
+.portalsystm_image img:nth-child(3), .portalsystm_image img:nth-child(4), .portalsystm_image img:nth-child(5) {
+    height: 43px;
+}
+/* end of tenant main page */
+
 }
 
 @media screen and (max-width: 991px) {
@@ -2973,7 +3265,8 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
+.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
+.req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
 max-width: 90%;
@@ -3000,7 +3293,7 @@ padding-top: 0em;
 .list_services ul {
 padding: 0px 0px 0px 0px;
 }
-.list_services ul li:before, .tenantservices_list ul li:before, .footer_list ul li:before {
+.list_services ul li:before, .tenantservices_list ul li:before, .footer_list ul li:before,.list_government ul li:before {
 width: 17px;
 height: 12px;
 margin-right: 5px;
@@ -3056,7 +3349,7 @@ margin: 4.3em 0px 1px 0px;
 .leave_us p {
 line-height: 18px;
 }
-.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
+.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_descrip p,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
 .management_services p,.royal_propdiff .royal_p, .contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 0.9em;
 }
@@ -3544,6 +3837,73 @@ width: 100%;
 }
 /* end of rental guarantee */
 
+/* tenant main page */
+.topspace {
+    margin: -1em auto 0 auto;
+}
+.maintenant_img img {
+    width: 96%;
+}
+.div1, .div2, .div3 {
+    width: 44%;
+}
+.div3,.div1 {
+    left: 58px;
+}
+.div1 {
+    top: 7.2em;
+}
+.div2 {
+    top: 16.8em;
+    right: -5px;
+}
+.tenant_descrip.portaldescrip p:nth-child(2) {
+    font-size: 1em;
+}
+.portalsystm_image {
+    margin: 0.6em 0 0 0;
+}
+.royalbenefit {
+    height: 401px;
+}
+.img_collecdiv img {
+    height: 38px;
+}
+.cust_serv_img img:nth-child(5) {
+    top: -1.1em;
+    right: 1.3em;
+    height: 27px;
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+    width: 131px;
+}
+.req_doc .container .rew_doc_tabs .tab-content .container{
+    max-width: 100%;
+}
+.req_doc {
+    margin: 5em 0 0 0;
+}
+.cust_serv_img img:nth-child(8) {
+    right: 1.9em;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 1.5em;
+    top: 6.5em;
+}
+.cust_serv_img img:nth-child(6) {
+    right: 1em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 15em;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 13em;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    left: 2.3em;
+}
+/* end of tenant page */
+
 }
 @media screen and (max-width: 768px) {
 /* menu css */
@@ -3679,7 +4039,7 @@ line-height: 21px;
 .images_services img {
 width: 100%;
 }
-.list_services ul li, .tenantservices_list ul li {
+.list_services ul li, .tenantservices_list ul li,.list_government ul li {
 font-size: 0.7em;
 }
 .maintenance {
@@ -4217,6 +4577,117 @@ width: 25%;
 }
 /* rental guarantee page 2 end */
 
+/* tenant main page */
+.maintenant_img img {
+    width: 100%;
+}
+.ellipse_div img {
+    width: 100%;
+}
+.div1, .div2, .div3 {
+    width: 58%;
+}
+.div3, .div1 {
+    left: -3px;
+}
+.div1 {
+    top: 6.2em;
+}
+.div2 {
+    top: 15em;
+    right: -24px;
+}
+.portalsystm_image img:nth-child(2) {
+    width: 100%;
+}
+.portalsystm_image img:first-child {
+    left: -48px;
+}
+.portalsystm_image img:nth-child(3) {
+    top: 4em;
+    right: -49px;
+}
+.portalsystm_image img:nth-child(4) {
+    top: 6.3em;
+    right: -46px;
+}
+.portalsystm_image img:nth-child(5) {
+    top: 8.7em;
+    right: -41px;
+}
+.portalsystm_image img:nth-child(6) {
+    bottom: 2.8em;
+    height: 18px;
+    right: -31px;
+}
+.royalbenefit {
+    height: 406px;
+    background-size: 120%;
+    background-position: center;
+    margin: 2em 0px;
+}
+.button_royalbenef button.btn {
+    margin: 0px 1px 6px 0px;
+}
+.royalsec_div {
+    margin: 1em 0 0 0;
+}
+.button_royalbenef{
+    margin-left:-28px
+}
+.img_collecdiv img {
+    height: 30px;
+}
+.portalsystm_image img:nth-child(8) {
+    bottom: 13px;
+}
+.portalsystm_image img:nth-child(7) {
+    bottom: 29px;
+}
+.portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
+    right: -18px;
+    height: 12px;
+}
+.cust_serv_img img:nth-child(4) {
+    width: 70%;
+}
+.cust_serv_img img:first-child {
+    left: -5px;
+    top:6.5em
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+    width: 148px;
+}
+.rew_doc_tabs .nav-tabs li.nav-item {
+    margin: 0 0.9em 1em 0;
+}
+.rew_doc_tabs .nav-tabs {
+    justify-content: flex-start;
+}
+.cust_serv_img img:nth-child(6) {
+    right: -1.3em;
+}
+.cust_serv_img img:nth-child(8) {
+    right: -1.1em;
+}
+.cust_serv_img img:nth-child(7) {
+    right: -0.9em;
+    top: 7em;
+}
+.cust_serv_img img:nth-child(5) {
+    right: -1.7em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 13em;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    left: 0.3em;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 11em;
+}
+/* end of tenant main page */
+
 }
 
 @media screen and (max-width: 767px) {
@@ -4240,7 +4711,7 @@ margin: 1em 0;
 margin: 3em 0px 2em 0px;
 }
 .contact_descrip {
-top: 95px;
+    top: 90px;
 }
 .commonslider div.nor_offices a,.commonslider div.headoffice a{
 margin: 0 10px 9px 10px;
@@ -4398,7 +4869,7 @@ top: unset;
 font-size: 1em;
 vertical-align: middle;
 }
-.list_services ul li:before, .tenantservices_list ul li:before, .footer_list ul li:before {
+.list_services ul li:before, .tenantservices_list ul li:before, .footer_list ul li:before,.list_government ul li:before {
 width: 22px;
 height: 15px;
 margin-right: 9px;
@@ -4445,7 +4916,7 @@ height: 383px;
 font-size: 1em;
 text-align: center;
 }
-.list_services ul li, .tenantservices_list ul li,.financial_interest ul li {
+.list_services ul li, .tenantservices_list ul li,.financial_interest ul li,.list_government ul li {
 font-size: 1em;
 }
 .news_img img {
@@ -5212,6 +5683,154 @@ text-align: left;
     top: -1.9em;
 }
 /* end of rental guarantee page 2 */
+
+/* tenant main page */
+.contact_descrip {
+    top: 90px;
+}
+.maintenant_img {
+    text-align: center;
+    margin: 0 0 3em 0;
+}
+.topspace {
+    margin: 0em auto 0 auto;
+}
+.maintenant_img img {
+    width: 61%;
+}
+.Lifestyle_div{
+    width: 100%;
+}
+.Lifestyle_div p:first-child {
+    margin: 0em 0 1.5em 0;
+}
+.Lifestyle_div {
+    width: 100%;
+    margin: 0;
+}
+.map_near_prop {
+    margin: 3.2em 0 4em 0;
+}
+.our_process {
+    margin: 0em 0 3em 0;
+}
+.tenantportal_btn {
+    margin: 2em 0 3em 0;
+}
+.process_descrip p {
+    width: 90%;
+}
+.div2 {
+    top: 14.2em;
+    right: -16px;
+}
+.div1, .div2, .div3 {
+    width: 43%;
+}
+.div3, .div1 {
+    left: 24px;
+}
+.portalsystm_image img:nth-child(2) {
+    width: 70%;
+}
+.portalsystm_image img:first-child {
+    left: 17px;
+    height: 129px;
+    top: 56px;
+}
+.portalsystm_image img:nth-child(3) {
+    top: 6.4em;
+    right: 4px;
+}
+.portalsystm_image img:nth-child(4) {
+    top: 9em;
+    right: 13px;
+}
+.portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
+    right: 65px;
+    height: 20px;
+}
+.portalsystm_image img:nth-child(7) {
+    bottom: 39px;
+}
+.portalsystm_image img:nth-child(8) {
+    bottom: 15px;
+}
+.portalsystm_image img:nth-child(6) {
+    bottom: 4em;
+    height: 27px;
+    right: 49px;
+}
+.portalsystm_image img:nth-child(5) {
+    top: 11.7em;
+    right: 24px;
+}
+.portalsystm_image img:nth-child(3), .portalsystm_image img:nth-child(4), .portalsystm_image img:nth-child(5) {
+    height: 47px;
+}
+.royalbenefit {
+    height: 563px;
+    background-size: cover;
+    background-position: top;
+    margin: 4em 0px;
+}
+.cust_serv_img img:nth-child(4) {
+    width: 52%;
+}
+.button_royalbenef button.btn {
+    margin: 0px 6px 6px 0px;
+}
+.button_royalbenef {
+    margin: 1.5em 0 2em 0;
+}
+.button_royalbenef p{
+    text-align: center;
+}
+.cust_serv_img img:first-child {
+    left: 77px;
+    top: 13.5em;
+    width: 35%;
+}
+.cust_serv_img {
+    margin: 7em 0 0 0;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 25em;
+}
+.cust_serv_img img:nth-child(6) {
+    top: 7em;
+    right: 4.3em;
+    height: 40px;
+}
+.cust_serv_img img:nth-child(5) {
+    top: -2em;
+    height: 41px;
+    right: 6.3em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 29em;
+}
+.cust_serv_img img:nth-child(8) {
+    bottom: 2.9em;
+    right: 4.9em;
+    height: 80px;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 5.1em;
+    top: 13em;
+    height: 27px;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    height: 27px;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    left: 7.3em;
+}
+.form-search {
+    width: 66%;
+}
+/* end of tenant main page */
+
 }
 @media screen and (max-width: 640px) {
 /* menu css */
@@ -5255,7 +5874,7 @@ height: 170px;
 top: -17px;
 }
 .contact_descrip {
-top: 68px;
+    top: 64px;
 }
 .image_tabs .nav-tabs .nav-item .nav-link {
 width: 96px;
@@ -5370,10 +5989,10 @@ font-size: 0.9em;
 .property_mgmt tbody tr td img {
 height: 19px;
 }
-.list_services ul li, .tenantservices_list ul li {
+.list_services ul li, .tenantservices_list ul li ,.list_government ul li{
 font-size: 0.9em;
 }
-.list_services ul li:before, .tenantservices_list ul li:before, .footer_list ul li:before {
+.list_services ul li:before, .tenantservices_list ul li:before, .footer_list ul li:before,.list_government ul li:before {
 width: 19px;
 height: 13px;
 margin-right: 6px;
@@ -5879,6 +6498,99 @@ right: 4.5em;
     height: 327px;
 }
 /* end of rental guarantee 2 */
+
+/* tenant main page */
+.portalsystm_image img:nth-child(2) {
+    width: 81%;
+}
+.portalsystm_image img:first-child {
+    left: -28px;
+    height: 120px;
+    top: 61px;
+}
+.portalsystm_image img:nth-child(3) {
+    top: 6em;
+    right: -32px;
+}
+.portalsystm_image img:nth-child(4) {
+    top: 8.5em;
+    right: -22px;
+}
+.portalsystm_image img:nth-child(6) {
+    bottom: 3.9em;
+    height: 24px;
+    right: 11px;
+}
+.portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
+    right: 16px;
+}
+.portalsystm_image img:nth-child(5) {
+    top: 11em;
+    right: -14px;
+}
+.royalbenefit {
+    height: auto;
+    padding: 5em 0 4em 0;
+    margin: 2em 0px;
+}
+.button_royalbenef button.btn {
+    margin: 0px 6px 12px 0px;
+    width: 46%;
+}
+.img_collecdiv{
+    text-align: center;
+}
+.img_collecdiv img {
+    height: 44px;
+}
+.img_collecdiv img {
+    margin: 0px 29px 14px 0;
+}
+.button_royalbenef{
+    text-align: center;
+}
+.cust_serv_img img:first-child {
+    left: 45px;
+    top: 10.5em;
+    width: 40%;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    height: 32px;
+    left: 4.3em;
+}
+.cust_serv_img img:nth-child(2) {
+    top:18em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 23.3em;
+}
+.cust_serv_img img:nth-child(5) {
+    top: -1.8em;
+    right: 3em;
+}
+.cust_serv_img img:nth-child(6) {
+    top: 5.6em;
+    right: 3.2em;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 4.1em;
+    top: 10em;
+    height: 35px;
+}
+.cust_serv_img img:nth-child(8) {
+    bottom: 2.7em;
+    right: 3.9em;
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+    width: 163px;
+}
+.reqdoc_decrip .governmentissue p {
+    text-align: left;
+}
+.div1, .div2, .div3 {
+    position: unset;
+}
+/* end of tenant main page */
 
 }
 @media screen and (max-width: 568px) {
@@ -6559,6 +7271,69 @@ width: 95%;
 }
 /* end of rental guarantee 2 */
 
+/* tenant main page */
+.maintenant_img img {
+    width: 51%;
+}
+.portalsystm_image img:first-child {
+    left: -22px;
+    height: 103px;
+    top: 52px;
+}
+.portalsystm_image img:nth-child(6) {
+    right: 0px;
+}
+.royalsec_div {
+    margin: 0em 0 0 0;
+}
+.firstblock, .secondblock, .thirdblock {
+    display: flex;
+    justify-content: center;
+}
+.img_collecdiv img {
+    height: 50px;
+}
+.cust_serv_img img:first-child {
+    left: 58px;
+    top: 9em;
+    width: 34%;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    height: 25px;
+    left: 4em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 21.3em;
+}
+.cust_serv_img img:nth-child(5) {
+    height: 36px;
+    top: -1.7em;
+    right: 2em;
+}
+.cust_serv_img img:nth-child(6) {
+    top: 4.6em;
+    right: 2.2em;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 3em;
+    top: 9em;
+    height: 25px;
+}
+.cust_serv_img img:nth-child(8) {
+    bottom: 2.4em;
+    right: 3.6em;
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+    width: 141px;
+}
+.req_doc .container .rew_doc_tabs .tab-content .container {
+    padding: 0;
+}
+.req_doc {
+    margin: 3em 0 0 0;
+}
+/* end of tenant main page */
+
 }
 
 @media screen and (max-width:480px) {
@@ -6607,7 +7382,7 @@ max-width: 100%;
 flex: 100%;
 }
 .contact_view {
-height: 120px;
+    height: 141px;
 }
 .testimonial_card .imageprofile img {
 height: 193px;
@@ -7296,8 +8071,101 @@ right: 1.9em;
 .finance_imgrental img:nth-child(5) {
     top: -1.1em;
 }
-
 /* end of rental guarantee 2 */
+
+/* tenant main page */
+.maintenant_img img {
+    width: 75%;
+}
+.req_doc .container{
+    padding: 0px;
+}
+.rew_doc_tabs .nav-tabs li.nav-item {
+    margin: 0 0.6em 1em 0;
+}
+.portalsystm_image img:first-child {
+    height: 86px;
+    top: 46px;
+}
+.portalsystm_image img:nth-child(3) {
+    top: 4.3em;
+}
+.portalsystm_image img:nth-child(4) {
+    top: 6.7em;
+    right: -27px;
+}
+.portalsystm_image img:nth-child(5) {
+    top: 9.1em;
+    right: -20px;
+}
+.portalsystm_image img:nth-child(6) {
+    right: 8px;
+    bottom: 2.9em;
+    height: 18px;
+}
+.portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
+    height: 16px;
+}
+.portalsystm_image img:nth-child(7) {
+    bottom: 28px;
+}
+.cust_serv_img img:nth-child(4) {
+    width: 58%;
+}
+.img_collecdiv img {
+    height: 39px;
+}
+.button_royalbenef button.btn {
+    margin: 0px 6px 12px 0px;
+    width: 65%;
+}
+.portalsystm_image img:nth-child(8) {
+    bottom: 10px;
+}
+.cust_serv_img img:first-child {
+    left: 28px;
+    top: 7.5em;
+    width: 38%;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    height: 18px;
+    left: 3.3em;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 12.7em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 15.3em;
+}
+.cust_serv_img img:nth-child(5) {
+    height: 30px;
+    top: -1.5em;
+}
+.cust_serv_img img:nth-child(6) {
+    top: 4.4em;
+    right: 0.2em;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 0.8em;
+    top: 9em;
+    height: 18px;
+}
+.cust_serv_img img:nth-child(8) {
+    bottom: 2.2em;
+    right: 1.6em;
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+    width: 118px;
+    height: 90px;
+}
+.tenantportal_btn .btn.get_started, .free_constit .btn.get_started {
+    width: 268px;
+}
+.process_descrip p {
+    width: 100%;
+}
+/* end of tenant main page */
+
 }
 
 @media screen and (max-width:414px) {
@@ -7582,7 +8450,7 @@ margin: 0em 0px 0em 0px;
 width: 42%;
 top: 48%;
 }
-.list_services ul li, .tenantservices_list ul li {
+.list_services ul li, .tenantservices_list ul li,.list_government ul li {
 font-size: 0.8em;
 }
 .animation_effects_img_tenant img:nth-child(6) {
@@ -7890,6 +8758,118 @@ margin: 0 0 3em 0;
     right: 1.3em;
 }
 /* end of rental guarantee 2 */
+
+/* tenant main page */
+.map_near_prop {
+    margin: 2em 0 4em 0;
+}
+.form-search {
+    width: 75%;
+}
+.map_near_prop {
+    margin: 2em 0 3em 0;
+}
+.portalsystm_image img:nth-child(3) {
+    top: 3.2em;
+}
+.portalsystm_image img:nth-child(2) {
+    width: 72%;
+}
+.portalsystm_image img:first-child {
+    height: 69px;
+    top: 27px;
+    left: 2px;
+}
+.portalsystm_image img:nth-child(4) {
+    top: 5.2em;
+    right: -10px;
+}
+.portalsystm_image img:nth-child(6) {
+    right: 25px;
+    bottom: 2.2em;
+    height: 14px;
+}
+.portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
+    right: 31px;
+}
+.portalsystm_image img:nth-child(8) {
+    bottom: 6px;
+}
+.portalsystm_image img:nth-child(7) {
+    bottom: 21px;
+}
+.img_collecdiv img {
+    margin: 0px 6px 11px 0;
+}
+.img_collecdiv img {
+    height: 35px;
+}
+.portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
+    height: 12px;
+}
+.portalsystm_image img:nth-child(5) {
+    top: 7.2em;
+    right: -3px;
+}
+.portalsystm_image img:nth-child(3), .portalsystm_image img:nth-child(4), 
+.portalsystm_image img:nth-child(5) {
+    height: 39px;
+}
+.royalbenefit {
+    margin: 2em 0px 0px 0px;
+}
+.cust_serv_img {
+    margin: 5em 0 0 0;
+}
+.cust_serv_img img:nth-child(4) {
+    width: 53%;
+}
+.cust_serv_img img:first-child {
+    left: 38px;
+    top: 6em;
+    width: 34%;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    height: 16px;
+    left: 3.7em;
+}
+.cust_serv_img img:nth-child(6) {
+    top: 3.4em;
+    right: 1.2em;
+    height: 30px;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 1.6em;
+    top: 6.5em;
+    height: 16px;
+}
+.cust_serv_img img:nth-child(5) {
+    height: 25px;
+    top: -1em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 11.7em;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 9.7em;
+}
+.cust_serv_img img:nth-child(8) {
+    height: 50px;
+    bottom: 1.7em;
+    right: 2.6em;
+}
+.req_doc {
+    margin: 2em 0 0 0;
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+    width: 155px;
+    height: 74px;
+}
+.reqdoc_decrip .governmentissue p {
+    text-align: center;
+}
+/* end of tenant main page */
+
 }
 @media screen and (max-width:411px) {
 
@@ -8182,6 +9162,29 @@ left: 0em;
     font-size: 0.6em;
 }
 /* end of review page */
+
+/* tenant main page */
+.maintenant_img img {
+    width: 91%;
+}
+.tenant_descrip.portaldescrip p:nth-child(2) {
+    font-size: 0.9em;
+}
+.img_collecdiv img {
+    height: 41px;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    left: 3.3em;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 13em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 15.3em;
+}
+/* end of tenant main page */
+
+
 }
 @media screen and (max-width:375px) {
 /* footer */
@@ -8209,7 +9212,7 @@ width: 132px;
 font-size: 0.7em;
 }
 .contact_view {
-height: 115px;
+    height: 119px;
 }
 .contact_view .contact_descrip .heading {
 font-size: 2.1em;
@@ -8630,6 +9633,66 @@ right: 1.8em;
 }
 /* end of rental guarantee 2 */
 
+/* tenant main page */
+.maintenant_img img {
+    width: 80%;
+}
+.map_near_prop {
+    margin: 1em 0 3em 0;
+}
+.portalsystm_image img:nth-child(2) {
+    width: 85%;
+}
+.portalsystm_image img:first-child {
+    height: 64px;
+    top: 37px;
+    left: -19px;
+}
+.portalsystm_image img:nth-child(4) {
+    right: -26px;
+}
+.button_royalbenef button.btn {
+    width: 77%;
+}
+.cust_serv_img {
+    margin: 4em 0 0 0;
+}
+.portalsystm_image img:nth-child(7) {
+    bottom: 25px;
+}
+.portalsystm_image img:nth-child(8) {
+    bottom: 10px;
+}
+.portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
+    right: 0px;
+}
+.portalsystm_image img:nth-child(6) {
+    right: 0px;
+    bottom: 2.5em;
+}
+.portalsystm_image img:nth-child(5) {
+    top: 7.4em;
+    right: -20px;
+}
+.cust_serv_img img:first-child {
+    left: 25px;
+    top: 5em;
+    width: 42%;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 12em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 13.7em;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    left: 2.7em;
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+    width: 135px;
+}
+/* end of tenant main page */
+
 }
 @media screen and (max-width:360px) {
 /* menu css */
@@ -8975,6 +10038,44 @@ height: 228px;
 }
 /* end of rental guarantee 2 */
 
+/* tenant main page */
+.contact_view {
+    height: 111px;
+}
+.img_collecdiv img {
+    height: 36px;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 11em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 13em;
+}
+.cust_serv_img img:nth-child(5) {
+    right: 0em;
+    top: -1.3em;
+}
+.cust_serv_img img:nth-child(6) {
+    top: 3em;
+    right: 0.9em;
+    height: 27px;
+}
+.cust_serv_img img:nth-child(8) {
+    height: 43px;
+    bottom: 1.4em;
+    right: 2em;
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+    width: 131px;
+}
+.rew_doc_tabs .nav-tabs li.nav-item {
+    margin: 0 0.5em 1em 0;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 1.3em;
+}
+/* end of tenant main page */
+
 }
 @media screen and (max-width:340px) {
 /* menu css */
@@ -9313,6 +10414,57 @@ padding: 8px 14px;
     top: -0.9em;
 }
 /* end of rental guarantee 2 */
+
+/* tenant main page */
+.portalsystm_image img:first-child {
+    height: 57px;
+    top: 30px;
+}
+.tenantportal_btn .btn.get_started, .free_constit .btn.get_started {
+    width: 246px;
+}
+.img_collecdiv img {
+    height: 33px;
+}
+.portalsystm_image img:nth-child(6) {
+    right: -8px;
+}
+.button_royalbenef button.btn {
+    width: 85%;
+}
+.cust_serv_img img:nth-child(4) {
+    width: 64%;
+}
+.cust_serv_img img:first-child {
+    left: 0px;
+    top: 6em;
+    width: 51%;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 12.8em;
+}
+.cust_serv_img img:nth-child(2), .cust_serv_img img:nth-child(3) {
+    left: 1em;
+}
+.cust_serv_img img:nth-child(6) {
+    top: 3.5em;
+    right: -0.3em;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 0.3em;
+}
+.cust_serv_img img:nth-child(8) {
+    height: 54px;
+    right: 0em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 15em;
+}
+.rew_doc_tabs .nav.nav-tabs li.nav-item a {
+ height: 93px;
+    width: 127px;
+}
+/* end of tenant main page */
 }
 
 @media screen and (max-width:320px) {
@@ -9673,4 +10825,47 @@ top: 16.1em;
     right: 7.3em;
 }
 /* rental guarantee 2 end */
+
+/* tenant main page */
+.contact_view .contact_descrip .heading {
+    font-size: 1.7em;
+}
+.portalsystm_image img:nth-child(3), .portalsystm_image img:nth-child(4), .portalsystm_image img:nth-child(5) {
+    height: 32px;
+}
+.portalsystm_image img:nth-child(3) {
+    top: 2.8em;
+}
+.portalsystm_image img:nth-child(4) {
+    top: 4.5em;
+}
+.cust_serv_img img:nth-child(2) {
+    top: 11.8em;
+}
+.cust_serv_img img:nth-child(7) {
+    right: 0em;
+    top: 6em;
+}
+.cust_serv_img img:nth-child(6) {
+    top: 3.2em;
+    right: -0.5em;
+}
+.cust_serv_img img:nth-child(3) {
+    top: 14em;
+}
+.cust_serv_img img:nth-child(8) {
+    right: 0.3em;
+}
+.button_royalbenef button.btn {
+    width: 89%;
+}
+.portalsystm_image img:nth-child(5) {
+    top: 6.3em;
+}
+.portalsystm_image img:nth-child(6) {
+    right: -11px;
+}
+/* end of tenant main page */
+
+
 }
