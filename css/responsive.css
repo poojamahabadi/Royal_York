@@ -6590,6 +6590,13 @@ right: 4.5em;
 .div1, .div2, .div3 {
     position: unset;
 }
+.ellipse_div img{
+    display: none;
+}
+.div1, .div2, .div3 {
+    width: 84%;
+    margin: 3em auto 1em auto;
+}
 /* end of tenant main page */
 
 }
@@ -8802,7 +8809,7 @@ margin: 0 0 3em 0;
     margin: 0px 6px 11px 0;
 }
 .img_collecdiv img {
-    height: 35px;
+    height: 40px;
 }
 .portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
     height: 12px;
@@ -8867,6 +8874,9 @@ margin: 0 0 3em 0;
 }
 .reqdoc_decrip .governmentissue p {
     text-align: center;
+}
+.div1, .div2, .div3 {
+    width: 92%;
 }
 /* end of tenant main page */
 
@@ -10463,6 +10473,12 @@ padding: 8px 14px;
 .rew_doc_tabs .nav.nav-tabs li.nav-item a {
  height: 93px;
     width: 127px;
+}
+.div1, .div2, .div3 {
+    width: 97%;
+}
+.number_txt{
+    font-size: 3em;
 }
 /* end of tenant main page */
 }
