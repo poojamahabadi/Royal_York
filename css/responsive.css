@@ -173,6 +173,19 @@ font-size: 1.4em;
 }
 /* tenant main page */
 
+/* about us */
+.aboutusmandate .leaveus_descrip {
+    padding: 6.5em 0 2em 0;
+}
+.vis_secthree img:nth-child(2) {
+    left: -17px;
+    top: 11px;
+}
+.tenant_descrip.visionmission_descrip p {
+    width: 86%;
+}
+/* end of about us */
+
 }
 
 @media screen and (max-width: 1600px) {
@@ -320,6 +333,17 @@ left: 12.7em;
 }
 /* end of tenant page */
 
+/* about us */
+.joinus img {
+    width: 83%;
+}
+.tenant_descrip.jobopen_descrip p {
+    width: 87%;
+}
+.aboutusmandate .leaveus_descrip {
+    padding: 8em 0 2em 0;
+}
+/* end of about us */
 }
 
 
@@ -431,6 +455,18 @@ margin-bottom: 0em;
 }
 /* end of tenant main page */
 
+/* about us */
+.aboutdiv_video .video_div iframe {
+    height: 536px;
+}
+.tenant_descrip.visionmission_descrip p {
+    width: 92%;
+}
+.tenant_descrip.jobopen_descrip p {
+    width: 86%;
+}
+/* end of about us */
+
 }
 @media screen and (max-width: 1400px) {
 /* menu css */
@@ -541,6 +577,13 @@ font-size: 0.9em;
     right: -1.2em;
 }
 /* end of rental guarantee 2 */
+
+/* about us */
+.aboutdiv_video .video_div iframe {
+    height: 515px;
+}
+/* end of about us */
+
 }
 
 
@@ -719,6 +762,25 @@ top: 1.2em;
     font-size: 1em;
 }
 /* end of tenant main page */
+
+/* about us */
+.aboutdiv_video .video_div iframe {
+    height: 450px;
+}
+.tenant_descrip.visionmission_descrip p {
+    width: 65%;
+}
+.aboutusmandate .leaveus_descrip {
+    padding: 7em 0 2em 0;
+}
+.tenant_descrip.jobopen_descrip p {
+    width: 64%;
+}
+.joinus img {
+    width: 69%;
+}
+/* end of about us */
+
 }
 
 
@@ -1346,6 +1408,22 @@ right: -2px;
     height: 18px;
 }
 /* end of tenant main page */
+
+/* about us */
+.vis_descrip img:nth-child(6) {
+    top: 58px;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    right: -15px;
+}
+.vis_descrip img:nth-child(7) {
+    top: 10em;
+}
+.joinus img {
+    width: 52%;
+}
+/* end of about us */
+
 }
 
 @media screen and (max-width: 1136px) {
@@ -1526,7 +1604,7 @@ height: 353px;
 .absol_div h3 {
 font-size: 1.6em;
 }
-.absol_div p {
+.absol_div p,.aboutus_sec .absol_div p {
 line-height: 25px;
 font-size: 0.95em;
 }
@@ -2073,6 +2151,38 @@ right: -58px;
 }
 /* end of tenant main page */
 
+/* about us */
+.tenant_descrip.visionmission_descrip p {
+    width: 74%;
+}
+.vis_secthree img:first-child {
+    top: -2.1em;
+}
+.vis_secthree img:nth-child(3) {
+    bottom: 30px;
+}
+.vis_secthree img:nth-child(5) {
+    top: -2.2em;
+    right: 27px;
+}
+.vis_secthree img:nth-child(6) {
+    top: 5em;
+    right: 1em;
+}
+.vis_secthree img:nth-child(7) {
+    top: 7em;
+}
+.tenant_descrip.jobopen_descrip p {
+    width: 77%;
+}
+.aboutusmandate .leaveus_descrip {
+    padding: 5em 0 1em 0;
+}
+.joinus img {
+    width: 65%;
+}
+/* end of about us */
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -2282,7 +2392,7 @@ line-height: 23px;
 .leftprop_img img, .rightprop_img img {
 height: 330px;
 }
-.absol_div p {
+.absol_div p,.aboutus_sec .absol_div p {
 line-height: 22px;
 }
 .absol_div h3 {
@@ -2437,6 +2547,31 @@ padding: 5px 16px;
     height: 19px;
 }
 /* end of tenant main page */
+
+/* about us */
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    height: 57px;
+}
+.vis_sectwo img:nth-child(3) {
+    bottom: 5em;
+}
+.aboutusmandate .leaveus_descrip {
+    padding: 5em 0 0em 0;
+}
+.vis_descrip img:nth-child(2) {
+    top: 7.5em;
+}
+.contact_view.About_us {
+    height: 330px;
+}
+.About_us .contact_descrip {
+    top: 162px;
+}
+.aboutdiv_video .video_div iframe {
+    height: 398px;
+}
+/* end of about us */
+
 }
 
 
@@ -2802,6 +2937,16 @@ right: -60px;
 }
 /* end of rental guarantee 2 */
 
+/* about us */
+.vis_sectwo img:first-child {
+    top: -37px;
+    left: 14px;
+}
+.job_opening {
+    margin: 0 0 -5.2em 0;
+}
+/* end of about us */
+
 }
 
 
@@ -2933,7 +3078,7 @@ line-height: 35px;
 .tenant_div img {
 width: 90%;
 }
-.absol_div p {
+.absol_div p,.aboutus_sec .absol_div p {
 line-height: 20px;
 }
 .section_fourprop.tenant_sec {
@@ -3083,6 +3228,12 @@ font-size: 1.1em;
     height: 43px;
 }
 /* end of tenant main page */
+
+/* about us */
+.aboutdiv_video {
+    margin: -5em auto 0 auto;
+}
+/* end of about us */
 
 }
 
@@ -3265,7 +3416,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
+.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
 .req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
@@ -3356,7 +3507,7 @@ font-size: 0.9em;
 .leftprop_img img, .rightprop_img img {
 height: 286px;
 }
-.absol_div p {
+.absol_div p,.aboutus_sec .absol_div p {
 line-height: 17px;
 font-size: 0.67em;
 }
@@ -3904,7 +4055,96 @@ width: 100%;
 }
 /* end of tenant page */
 
+/* about us page */
+.contact_view.About_us{
+    height:276px;
 }
+.About_us .contact_descrip {
+    top: 122px;
+}
+.aboutdiv_video {
+    margin: -2em auto 0 auto;
+}
+.tenant_descrip.visionmission_descrip p {
+    width: 79%;
+}
+.vis_descrip {
+    margin: 0 0 10em 0;
+}
+.vis_descrip img:first-child {
+    top: -57px;
+}
+.vis_descrip img:nth-child(2) {
+    top: 8.5em;
+}
+.vis_descrip img:nth-child(3) {
+    bottom: 35px;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    right: 0px;
+}
+.vis_descrip img:nth-child(7) {
+    top: 13em;
+}
+.vis_descrip img:nth-child(6) {
+    top: 75px;
+}
+.vis_sectwo img:first-child {
+    top: -53px;
+}
+.vis_sectwo img:nth-child(3) {
+    bottom: 17em;
+    right: -1.5em;
+}
+ .vis_secthree img:nth-child(4) {
+    width: 36%;
+}
+.vis_secthree img:first-child {
+    top: -3.5em;
+    left: 134px;
+    width: 24%;
+}
+.vis_secthree img:nth-child(2) {
+    left: 146px;
+    top: 26px;
+    width: 20%;
+}
+.vis_secthree img:nth-child(5) {
+    width: 15%;
+}
+.vis_secthree img:nth-child(5) {
+    top: -5.2em;
+    right: 209px;
+    width: 15%;
+}
+.vis_secthree img:nth-child(6), .vis_secthree img:nth-child(7) {
+    width: 22%;
+}
+.vis_secthree img:nth-child(6) {
+    top: 8em;
+    right: 11.5em;
+}
+.vis_secthree img:nth-child(7) {
+    top: 11.7em;
+    right: 11.1em;
+}
+.vis_secthree img:nth-child(3) {
+    bottom: 42px;
+    left: 105px;
+    width: 20%;
+}
+.leaveus_bgimg {
+    padding: 2em 0px 7em 0px;
+}
+.aboutusmandate .btn.get_started.tenant_screenbtn {
+    width: 53%;
+}
+.job_opening {
+    padding: 2.5em 0 0 0px;
+}
+/* end of about us */
+}
+
 @media screen and (max-width: 768px) {
 /* menu css */
 .nav_backg {
@@ -4688,6 +4928,93 @@ width: 25%;
 }
 /* end of tenant main page */
 
+/* about us */
+.contact_view.About_us {
+    height: 235px;
+}
+.About_us .contact_descrip {
+    top: 83px;
+}
+.aboutdiv_video .video_div iframe {
+    height: 330px;
+}
+.section_fourprop.aboutus_sec .container{
+    max-width: 100%;
+}
+.tenant_descrip.visionmission_descrip p {
+    width: 93%;
+}
+.vis_descrip img:first-child {
+    top: -45px;
+}
+.vis_descrip img:nth-child(2) {
+    top: 6.5em;
+}
+.vis_descrip img:nth-child(7) {
+    top: 10em;
+}
+.vis_descrip img:nth-child(3) {
+    bottom: 31px;
+    left: -32px;
+}
+.vis_sectwo img:first-child {
+    top: -38px;
+}
+.vis_sectwo img:nth-child(3) {
+    bottom: 15.5em;
+    right: -1.2em;
+}
+.vis_descrip img:nth-child(5) {
+    top: -41px;
+    right: 3px;
+}
+.vis_descrip img:nth-child(6) {
+    top: 51px;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    right: -15px;
+}
+.vis_secthree img:first-child {
+    top: -2.9em;
+    left: 110px;
+}
+.vis_secthree img:nth-child(2) {
+    left: 123px;
+    top: 7px;
+    width: 19%;
+}
+.vis_secthree img:nth-child(5) {
+    top: -3.2em;
+    right: 165px;
+    width: 14%;
+}
+.vis_secthree img:nth-child(6) {
+    top: 6.5em;
+    right: 9.5em;
+}
+.vis_secthree img:nth-child(7) {
+    top: 9.7em;
+    right: 9.1em;
+}
+.vis_secthree img:nth-child(3) {
+    bottom: 37px;
+    left: 104px;
+    width: 18%;
+}
+.aboutusmandate .btn.get_started.tenant_screenbtn {
+    width: 65%;
+}
+.aboutusmandate .leaveus_descrip p {
+    margin: 0 0 3em 0;
+}
+.leaveus_bgimg {
+    padding: 1em 0px 5em 0px;
+}
+.job_opening {
+    margin: 0 0 -6.2em 0;
+}
+/* end of about us */
+
 }
 
 @media screen and (max-width: 767px) {
@@ -5006,7 +5333,7 @@ width: 86%;
 .leftprop_img img, .rightprop_img img {
 height: 281px;
 }
-.absol_div p {
+.absol_div p,.aboutus_sec .absol_div p {
 line-height: 23px;
 font-size: 1em;
 }
@@ -5831,6 +6158,90 @@ text-align: left;
 }
 /* end of tenant main page */
 
+/* about us */
+.About_us .contact_descrip {
+    top: 102px;
+}
+.tenant_descrip.visionmission_descrip p {
+    width: 100%;
+}
+.vis_descrip img:nth-child(4), .vis_sectwo img:nth-child(2), .vis_secthree img:nth-child(4) {
+    width: 50%;
+}
+.vis_descrip img:first-child {
+    top: -83px;
+    left: 67px;
+    width: 18%;
+}
+.vis_descrip img:nth-child(2) {
+    top: 12em;
+    left: 74px;
+    width: 14%;
+}
+.vis_descrip img:nth-child(3) {
+    width: 40%;
+    bottom: 48px;
+    left: 39px;
+}
+.vis_descrip img:nth-child(5) {
+    top: -85px;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    height: 76px;
+    right: 68px;
+}
+.vis_descrip img:nth-child(6) {
+    top: 91px;
+}
+.vis_descrip img:nth-child(7) {
+    top: 15em;
+}
+.vis_sectwo{
+    margin: 0 0 9em 0;
+}
+.vis_sectwo img:first-child {
+    top: -79px;
+    left: 45px;
+}
+.vis_sectwo img:nth-child(3) {
+    bottom: 17.5em;
+    right: -0.2em;
+}
+.vis_secthree img:first-child {
+    width: 31%;
+    top: -3.6em;
+    left: 30px;
+}
+.vis_secthree img:nth-child(2) {
+    left: 50px;
+    width: 25%;
+}
+.vis_secthree img:nth-child(3) {
+    bottom: 56px;
+    left: 22px;
+    width: 23%;
+}
+.vis_secthree img:nth-child(5) {
+    top: -3.2em;
+    right: 127px;
+}
+.vis_secthree img:nth-child(6) {
+    top: 8.5em;
+    right: 6.5em;
+}
+.vis_secthree img:nth-child(7) {
+    top: 11.7em;
+    right: 6.1em;
+}
+.aboutusmandate .btn.get_started.tenant_screenbtn {
+    width: 44%;
+}
+.job_opening {
+    margin: 0 0 -4.2em 0;
+}
+
+/* end of about us */
+
 }
 @media screen and (max-width: 640px) {
 /* menu css */
@@ -6599,6 +7010,74 @@ right: 4.5em;
 }
 /* end of tenant main page */
 
+/* about us page */
+.contact_view.About_us {
+    height: 211px;
+}
+.aboutdiv_video .video_div iframe {
+    height: 286px;
+}
+.secmargin_topabout {
+    margin: 7em 0 0 0;
+}
+.vis_descrip img:first-child {
+    top: -71px;
+    left: 53px;
+}
+.vis_descrip img:nth-child(2) {
+    top: 9em;
+    left: 63px;
+}
+.vis_descrip img:nth-child(3) {
+    bottom: 32px;
+    left: 29px;
+}
+.vis_descrip img:nth-child(5) {
+    top: -68px;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    right: 52px;
+}
+.vis_descrip img:nth-child(6) {
+    top: 76px;
+}
+.vis_descrip img:nth-child(7) {
+    top: 13em;
+}
+.vis_sectwo img:first-child {
+    top: -67px;
+}
+.vis_sectwo img:nth-child(3) {
+    bottom: 16.5em;
+    right: -0.2em;
+}
+.vis_secthree img:first-child {
+    top: -3.1em;
+}
+.vis_secthree img:nth-child(3) {
+    bottom: 39px;
+    left: 15px;
+}
+.vis_secthree img:nth-child(5) {
+    top: -3em;
+    right: 106px;
+}
+.vis_secthree img:nth-child(6) {
+    top: 8em;
+    right: 4.5em;
+}
+.joinus img {
+    width: 97%;
+}
+.vis_secthree img:nth-child(7) {
+    top: 10.8em;
+    right: 4.1em;
+}
+.tenant_descrip.jobopen_descrip p {
+    width: 100%;
+}
+/* end of about us */
+
 }
 @media screen and (max-width: 568px) {
 
@@ -7340,6 +7819,73 @@ width: 95%;
     margin: 3em 0 0 0;
 }
 /* end of tenant main page */
+
+/* about us */
+.contact_view.About_us {
+    height: 189px;
+}
+.About_us .contact_descrip {
+    top: 86px;
+}
+.aboutwidth {
+    margin: 0em auto 0em auto;
+}
+.vis_descrip img:first-child {
+    width: 16%;
+        top: -51px;
+        left: 63px;
+}
+.vis_descrip img:nth-child(2) {
+    top: 8em;
+    left: 56px;
+}
+.vis_descrip img:nth-child(5) {
+    top: -58px;
+}
+.vis_descrip img:nth-child(6) {
+    top: 58px;
+}
+.vis_descrip img:nth-child(7) {
+    top: 11.3em;
+}
+.vis_descrip {
+    margin: 0 0 7em 0;
+}
+.vis_sectwo img:first-child {
+    width: 26%;
+    left: 61px;
+    top: -48px;
+}
+.vis_sectwo img:nth-child(3) {
+    bottom: 15em;
+    right: 1.5em;
+    width: 27%;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    height: 63px;
+    right: 46px;
+}
+.vis_secthree img:nth-child(5) {
+    top: -2.2em;
+    right: 96px;
+}
+.vis_secthree img:nth-child(6) {
+    top: 6.7em;
+}
+.vis_secthree img:nth-child(7) {
+    top: 9em;
+}
+.vis_secthree img:first-child {
+    top: -2.3em;
+    width: 28%;
+}
+.vis_secthree img:nth-child(2) {
+    top: 5px;
+}
+.video_div {
+    margin: 0 0 1em 0;
+}
+/* end of about us */
 
 }
 
@@ -8173,6 +8719,46 @@ right: 1.9em;
 }
 /* end of tenant main page */
 
+/* about us */
+.aboutdiv_video {
+    margin: 1em auto 0 auto;
+}
+.aboutdiv_video .video_div iframe {
+    height: 239px;
+}
+.vis_descrip img:nth-child(5) {
+    top: -50px;
+}
+.vis_secthree img:nth-child(5) {
+    top: -2.2em;
+    right: 82px;
+}
+.vis_descrip img:nth-child(2) {
+    top: 7em;
+    left: 51px;
+}
+.vis_descrip img:nth-child(6) {
+    top: 52px;
+}
+.vis_secthree img:nth-child(6) {
+    top: 5.7em;
+    right: 4.2em;
+}
+.vis_secthree img:nth-child(7) {
+    top: 7.6em;
+}
+.vis_descrip img:nth-child(7) {
+    top: 9.3em;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    height: 59px;
+    right: 34px;
+}
+.joinus img {
+    width: 100%;
+}
+/* end of about us */
+
 }
 
 @media screen and (max-width:414px) {
@@ -8880,6 +9466,60 @@ margin: 0 0 3em 0;
 }
 /* end of tenant main page */
 
+/* about us */
+.contact_view.About_us {
+    height: 165px;
+}
+.About_us .contact_descrip {
+    top: 74px;
+}
+.vis_descrip img:nth-child(4), .vis_sectwo img:nth-child(2), .vis_secthree img:nth-child(4) {
+    width: 56%;
+}
+.vis_descrip img:first-child {
+    top: -34px;
+    left: 31px;
+}
+.vis_descrip img:nth-child(3) {
+    bottom: 22px;
+    left: 1px;
+}
+.vis_descrip img:nth-child(2) {
+    top: 6.5em;
+    left: 27px;
+}
+.vis_descrip img:nth-child(5) {
+    top: -42px;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    height: 56px;
+    right: 15px;
+}
+.vis_descrip img:nth-child(7) {
+    top: 8.7em;
+}
+.vis_sectwo img:first-child {
+    left: 43px;
+    top: -38px;
+}
+.vis_sectwo img:nth-child(3) {
+    bottom: 14em;
+    right: 1em;
+    width: 26%;
+}
+.vis_secthree img:first-child {
+    top: -1.9em;
+    left: 13px;
+}
+.aboutusmandate .btn.get_started.tenant_screenbtn {
+    width: 67%;
+}
+.vis_secthree img:nth-child(2) {
+    left: 29px;
+    width: 23%;
+}
+/* end of about us */
+
 }
 @media screen and (max-width:411px) {
 
@@ -9194,6 +9834,33 @@ left: 0em;
 }
 /* end of tenant main page */
 
+/* about page */
+.contact_view.About_us {
+    height: 152px;
+}
+.About_us .contact_descrip {
+    top: 64px;
+}
+.aboutdiv_video {
+    margin: 0em auto 0 auto;
+}
+.vis_secthree img:nth-child(5) {
+    top: -1.9em;
+    right: 64px;
+}
+.vis_secthree img:nth-child(6) {
+    top: 5.5em;
+    right: 3.2em;
+}
+.vis_secthree img:nth-child(7) {
+    top: 7.1em;
+    right: 3.1em;
+}
+.vis_secthree img:nth-child(3) {
+    bottom: 37px;
+    left: 3px;
+}
+/* end of about page */
 
 }
 @media screen and (max-width:375px) {
@@ -9345,7 +10012,7 @@ padding: 9px 0px;
 font-size: 0.9em;
 }
 .section_imagesdetails img {
-width: 61%;
+    width: 71%;
 }
 .absol_div h3 {
 font-size: 1.3em;
@@ -9359,8 +10026,8 @@ top: 98px;
 right: -11px;
 }
 .absol_div {
-width: 40%;
-top: 47%;
+    width: 40%;
+    top: 47%;
 }
 .animation_effects_img_tenant img:first-child {
 left: -56px;
@@ -9702,6 +10369,56 @@ right: 1.8em;
     width: 135px;
 }
 /* end of tenant main page */
+
+/* about us page */
+.contact_view.About_us {
+    height: 138px;
+}
+.About_us .contact_descrip {
+    top: 53px;
+}
+.aboutdiv_video .video_div iframe {
+    height: 198px;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    height: 48px;
+}
+.vis_descrip img:nth-child(6) {
+    top: 45px;
+}
+.vis_descrip img:nth-child(7) {
+    top: 7.7em;
+}
+.vis_descrip {
+    margin: 0 0 5em 0;
+}
+.vis_sectwo img:first-child {
+    top: -33px;
+}
+.vis_secthree img:first-child {
+    top: -1.6em;
+}
+.vis_secthree img:nth-child(3) {
+    bottom: 29px;
+}
+.vis_secthree img:nth-child(5) {
+    top: -1.6em;
+    right: 57px;
+}
+.vis_secthree img:nth-child(6) {
+    right: 2.7em;
+}
+.vis_secthree img:nth-child(7) {
+    right: 2.5em;
+}
+.vis_sectwo {
+    margin: 0 0 5em 0;
+}    
+.vis_sectwo img:nth-child(3) {
+    bottom: 10em;
+}
+
+/* end of about us */
 
 }
 @media screen and (max-width:360px) {
@@ -10085,6 +10802,16 @@ height: 228px;
     right: 1.3em;
 }
 /* end of tenant main page */
+
+/* about us */
+.absol_div {
+    width: 50%;
+    top: 45%;
+}
+.vis_descrip img:nth-child(5) {
+    top: -38px;
+}
+/* end of about us */
 
 }
 @media screen and (max-width:340px) {
@@ -10481,6 +11208,47 @@ padding: 8px 14px;
     font-size: 3em;
 }
 /* end of tenant main page */
+
+/* about us */
+.contact_view.About_us {
+    height: 125px;
+}
+.About_us .contact_descrip {
+    top: 45px;
+}
+.aboutdiv_video .video_div iframe {
+    height: 169px;
+}
+.vis_descrip img:nth-child(2) {
+    top: 5.5em;
+    left: 23px;
+}
+.vis_descrip img:nth-child(3) {
+    bottom: 15px;
+    left: 10px;
+}
+.vis_descrip img:nth-child(5) {
+    top: -35px;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    height: 44px;
+}
+.vis_sectwo img:first-child {
+    top: -30px;
+}
+.vis_sectwo img:nth-child(3) {
+    bottom: 9.6em;
+}
+.vis_sectwo {
+    margin: 0 0 5em 0;
+}
+.aboutusmandate .btn.get_started.tenant_screenbtn {
+    width: 75%;
+}
+.aboutusmandate .leaveus_descrip {
+    padding: 3em 0 0em 0;
+}
+/* end of about us */
 }
 
 @media screen and (max-width:320px) {
@@ -10883,5 +11651,58 @@ top: 16.1em;
 }
 /* end of tenant main page */
 
+/* about us */
+.About_us .contact_descrip {
+    top: 52px;
+}
+.vis_descrip img:nth-child(4), .vis_sectwo img:nth-child(2), .vis_secthree img:nth-child(4) {
+    width: 70%;
+}
+.vis_descrip img:first-child {
+    top: -22px;
+    left: 8px;
+}    
+.vis_descrip img:nth-child(2) {
+    top: 6.5em;
+    left: 3px;
+}
+.vis_descrip img:nth-child(6), .vis_descrip img:nth-child(7) {
+    right: -13px;
+}
+.vis_sectwo img:nth-child(3) {
+    bottom: 10.6em;
+    right: 0.1em;
+}
+.vis_descrip img:nth-child(5) {
+    top: -32px;
+}
+.vis_descrip img:nth-child(3) {
+    bottom: 35px;
+    left: -5px;
+}
+.vis_secthree img:first-child {
+    top: -1.8em;
+    left: -7px;
+}
+.vis_secthree img:nth-child(3) {
+    bottom: 36px;
+    left: -12px;
+}
+.vis_secthree img:nth-child(5) {
+    top: -1.2em;
+    right: 34px;
+}
+.vis_secthree img:nth-child(2) {
+    left: 0px;
+    width: 25%;
+}
+.vis_secthree img:nth-child(7) {
+    right: 1.2em;
+    top: 6.8em;
+}
+.vis_secthree img:nth-child(6) {
+    right: 1.3em;
+}
+/* end of about us */
 
 }

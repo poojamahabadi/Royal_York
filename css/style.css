@@ -2226,6 +2226,10 @@ top: -38px;
 left: 160px;
 height: 56px;
 }
+.vis_descrip img:nth-child(4){
+    z-index: 1000;
+    position: relative;
+}
 .animation_effects_img_tenant img:nth-child(4) {
 bottom: -1px;
 left: 144px;
@@ -3704,17 +3708,17 @@ border-radius:50px;
 background: linear-gradient(180deg, rgba(49, 93, 128, 0.1) 0%, rgba(49, 93, 128, 0.3) 100%);
 box-shadow: 2px -13px 19px -5px #EAF2FF inset, 0px 13px 27px 7px rgba(251, 251, 251, 0.2) inset, 0px 0px 19px 13px rgba(228, 233, 241, 0.6);
 }
-.form-search form.searchexp .input-group input.form-control {
+.form-search .input-group input.form-control {
     padding: 10px 68px 10px 21px;
     border: unset;
     background: #ffffff;
-    border-radius: 24px;
+    border-radius: 24px !important;
     font-family: "Inria Serif", serif;
     font-size: 0.9em;
     height: 42px;
     outline: none;
 }
-form.searchexp button {
+.form-search button {
 padding: 7px 20px;
 color: white;
 font-family: "Inria Serif", serif;
@@ -3724,11 +3728,11 @@ cursor: pointer;
 background: linear-gradient(180deg,#F8B195 0%, #F2727F 100%);
 border-radius: 24px;
 }
-.form-search form.searchexp .input-group input.form-control:hover,.form-search form.searchexp .input-group input.form-control:active,
-.form-search form.searchexp .input-group input.form-control:focus{
+.form-search .input-group input.form-control:hover,.form-search .input-group input.form-control:active,
+.form-search .input-group input.form-control:focus{
     box-shadow: unset;
 }
-form.searchexp button:hover {
+.form-search button:hover {
     background: linear-gradient(180deg,#F8B195 0%, #F2727F 100%);
     outline: none;
 }
@@ -3838,13 +3842,13 @@ position: relative;
     bottom: 25px;
     left: -34px;
     width: 52%;
-    z-index: -1;
+    z-index: 1;
 }
 .vis_descrip img:nth-child(5){
     top: -44px;
     width: 47%;
     right: -11px;
-    z-index: -1;
+    z-index: 1;
 }
 .vis_descrip img:nth-child(6){
     top: 51px;
@@ -3879,7 +3883,7 @@ position: relative;
 .vis_secthree img:nth-child(2){
     top: 21px;
     left: -12px;
-    z-index: -1;
+    z-index: 1;
     width: 32%;
 }
 .vis_secthree img:nth-child(3){
@@ -3888,7 +3892,7 @@ position: relative;
     width: 30%;
 }
 .vis_secthree img:nth-child(5){
-    top: -2.3em;
+    top: -3em;
     right: 36px;
     width: 20%;
 }
@@ -3899,10 +3903,12 @@ position: relative;
 .vis_secthree img:nth-child(6){
     top: 6em;
     right: 1.2em;
+    z-index: 1;
 }
 .vis_secthree img:nth-child(7){
     top: 8em;
     right: 0.9em;
+    z-index: 1;
 }
 .aboutusmandate .leaveus_descrip p{
     margin: 0 0 4em 0;
@@ -3935,4 +3941,8 @@ position: relative;
 }
 .joinus img{
     width: 69%;
+}
+.vis_secthree img:nth-child(4) {
+    position: relative;
+    z-index: 1000;
 }
