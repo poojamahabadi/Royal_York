@@ -186,6 +186,46 @@ font-size: 1.4em;
 }
 /* end of about us */
 
+/* about team */
+.visionmission_abtteam {
+    text-align: center;
+    margin: 4em 0 0 0;
+}
+.nametxt {
+    margin: 1em 0px 0 2.1em;
+}
+.visionmission_abtteam img:nth-child(2) {
+    right: 6px;
+}
+.visionmission_abtteam img:nth-child(3) {
+    right: -66px;
+}
+.teamvisionimages h3 {
+    font-size: 1.7em;
+}
+.teamvisionimages.three img {
+    width: 83%;
+}
+.teamvisionimages.two img {
+    width: 74%;
+}
+.teamvisionimages.one img {
+    width: 100%;
+}
+.btn.get_started.aboutteam_btn{
+    width: 252px;
+    margin: 2em 0 0 0;
+}
+.aboutteam_mandate .prop_management {
+    margin: 10em 0px 0px 0px;
+}
+.tenant_descrip.jobopen_descrip p {
+    width: 88%;
+}
+.joinus img {
+    width: 82%;
+}
+/* end of about team */
 }
 
 @media screen and (max-width: 1600px) {
@@ -344,6 +384,21 @@ left: 12.7em;
     padding: 8em 0 2em 0;
 }
 /* end of about us */
+
+/* about team */
+.visionmission_abtteam {
+    margin: 5em 0 0 0;
+}
+.aboutteam_mandate .prop_management {
+    margin: 6.5em 0px 0px 0px;
+}
+.aboutteam_job .joinus {
+    margin: 2em 0 -18px 0;
+}
+.aboutteam_mandate .prop_management p {
+    width: 72%;
+}
+/* end of about team */
 }
 
 
@@ -466,7 +521,39 @@ margin-bottom: 0em;
     width: 86%;
 }
 /* end of about us */
+/* about team */
+.visionmission_message img {
+    width: 61%;
+}
 
+.nametxt {
+    margin: 1em 0px 0 2.4em;
+}
+.joinus img {
+    width: 72%;
+}
+.visimisi_div {
+    margin: 0 0 6em 0;
+}
+.visionmission_abtteam img {
+    border-radius: 48% 46% 45% 48%;
+}
+.visionmission_message p.txtvision {
+    top: 4.2em;
+    width: 38%;
+    left: 4.2em;
+    line-height: 26px;
+}
+.aboutteam_mandate .prop_management {
+    margin: 4.5em 0px 0px 0px;
+}
+.btn.get_started.aboutteam_btn {
+    margin: 1em 0 0 0;
+}
+.job_opening.aboutteam_job {
+    margin: 0 0 -83px 0;
+}
+/* end of about team */
 }
 @media screen and (max-width: 1400px) {
 /* menu css */
@@ -583,7 +670,15 @@ font-size: 0.9em;
     height: 515px;
 }
 /* end of about us */
-
+/* about team */
+.visionmission_message img {
+    width: 57%;
+}
+.visionmission_message p.txtvision {
+    top: 3.7em;
+    left: 3.7em;
+}
+/* end of about team */
 }
 
 
@@ -781,6 +876,46 @@ top: 1.2em;
 }
 /* end of about us */
 
+/* about team */
+.visionmission_message p.txtvision {
+    top: 4em;
+}
+.nametxt {
+    margin: 1em 0px 0 4.2em;
+}
+.visionmission_abtteam img {
+    margin-left: -10em;
+}
+.visionmission_abtteam img:nth-child(2) {
+    right: 96px;
+    width: 48%;
+    top: -3px;
+}
+.visionmission_abtteam {
+    margin: 3em 0 0 0;
+}
+.visionmission_abtteam img:nth-child(3) {
+    right: 12px;
+}
+.teamvisionimages.one img {
+    width: 82%;
+}
+.teamvisionimages.two img {
+    width: 63%;
+}
+.teamvisionimages.three img {
+    width: 69%;
+}
+.teamvisionimages h3 {
+    font-size: 1.3em;
+}
+.aboutteam_mandate .prop_management {
+    margin: 6em 0px 0px 0px;
+}
+.aboutteam_mandate .prop_management p {
+    width: 60%;
+}
+/* end of about team */
 }
 
 
@@ -1070,6 +1205,12 @@ font-size: 0.9em;
     margin: 6em 0px;
 }
 /* end of tenant main page */
+
+/* about team */
+.aboutteam_mandate .prop_management {
+    margin: 5.2em 0px 0px 0px;
+}
+/* end of about team */
 }
 
 
@@ -1424,6 +1565,25 @@ right: -2px;
 }
 /* end of about us */
 
+/* about team */
+.visionmission_abtteam {
+    text-align: left;
+}
+.visionmission_abtteam img {
+    margin-left: 0;
+}
+.visionmission_abtteam img:nth-child(2) {
+    right: 155px;
+    width: 44%;
+    top: 0px;
+}
+.visionmission_abtteam img:nth-child(3) {
+    right: 70px;
+}
+.aboutteam_mandate .prop_management {
+    margin: 4.8em 0px 0px 0px;
+}
+/* end of about team */
 }
 
 @media screen and (max-width: 1136px) {
@@ -2183,6 +2343,33 @@ right: -58px;
 }
 /* end of about us */
 
+/* about team */
+.visionmission_message img {
+    width: 65%;
+}
+.visionmission_message p.txtvision {
+    top: 3.5em;
+    left: 3.2em;
+    width: 45%;
+}
+.aboutteam_mandate .prop_management p {
+    width: 80%;
+}
+.teamvisionimages h3 {
+    font-size: 1.1em;
+}
+.visionmission_abtteam img:nth-child(3) {
+    right: 56px;
+}
+.meet_vision_mission {
+    margin: 3em 0 7em 0;
+}
+.visionmission_abtteam img:nth-child(2) {
+    right: 120px;
+    width: 49%;
+    top: 2px;
+}
+/* end of about team */
 }
 
 @media screen and (max-width: 1080px) {
@@ -2572,6 +2759,20 @@ padding: 5px 16px;
 }
 /* end of about us */
 
+/* about team */
+.team_images {
+    padding: 12em 0 0 0;
+}
+.visionmission_abtteam {
+    margin: 3.4em 0 0 0;
+}
+.aboutteam_mandate .prop_management {
+    margin: 3.8em 0px 0px 0px;
+}
+.job_opening.aboutteam_job {
+    margin: 0 0 -50px 0;
+}
+/* end of about team */
 }
 
 
@@ -2947,6 +3148,20 @@ right: -60px;
 }
 /* end of about us */
 
+/* about team */
+.aboutteam_mandate .prop_management {
+    margin: 3.5em 0px 0px 0px;
+}
+.btn.get_started.aboutteam_btn {
+    width: 219px;
+}
+.container.aboutteam_mandate {
+    margin-bottom: 0em;
+}
+.job_opening.aboutteam_job {
+    margin: 0 0 -32px 0;
+}
+/* end of about team */
 }
 
 
@@ -3235,6 +3450,18 @@ font-size: 1.1em;
 }
 /* end of about us */
 
+/* about team */
+.visionmission_abtteam {
+    margin: 2em 0 0 0;
+}
+.aboutteam_mandate .prop_management p {
+    width: 96%;
+}
+.aboutteam_mandate .prop_management {
+    margin: 4em 0px 0px 0px;
+}
+/* end of about team */
+
 }
 
 @media screen and (max-width: 991px) {
@@ -3416,7 +3643,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
+.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
 .req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
@@ -4143,6 +4370,39 @@ width: 100%;
     padding: 2.5em 0 0 0px;
 }
 /* end of about us */
+
+/* about team */
+.nametxt {
+    margin: 1em 0px 0 5.2em;
+}
+.visionmission_message p.txtvision {
+    top: 4.2em;
+    left: 3.1em;
+    width: 59%;
+}
+.visionmission_abtteam {
+    margin: 0em 0 0 0;
+}
+.visionmission_message img {
+    width: 80%;
+}
+.meet_vision_mission {
+    margin: 3em 0 4em 0;
+}
+.visimisi_div {
+    margin: 0 0 4em 0;
+}
+.aboutteam_mandate .prop_management p {
+    width: 90%;
+}
+.job_opening.aboutteam_job {
+    margin: 0 0 -46px 0;
+}
+.container.aboutteam_mandate {
+    margin-bottom: 0em;
+}
+/* end of about team */
+
 }
 
 @media screen and (max-width: 768px) {
@@ -5014,6 +5274,61 @@ width: 25%;
     margin: 0 0 -6.2em 0;
 }
 /* end of about us */
+
+/* about team */
+.visionmission_abtteam img {
+    width: 58%;
+}
+.visionmission_abtteam {
+    margin: 0.4em 0 0 0;
+}
+.visionmission_abtteam img:nth-child(3) {
+    right: 3px;
+}
+.visionmission_abtteam img:nth-child(2) {
+    right: 53px;
+    width: 55%;
+    top: 0px;
+}
+.visionmission_message img {
+    width: 91%;
+}
+.visionmission_message p.txtvision {
+    top: 3.4em;
+    left: 2.5em;
+    width: 70%;
+}
+.teamvisionimages.two img {
+    width: 73%;
+}
+.teamvisionimages.one img {
+    width: 95%;
+}
+.teamvisionimages.three img {
+    width: 83%;
+}
+.visionmission_abtteam {
+    margin: 1.4em 0 0 0;
+}
+.aboutteam_mandate .prop_management {
+    margin: 2em 0px 0px 0px;
+}
+.aboutteam_mandate .prop_management p {
+    width: 100%;
+}
+.btn.get_started.aboutteam_btn {
+    margin: 0em 0 0 0;
+}
+.aboutteam_job .joinus {
+    margin: 2em 0 -33px 0;
+}
+.btn.get_started.aboutteam_btn {
+    width: 204px;
+}
+.job_opening.aboutteam_job {
+    margin: 0px 0 -29px 0;
+}  
+/* end of about team */
 
 }
 
@@ -6239,8 +6554,113 @@ text-align: left;
 .job_opening {
     margin: 0 0 -4.2em 0;
 }
-
 /* end of about us */
+
+/* about team */
+.about_team .video_div {
+    margin: 0 0 1em 0;
+}
+.visionmission_message {
+    text-align: center;
+}
+.visionmission_message p.txtvision {
+    top: 4.8em;
+    left: 7.5em;
+    width: 53%;
+    line-height: 34px;
+    font-size: 1.3em;
+}
+.nametxt {
+    margin: 1em 0;
+    display: block;
+}
+.visionmission_abtteam img {
+    width: 55%;
+}
+.visionmission_abtteam {
+    margin: 4.4em 0 0 0;
+}
+.visionmission_abtteam img:nth-child(2) {
+    right: 144px;
+    width: 51%;
+    top: -6px;
+}
+.teamvisionimages.one img {
+    width: 63%;
+}
+.teamvisionimages h3 {
+    font-size: 1.6em;
+}
+.visimisi_div {
+    margin: 12em 0 4em 0;
+}
+.teamvisionimages.two img {
+    width: 55%;
+}
+.teamvisionimages.three img {
+    width: 61%;
+}
+.teamvisionimages {
+    margin: 0 0 5em 0;
+}
+.visionmission_abtteam img:nth-child(3) {
+    right: 37px;
+}
+.visionmission_abtteam img:nth-child(2) {
+    top: -7px;
+}
+.container.aboutteam_mandate .leftabout_mandate {
+    padding-left: 15px;
+    margin-left: 0px;
+}
+.prop_img.aboutimgteam{
+    text-align: center;
+}
+.btn.get_started.aboutteam_btn {
+    width: 220px;
+    margin: 2em auto 1em auto;
+}
+.aboutteam_mandate .prop_management p {
+    width: 75%;
+    margin: 1em auto;
+}
+.prop_img.aboutimgteam img {
+    width: 80%;
+}
+.job_opening.aboutteam_job {
+    margin: 0 0 33px 0;
+}
+.job_opening {
+    margin: 0 0 -5.2em 0;
+}
+.joinus img {
+    width: 82%;
+}
+.job_opening .btn.get_started {
+    margin: 0 auto 2em auto;
+}
+.visionmission_message img {
+    width: 66%;
+}
+.visi_missi_descripteam p{
+    width: 88%;
+    margin: 1.6em auto 1em auto;
+}
+.visionmission_message p.txtvision {
+    top: 2.4em;
+}
+.tenant_descrip.visi_missi_descripteam .nametxt .namebold {
+    margin: 0;
+    width: 100%;
+}
+.tenant_descrip.visi_missi_descripteam .nametxt p:nth-child(2){
+    margin: 0.5em 0 0 0;
+    width: 100%;
+}
+.visimisi_div {
+    margin: 12em 0 0em 0;
+}
+/* end of about team */
 
 }
 @media screen and (max-width: 640px) {
@@ -7078,6 +7498,44 @@ right: 4.5em;
 }
 /* end of about us */
 
+/* about team */
+.visi_missi_descripteam p {
+    width: 98%;
+}
+.meet_vision_mission {
+    margin: 1em 0 4em 0;
+}
+.tenant_descrip.visi_missi_descripteam .nametxt p:nth-child(2) {
+    margin: 0.2em 0 0 0;
+}
+.aboutteam_mandate .prop_management p {
+    width: 83%;
+}
+.job_opening.aboutteam_job {
+    margin: 0 0 34px 0;
+}
+.prop_img.aboutimgteam img {
+    width: 90%;
+}
+.visimisi_div {
+    margin: 9em 0 0em 0;
+}
+.visionmission_message p.txtvision {
+    top: 2.5em;
+    left: 8.7em;
+    width: 48%;
+    line-height: 28px;
+    font-size: 1em;
+}
+.visionmission_message img {
+    width: 63%;
+}
+.visionmission_abtteam img:nth-child(2) {
+    top: -7px;
+    right: 120px;
+    width: 52%;
+}
+/* end of about team */
 }
 @media screen and (max-width: 568px) {
 
@@ -7887,6 +8345,21 @@ width: 95%;
 }
 /* end of about us */
 
+/* about team */
+.visionmission_message img {
+    width: 67%;
+}
+.visionmission_message p.txtvision {
+    top: 2em;
+    left: 7.7em;
+}
+.visionmission_abtteam img:nth-child(3) {
+    right: 31px;
+}
+.teamvisionimages h3 {
+    font-size: 1.4em;
+}
+/* end of about team */
 }
 
 @media screen and (max-width:480px) {
@@ -8759,6 +9232,23 @@ right: 1.9em;
 }
 /* end of about us */
 
+/* about team */
+.visionmission_message p.txtvision {
+    top: 1.5em;
+    left: 7.3em;
+    line-height: 22px;
+    font-size: 0.9em;
+}
+.visionmission_abtteam img:nth-child(3) {
+    right: 23px;
+}
+.teamvisionimages h3 {
+    font-size: 1.3em;
+}
+.aboutteam_mandate .prop_management p {
+    width: 85%;
+}
+/* end of about team */
 }
 
 @media screen and (max-width:414px) {
@@ -9520,6 +10010,37 @@ margin: 0 0 3em 0;
 }
 /* end of about us */
 
+/* about team */
+.visionmission_message img {
+    width: 76%;
+}
+.visi_missi_descripteam p {
+    width: 100%;
+}
+.visionmission_message p.txtvision {
+    top: 1.5em;
+    left: 5em;
+    width: 57%;
+}
+.aboutteam_mandate .prop_management p {
+    width: 94%;
+}
+.teamvisionimages.one img {
+    width: 70%;
+}
+.teamvisionimages.three img {
+    width: 68%;
+}
+.teamvisionimages.two img {
+    width: 65%;
+}
+.visionmission_abtteam img:nth-child(2) {
+    top: -2px;
+    right: 73px;
+    width: 54%;
+}
+/* end of about team */
+
 }
 @media screen and (max-width:411px) {
 
@@ -9862,6 +10383,19 @@ left: 0em;
 }
 /* end of about page */
 
+/* about team */
+.visionmission_message img {
+    width: 82%;
+}
+.visionmission_message p.txtvision {
+    top: 1.8em;
+}
+.visionmission_message p.txtvision {
+    top: 2.2em;
+    left: 4.7em;
+    width: 61%;
+}
+/* end of about team */
 }
 @media screen and (max-width:375px) {
 /* footer */
@@ -10417,9 +10951,31 @@ right: 1.8em;
 .vis_sectwo img:nth-child(3) {
     bottom: 10em;
 }
-
 /* end of about us */
 
+/* about team */
+.visionmission_message img {
+    width: 86%;
+}
+.visionmission_message p.txtvision {
+    top: 1.4em;
+    left: 4.2em;
+    width: 61%;
+}
+.visionmission_abtteam {
+    margin: 3.4em 0 0 0;
+}
+.prop_img.aboutimgteam img{
+    padding: 7px;
+    width: 97%;
+}
+.job_opening {
+    padding: 1.3em 0 0 0px;
+}
+.aboutteam_mandate .prop_management p {
+    width: 100%;
+}
+/* end of about team */
 }
 @media screen and (max-width:360px) {
 /* menu css */
@@ -10812,7 +11368,25 @@ height: 228px;
     top: -38px;
 }
 /* end of about us */
-
+/* about team */
+.visionmission_message img {
+    width: 91%;
+}
+.visionmission_message p.txtvision {
+    left: 3.7em;
+    width: 65%;
+}
+.visionmission_abtteam img:nth-child(3) {
+    right: 15px;
+    top:40px;
+}
+.video_div iframe {
+    padding: 9px;
+}
+.meet_vision_mission .container{
+    padding: 0;
+}
+/* end of about team */
 }
 @media screen and (max-width:340px) {
 /* menu css */
@@ -11249,6 +11823,21 @@ padding: 8px 14px;
     padding: 3em 0 0em 0;
 }
 /* end of about us */
+
+/* about team */
+.visionmission_message p.txtvision {
+    left: 2.9em;
+    width: 68%;
+    top: 1.3em;
+}
+.visionmission_abtteam img:nth-child(2) {
+    top: 0px;
+    right: 62px;
+}
+.visimisi_div {
+    margin: 6em 0 0em 0;
+}
+/* end of about team */
 }
 
 @media screen and (max-width:320px) {

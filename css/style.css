@@ -1679,6 +1679,7 @@ font-weight: 400;
 font-size: 1em;
 color: #315D80;
 font-family: "Outfit", sans-serif;
+text-transform: capitalize;
 }
 .video_div iframe{
 width: 100%;
@@ -3945,4 +3946,240 @@ position: relative;
 .vis_secthree img:nth-child(4) {
     position: relative;
     z-index: 1000;
+}
+
+/* about team */
+.aboutdiv_video.about_team{
+margin: 0 auto;
+}
+.job_opening.aboutteam_job{
+    position: unset;
+    margin: 0 0 -86px 0;
+}
+.contact_view.About_us.meetteam{
+    background-image: url(../images/AboutUs/about_team/meetteam.svg);
+    height: 450px;
+    background-position: 100% 4%;
+    margin: -4px 0 0 0;
+}
+.about_team .about_descrip{
+    margin:17em 0 0 0;
+}
+.meet_vision_mission{
+    margin: 8em 0 7em 0;
+}
+.visionmission_message{
+    position: relative;
+}
+.visionmission_message img{
+    width: 56%;
+}
+.visionmission_message p.txtvision {
+    position: absolute;
+    top: 4em;
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    width: 38%;
+    left: 3.3em;
+    font-size: 0.9em;
+}
+.nametxt{
+    margin: 1em 0px 0 4.1em;
+    display: inline-block;
+    text-align: center;
+}
+.names {
+    padding: 10px 20px;
+}
+.nametxt p{
+    margin: 0;
+}
+.tenant_descrip.visi_missi_descripteam .nametxt .namebold{
+    font-weight: bold;
+}
+.teamvisionimages{
+    text-align: center;
+}
+.teamvisionimages.one img{
+    width: 80%;
+}
+.teamvisionimages.two img{
+    width: 63%;
+}
+.teamvisionimages.three img{
+    width: 69%;
+}
+.teamvisionimages h3 {
+    color: #315D80;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: "Outfit", sans-serif;
+    margin: 0 0 2em 0;
+}
+.prop_img.aboutimgteam{
+    text-align: left;
+}
+.prop_img.aboutimgteam img{
+    background: linear-gradient(180deg, rgba(170, 202, 255, 0.14) -21.45%, rgba(148, 165, 194, 0.14) 58.96%, rgba(148, 165, 194, 0.035) 108.1%);
+    box-shadow: 4px 5px 5px 0px rgba(208, 226, 255, 0.10) inset;
+    border-radius: 40px;
+    padding: 13px;
+    width: 100%;
+}
+.container.aboutteam_mandate{
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+.container.aboutteam_mandate .leftabout_mandate{
+    padding-left: 0px;
+    margin-left: -37px;
+}
+.visimisi_div{
+    margin: 0 0 4em 0;
+}
+.aboutteam_mandate .prop_management p{
+    width: 61%;
+}
+.visionmission_abtteam img{
+    width: 51%;
+    border-radius: 50% 49% 48% 49%;
+}
+.visionmission_abtteam img:first-child{
+    border: 7px solid #C06A87;
+}
+.visionmission_abtteam img:nth-child(3){
+    border: 7px solid #4D7EA5;
+}
+.visionmission_abtteam{
+    position: relative;
+}
+.visionmission_abtteam img:nth-child(2),.visionmission_abtteam img:nth-child(3){
+    position:absolute;
+}
+.visionmission_abtteam img:nth-child(2){
+    z-index: -2;
+    right: 148px;
+    top: -17px;
+}
+.visionmission_abtteam img:nth-child(3){
+    z-index: -1;
+    top: 54px;
+    right: 66px;
+}
+.team_images img{
+    width: 100%;
+    border: 6px solid #4D7EA5;
+    border-radius: 47% 47% 45% 47%;
+    height: 251px;
+    object-fit: cover;
+    object-position: 76% 5%;
+}
+.descrip_team_mem {
+    cursor: pointer;
+    border-radius: 52% 60% 49% 52%;
+    background-color: #EDF2FA;
+    box-shadow: 0px -8px 12px 0px rgba(49, 93, 128, 0.12), 0px 8px 21px -4px rgba(21, 73, 159, 0.14) inset, 2px -16px 14px -6px rgba(97, 158, 204, 0.31) inset;
+    margin: 0 auto 0 auto;
+    width: 79%;
+}
+.center .slick-active.slick-center .descrip_team_mem{
+    width: 100%;
+    margin: 2em 0 0 0;
+}
+.showactive_div{
+    display: none;
+}
+.showactive_div p{
+    font-family: "Outfit", sans-serif;
+    color:#315D80;
+    text-align: center;
+    font-size: 0.77em;
+    text-transform: capitalize;   
+    line-height: 16px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div{
+    display: block;
+    padding: 1em 2.2em 1em 2.2em;
+    text-align: center;
+}
+.center .slick-active.slick-center .descrip_team_mem .names{
+    padding: 10px 20px 0px 20px;
+    margin: -61px 0 0 0;
+    position: relative;
+}
+.center .slick-active.slick-center .descrip_team_mem .names p{
+    color:#ffffff;
+}
+.center .slick-active.slick-center .descrip_team_mem img{
+    height: 295px;
+}
+
+.center .slick-active.slick-center .descrip_team_mem .names p:nth-child(2){
+    margin-bottom: 5px;
+}
+.descrip_team_mem .names p{
+    font-family: "Outfit", sans-serif;
+    color:#315D80;
+    text-align: center;
+}
+.descrip_team_mem .names p:first-child{
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 0px;
+}
+.descrip_team_mem .names p:nth-child(2){
+    font-size: 0.7em;
+}
+.About_us.meetteam .contact_descrip {
+    top: 82px;
+}
+.team_images{
+padding: 16em 0 0 0;
+}
+.imageoverlaydiv{
+    position: relative;
+}
+.center .slick-active.slick-center .imageoverlaydiv .overlay{
+    background:linear-gradient(186.19deg, rgba(255, 255, 255, 0) 13.34%, rgba(98, 136, 177, 0.612676) 64.77%, rgba(73, 122, 164, 0.91) 75.19%);
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 52% 60% 49% 52%;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background: linear-gradient(164.19deg, rgba(170, 202, 255, 0) 13.34%, rgba(98, 136, 177, 0.612676) 64.77%, rgba(73, 122, 164, 0.67) 75.19%);
+}
+.team_images .slick-next, .team_images .slick-prev {
+    background-color: #EDF2FA;
+    box-shadow: 1px 2px 9px 1px rgba(49, 93, 128, 0.85);
+    width: 20px;
+    height: 37px;
+    border-radius: 40px;
+}
+.team_images .slick-next:before {
+    content: "\f105";
+    padding-left: 3px;
+}
+.team_images .slick-next:before,.team_images .slick-prev:before {
+    font-family: 'FontAwesome';
+    font-size: 19px;
+}
+.team_images .slick-prev:before {
+    content: "\f104";
+    padding-right: 3px;
+}
+.team_images  .slick-prev {
+    left: 49px;
+}
+.team_images .slick-next {
+    right: 49px;
+}
+.aboutteam_mandate .prop_management {
+    margin: 7em 0px 0px 0px;
 }
