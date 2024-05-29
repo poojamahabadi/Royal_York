@@ -4082,6 +4082,7 @@ margin: 0 auto;
     box-shadow: 0px -8px 12px 0px rgba(49, 93, 128, 0.12), 0px 8px 21px -4px rgba(21, 73, 159, 0.14) inset, 2px -16px 14px -6px rgba(97, 158, 204, 0.31) inset;
     margin: 0 auto 0 auto;
     width: 79%;
+    transition: all 1s;
 }
 .center .slick-active.slick-center .descrip_team_mem{
     width: 100%;
@@ -4089,6 +4090,7 @@ margin: 0 auto;
 }
 .showactive_div{
     display: none;
+    transition: all 1s;
 }
 .showactive_div p{
     font-family: "Outfit", sans-serif;
@@ -4102,6 +4104,7 @@ margin: 0 auto;
     display: block;
     padding: 1em 2.2em 1em 2.2em;
     text-align: center;
+    transition: all 1s;
 }
 .center .slick-active.slick-center .descrip_team_mem .names{
     padding: 10px 20px 0px 20px;
@@ -4182,4 +4185,187 @@ padding: 16em 0 0 0;
 }
 .aboutteam_mandate .prop_management {
     margin: 7em 0px 0px 0px;
+}
+/* end of about team */
+.aboutnathan .container {
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+.nathanimg_div{
+    margin-right: -30px;
+    padding: 0;
+}
+.nathan_image{
+    text-align: right;
+}
+.nathan_image img{
+    width: 100%;
+    height: 1078px;
+    object-fit: cover;
+}
+.leftpad_zero{
+    padding: 0px;
+}
+.nathan_imgone img{
+    width: 100%;
+    height: 1078px;
+    object-fit: cover;
+    object-position: 100% 56%;
+}
+.nathan_imgtwo{
+    display: inline-flex;
+}
+.nathan_imgtwo img{
+    width: 100%;
+}
+.aboutnathan_descrip h3.heading{
+    text-align: right;
+    width: 67%;
+    margin: 0 0 1em auto;
+}
+.footer_imgnathan{
+    background-image: url(../images/AboutUs/about_nathan/bottomimg.svg);
+    height: 550px;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4em 0 4em 0;
+}
+.bottomwidth_section{
+    text-align: center;
+    width: 64%;
+    margin: 0 auto;
+}
+.bottomwidth_section p{
+    color: #ffffff;
+    font-family: "Outfit", sans-serif;
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: 500;
+}
+.decriptionnathan_txt p{
+    font-weight: 400;
+    font-size: 1em;
+    text-align: justify;
+    color: #315D80;
+    font-family: "Outfit", sans-serif;
+    line-height: 27px;
+    text-transform: capitalize;
+    margin: 0 0 0.1em 0;
+}
+.aboutnathan_descrip p{
+    width: 76%;
+    text-align: justify;
+    margin: 0 0 1em auto;
+}
+.aboutnathan_descrip{
+    margin: 19em 2em 0 0px;
+}
+.aboutnathan_descrip.right{
+    margin: 2em 0 0 2em;
+}
+.aboutnathan_descrip.right p{
+    width: 76%;
+    margin: auto 0 1em 0;
+}
+.About_us.aboutimg_nathan{
+    background-image: url(../images/AboutUs/about_nathan/founder.svg);
+    top: -57px;
+    background-position: 100% 7%;
+    height: 471px;
+}
+.aboutimg_nathan .nathan_pdiv p{
+    font-family: "Outfit", sans-serif;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: 300; 
+}
+.media.nathanintrol_block{
+    background-color: #EDF2FA;
+    border-radius: 30px;
+    padding: 1.5em 1.5em 2em 2em;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0px -8px 12px 0px rgba(49, 93, 128, 0.12), 0px 8px 21px -4px rgba(21, 73, 159, 0.14) inset, 2px -16px 14px -6px rgba(97, 158, 204, 0.31) inset;
+}
+.media.nathanintrol_block img.imgnath{
+    width: 31%;
+    position: absolute;
+    border: 6px solid #4D7EA5;
+    border-radius: 47% 47% 45% 47%;
+    box-shadow: 0px -8px 12px 0px rgba(49, 93, 128, 0.38), 0px 8px 21px -4px rgba(21, 73, 159, 0.14) inset, 2px -16px 14px -6px rgba(97, 158, 204, 0.31) inset;
+    top: -37px;
+    left: -42px;
+}
+.social_icon_imgright{
+    text-align: right;
+}
+.social_icon_imgright img{
+    height: 40px;
+}
+.descript_txtnathan p{
+    font-weight: 400;
+    font-size: 1em;
+    color: #315D80;
+    font-family: "Outfit", sans-serif;
+    line-height: 27px;
+    text-transform: capitalize;
+    margin: 0 0 0.3em 0;
+    text-align: justify;
+}
+.descript_txtnathan,.authalign_div{
+    padding-right: 6em;
+}
+.descript_txtnathan img{
+    height: 15px;
+    margin: 0 0 1em 0;
+}
+.nathanintrol_block .media-body{
+    padding: 0 0em 0 16.5em;
+}
+.authr_txt{
+    font-family: "Outfit", sans-serif;
+    line-height: 27px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color:#315D80;
+}
+.authalign_div,.quoteright_view{
+    text-align: right;
+}
+.nathan_introslider{
+    position: absolute;
+    top: -118px;
+    z-index:100;
+}
+.aboutnathan{
+    position: relative;
+}
+.aboutinfonathan_div{
+    margin: -3.6em 0 0 0;
+}
+.mobileview_nathan{
+    display: none;
+}
+.person_details{
+    position: absolute;
+    z-index: 100;
+    color: #ffffff;
+    left: 22px;
+    bottom: -18px;
+    text-align: center;
+}
+.person_details p:first-child{
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 0px 0px 0.2em 0px;
+}
+.person_details p:nth-child(2){
+    font-family: "Outfit", sans-serif; 
+    font-size: 0.7em;
 }

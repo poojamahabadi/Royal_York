@@ -80,7 +80,7 @@ margin: 5em auto 8em auto;
 .prop_img.tenant_screenimg img {
     width: 100%;
 }
-.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
+.decriptionnathan_txt p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
 font-size: 1.4em;
 }
@@ -226,6 +226,55 @@ font-size: 1.4em;
     width: 82%;
 }
 /* end of about team */
+
+/* about nathan */
+.About_us.aboutimg_nathan {
+    top: -68px;
+    height: 507px;
+}
+.nathan_introslider {
+    left: 7%;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 29%;
+    top: -37px;
+    left: -31px;
+}
+.aboutnathan_descrip h3.heading {
+    width: 49%;
+}
+.media.nathanintrol_block{
+    width: 58%;
+}
+.nathanintrol_block .media-body {
+    padding: 0 0em 0 15.5em;
+}
+.aboutinfonathan_div {
+    margin: -4.3em 0 0 0;
+}
+.aboutnathan_descrip {
+    margin: 19em 2em 0 0px;
+}
+.aboutnathan_descrip p,.aboutnathan_descrip.right p,.decriptionnathan_txt p {
+    line-height: 34px;
+}
+.nathan_imgone img {
+    height: 531px;
+    object-position: 100% 8%;
+}
+.nathan_imgtwo img {
+    height: 746px;
+    object-fit: cover;
+}
+.aboutnathan_descrip.right {
+    margin: 5em 0 0 2em;
+}
+.person_details {
+    left: 50px;
+    bottom: -32px;
+}
+/* end of about nathan */
+
 }
 
 @media screen and (max-width: 1600px) {
@@ -399,6 +448,28 @@ left: 12.7em;
     width: 72%;
 }
 /* end of about team */
+
+/* about nathan */
+.media.nathanintrol_block {
+    width: 63%;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 28%;
+    top: -24px;
+    left: -48px;
+}
+.aboutnathan_descrip {
+    margin: 17em 2em 0 0px;
+}
+.person_details {
+    left: 29px;
+    bottom: -21px;
+}
+.nathanintrol_block .media-body {
+    padding: 0 0em 0 13.5em;
+}
+/* end of about nathan */
+
 }
 
 
@@ -554,6 +625,32 @@ margin-bottom: 0em;
     margin: 0 0 -83px 0;
 }
 /* end of about team */
+
+/* about nathan */
+.media.nathanintrol_block {
+    width: 62%;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 30%;
+    top: -27px;
+    left: -55px;
+}
+.nathanintrol_block .media-body {
+    padding: 0 0em 0 13.5em;
+}
+.aboutnathan_descrip {
+    margin: 13em 2em 0 0px;
+}
+.nathan_introslider {
+    top: -153px;
+}
+.person_details {
+    left: 19px;
+}
+.descript_txtnathan, .authalign_div {
+    padding-right: 4em;
+}
+/* end of about nathan */
 }
 @media screen and (max-width: 1400px) {
 /* menu css */
@@ -679,6 +776,39 @@ font-size: 0.9em;
     left: 3.7em;
 }
 /* end of about team */
+
+/* about nathan */
+.media.nathanintrol_block {
+    width: 69%;
+}
+.nathan_introslider {
+    top: -163px;
+}
+.aboutnathan_descrip h3.heading {
+    width: 64%;
+}
+.aboutnathan_descrip {
+    margin: 12em 2em 0 0px;
+}
+.aboutnathan_descrip.right p,.aboutnathan_descrip p {
+    width: 87%;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 27%;
+    top: -12px;
+    left: -50px;
+}
+.person_details {
+    left: 16px;
+    bottom: -9px;
+}
+.nathanintrol_block .media-body {
+    padding: 0 0em 0 12.5em;
+}
+.video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p {
+    line-height: 32px;
+}
+/* end of about nathan */
 }
 
 
@@ -709,7 +839,7 @@ background-size: 105% 100%;
 /* property page end */
 
 /* owners page */
-.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p,.tenant_descrip p,
+.decriptionnathan_txt p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
 font-size: 1em;
 }
@@ -768,7 +898,7 @@ top: 1.2em;
 /* end of maintenance services */
 
 /* reviews */
-.process_descrip p,.find_property p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.video_descrip p,
+.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,.video_descrip p,
  .tenant_descrip p,.ready_rental .video_descrip p,.leave_us p {
     line-height: 27px;
 }
@@ -916,6 +1046,44 @@ top: 1.2em;
     width: 60%;
 }
 /* end of about team */
+
+/* about nathan */
+.media.nathanintrol_block {
+    width: 74%;
+}
+.nathanintrol_block .media-body {
+    padding: 0 0em 0 13em;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 26%;
+    top: -14px;
+    left: -50px;
+}
+.About_us.aboutimg_nathan {
+    height: 511px;
+}
+.nathan_image img {
+    height: 885px;
+}
+.nathan_imgtwo img {
+    height: 532px;
+}
+.nathan_imgone img {
+    height: 451px;
+}
+.aboutnathan_descrip.right p, .aboutnathan_descrip p {
+    width: 76%;
+}
+.nathan_introslider {
+    left: 5%;
+    top: -174px;
+}
+.person_details {
+    left: 20px;
+    bottom: -17px;
+}
+/* end of about nathan */
+
 }
 
 
@@ -1211,6 +1379,17 @@ font-size: 0.9em;
     margin: 5.2em 0px 0px 0px;
 }
 /* end of about team */
+
+/* about nathan */
+.media.nathanintrol_block img.imgnath {
+    width: 28%;
+    top: -17px;
+}
+.person_details {
+    left: 18px;
+    bottom: -14px;
+}
+/* end of about nathan */
 }
 
 
@@ -1584,6 +1763,41 @@ right: -2px;
     margin: 4.8em 0px 0px 0px;
 }
 /* end of about team */
+
+/* about nathan */
+.footer_imgnathan {
+    height: 517px;
+}
+.media.nathanintrol_block img.imgnath {
+    top: -19px;
+    left: -46px;
+}
+.person_details {
+    left: 19px;
+    bottom: -11px;
+}
+.aboutnathan_descrip {
+    margin: 10em 2em 0 0px;
+}
+.nathan_imgtwo img {
+    height: 497px;
+}
+.nathan_image img {
+    height: 829px;
+}
+.media.nathanintrol_block {
+    width: 79%;
+}
+.aboutnathan_descrip h3.heading {
+    width: 74%;
+}
+.aboutnathan_descrip.right p, .aboutnathan_descrip p {
+    width: 87%;
+}
+.nathan_imgone img {
+    height: 410px;
+}
+/* end of about nathan */
 }
 
 @media screen and (max-width: 1136px) {
@@ -2139,7 +2353,7 @@ right: -58px;
 .review_block {
     width: 100%;
 }
-.process_descrip p,.find_property p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
+.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
 .tenantscreen_descrip p,.leave_us p {
     line-height: 24px;
 }
@@ -2370,6 +2584,39 @@ right: -58px;
     top: 2px;
 }
 /* end of about team */
+
+/* about nathan */
+.aboutimg_nathan .nathan_pdiv p {
+    font-size: 1.7em;
+}
+.nathan_introslider {
+    top: -180px;
+}
+.media.nathanintrol_block img.imgnath {
+    top: -17px;
+    left: -49px;
+    width: 30%;
+}
+.person_details {
+    bottom: -19px;
+}
+.footer_imgnathan {
+    height: 481px;
+}
+.nathanintrol_block .media-body {
+    padding: 0 0em 0 12em;
+}
+.aboutnathan_descrip {
+    margin: 11em 2em 0 0px;
+}
+.nathan_imgtwo img {
+    height: 442px;
+}
+.nathan_image img {
+    height: 757px;
+}
+/* end of nathan */
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -2572,7 +2819,7 @@ overflow: unset;
 }
 /* end of property page */
 /* owners page  */
-.process_descrip p,.find_property p,.video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p,.customer_review p,
+.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p,.customer_review p,
 .recent_descrip p, .tenantscreen_title p, .leaveus_descrip p, .tenantscreen_descrip p,.leave_us p {
 line-height: 23px;
 }
@@ -2773,6 +3020,33 @@ padding: 5px 16px;
     margin: 0 0 -50px 0;
 }
 /* end of about team */
+
+/* about nathan */
+.contact_view.About_us.aboutimg_nathan {
+    height: 476px;
+}
+.media.nathanintrol_block {
+    width: 85%;
+}
+.media.nathanintrol_block img.imgnath {
+    top: -18px;
+    left: -50px;
+}
+.descript_txtnathan, .authalign_div {
+    padding-right: 4em;
+}
+.nathan_imgone img {
+    height: 340px;
+}
+.person_details {
+    bottom: -24px;
+    left: 22px;
+}
+.aboutnathan_descrip.right {
+    margin: 3em 0 0 2em;
+}
+/* end of about nathan */
+
 }
 
 
@@ -3162,6 +3436,26 @@ right: -60px;
     margin: 0 0 -32px 0;
 }
 /* end of about team */
+/* about nathan */
+.media.nathanintrol_block img.imgnath {
+    width: 31%;
+    top: -20px;
+}
+.aboutnathan_descrip.right {
+    margin: 2em 0 0 2em;
+}
+.nathan_imgone img {
+    height: 359px;
+}
+.person_details {
+    bottom: -16px;
+    left: 22px;
+}
+.aboutnathan_descrip {
+    margin: 9em 2em 0 0px;
+}
+/* end of nathan */
+
 }
 
 
@@ -3462,6 +3756,41 @@ font-size: 1.1em;
 }
 /* end of about team */
 
+/* about nathan */
+.media.nathanintrol_block {
+    width: 90%;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 30%;
+    top: -18px;
+    left: -45px;
+}
+.footer_imgnathan {
+    height: 427px;
+}
+.aboutnathan_descrip {
+    margin: 10em 2em 0 0px;
+}
+.nathan_image img {
+    height: 726px;
+}
+.nathan_imgone img {
+    height: 341px;
+}
+.nathan_imgtwo img {
+    height: 392px;
+}
+.aboutnathan_descrip h3.heading {
+    width: 83%;
+}
+.aboutnathan_descrip.right p, .aboutnathan_descrip p {
+    width: 96%;
+}
+.person_details {
+    bottom: -15px;
+    left: 22px;
+}
+/* end of about nathan */
 }
 
 @media screen and (max-width: 991px) {
@@ -3499,6 +3828,9 @@ padding: 12px 22px;
 margin-top: 4px;
 }
 /* end of menu */
+
+
+
 }
 
 @media screen and (max-width: 960px) {
@@ -3643,7 +3975,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
+.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
 .req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
@@ -3723,11 +4055,11 @@ margin: 3em 0 0 0;
 .prop_management {
 margin: 4.3em 0px 1px 0px;
 }
-.process_descrip p,.find_property p,.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
+.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
 .leave_us p {
 line-height: 18px;
 }
-.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_descrip p,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
+.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_descrip p,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
 .management_services p,.royal_propdiff .royal_p, .contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 0.9em;
 }
@@ -4403,6 +4735,64 @@ width: 100%;
 }
 /* end of about team */
 
+/* about nathan */
+.About_us.aboutimg_nathan {
+    top: -12px;
+    height: 495px;
+}
+.person_details {
+    bottom: -15px;
+    left: 27px;
+}
+.social_icon_imgright img {
+    height: 34px;
+}
+.media.nathanintrol_block {
+    width:89%;
+}
+.nathan_introslider {
+    top: -164px;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 31%;
+    top: -20px;
+    left: -39px;
+}
+.tenant_descrip.aboutnathan_descrip h3.heading {
+    width: 72%;
+    margin: 0 0 1em auto;
+}
+.bottomwidth_section {
+    width: 93%;
+}
+.aboutnathan_descrip {
+    margin: 10em 1em 0 0px;
+}
+.About_us .contact_descrip.nathan_pdiv {
+    top: 146px;
+}
+.contact_view.About_us.aboutimg_nathan {
+    height: 503px;
+}
+.aboutnathan_descrip.right {
+    margin: 2em 0 0 1em;
+}
+.nathan_imgone img {
+    height: 311px;
+}
+.nathan_imgtwo img {
+    height: 373px;
+}
+.nathan_image img {
+    height: 620px;
+}
+.footer_imgnathan {
+    height: 411px;
+}
+.nathan_imgone img {
+    height: 287px;
+}
+/* end of about nathan */
 }
 
 @media screen and (max-width: 768px) {
@@ -5330,6 +5720,45 @@ width: 25%;
 }  
 /* end of about team */
 
+/* about nathan */
+.media.nathanintrol_block {
+    width: 96%;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 40%;
+    top: -25px;
+    left: -44px;
+}
+.person_details {
+    bottom: -16px;
+    left: 35px;
+}
+.nathanintrol_block .media-body {
+    padding: 0 0em 0 14em;
+}
+.descript_txtnathan, .authalign_div {
+    padding-right: 1em;
+}
+.nathan_introslider {
+    top: -158px;
+}
+.footer_imgnathan {
+    height: 340px;
+}
+.bottomwidth_section p{
+    font-size: 1.9em;
+}
+.tenant_descrip.aboutnathan_descrip h3.heading {
+    width: 90%;
+}
+.aboutnathan_descrip {
+    margin: 12em 1em 0 0px;
+}
+.nathan_image img {
+    height: 731px;
+}
+/* end of about nathan */
+
 }
 
 @media screen and (max-width: 767px) {
@@ -5553,7 +5982,7 @@ align-items: center;
 .featured_rental img {
 height: 383px;
 }
-.process_descrip p,.find_property p,.leave_us p,.tenant_descrip p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p,.decrip_services p,.text_description,.select_options p,.prop_management p,.video_descrip p,
+.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.leave_us p,.tenant_descrip p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p,.decrip_services p,.text_description,.select_options p,.prop_management p,.video_descrip p,
 .management_services p,.royal_propdiff .royal_p,.contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 1em;
 text-align: center;
@@ -5639,7 +6068,7 @@ margin: 2em 0px 0em 0px;
 margin: 0 0 2em 0;
 }
 .process_descrip p,.find_property p,.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
-.leave_us p {
+.leave_us p,.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p {
 line-height: 22px;
 }
 .propertydivimages {
@@ -6662,6 +7091,52 @@ text-align: left;
 }
 /* end of about team */
 
+/* about nathan */
+.tenant_descrip.aboutnathan_descrip h3.heading {
+    margin: 0em auto 1em auto;
+    text-align: center;
+}
+.aboutnathan_descrip {
+    margin: 13em 1em 2em 0px;
+}
+.desktopview_nathan{
+    display: none;
+}
+.mobileview_nathan{
+    display: block;
+}
+.aboutnathan_descrip.right p, .aboutnathan_descrip p {
+    width: 100%;
+}
+.nathan_imgone img {
+    height: 428px;
+    margin: 2em 0 0 0;
+}
+.nathan_imgtwo img {
+    height: 513px;
+    margin: 3.5em 0 0 0;
+}
+.decriptionnathan_txt p {
+    margin: 0 0 0.7em 0;
+}
+.nathan_image img {
+    height: 716px;
+    object-position: 100% 81%;
+}
+.bottomwidth_section {
+    width: 100%;
+}
+.bottomwidth_section p {
+    font-size: 1.7em;
+}
+.footer_imgnathan {
+    height: 329px;
+}
+.aboutnathan_descrip.right {
+    margin: 2em 0 0 0em;
+}
+/* end of about nathan */
+
 }
 @media screen and (max-width: 640px) {
 /* menu css */
@@ -6747,7 +7222,7 @@ padding: 18px 7px 3px 7px;
 }
 .process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, 
 .management_services p, .tenant_descrip p,.royal_propdiff p, .tenant_placementdescr p, .portal_syst p,
-.our_premium p, .decrip_services p,.contact_client p{
+.our_premium p, .decrip_services p,.contact_client p,.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p{
 font-size: 0.9em;
 }
 .phone_details img {
@@ -7536,7 +8011,79 @@ right: 4.5em;
     width: 52%;
 }
 /* end of about team */
+
+/* about nathan */
+.media.nathanintrol_block {
+    width: 82%;
 }
+.nathan_introslider {
+    left: 0%;
+}
+.media.nathanintrol_block {
+    width: 83%;
+    display: block;
+    margin: -6em auto 0 auto;
+    text-align: center;
+}
+.social_icon_imgright img {
+    height: 44px;
+}
+.nathan_image img {
+    height: 608px;
+    object-position: 100% 83%;
+}
+.tenant_descrip.aboutnathan_descrip h3.heading {
+    width: 100%;
+}
+.nathan_imgone img {
+    height: 363px;
+}
+.bottomwidth_section p {
+    font-size: 1.5em;
+}
+.media.nathanintrol_block img.imgnath {
+    position: unset;
+    width: 60%;
+}
+.footer_imgnathan {
+    height: 291px;
+}
+.nathan_imgtwo img {
+    height: 424px;
+    margin: 3em 0 0 0;
+}
+.nathanintrol_block .media-body{
+    padding: 0px;
+}
+.contact_view.About_us.aboutimg_nathan {
+    height: 353px;
+    background-position: 100% 0%;
+}
+.aboutnathan,.nathan_introslider {
+    position: unset;
+}
+.aboutnathan_descrip {
+    margin: 5em 1em 2em 0px;
+}
+.descript_txtnathan, .authalign_div {
+    text-align: left;
+    padding: 1em 0 0 0;
+}
+.social_icon_imgright {
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+.authr_txt{
+    text-align: center;
+    margin: 0;
+}
+.person_details {
+    top: 19.5em;
+    left: 200px;
+}
+/* end of nathan */
+}
+
 @media screen and (max-width: 568px) {
 
 /* footer */
@@ -8360,6 +8907,52 @@ width: 95%;
     font-size: 1.4em;
 }
 /* end of about team */
+
+/* about nathan */
+.aboutimg_nathan .nathan_pdiv p {
+    font-size: 1.3em;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 55%;
+}
+.social_icon_imgright img {
+    height: 38px;
+}
+.nathan_imgone img {
+    height: 317px;
+}
+.nathan_imgtwo img {
+    height: 375px;
+}
+.bottomwidth_section {
+    width: 83%;
+}
+.bottomwidth_section p {
+    font-size: 1.2em;
+}
+.footer_imgnathan {
+    height: 255px;
+    margin:2em 0;
+}
+.media.nathanintrol_block {
+    margin: -10em auto 0 auto;
+}
+.social_icon_imgright {
+    margin: 2em 0 0em 0;
+}
+.nathan_image img {
+    height: 572px;
+    object-position: 100% 92%;
+}
+.About_us .contact_descrip.nathan_pdiv {
+    top: 106px;
+}
+.person_details {
+    top: 15.3em;
+    left: 175px;
+}
+/* about nathan end */
+
 }
 
 @media screen and (max-width:480px) {
@@ -9249,6 +9842,43 @@ right: 1.9em;
     width: 85%;
 }
 /* end of about team */
+
+/* about nathan */
+.aboutimg_nathan .nathan_pdiv p {
+    font-size: 1.1em;
+}
+.media.nathanintrol_block {
+    margin: -11em auto 0 auto;
+}
+.descript_txtnathan p {
+    text-align: center;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 72%;
+}
+.person_details {
+    top: 16.3em;
+    left: 138px;
+}
+.authalign_div {
+    padding: 0em 0 0 0;
+}
+.nathan_image img {
+    height: 447px;
+    object-position: 100% 79%;
+}
+.descript_txtnathan img {
+    height: 13px;
+    margin: 0 0 0em 0;
+}
+.nathan_imgone img {
+    height: 257px;
+    margin: 2em 0 0 0;
+}
+.footer_imgnathan {
+    height: 212px;
+}
+/* end of about nathan */
 }
 
 @media screen and (max-width:414px) {
@@ -10041,6 +10671,29 @@ margin: 0 0 3em 0;
 }
 /* end of about team */
 
+/* about nathan */
+.media.nathanintrol_block img.imgnath {
+    width: 75%;
+}
+.bottomwidth_section {
+    width: 94%;
+}
+.media.nathanintrol_block {
+    width: 90%;
+}
+.person_details {
+    top: 15.7em;
+    left: 123px;
+}
+.nathan_imgtwo img {
+    height: 269px;
+}
+.nathan_image img {
+    height: 425px;
+    object-position: 100% 98%;
+}
+/* end of about nathan */
+
 }
 @media screen and (max-width:411px) {
 
@@ -10396,6 +11049,20 @@ left: 0em;
     width: 61%;
 }
 /* end of about team */
+
+/* about nathan */
+.media.nathanintrol_block img.imgnath {
+    width: 81%;
+}
+.person_details {
+    top: 16.7em;
+}
+.nathan_image img {
+    height: 409px;
+    object-position: 100% 93%;
+}
+/* end of about nathan */
+
 }
 @media screen and (max-width:375px) {
 /* footer */
@@ -10976,6 +11643,22 @@ right: 1.8em;
     width: 100%;
 }
 /* end of about team */
+/* about nathan */
+.person_details {
+    top: 14.6em;
+    left: 104px;
+}
+.social_icon_imgright {
+    margin: 1.5em 0 0em 0;
+}
+.bottomwidth_section p {
+    font-size: 1em;
+}
+.nathan_image img {
+    height: 375px;
+}
+/* end of about nathan */
+
 }
 @media screen and (max-width:360px) {
 /* menu css */
@@ -11387,6 +12070,33 @@ height: 228px;
     padding: 0;
 }
 /* end of about team */
+
+/* about nathan */
+.person_details {
+    top: 13.6em;
+    left: 99px;
+}
+.nathan_image img {
+    height: 229px;
+    margin: 1em 0 0 0;
+}
+.nathan_imgone img {
+    height: 199px;
+}
+.bottomwidth_section p {
+    font-size: 0.9em;
+}
+.footer_imgnathan {
+    height: 152px;
+}
+.nathan_imgtwo img {
+    margin: 2em 0 0 0;
+}
+.aboutnathan .container {
+    margin-bottom: 1em;
+}
+/* end of nathan */
+
 }
 @media screen and (max-width:340px) {
 /* menu css */
@@ -11838,6 +12548,34 @@ padding: 8px 14px;
     margin: 6em 0 0em 0;
 }
 /* end of about team */
+
+/* about nathan */
+.contact_view.About_us.aboutimg_nathan {
+    height: 300px;
+}
+.nathan_imgtwo img {
+    height: 214px;
+}
+.nathan_image img {
+    height: 344px;
+    margin: 0em 0 0 0;
+}
+.descript_txtnathan p{
+    font-size: 0.9em;
+}
+.media.nathanintrol_block {
+    margin: -8em auto 0 auto;
+    padding: 1.5em 1em 2em 1em;
+    width: 94%;
+}
+.person_details {
+    left: 90px;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 75%;
+}
+/* end of about nathan */
+
 }
 
 @media screen and (max-width:320px) {
@@ -12294,4 +13032,25 @@ top: 16.1em;
 }
 /* end of about us */
 
+/* about nathan */
+.contact_view.About_us.aboutimg_nathan {
+    height: 260px;
+}
+.person_details p:first-child {
+    font-size: 0.8em;
+}
+.person_details p:nth-child(2) {
+    font-size: 0.6em;
+}
+.nathan_image img {
+    height: 320px;
+}
+.person_details {
+    left: 90px;
+    top: 12.8em;
+}
+.About_us .contact_descrip.nathan_pdiv {
+    top: 69px;
+}
+/* end of about nathan */
 }

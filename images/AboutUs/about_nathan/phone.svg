@@ -1,0 +1,25 @@
+<svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_di_1953_4625)">
+<rect width="55.3235" height="57" rx="10" fill="#9BB997"/>
+</g>
+<path d="M13.4063 15.0879H25.0506L27.0686 24.1672L24.5443 26.6914C26.0279 29.0019 27.9919 30.9654 30.3027 32.4484L32.827 29.9255L41.9062 31.9436V43.5879H40.5491C35.3247 43.596 30.2099 42.0894 25.8241 39.2504C22.5904 37.1576 19.8365 34.4038 17.7437 31.17C14.9048 26.7842 13.3982 21.6695 13.4063 16.445V15.0879ZM16.1572 17.8022C16.3855 22.0364 17.7185 26.1371 20.0237 29.6962C21.9079 32.6071 24.387 35.0862 27.298 36.9704C30.857 39.2757 34.9577 40.6087 39.192 40.8369V34.1204L33.6915 32.899L30.741 35.8508L29.8413 35.3392C26.425 33.3975 23.5966 30.5692 21.655 27.1529L21.1433 26.2531L24.0951 23.3027L22.8737 17.8022H16.1572Z" fill="white"/>
+<defs>
+<filter id="filter0_di_1953_4625" x="0" y="0" width="63.3203" height="65" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_dropShadow_1953_4625"/>
+<feOffset dx="4" dy="4"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1953_4625"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1953_4625" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="2"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_1953_4625"/>
+</filter>
+</defs>
+</svg>

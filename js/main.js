@@ -156,9 +156,10 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    autoplaySpeed: 4000,
+    speed:3000,
+    cssEase: 'ease-in-out',
+    infinite: true,
     slidesToShow:5,
-    cssEase: 'linear',
     responsive: [
       {
         breakpoint: 800,
