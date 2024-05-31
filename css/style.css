@@ -4348,9 +4348,6 @@ padding: 16em 0 0 0;
 .aboutinfonathan_div{
     margin: -3.6em 0 0 0;
 }
-.mobileview_nathan{
-    display: none;
-}
 .person_details{
     position: absolute;
     z-index: 100;
@@ -4368,4 +4365,62 @@ padding: 16em 0 0 0;
 .person_details p:nth-child(2){
     font-family: "Outfit", sans-serif; 
     font-size: 0.7em;
+}
+.aboutnathan_descrip.left p:first-child{
+    margin-bottom: 2em;
+}
+.decriptionnathan_txt{
+    width: 83%;
+    margin: 0 auto;
+}
+/* end of about nathan */
+
+/* careers */
+.grow_ideas{
+    margin: 0 0 4em 0;
+}
+.careers_tabdecrip img{
+    height: 45px;
+}
+.careerhead_img img{
+    width: 100%;
+    margin: 1em 0 2.5em 0;
+}
+.careers_tab .nav {
+    justify-content: flex-start;
+    margin: 2em 0px;
+}
+.video_descrip.careerdecrip h3.heading{
+    margin:0 0 0.2em 0;
+}
+.video_descrip.careerdecrip,.video_descrip.careerdecrip h3.heading{
+    text-align: center;
+}
+.growing_idea p{
+    font-family: "Outfit", sans-serif; 
+    font-size: 1em;
+    color:#315D80;
+}
+.growing_idea h3.heading{
+    margin: 0 0 0.2em 0;
+}
+.btncareer{
+    margin:1em 0 0 0;
+}
+.careers_tabdecrip h3.heading{
+    font-family: "Outfit", sans-serif;   
+}
+.careers_tab .client_schedule {
+    margin: 2em auto 0px auto;
+    width: 88%;
+    border-radius: 30px;
+}
+.careers_tab .client_schedule .nav li a{
+    width: 140px;
+    margin: 5px;
+}
+.careers_tab .client_schedule .nav li a.more{
+    width: 46px;
+    padding: 3px;
+    margin: 9px 0 0 7px;
 }
