@@ -3958,7 +3958,7 @@ margin: 0 auto;
 }
 .contact_view.About_us.meetteam{
     background-image: url(../images/AboutUs/about_team/meetteam.svg);
-    height: 450px;
+    height: 520px;
     background-position: 100% 4%;
     margin: -4px 0 0 0;
 }
@@ -4086,11 +4086,12 @@ margin: 0 auto;
 }
 .center .slick-active.slick-center .descrip_team_mem{
     width: 100%;
-    margin: 2em 0 0 0;
+    margin: 3em 0 0 0;
 }
 .showactive_div{
     display: none;
     transition: all 1s;
+   min-height:135px;
 }
 .showactive_div p{
     font-family: "Outfit", sans-serif;
@@ -4102,7 +4103,7 @@ margin: 0 auto;
 }
 .center .slick-active.slick-center .descrip_team_mem .showactive_div{
     display: block;
-    padding: 1em 2.2em 1em 2.2em;
+    padding: 1em 2.3em 1em 2.3em;
     text-align: center;
     transition: all 1s;
 }
@@ -4137,8 +4138,8 @@ margin: 0 auto;
 .About_us.meetteam .contact_descrip {
     top: 82px;
 }
-.team_images{
-padding: 16em 0 0 0;
+.team_images {
+    padding: 18em 0 0 0;
 }
 .imageoverlaydiv{
     position: relative;
@@ -4373,6 +4374,101 @@ padding: 16em 0 0 0;
     width: 83%;
     margin: 0 auto;
 }
+
+/* select dropdown */
+.sortbytext{
+    color: #648DAD;
+    font-weight: normal;
+    padding-right: 12px;
+}
+.dropdown.about_teamselect {
+    width: 32%;
+    margin: 16px auto 0 auto;
+}
+  .about_teamselect .dropdown__switch:checked + .dropdown__options-filter .dropdown__select {
+    transform: scaleY(1);
+  }
+  .about_teamselect .dropdown__switch:checked + .dropdown__options-filter .dropdown__filter:after {
+    transform: rotate(-135deg);
+  }
+  .about_teamselect .dropdown__options-filter {
+    width: 100%;
+    cursor: pointer;
+  }
+  .about_teamselect .dropdown__filter {
+    position: relative;
+    display: flex;
+    font-family: "Outfit", sans-serif;
+    font-size:1em;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color:#ffffff;
+    background-color: #315D80;
+    border-radius: 40px;
+    text-transform: capitalize;
+    transition: 0.3s;
+    list-style-type: none;
+    padding: 0 38px 0 18px;
+    box-shadow: -3px 2px 11px 1px #468DC3;
+  }
+  .about_teamselect .dropdown__filter:focus,.about_teamselect .dropdown__filter:hover,  .about_teamselect .dropdown__filter:active {
+outline: none;
+  }
+  .about_teamselect .dropdown__filter::after {
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #648DAD;
+    border-bottom: 2px solid #648DAD;
+    transform: rotate(45deg) translateX(-45%);
+    transition: 0.2s ease-in-out;
+  }
+  .about_teamselect .dropdown__select {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(152, 152, 152, 0.6);
+    transform: scaleY(0);
+    transform-origin: top;
+    font-weight: 300;
+    padding:0px;
+    transition: 0.2s ease-in-out;
+    z-index: 100;
+  }
+  .about_teamselect .dropdown__select-option {
+    padding: 5px 19px;
+    background-color: rgba(73, 122, 164, 0.69);
+    border-bottom: 1px solid #d6d6d6;
+    transition: 0.3s;
+    list-style-type: none;
+    text-align: left;
+  }
+  .about_teamselect .dropdown__select-option:last-of-type {
+    border-bottom: 0;
+  }
+  .about_teamselect .dropdown__filter-selected{
+        padding: 10px 2px;
+ }
+ .added_bef_li li.dropdown__filter-selected:before{
+    color: #648DAD;
+ } 
+ .about_teamselect .dropdown__select li:before{
+    color: #023c6a;
+  }
+  .added_bef_li li.dropdown__filter-selected:before, .about_teamselect .dropdown__select li:before {
+    font-weight: normal;
+    padding-right: 12px;
+    content: "Sort By :";
+  }
+  /* end of drop down */
+
+
 /* end of about nathan */
 
 /* careers */

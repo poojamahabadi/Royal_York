@@ -151,33 +151,4 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-  $('.center').slick({
-    centerMode: true,
-    centerPadding: '60px',
-    autoplay: true,
-    speed:3000,
-    cssEase: 'ease-in-out',
-    infinite: true,
-    slidesToShow:5,
-    responsive: [
-      {
-        breakpoint: 800,
-        settings: {
-          centerMode: true,
-          centerPadding: '20px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-  });
-});
 

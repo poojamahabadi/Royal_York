@@ -228,6 +228,13 @@ font-size: 1.4em;
 /* end of about team */
 
 /* about nathan */
+
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 424px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1em 4.1em 1em 4.1em;
+}
 .About_us.aboutimg_nathan {
     top: -68px;
     height: 507px;
@@ -278,6 +285,27 @@ font-size: 1.4em;
 }
 .decriptionnathan_txt {
     width: 73%;
+}
+.team_images img {
+    height: 341px;
+}
+.contact_view.About_us.meetteam {
+    height: 856px;
+}
+.About_us.meetteam .contact_descrip {
+    top: 215px;
+}
+.team_images {
+    padding: 26em 0 0 0;
+}
+.about_team .about_descrip {
+    margin: 9em 0 0 0;
+}
+.aboutdiv_video .video_div iframe {
+    height: 615px;
+}
+.descrip_team_mem {
+    border-radius: 57% 60% 49% 52%;
 }
 /* end of about nathan */
 
@@ -4883,15 +4911,18 @@ width: 100%;
     height: 34px;
 }
 .media.nathanintrol_block {
-    width:89%;
+    width: 95%;
+}
+.media.nathanintrol_block img.imgnath {
+    width: 28%;
+    top: -15px;
+    left: -40px;
+}
+.nathanintrol_block .media-body {
+    padding: 0 0em 0 13em;
 }
 .nathan_introslider {
     top: -164px;
-}
-.media.nathanintrol_block img.imgnath {
-    width: 31%;
-    top: -20px;
-    left: -39px;
 }
 .tenant_descrip.aboutnathan_descrip h3.heading {
     width: 72%;
@@ -4912,9 +4943,6 @@ width: 100%;
 .aboutnathan_descrip.right {
     margin: 2em 0 0 1em;
 }
-.nathan_imgone img {
-    height: 311px;
-}
 .nathan_imgtwo img {
     height: 373px;
 }
@@ -4922,10 +4950,11 @@ width: 100%;
     height: 620px;
 }
 .footer_imgnathan {
-    height: 411px;
+    height: 369px;
+    margin: 2em 0 4em 0;
 }
 .nathan_imgone img {
-    height: 287px;
+    height: 616px;
 }
 /* end of about nathan */
 
@@ -5866,9 +5895,9 @@ width: 25%;
     width: 96%;
 }
 .media.nathanintrol_block img.imgnath {
-    width: 40%;
-    top: -25px;
-    left: -44px;
+    width: 39%;
+    top: -21px;
+    left: -49px;
 }
 .person_details {
     bottom: -16px;
@@ -5895,8 +5924,21 @@ width: 25%;
 .aboutnathan_descrip {
     margin: 12em 1em 0 0px;
 }
+.aboutnathan_descrip.right {
+    margin: 1em 0 0 1em;
+}
+.aboutnathan_descrip.left {
+    margin: 1em 1em 0 0em;
+}
 .nathan_image img {
-    height: 731px;
+    height: 758px;
+}
+.nathan_imgone img {
+    height: 672px;
+    object-position: center;
+}
+.aboutnathan_descrip p, .aboutnathan_descrip.right p, .aboutnathan_descrip.left p {
+    width: 100%;
 }
 /* end of about nathan */
 
@@ -7246,22 +7288,34 @@ text-align: left;
     margin: 0em auto 1em auto;
     text-align: center;
 }
+.aboutnathan_descrip.left {
+    margin: 0em 0em 0 0em;
+}
 .aboutnathan_descrip {
-    margin: 16em 4em 0 7em;
+    margin: 13em 1em 2em 1em;
 }
 .aboutnathan_descrip.right p, .aboutnathan_descrip p {
     width: 100%;
 }
+.decriptionnathan_txt {
+    width: 100%;
+}
 .nathan_imgone img {
-    height: 428px;
+    height: 914px;
     margin: 2em 0 0 0;
 }
 .nathan_imgtwo img {
     height: 513px;
-    margin: 3.5em 0 0 0;
+    margin: 1.5em 0 0 0;
 }
 .decriptionnathan_txt p {
     margin: 0 0 0.7em 0;
+}
+.aboutnathan_descrip.left p:first-child {
+    margin-bottom: 0.7em;
+}
+.descript_txtnathan p {
+    line-height: 23px;
 }
 .nathan_image img {
     height: 716px;
@@ -8203,9 +8257,6 @@ right: 4.5em;
 .tenant_descrip.aboutnathan_descrip h3.heading {
     width: 100%;
 }
-.nathan_imgone img {
-    height: 363px;
-}
 .bottomwidth_section p {
     font-size: 1.5em;
 }
@@ -8217,8 +8268,8 @@ right: 4.5em;
     height: 291px;
 }
 .nathan_imgtwo img {
-    height: 424px;
-    margin: 3em 0 0 0;
+    height: 443px;
+    margin: 1.5em 0 0 0;
 }
 .nathanintrol_block .media-body{
     padding: 0px;
@@ -8231,7 +8282,7 @@ right: 4.5em;
     position: unset;
 }
 .aboutnathan_descrip {
-    margin: 5em 1em 2em 0px;
+    margin: 5em 0em 2em 0px;
 }
 .descript_txtnathan, .authalign_div {
     text-align: left;
@@ -8246,8 +8297,11 @@ right: 4.5em;
     margin: 0;
 }
 .person_details {
-    top: 19.5em;
+    top: 19.7em;
     left: 200px;
+}
+.nathan_imgone img {
+    height: 768px;
 }
 /* end of nathan */
 
@@ -9109,10 +9163,10 @@ width: 95%;
     height: 38px;
 }
 .nathan_imgone img {
-    height: 317px;
+    height: 674px;
 }
 .nathan_imgtwo img {
-    height: 375px;
+    height: 397px;
 }
 .bottomwidth_section {
     width: 83%;
@@ -9140,6 +9194,9 @@ width: 95%;
 .person_details {
     top: 15.3em;
     left: 175px;
+}
+.authalign_div {
+    padding: 0em 0 0 0;
 }
 /* about nathan end */
 
@@ -10077,11 +10134,17 @@ right: 1.9em;
     margin: 0 0 0em 0;
 }
 .nathan_imgone img {
-    height: 257px;
+    height: 565px;
     margin: 2em 0 0 0;
+}
+.nathan_imgtwo img {
+    height: 340px;
 }
 .footer_imgnathan {
     height: 212px;
+}
+.bottomwidth_section {
+    margin: 3em auto 0 auto;
 }
 /* end of about nathan */
 
@@ -10907,11 +10970,17 @@ margin: 0 0 3em 0;
     left: 123px;
 }
 .nathan_imgtwo img {
-    height: 269px;
+    height: 290px;
 }
 .nathan_image img {
     height: 425px;
     object-position: 100% 98%;
+}
+.nathan_imgone img {
+    height: 505px;
+}
+.bottomwidth_section {
+    margin: 2em auto 0 auto;
 }
 /* end of about nathan */
 
@@ -11896,6 +11965,18 @@ right: 1.8em;
 .nathan_image img {
     height: 375px;
 }
+.nathan_imgone img {
+    height: 449px;
+}
+.nathan_imgtwo img {
+    height: 266px;
+}
+.footer_imgnathan {
+    height: 168px;
+}
+.bottomwidth_section {
+    margin: 3em auto 0 auto;
+}
 /* end of about nathan */
 
 /* careers page */
@@ -12329,20 +12410,20 @@ height: 228px;
     left: 99px;
 }
 .nathan_image img {
-    height: 229px;
-    margin: 1em 0 0 0;
+    margin:0;
 }
 .nathan_imgone img {
-    height: 199px;
+    height: 427px;
 }
 .bottomwidth_section p {
     font-size: 0.9em;
 }
 .footer_imgnathan {
-    height: 152px;
+    height: 162px;
 }
 .nathan_imgtwo img {
-    margin: 2em 0 0 0;
+    margin: 1em 0 0 0;
+    height: 255px;
 }
 .aboutnathan .container {
     margin-bottom: 1em;
@@ -12817,7 +12898,7 @@ padding: 8px 14px;
     height: 300px;
 }
 .nathan_imgtwo img {
-    height: 214px;
+    height: 242px;
 }
 .nathan_image img {
     height: 344px;
@@ -13314,6 +13395,9 @@ top: 16.1em;
 }
 .About_us .contact_descrip.nathan_pdiv {
     top: 69px;
+}
+.nathan_imgone img {
+    height: 384px;
 }
 /* end of about nathan */
 
