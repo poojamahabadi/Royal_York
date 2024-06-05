@@ -523,6 +523,17 @@ left: 12.7em;
 }
 /* end of about nathan */
 
+/* about team */
+.team_images img {
+    height: 298px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1em 3.3em 1em 3.3em;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 370px;
+}
+/* end of about team */
 }
 
 
@@ -729,6 +740,33 @@ margin-bottom: 0em;
     width: 51%;
 }
 /* end of about nathan */
+/* about team */
+.contact_view.About_us.meetteam {
+    height: 754px;
+}
+.About_us.meetteam .contact_descrip {
+    top: 179px;
+}
+.team_images {
+    padding: 24em 0 0 0;
+}
+.About_us.meetteam .contact_descrip p {
+    margin: 8px 0 0 0;
+}
+.team_images .slick-next {
+    right: 37px;
+}
+.team_images .slick-prev {
+    left: 40px;
+}
+.aboutdiv_video .video_div iframe {
+    height: 627px;
+}
+.about_team .about_descrip {
+    margin: 11em 0 0 0;
+}
+/* end of about team */
+
 }
 @media screen and (max-width: 1400px) {
 /* menu css */
@@ -899,6 +937,24 @@ font-size: 0.9em;
     height: 998px;
 }
 /* end of about nathan */
+
+/* about team */
+.team_images img {
+    height: 265px;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 322px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1em 2.7em 1em 2.7em;
+}
+.about_team .about_descrip {
+    margin: 8em 0 0 0;
+}
+.aboutdiv_video .video_div iframe {
+    height: 614px;
+}
+/* end of team */
 }
 
 
@@ -1082,9 +1138,7 @@ top: 1.2em;
 /* end of tenant main page */
 
 /* about us */
-.aboutdiv_video .video_div iframe {
-    height: 450px;
-}
+
 .tenant_descrip.visionmission_descrip p {
     width: 65%;
 }
@@ -1138,11 +1192,40 @@ top: 1.2em;
 .aboutteam_mandate .prop_management p {
     width: 60%;
 }
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1em 2.4em 1em 2.4em;
+}
+.team_images {
+    padding: 21em 0 0 0;
+}
+.About_us.meetteam .contact_descrip {
+    top: 132px;
+}
+.contact_view.About_us.meetteam {
+    height: 580px;
+    background-position: 100% 8%;
+}
+.about_team .about_descrip {
+    margin: 15em 0 0 0;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 295px;
+}
+.team_images img {
+    height: 251px;
+}
+.meet_vision_mission {
+    margin: 4em 0 7em 0;
+}
+
 /* end of about team */
 
 /* about nathan */
 .media.nathanintrol_block {
     width: 74%;
+}
+.aboutdiv_video .video_div iframe {
+    height: 607px;
 }
 .nathanintrol_block .media-body {
     padding: 0 0em 0 13em;
@@ -1190,6 +1273,9 @@ top: 1.2em;
 }
 .aboutnathan_descrip h3.heading {
     width: 88%;
+}
+.container.aboutteam_mandate {
+    margin-bottom: 0em;
 }
 /* end of about nathan */
 
@@ -1486,6 +1572,21 @@ font-size: 0.9em;
 /* about team */
 .aboutteam_mandate .prop_management {
     margin: 5.2em 0px 0px 0px;
+}
+.team_images .slick-next,.team_images .slick-prev {
+    top:39%;
+}
+.team_images .slick-next {
+    right: 40px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1em 1.9em 1em 1.9em;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 279px;
+}
+.team_images img {
+    height: 230px;
 }
 /* end of about team */
 
@@ -1880,6 +1981,22 @@ right: -2px;
 .aboutteam_mandate .prop_management {
     margin: 4.8em 0px 0px 0px;
 }
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 248px;
+}
+.team_images img {
+    height: 214px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1em 1.7em 1em 1.7em;
+}
+.contact_view.About_us.meetteam {
+    height: 657px;
+}
+.about_team .about_descrip {
+    margin: 9em 0 0 0;
+}
+
 /* end of about team */
 
 /* about nathan */
@@ -2703,12 +2820,24 @@ right: -58px;
     right: 56px;
 }
 .meet_vision_mission {
-    margin: 3em 0 7em 0;
+    margin: 3em 0 5em 0;
+}
+.visimisi_div {
+    margin: 0 0 4em 0;
 }
 .visionmission_abtteam img:nth-child(2) {
     right: 120px;
     width: 49%;
     top: 2px;
+}
+.dropdown.about_teamselect {
+    width: 40%;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 257px;
+}
+.aboutdiv_video .video_div iframe {
+    height: 514px;
 }
 /* end of about team */
 
@@ -3141,13 +3270,13 @@ padding: 5px 16px;
     top: 162px;
 }
 .aboutdiv_video .video_div iframe {
-    height: 398px;
+    height: 512px;
 }
 /* end of about us */
 
 /* about team */
 .team_images {
-    padding: 12em 0 0 0;
+    padding: 20em 0 0 0;
 }
 .visionmission_abtteam {
     margin: 3.4em 0 0 0;
@@ -3157,6 +3286,15 @@ padding: 5px 16px;
 }
 .job_opening.aboutteam_job {
     margin: 0 0 -50px 0;
+}
+.team_images img {
+    height: 190px;
+}
+.About_us.meetteam .contact_descrip {
+    top: 127px;
+}
+.descrip_team_mem .names p:first-child {
+    font-size: 0.8em;
 }
 /* end of about team */
 
@@ -3581,6 +3719,18 @@ right: -60px;
 }
 .job_opening.aboutteam_job {
     margin: 0 0 -32px 0;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 240px;
+}
+.team_images img {
+    height: 185px;
+}
+.about_team .about_descrip {
+    margin: 10em 0 0 0;
+}
+.team_images {
+    padding: 21em 0 0 0;
 }
 /* end of about team */
 /* about nathan */
@@ -4896,6 +5046,7 @@ width: 100%;
 .container.aboutteam_mandate {
     margin-bottom: 0em;
 }
+
 /* end of about team */
 
 /* about nathan */
@@ -4957,6 +5108,29 @@ width: 100%;
     height: 616px;
 }
 /* end of about nathan */
+/* about team */
+.team_images img {
+    height: 294px;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 343px;
+}
+.about_team .about_descrip {
+    margin: 15em 0 0 0;
+}
+.aboutdiv_video .video_div iframe {
+    height: 458px;
+}
+.dropdown.about_teamselect {
+    width: 52%;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1em 2.9em 1em 2.9em;
+}
+.team_images img {
+    height: 280px;
+}
+/* end of about team */
 
 /* career */
 .careers_tab .client_schedule .nav-pills li a {
@@ -5887,7 +6061,28 @@ width: 25%;
 }
 .job_opening.aboutteam_job {
     margin: 0px 0 -29px 0;
-}  
+} 
+.aboutdiv_video .video_div iframe {
+    height: 374px;
+}
+.team_images {
+    padding: 18em 0 0 0;
+}
+.about_team .about_descrip {
+    margin: 9em 0 0 0;
+}
+.About_us.meetteam .contact_descrip {
+    top: 108px;
+}
+.team_images img {
+    height: 213px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1em 1.7em 1em 1.7em;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 275px;
+}
 /* end of about team */
 
 /* about nathan */
@@ -7281,6 +7476,15 @@ text-align: left;
 .visimisi_div {
     margin: 12em 0 0em 0;
 }
+.dropdown.about_teamselect {
+    width: 69%;
+}
+.team_images {
+    padding: 17em 0 0 0;
+}
+.aboutdiv_video .video_div iframe {
+    height: 355px;
+}
 /* end of about team */
 
 /* about nathan */
@@ -8232,6 +8436,27 @@ right: 4.5em;
     right: 120px;
     width: 52%;
 }
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 233px;
+}
+.team_images img {
+    height: 181px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1em 1.2em 1em 1.2em;
+}
+.prop_img.aboutimgteam img {
+    width: 100%;
+}
+.aboutteam_mandate .prop_management p {
+    width: 95%;
+}
+.contact_view.About_us.meetteam {
+    height: 556px;
+}
+.about_team .about_descrip {
+    margin: 13em 0 0 0;
+}
 /* end of about team */
 
 /* about nathan */
@@ -9149,6 +9374,22 @@ width: 95%;
 }
 .teamvisionimages h3 {
     font-size: 1.4em;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 206px;
+}
+.team_images img {
+    height: 163px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1.2em 1em 1em 1em;
+}
+.descrip_team_mem .names p:first-child {
+    font-size: 0.7em;
+    line-height: 15px;
+}
+.descrip_team_mem .names p:nth-child(2) {
+    font-size: 0.6em;
 }
 /* end of about team */
 
@@ -10103,6 +10344,18 @@ right: 1.9em;
 .aboutteam_mandate .prop_management p {
     width: 85%;
 }
+.dropdown.about_teamselect {
+    width: 78%;
+}
+.team_images img {
+    height: 129px;
+}
+.names {
+    padding: 6px 14px;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+        height: 168px;
+    }
 /* end of about team */
 
 /* about nathan */
@@ -10925,6 +11178,34 @@ margin: 0 0 3em 0;
 /* end of about us */
 
 /* about team */
+.contact_view.About_us.meetteam {
+    height: 462px;
+}
+.dropdown.about_teamselect {
+    width: 89%;
+}
+.center .slick-active.slick-center .descrip_team_mem {
+    width: 81%;
+    margin: 2em auto 0 auto;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 303px;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1.2em 2.3em 1em 2.3em;
+}
+.about_team .about_descrip {
+    margin: 17em 0 0 0;
+}
+.aboutdiv_video .video_div iframe {
+    height: 212px;
+}
+.visionmission_abtteam {
+    margin: 3.4em 0 0 0;
+}
+.team_images img {
+    height: 248px;
+}
 .visionmission_message img {
     width: 76%;
 }
@@ -11950,6 +12231,21 @@ right: 1.8em;
 .aboutteam_mandate .prop_management p {
     width: 100%;
 }
+.about_teamselect .dropdown__filter{
+    font-size: 0.9em;
+}
+.showactive_div p{
+    margin-bottom: 0.8em;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1.6em 2.3em 1em 2.3em;
+}
+.about_team .about_descrip {
+    margin: 20em 0 0 0;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 273px;
+}
 /* end of about team */
 /* about nathan */
 .person_details {
@@ -12401,6 +12697,24 @@ height: 228px;
 }
 .meet_vision_mission .container{
     padding: 0;
+}
+.dropdown.about_teamselect {
+    width: 95%;
+}
+.visionmission_message p.txtvision {
+    top: 2.3em;
+}
+.aboutus_sec {
+    margin: 2em 0 0 0;
+}
+.about_team .about_descrip {
+    margin: 17em 0 0 0;
+}
+.center .slick-active.slick-center .descrip_team_mem {
+    margin: 0em auto 0 auto;
+}
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1.6em 2em 1em 2em;
 }
 /* end of about team */
 
@@ -12880,16 +13194,28 @@ padding: 8px 14px;
 
 /* about team */
 .visionmission_message p.txtvision {
-    left: 2.9em;
+    left: 3.4em;
     width: 68%;
-    top: 1.3em;
+    top: 2.1em;
 }
 .visionmission_abtteam img:nth-child(2) {
     top: 0px;
     right: 62px;
 }
+.center .slick-active.slick-center .descrip_team_mem .showactive_div {
+    padding: 1.6em 1.5em 1em 1.5em;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 252px;
+}
 .visimisi_div {
     margin: 6em 0 0em 0;
+}
+.about_teamselect .dropdown__filter {
+    font-size: 0.85em;
+}
+.dropdown.about_teamselect {
+    width: 96%;
 }
 /* end of about team */
 
@@ -13323,6 +13649,22 @@ top: 16.1em;
 /* end of tenant main page */
 
 /* about us */
+.about_teamselect .dropdown__filter {
+    font-size: 0.8em;
+}
+.about_teamselect .dropdown__filter::after{
+    width: 8px;
+    height: 8px;
+}
+.team_images img {
+    height: 214px;
+}
+.visionmission_message p.txtvision {
+    top: 1.5em;
+}
+.center .slick-active.slick-center .descrip_team_mem img {
+    height: 227px;
+}
 .About_us .contact_descrip {
     top: 52px;
 }
