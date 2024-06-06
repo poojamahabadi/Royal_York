@@ -228,7 +228,9 @@ font-size: 1.4em;
 /* end of about team */
 
 /* about nathan */
-
+.media.nathanintrol_block img.imgnath{
+    border-radius: 134px;
+}
 .center .slick-active.slick-center .descrip_team_mem img {
     height: 424px;
 }
@@ -499,8 +501,8 @@ left: 12.7em;
     width: 28%;
     top: -24px;
     left: -48px;
+    border-radius: 120px;
 }
-
 .person_details {
     left: 29px;
     bottom: -21px;
@@ -698,6 +700,7 @@ margin-bottom: 0em;
     width: 30%;
     top: -27px;
     left: -55px;
+    border-radius: 123px;
 }
 .nathanintrol_block .media-body {
     padding: 0 0em 0 13.5em;
@@ -1234,6 +1237,7 @@ top: 1.2em;
     width: 26%;
     top: -14px;
     left: -50px;
+    border-radius: 118px;
 }
 .About_us.aboutimg_nathan {
     height: 511px;
@@ -1603,7 +1607,7 @@ font-size: 0.9em;
     width: 96%;
 }
 .decriptionnathan_txt {
-    width: 82%;
+    width: 87%;
 }
 .aboutnathan_descrip p, .aboutnathan_descrip.right p, .aboutnathan_descrip.left p {
     width: 100%;
@@ -2030,7 +2034,7 @@ right: -2px;
     width: 87%;
 }
 .decriptionnathan_txt {
-    width: 94%;
+    width: 88%;
 }
 .nathan_imgone img {
     height: 783px;
@@ -3306,8 +3310,9 @@ padding: 5px 16px;
     width: 85%;
 }
 .media.nathanintrol_block img.imgnath {
-    top: -18px;
+    top: -24px;
     left: -50px;
+    border-radius: 128px;
 }
 .aboutnathan_descrip {
     margin: 10em 2em 0 0px;
@@ -5068,6 +5073,7 @@ width: 100%;
     width: 28%;
     top: -15px;
     left: -40px;
+    border-radius: 123px;
 }
 .nathanintrol_block .media-body {
     padding: 0 0em 0 13em;
@@ -6089,10 +6095,14 @@ width: 25%;
 .media.nathanintrol_block {
     width: 96%;
 }
+.decriptionnathan_txt {
+    width: 100%;
+}
 .media.nathanintrol_block img.imgnath {
     width: 39%;
     top: -21px;
-    left: -49px;
+    left: -35px;
+    border-radius: 128px;
 }
 .person_details {
     bottom: -16px;
@@ -7536,6 +7546,10 @@ text-align: left;
 }
 .aboutnathan_descrip.right {
     margin: 2em 0 0 0em;
+}
+.media.nathanintrol_block img.imgnath {
+    top: -31px;
+    border-radius: 131px;
 }
 /* end of about nathan */
 
@@ -9399,6 +9413,7 @@ width: 95%;
 }
 .media.nathanintrol_block img.imgnath {
     width: 55%;
+    border-radius: 110px;
 }
 .social_icon_imgright img {
     height: 38px;
@@ -10370,9 +10385,10 @@ right: 1.9em;
 }
 .media.nathanintrol_block img.imgnath {
     width: 72%;
+    border-radius: 119px;
 }
 .person_details {
-    top: 16.3em;
+    top: 17em;
     left: 138px;
 }
 .authalign_div {
@@ -11644,7 +11660,7 @@ left: 0em;
     width: 81%;
 }
 .person_details {
-    top: 16.7em;
+    top: 17.2em;
 }
 .nathan_image img {
     height: 409px;
@@ -12252,6 +12268,9 @@ right: 1.8em;
     top: 14.6em;
     left: 104px;
 }
+.media.nathanintrol_block img.imgnath {
+    border-radius: 106px;
+}
 .social_icon_imgright {
     margin: 1.5em 0 0em 0;
 }
@@ -12741,6 +12760,9 @@ height: 228px;
 }
 .aboutnathan .container {
     margin-bottom: 1em;
+}
+.media.nathanintrol_block img.imgnath {
+    border-radius: 101px;
 }
 /* end of nathan */
 
@@ -13243,6 +13265,7 @@ padding: 8px 14px;
 }
 .media.nathanintrol_block img.imgnath {
     width: 75%;
+    border-radius: 95px;
 }
 /* end of about nathan */
 

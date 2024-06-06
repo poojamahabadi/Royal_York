@@ -1,6 +1,10 @@
 body{
 background: #F8F8F8;
 }
+.btn:hover,.btn:focus,.btn:active{
+    outline: none;
+    box-shadow: unset;
+}
 a:hover,a:active,a:focus{
 text-decoration: none;
 outline: none;
@@ -4296,8 +4300,8 @@ margin: 0 auto;
 .media.nathanintrol_block img.imgnath{
     width: 31%;
     position: absolute;
-    border: 6px solid #4D7EA5;
-    border-radius: 47% 47% 45% 47%;
+    outline: 8px solid #4D7EA5;
+    border-radius: 114px;
     box-shadow: 0px -8px 12px 0px rgba(49, 93, 128, 0.38), 0px 8px 21px -4px rgba(21, 73, 159, 0.14) inset, 2px -16px 14px -6px rgba(97, 158, 204, 0.31) inset;
     top: -37px;
     left: -42px;
@@ -4468,7 +4472,6 @@ outline: none;
   }
   /* end of drop down */
 
-
 /* end of about nathan */
 
 /* careers */
@@ -4519,4 +4522,322 @@ outline: none;
     width: 46px;
     padding: 3px;
     margin: 9px 0 0 7px;
+}
+/* end of career */
+
+/* our department */
+.departmenthead_div h3.heading{
+    font-family: "Outfit", sans-serif;  
+    text-align: left;
+}
+.department_careers{
+    background-image: url(../images/our_department/departmentbg.svg);
+    height: 635px;
+    background-size: cover;
+    background-position: 100% -17%;
+    border-radius: 30px;
+    box-shadow: 0px 12px 7px 0px #F8F8F8, 0px -9px 19px 0px rgba(133, 178, 255, 0.51), 0px 4px 4px 2px rgba(189, 215, 255, 0.20) inset;
+    padding: 2em;
+    background-repeat: no-repeat;
+}
+.departmenthead_div img{
+    height: 45px;
+    padding-left: 8px;
+}
+.select-menu,.select-menu2 {
+    width:100%;
+  }
+  .select-menu .select-btn,.select-menu2 .select-btn2{
+    display: flex;
+    height: 40px;
+    background: #E2E8F0;
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    color: #315D80;
+    font-weight: bold;
+    font-family: "Inria Serif", serif;
+  }
+  .select-menu .options,.select-menu2 .options {
+    width: 330px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: rgba(49, 93, 128,0.77);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+    animation-duration: 0.35s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.35s;
+    -webkit-animation-fill-mode: both;
+    display:none;
+  }
+  .select-menu .options .option,.select-menu2 .options .option{
+    display: flex;
+    height: 33px;
+    cursor: pointer;
+    padding: 0 8px;
+    border-radius: 8px;
+    align-items: center;
+  }
+  .select-menu .options .option:hover,.select-menu2 .options .option:hover{
+    background: #275172;
+  }
+  .select-menu .options .option .option-text,.select-menu2 .options .option .option-text{
+    font-size: 16px;
+    color: #fff;
+  }
+  .select-btn i,.select-btn2 i {
+    font-size: 19px;
+    transition: 0.3s;
+    background-color: #376990;
+    color: #ffffff;
+    padding: 7px 14px;
+    border-radius: 23px;
+  }
+  .select-menu.active .select-btn i,.select-menu2.active .select-btn2 i  {
+    transform: rotate(-180deg);
+  }
+  .select-menu.active .options,.select-menu2.active .options {
+    display: block;
+    opacity: 0;
+    z-index: 10;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+  }
+  .btn.btn-search{
+    background-color: #376990;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 10px 37px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 0.9em 0 0 0;
+}
+.tenantscreen_space.department_view {
+    padding: 0;
+}
+.search_city{
+    background-color: rgba(237, 242, 250, 0.15);
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px 0px rgba(57, 124, 238, 0.12) inset;
+    margin: 0 0 1.2em 0;
+}
+.blocks_fourdiv,.search_city{
+    width: 75%;
+}
+.blocks_fourdiv{
+    background-color: rgba(237, 242 ,250,0.15);
+    padding: 15px 18px;
+    border-radius: 25px;
+    box-shadow:4px 4px 14px 0px rgba(57, 124, 238,0.12) inset;   
+}
+.search_city .form-group {
+    margin-bottom:0.5em;
+}
+.search_city label{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 0.95em;
+    color: #315D80;
+    display: block;
+}
+.block_bluered h3{
+    font-family: "Outfit", sans-serif;
+    color: #ffffff;
+    font-size: 0.9em;
+    padding: 10px 16px;
+    margin: 0;
+}
+.btnapplydepart{
+    text-align: center;
+}
+.btnapplydepart .applynow{
+    color: #ffffff;
+    font-size: 0.9em;
+}
+.block_bluered img{
+    height: 16px;
+    margin: 0 8px 0 0;
+}
+.block_bluered{
+    background-color: #376990;
+}
+.redblock.active{
+    background: linear-gradient(280.77deg, #F8B195 -3.96%, #F2727F 72.68%);
+    border-radius: 20px;
+    margin: 0 0 1em 0;
+}
+.block_bluered{
+    border-radius: 20px;  
+}
+.linebelow{
+    border-bottom: 1px solid #4A7DA6;
+}
+.bluecolor{
+    background-color: #376990;
+    border-radius: 22px;
+    margin:0 0 1em 0;
+}
+.block_blueredtwo h3{
+    color:#51617C;
+}
+.knowmore{
+    text-align: center;
+}
+.knowmore .btn.applynow{
+    font-weight: bold;
+    color:#315D80;
+    font-size: 0.9em;
+}
+.locdepart h3{
+    color:#F2727F;
+}
+.block_blueredtwo h3,.locdepart h3{
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9em;
+    padding: 10px 16px;
+    margin: 0;
+}
+.bluecolor.inactive img {
+    height: 16px;
+    margin: 0 8px 0 0;
+}
+.block_blueredtwo{
+    background-color: #EDF2FA;
+    border-radius: 20px;
+}
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 30px, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  @keyframes fadeInDown {
+    from {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+    to {
+      transform: translate3d(0, 20px, 0);
+      opacity: 0;
+    }
+  }
+  .our_departmentsec{
+    margin: 7em 0 0 0;
+  }
+  .our_departmentsec .video_descrip h3.heading,.our_departmentsec .video_descrip p{
+    text-align: center;
+  }
+  .department_descriptabs{
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px -10px 19px 0px rgba(55, 115, 161,0.17), 0px 12px 7px 0px #F8F8F8, 0px 4px 4px 2px rgba(55, 115, 161,0.20) inset;
+  }
+.department_tabs .nav-tabs {
+    border: unset;
+    justify-content: center;
+    margin: 2em 0;
+}
+.department_tabs .nav-tabs li.nav-item {
+    display: flex;
+    margin: 0 0.5em 1em 0.5em;
+}
+.department_tabs .nav.nav-tabs li.nav-item .active {
+    background-color: #315D80;
+    color: #FFFFFF;
+}
+.department_tabs .nav.nav-tabs li.nav-item a {
+    background-color: #EDF2FA;
+    border-radius: 32px;
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    color: #315D80;
+    border: unset;
+    font-size: 0.9em;
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1em 2em;
+    text-transform: capitalize;
+}
+.department_tabs{
+    text-align: center;
+}
+.department_tabs .video_div iframe {
+    width: 90%;
+    height: 545px;
+}
+.department_propmgmt h3.heading:before{
+    content: '';
+    position: absolute;
+    left:2px;
+    top: 4%;
+    height: 86%;
+    border-width: 6px;
+    padding-left: 5px;
+    border-style: solid;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-image: linear-gradient(to bottom, #F8B195, #F2727F) 1 100%;
+}
+.department_propmgmt .descript_txtnathan{
+    position:relative;
+}
+.department_propmgmt h3.heading{
+    font-family: "Outfit", sans-serif;
+    margin: 0 0 0.7em 0;
+    font-size: 2em;
+    padding-left: 0.5em;
+}
+.media.nathanintrol_block.departmentblock {
+    width: 83.6%;
+    margin: 0 auto 0 auto;
+    left: 25px;
+    top: -72px;
+    padding: 3.1em 1.5em 4em 2em;
+    box-shadow: unset;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    width: 26%;
+    top: -21px;
+    border-radius: 109px;
+}
+.department_propmgmt .descript_txtnathan p{
+    text-align: left;
+    line-height: 23px;
+}
+.person_details.depart_person {
+    left: -4px;
+    bottom: -8px;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0px 9em 0 13em;
+}
+.our_departmentsec .video_descrip {
+    margin: 0 0 2.8em 0;
+}
+.our_departmentsec .video_descrip h3.heading {
+    margin: 0px 0px 0.4em 0px;
+}
+.department_careers .tenantscreen_title {
+    margin: 0 0 1.9em 0;
 }
