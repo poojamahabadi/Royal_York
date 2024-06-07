@@ -324,8 +324,8 @@ font-size: 1.4em;
     margin: 4em 0 0 0;
 }
 .person_details.depart_person {
-    left: 16px;
-    bottom: 0px;
+    left: 7px;
+    bottom: -196px;
 }
 .nathanintrol_block .media-body.department_propmgmt {
     padding: 0px 5em 0 15em;
@@ -553,8 +553,7 @@ left: 12.7em;
 
 /* our department */
 .person_details.depart_person {
-    left: 0px;
-    bottom: -2px;
+    left: -12px;
 }
 .nathanintrol_block .media-body.department_propmgmt {
     padding: 0px 8em 0 13em;
@@ -804,8 +803,9 @@ margin-bottom: 0em;
     padding-right: 0;
 }
 .person_details.depart_person {
-    left: -18px;
-    bottom: 4px;
+    left: -13px;
+    bottom: -172px;
+    width: 16%;
 }
 .department_propmgmt h3.heading:before {
     top: 8%;
@@ -1334,6 +1334,10 @@ top: 1.2em;
     padding: 3.1em 7.5em 4em 2em;
     top: -82px;
 }
+.person_details.depart_person {
+    left: -6px;
+    bottom: -206px;
+}
 /* end of our departments */
 }
 
@@ -1679,8 +1683,13 @@ font-size: 0.9em;
     padding: 0px 3em 0 13em;
 }
 .person_details.depart_person {
-    left: -13px;
-    bottom: 0px;
+    left: -6px;
+    bottom: -205px;
+    width: 14%;
+}
+.media.nathanintrol_block.departmentblock {
+    padding: 3.1em 7.5em 4em 0em;
+    top: -76px;
 }
 /* end of our departments */
 
@@ -2129,7 +2138,10 @@ right: -2px;
     border-radius: 110px;
 }
 .nathanintrol_block .media-body.department_propmgmt {
-    padding: 0px 3em 0 11em;
+    padding: 0px 3em 0 13em;
+}
+.person_details.depart_person {
+    left: -7px;
 }
 /* end of departments */
 }
@@ -2989,8 +3001,9 @@ right: -58px;
     padding: 2.5em 3em 3em 2em;
 }
 .person_details.depart_person {
-    left: -19px;
-    bottom: 1px;
+    left: -15px;
+    bottom: -185px;
+    width: 17%;
 }
 .media.nathanintrol_block.departmentblock img.imgnath {
     width: 27%;
@@ -5273,6 +5286,11 @@ width: 100%;
 .department_tabs .video_div iframe {
     height: 406px;
 }
+.person_details.depart_person {
+    left: -25px;
+    bottom: -151px;
+    width: 19%;
+}
 /* end of our department */
 /* career */
 .careers_tab .client_schedule .nav-pills li a {
@@ -6351,9 +6369,9 @@ width: 25%;
     padding: 1em;
 }
 .person_details.depart_person {
-    left: -40px;
-    bottom: -8px;
-    width: 27%;
+    left: -27px;
+    bottom: -118px;
+    width: 20%;
 }
 /* end of our departments */
 }
@@ -7802,7 +7820,7 @@ padding: 2em 1.5em;
     max-width: 93%;
 }
 .department_tabs .video_div iframe {
-    height: 431px;
+    height: 387px;
 }
 .blocks_fourdiv {
     padding: 20px 24px;
@@ -7836,8 +7854,9 @@ padding: 2em 1.5em;
     text-align: left;
 }
 .person_details.depart_person {
-    bottom: -4px;
-    width: 25%;
+    left: -21px;
+    bottom: -126px;
+    width: 18%;
 }
 /* end of department */
 }
@@ -8731,9 +8750,6 @@ right: 4.5em;
 /* end of about team */
 
 /* about nathan */
-.media.nathanintrol_block {
-    width: 82%;
-}
 .nathan_introslider {
     left: 0%;
 }
@@ -8827,14 +8843,15 @@ right: 4.5em;
     margin: 0;
 }
 .department_tabs .video_div iframe {
-    height: 356px;
+    height: 334px;
 }
 .our_departmentsec .container,.container.departwidth {
     max-width: 100%;
 }
 .media.nathanintrol_block.departmentblock {
-    width: 98%;
+    width: 100%;
     position: unset;
+    padding: 1.5em 2em 2em 2em;
 }
 .media.nathanintrol_block.departmentblock img.imgnath {
     border-radius: 130px;
@@ -8844,9 +8861,12 @@ right: 4.5em;
     padding: 3px 3px 25px 3px;
 }
 .person_details.depart_person {
-    top: 14.9em;
-    width: 30%;
-    left: 14.3em;
+    top: -4.1em;
+    width: 22%;
+    left: 15em;
+}
+.department_propmgmt .descript_txtnathan {
+    padding: 2em 0 0 0;
 }
 .department_propmgmt .descript_txtnathan p {
     text-align: center;
@@ -8952,6 +8972,12 @@ font-size: 0.9em;
 }
 .heading,.department_propmgmt h3.heading {
 font-size: 1.4em;
+}
+.department_propmgmt h3.heading {
+    margin: 0 0 0.7em 0;
+}
+.department_propmgmt .descript_txtnathan p {
+    margin: 0;
 }
 .appointments .hours_details h3 {
 font-size: 1.4em;
@@ -9797,9 +9823,9 @@ width: 95%;
     width: 46%;
 }
 .person_details.depart_person {
-    top: 14.4em;
     left: 11.95em;
-    width: 26%;
+    width: 27%;
+    top: -5.1em;
 }
 .department_propmgmt h3.heading:before {
     left: 21%;
@@ -10788,13 +10814,13 @@ right: 1.9em;
     width: 64%;
 }
 .person_details.depart_person {
-    top: 16.6em;
-    left: 9.3em;
+    left: 9.1em;
     width: 32%;
+    top: -3.7em;
 }
 .department_propmgmt h3.heading:before {
     left: 16%;
-    height: 83%;
+    height: 78%;
 }
 .department_propmgmt .descript_txtnathan p {
     margin: 1em 0 0 0;
@@ -11685,7 +11711,7 @@ margin: 0 0 3em 0;
     width: 79%;
 }
 .person_details.depart_person {
-    top: 16.9em;
+    top: -6.7em;
     left: 7em;
     width: 40%;
 }
@@ -12076,9 +12102,9 @@ left: 0em;
     width: 75%;
 }
 .person_details.depart_person {
-    top: 15.4em;
-    left: 7.4em;
-    width: 38%;
+    top: -7.5em;
+    left: 6.6em;
+    width: 43%;
 }
 /* end of our departments */
 }
@@ -12745,9 +12771,11 @@ right: 1.8em;
     margin: 0 0 1em 0;
 }
 .person_details.depart_person {
-    top: 12em;
-    left: 6.4em;
+    top: -10em;
+    left: 6em;
+    width: 42%;
 }
+
 /* end of our departments */
 
 }
@@ -13233,8 +13261,9 @@ height: 228px;
     width: 88%;
 }
 .person_details.depart_person {
-    top: 15em;
-    left: 6.2em;
+    left: 5.8em;
+    top: -8.6em;
+    width: 42%;
 }
 /* end of our department */
 }
@@ -13733,6 +13762,10 @@ padding: 8px 14px;
 .media.nathanintrol_block.departmentblock img.imgnath {
     border-radius: 110px;
     width: 94%;
+}
+.person_details.depart_person {
+    left: 4.8em;
+    width: 47%;
 }
 /* end of department */
 }
@@ -14252,8 +14285,9 @@ top: 16.1em;
     height: 168px;
 }
 .person_details.depart_person {
-    top: 13em;
-    left: 5.5em;
+    width: 46%;
+    left: 4.7em;
+    top: -12.6em;
 }
 .department_propmgmt h3.heading:before {
     left: 2%;
