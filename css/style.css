@@ -4674,10 +4674,12 @@ outline: none;
 .block_bluered{
     background-color: #376990;
 }
+.redblock{
+    margin: 0 0 1em 0;
+}
 .redblock.active{
     background: linear-gradient(280.77deg, #F8B195 -3.96%, #F2727F 72.68%);
     border-radius: 20px;
-    margin: 0 0 1em 0;
 }
 .block_bluered{
     border-radius: 20px;  
@@ -4700,6 +4702,7 @@ outline: none;
     font-weight: bold;
     color:#315D80;
     font-size: 0.9em;
+    font-family: "Outfit", sans-serif;
 }
 .locdepart h3{
     color:#F2727F;

@@ -319,6 +319,20 @@ font-size: 1.4em;
     font-size: 1.2em;
 }
 /* careers end */
+/* our departments */
+.our_departmentsec {
+    margin: 4em 0 0 0;
+}
+.person_details.depart_person {
+    left: 16px;
+    bottom: 0px;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0px 5em 0 15em;
+}
+/* end of our departments */
+
+
 }
 
 @media screen and (max-width: 1600px) {
@@ -536,6 +550,16 @@ left: 12.7em;
     height: 370px;
 }
 /* end of about team */
+
+/* our department */
+.person_details.depart_person {
+    left: 0px;
+    bottom: -2px;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0px 8em 0 13em;
+}
+/* end of our department */
 }
 
 
@@ -769,6 +793,24 @@ margin-bottom: 0em;
     margin: 11em 0 0 0;
 }
 /* end of about team */
+
+/* our department */
+.media.nathanintrol_block.departmentblock img.imgnath {
+    width: 24%;
+    top: -23px;
+    left: -51px;
+}
+.descript_txtnathan {
+    padding-right: 0;
+}
+.person_details.depart_person {
+    left: -18px;
+    bottom: 4px;
+}
+.department_propmgmt h3.heading:before {
+    top: 8%;
+}
+/* end of our department */
 
 }
 @media screen and (max-width: 1400px) {
@@ -1283,6 +1325,16 @@ top: 1.2em;
 }
 /* end of about nathan */
 
+/* our departments */
+.media.nathanintrol_block.departmentblock img.imgnath {
+    width: 26%;
+    top: -21px;
+}
+.media.nathanintrol_block.departmentblock {
+    padding: 3.1em 7.5em 4em 2em;
+    top: -82px;
+}
+/* end of our departments */
 }
 
 
@@ -1613,6 +1665,25 @@ font-size: 0.9em;
     width: 100%;
 }
 /* end of about nathan */
+
+/* our departments */
+.blocks_fourdiv, .search_city {
+    width: 72%;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    width: 24%;
+    top: -18px;
+    border-radius: 106px;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0px 3em 0 13em;
+}
+.person_details.depart_person {
+    left: -13px;
+    bottom: 0px;
+}
+/* end of our departments */
+
 }
 
 
@@ -1682,7 +1753,7 @@ font-size: 2.2em;
 .div_blocks p{
 font-size: 0.95em;
 }
-.heading {
+.heading,.department_propmgmt h3.heading {
 margin: 0px 0px 0.7em 0px;
 }
 .decrip_services > span {
@@ -2046,6 +2117,21 @@ right: -2px;
     margin: 3em 2em 0 0em;
 }
 /* end of about nathan */
+
+/* our departments */
+.select-menu .select-btn, .select-menu2 .select-btn2{
+    font-size: 16px;
+}
+.department_tabs .video_div iframe {
+    height: 513px;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 110px;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0px 3em 0 11em;
+}
+/* end of departments */
 }
 
 @media screen and (max-width: 1136px) {
@@ -2079,7 +2165,7 @@ width: 74%;
 width: 91%;
 margin-top: -2em;
 }
-.heading{
+.heading,.department_propmgmt h3.heading{
 font-size: 2.1em;
 }
 .client_schedule .nav.nav-pills {
@@ -2889,6 +2975,28 @@ right: -58px;
     width: 100%;
 }
 /* end of careers */
+/* our departments */
+.blocks_fourdiv, .search_city {
+    width: 100%;
+}
+.department_tabs .video_div iframe {
+    height: 431px;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0px 0em 0 10em;
+}
+.media.nathanintrol_block.departmentblock {
+    padding: 2.5em 3em 3em 2em;
+}
+.person_details.depart_person {
+    left: -19px;
+    bottom: 1px;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    width: 27%;
+    top: -22px;
+}
+/* end of our departments */
 }
 
 @media screen and (max-width: 1080px) {
@@ -2909,8 +3017,8 @@ height: 109px;
 }
 /* end of css */
 /* footer */
-.heading {
-font-size: 2em;
+.heading,.department_propmgmt h3.heading {
+    font-size: 2em;
 }
 /* end of footer */
 /* contact us */
@@ -3462,7 +3570,7 @@ margin: 0 auto;
 p.name, p.qualif {
 font-size: 1em;
 }
-.heading {
+.heading,.department_propmgmt h3.heading {
 font-size: 1.9em;
 }
 .rent_prop_img img {
@@ -3789,9 +3897,6 @@ width: 15px;
 }
 .see_locations a.btn.see_more {
 font-size: 0.9em;
-}
-.heading {
-font-size: 1.9em;
 }
 /* end of footer */
 /* contact page */
@@ -4224,7 +4329,7 @@ word-break: break-all;
 height: 42px;
 line-height: 28px;
 }
-.heading {
+.heading,.department_propmgmt h3.heading {
 font-size: 1.7em;
 }
 .contact_client .container{
@@ -4290,7 +4395,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
+.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
 .req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
@@ -5138,6 +5243,37 @@ width: 100%;
 }
 /* end of about team */
 
+/* our department */
+.our_departmentsec {
+    margin: 3em 0 0 0;
+}
+.department_tabs .video_div iframe {
+    width: 100%;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0px 0em 0 8em;
+}
+.department_propmgmt .descript_txtnathan {
+    padding-right: 2em;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 88px;
+}
+.media.nathanintrol_block.departmentblock {
+    padding: 1.5em 0em 2em 2em;
+    width: 89.6%;
+}
+.person_details.depart_person {
+    left: -36px;
+    bottom: 19px;
+}
+.department_view .tenantscreen_title {
+    margin: 3em 0 3em 0;
+}
+.department_tabs .video_div iframe {
+    height: 406px;
+}
+/* end of our department */
 /* career */
 .careers_tab .client_schedule .nav-pills li a {
     padding: 10px 12px;
@@ -6156,6 +6292,70 @@ width: 25%;
 }
 /* end of careers */
 
+/* our departments */
+.department_view .tenantscreen_title {
+    margin: 2em 0 3em 0;
+}
+.departmenthead_div img {
+    height: 39px;
+}
+.btn.btn-search {
+    padding: 10px 27px;
+}
+.select-menu .select-btn, .select-menu2 .select-btn2 {
+    font-size: 15px;
+}
+.select-btn i, .select-btn2 i {
+    font-size: 17px;
+    padding: 5px 11px;
+}
+.department_careers{
+    padding: 2em 1em;
+}
+.block_bluered h3 {
+    padding: 10px 7px;
+}
+.block_blueredtwo h3, .locdepart h3 {
+    padding: 10px 8px;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0px 0em 0 6em;
+}
+.department_tabs .video_div iframe {
+    height: 370px;
+}
+.department_propmgmt .descript_txtnathan {
+    padding-right: 1em;
+}
+.our_departmentsec {
+    margin: 2em 0 0 0;
+}
+.department_descriptabs{
+    padding: 3px;
+}
+.blocks_fourdiv {
+    padding: 15px 17px;
+}
+.search_city .form-group {
+    text-align: right;
+}
+.css_paddingdepart{
+    padding: 0 0.5em;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    left: -55px;
+    top: -8px;
+    width: 32%;
+}
+.department_tabs .nav.nav-tabs li.nav-item a{
+    padding: 1em;
+}
+.person_details.depart_person {
+    left: -40px;
+    bottom: -8px;
+    width: 27%;
+}
+/* end of our departments */
 }
 
 @media screen and (max-width: 767px) {
@@ -7577,6 +7777,69 @@ text-align: left;
     width: 105px;
 }
 /* careers page end */
+
+/* our departments */
+.search_city label{
+    text-align: center;
+    font-size: 1em;
+}
+.select-menu, .select-menu2 {
+    width: 66%;
+    margin: 0 auto;
+}
+.department_careers{
+background-image: unset;
+height: auto;
+padding: 2em 1.5em;
+}
+.search_city .form-group {
+    text-align: center;
+}
+.css_paddingdepart{
+    margin:0 0 1em 0;
+}
+.our_departmentsec .container {
+    max-width: 93%;
+}
+.department_tabs .video_div iframe {
+    height: 431px;
+}
+.blocks_fourdiv {
+    padding: 20px 24px;
+}
+.department_tabs .nav-tabs {
+    margin: 2em 0 1em 0;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    left: -53px;
+    width: 30%;
+}
+.block_blueredtwo h3, .locdepart h3,.block_bluered h3 {
+    font-size: 1em;
+}
+.btn.btn-search {
+    padding: 10px 36px;
+}
+.our_departmentsec {
+    margin: 1em 0 0 0;
+}
+.department_careers {
+    padding: 1em 1.5em;
+}
+.department_tabs .nav-tabs li.nav-item {
+    margin: 0 0.5em 1em 0em;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0px 0em 0 7em;
+}
+.department_propmgmt h3.heading {
+    text-align: left;
+}
+.person_details.depart_person {
+    bottom: -4px;
+    width: 25%;
+}
+/* end of department */
 }
 @media screen and (max-width: 640px) {
 /* menu css */
@@ -7592,9 +7855,6 @@ padding: 0;
 }
 /* end of menu */
 /* footer */
-.heading {
-font-size: 1.7em;
-}
 .social_links ul {
 width: 47%;
 }
@@ -7633,9 +7893,6 @@ width: 100%;
 }
 .office_locations h3.heading {
 margin: 0.7em 0px 0.8em 0;
-}
-.heading {
-font-size: 1.5em;
 }
 .client_schedule .nav.nav-pills {
 margin: 1em 0px 2em 0;
@@ -8565,6 +8822,50 @@ right: 4.5em;
 }
 /* end of careers page  */
 
+/* our departments */
+.css_paddingdepart {
+    margin: 0;
+}
+.department_tabs .video_div iframe {
+    height: 356px;
+}
+.our_departmentsec .container,.container.departwidth {
+    max-width: 100%;
+}
+.media.nathanintrol_block.departmentblock {
+    width: 98%;
+    position: unset;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 130px;
+    width: 41%;
+}
+.department_descriptabs {
+    padding: 3px 3px 25px 3px;
+}
+.person_details.depart_person {
+    top: 14.9em;
+    width: 30%;
+    left: 14.3em;
+}
+.department_propmgmt .descript_txtnathan p {
+    text-align: center;
+}
+.department_propmgmt h3.heading{
+    text-align: center;
+    margin:0;
+    font-size: 1.5em;
+}
+.department_propmgmt h3.heading:before{
+    left:24%;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 1em 0 0 0;
+}
+.nathanintrol_block .media-body.department_propmgmt {
+    padding: 0;
+}
+/* end of our departments */
 }
 
 @media screen and (max-width: 568px) {
@@ -8649,7 +8950,7 @@ width: 50%;
 .client_schedule .nav-pills li a {
 font-size: 0.9em;
 }
-.heading {
+.heading,.department_propmgmt h3.heading {
 font-size: 1.4em;
 }
 .appointments .hours_details h3 {
@@ -9471,6 +9772,53 @@ width: 95%;
 }
 /* end of careers */
 
+/* our departments */
+.redblock,.bluecolor {
+    margin: 0 auto 1em auto;
+    width: 78%;
+}
+.block_blueredtwo h3, .locdepart h3, .block_bluered h3{
+    padding: 10px 15px;   
+}
+.department_tabs .video_div iframe {
+    height: 290px;
+}
+.department_tabs .nav.nav-tabs li.nav-item a {
+    padding: 1em 1.5em;
+}
+.department_descriptabs {
+    padding: 3px 9px 25px 9px;
+}
+.redblock, .bluecolor {
+    width: 70%;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 109px;
+    width: 46%;
+}
+.person_details.depart_person {
+    top: 14.4em;
+    left: 11.95em;
+    width: 26%;
+}
+.department_propmgmt h3.heading:before {
+    left: 21%;
+}
+.department_propmgmt .descript_txtnathan {
+    padding-right: 0;
+}
+.media.nathanintrol_block.departmentblock {
+    padding: 1.5em 2em 2em 2em;
+    width: 100%;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 104px;
+    width: 49%;
+}
+.department_propmgmt h3.heading:before {
+    left: 20%;
+}
+/* end of our departments */
 }
 
 @media screen and (max-width:480px) {
@@ -9566,8 +9914,7 @@ display: block;
 text-align: center;
 margin: 0px 0px 1em 0px;
 }
-.heading {
-font-size: 1.5em;
+.heading,.department_propmgmt h3.heading {
 line-height: 32px;
 }
 .office_locations p{
@@ -10432,6 +10779,30 @@ right: 1.9em;
 }
 /* end of careers page */
 
+/* our departments */
+.department_tabs .video_div iframe {
+    height: 242px;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 115px;
+    width: 64%;
+}
+.person_details.depart_person {
+    top: 16.6em;
+    left: 9.3em;
+    width: 32%;
+}
+.department_propmgmt h3.heading:before {
+    left: 16%;
+    height: 83%;
+}
+.department_propmgmt .descript_txtnathan p {
+    margin: 1em 0 0 0;
+}
+.media.nathanintrol_block.departmentblock {
+    padding: 1.5em 1em 2em 1em;
+}
+/* end of departments */
 }
 
 @media screen and (max-width:414px) {
@@ -11299,6 +11670,29 @@ margin: 0 0 3em 0;
 }
 /* end of careers page */
 
+/* our departments */
+.select-menu, .select-menu2 {
+    width: 83%;
+}
+.redblock, .bluecolor {
+    width: 84%;
+}
+.department_tabs .video_div iframe {
+    height: 208px;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 123px;
+    width: 79%;
+}
+.person_details.depart_person {
+    top: 16.9em;
+    left: 7em;
+    width: 40%;
+}
+.department_propmgmt h3.heading:before {
+    left: 9%;
+}
+/* end of our departments */
 }
 @media screen and (max-width:411px) {
 
@@ -11667,7 +12061,26 @@ left: 0em;
     object-position: 100% 93%;
 }
 /* end of about nathan */
-
+/* our departments */
+.department_view .tenantscreen_title {
+    margin: 2em 0;
+}
+.select-menu, .select-menu2 {
+    width: 92%;
+}
+.redblock, .bluecolor {
+    width: 90%;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 108px;
+    width: 75%;
+}
+.person_details.depart_person {
+    top: 15.4em;
+    left: 7.4em;
+    width: 38%;
+}
+/* end of our departments */
 }
 @media screen and (max-width:375px) {
 /* footer */
@@ -11746,7 +12159,7 @@ height: 174px;
 .maintenance h3, .news_articles h3, .contact_client h3 {
 font-size: 1.1em;
 }
-.heading {
+.heading,.department_propmgmt h3.heading {
 font-size: 1.2em;
 }
 .schedule_timings tr td {
@@ -12295,7 +12708,7 @@ right: 1.8em;
 /* end of about nathan */
 
 /* careers page */
-.heading {
+.heading,.department_propmgmt h3.heading {
     line-height: 26px;
 }
 .careers_tab .client_schedule .nav-pills li a {
@@ -12306,6 +12719,36 @@ right: 1.8em;
     padding: 12px 12px 10px 12px;
 }
 /* end of careers page */
+
+/* our departments */
+.departmenthead_div img {
+    height: 33px;
+}
+.department_careers .tenantscreen_title {
+    margin: 0 0 1.2em 0;
+}
+.select-menu, .select-menu2 {
+    width: 100%;
+}
+.search_city label {
+    font-size: 0.9em;
+}
+.department_tabs .nav.nav-tabs li.nav-item a {
+    padding: 1em 1.2em;
+}
+.department_tabs .video_div iframe {
+    height: 196px;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 88px;
+    width: 69%;
+    margin: 0 0 1em 0;
+}
+.person_details.depart_person {
+    top: 12em;
+    left: 6.4em;
+}
+/* end of our departments */
 
 }
 @media screen and (max-width:360px) {
@@ -12318,7 +12761,7 @@ margin-top: 8px;
 }
 /* end of menu css */
 /* footer */
-.heading,.maintenance h3, .news_articles h3, .contact_client h3{
+.heading,.maintenance h3, .news_articles h3, .contact_client h3,.department_propmgmt h3.heading{
 
 font-size: 1.4em;
 }
@@ -12777,6 +13220,23 @@ height: 228px;
 }
 /* end of careers */
 
+/* our department */
+.redblock, .bluecolor {
+    width: 100%;
+}
+.department_propmgmt h3.heading:before {
+    left: -1%;
+    height: 88%;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 110px;
+    width: 88%;
+}
+.person_details.depart_person {
+    top: 15em;
+    left: 6.2em;
+}
+/* end of our department */
 }
 @media screen and (max-width:340px) {
 /* menu css */
@@ -12819,7 +13279,7 @@ height: 301px;
 .btn.get_started{
 padding: 8px 0px;
 }
-.heading, .maintenance h3, .news_articles h3, .contact_client h3 {
+.heading, .maintenance h3, .news_articles h3, .contact_client h3,.department_propmgmt h3.heading {
 font-size: 1.3em;
 }
 .absol_div h3 {
@@ -13269,6 +13729,12 @@ padding: 8px 14px;
 }
 /* end of about nathan */
 
+/* oue department */
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 110px;
+    width: 94%;
+}
+/* end of department */
 }
 
 @media screen and (max-width:320px) {
@@ -13363,7 +13829,7 @@ bottom: 0px;
 height: 19px;
 left: 44px;
 }
-.heading {
+.heading,.department_propmgmt h3.heading {
 line-height: 27px;
 }
 .animation_effects_img_tenant img:nth-child(5) {
@@ -13778,5 +14244,28 @@ top: 16.1em;
 }
 /* end of career */
 
+/* our department */
+.department_careers {
+    padding: 1em 0.8em;
+}
+.department_tabs .video_div iframe {
+    height: 168px;
+}
+.person_details.depart_person {
+    top: 13em;
+    left: 5.5em;
+}
+.department_propmgmt h3.heading:before {
+    left: 2%;
+    height: 81%;
+}
+.department_propmgmt h3.heading {
+    font-size: 1.1em;
+}
+.media.nathanintrol_block.departmentblock img.imgnath {
+    border-radius: 100px;
+    width: 90%;
+}
+/* end of our department */
 
 }
