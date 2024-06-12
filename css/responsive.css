@@ -332,7 +332,25 @@ font-size: 1.4em;
 }
 /* end of our departments */
 
-
+/* news and articles */
+.newsarticle_div .nav li a.search {
+    padding: 7px 12px 11px 12px;
+}
+.feature_arti img{
+    height: 345px;
+}
+.listing_newsart_div img {
+    height: 128px;
+    object-fit: cover;
+}
+.recent_postimg_descrip img {
+    height: 158px;
+    object-fit: cover;
+}
+.txt_decripdiv {
+    left: 24px;
+}
+/* news and articles end */
 }
 
 @media screen and (max-width: 1600px) {
@@ -812,6 +830,26 @@ margin-bottom: 0em;
 }
 /* end of our department */
 
+/* news and articles */
+.newsarticle_div .nav li a{
+    padding: 10px 30px;
+}
+.feature_arti img {
+    height: 349px;
+}
+.txt_decripdiv {
+    left: 20px;
+}
+.listing_newsart_div img {
+    height: 151px;
+}
+.recent_postimg_descrip img {
+    height: 160px;
+}
+.newsarticle_div {
+    margin: 0 0 4em 0;
+}
+/* end of news and articles */
 }
 @media screen and (max-width: 1400px) {
 /* menu css */
@@ -1000,6 +1038,19 @@ font-size: 0.9em;
     height: 614px;
 }
 /* end of team */
+
+/* news and articles */
+.feature_arti img {
+    height: 341px;
+}
+.recent_postimg_descrip img {
+    height: 154px;
+}
+.listing_newsart_div img {
+    height: 133px;
+}
+/* end of news and articles */
+
 }
 
 
@@ -1339,6 +1390,27 @@ top: 1.2em;
     bottom: -206px;
 }
 /* end of our departments */
+
+/* news and articles */
+.newsarticle_div .nav li a{
+    margin: 5px 12px;
+}
+.txt_decripdiv {
+    bottom: 32px;
+}
+.recent_postimg_descrip img {
+    height: 149px;
+}
+.listing_newsart_div img {
+    height: 129px;
+}
+.newsarticle_div .nav li a.search {
+    padding: 6px 12px 11px 12px;
+}
+.feature_arti img {
+    height: 328px;
+}
+/* end of news and articles */
 }
 
 
@@ -1693,6 +1765,29 @@ font-size: 0.9em;
 }
 /* end of our departments */
 
+/* news and articles */
+.newsarticle_div .nav li a {
+    margin: 5px 5px;
+}
+.feature_arti img {
+    height: 308px;
+}
+.txt_decripdiv {
+    bottom: 27px;
+}
+.arti_descrip {
+    margin: 1em 0;
+}
+.recent_postimg_descrip img {
+    height: 135px;
+}
+.listing_newsart_div img {
+    height: 114px;
+}
+.mrgn_btm {
+    padding: 0 5px 0 5px;
+}
+/* end of news and articles */
 }
 
 
@@ -2144,6 +2239,15 @@ right: -2px;
     left: -7px;
 }
 /* end of departments */
+
+/* news and articles */
+.newsarticle_div .nav li a {
+    padding: 10px 22px;
+}
+.feature_arti img {
+    height: 285px;
+}
+/* end of news and articles */
 }
 
 @media screen and (max-width: 1136px) {
@@ -3010,6 +3114,28 @@ right: -58px;
     top: -22px;
 }
 /* end of our departments */
+
+/* news and articles */
+.newsarticle_div .nav li a {
+    padding: 10px 17px;
+}
+.feature_arti img {
+    height: 271px;
+}
+.txt_decripdiv span{
+    padding: 8px;
+}
+.recent_postimg_descrip img {
+    height: 120px;
+}
+.arti_descrip h4 {
+    font-size: 1.3em;
+}
+.arti_descrip p {
+    line-height: 22px;
+}
+/* end of news and articles */
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -3458,6 +3584,30 @@ padding: 5px 16px;
     margin: 0 0 2em 0;
 }
 /* end of careers */
+
+/* news and articles */
+.newsarticle_div .nav li a {
+    padding: 10px 14px;
+}
+.newsarticle_div .nav {
+    margin: 1em 0em 2em 0em;
+}
+.feature_arti img {
+    height: 259px;
+}
+.listing_newsart_div img {
+    height: 104px;
+}
+.date_year_info{
+    flex-direction: column;
+}
+.txt_decripdiv span {
+    font-size: 0.7em;
+}
+.recent_postimg_descrip img {
+    height: 108px;
+}
+/* end of news and articles */
 }
 
 
@@ -3885,6 +4035,32 @@ right: -60px;
 }
 /* end of nathan */
 
+/* news and article */
+.newsarticle_div .nav li a {
+    padding: 8px 12px;
+}
+.newsarticle_div .nav li a {
+    margin: 5px 3px;
+}
+.feature_arti img {
+    height: 244px;
+}
+.recentpost_div h3, .feature_arti h3 {
+    font-size: 1.4em;
+}
+.txt_decripdiv span {
+    padding: 7px;
+}
+.listing_newsart_div img {
+    height: 99px;
+}
+.recent_postimg_descrip p {
+    line-height: 16px;
+}
+.recent_postimg_descrip img {
+    height: 100px;
+}
+/* end of news and article */
 }
 
 
@@ -4226,6 +4402,33 @@ font-size: 1.1em;
     margin:1.5em 0 0 0;
 }
 /* careers end */
+
+/* news and article */
+.newsarticle_div{
+    padding: 20px 10px;
+}
+.feature_arti img {
+    height: 240px;
+}
+.txt_decripdiv span {
+    padding: 5px;
+}
+.txt_decripdiv {
+    bottom: 24px;
+}
+.arti_descrip h4 {
+    font-size: 1.2em;
+}
+.arti_descrip p {
+    line-height: 20px;
+}
+.readmr_btn .btn.readmore{
+    padding: 8px 28px;
+}
+.listing_newsart_div img {
+    height: 94px;
+}
+/* end of news and article */
 }
 
 @media screen and (max-width: 991px) {
@@ -4264,7 +4467,37 @@ margin-top: 4px;
 }
 /* end of menu */
 
-
+/* news and articles */
+.tenantscreen_title {
+    margin: 2em 0 3em 0;
+}
+.newsarticle_div .nav {
+    margin: 0.5em 0em 2em 0em;
+}
+.container.news_width .tab-content .container{
+    max-width: 100%;
+}
+.recent_postimg_descrip img {
+    height: 132px;
+}
+.listing_newsart_div img {
+    height: 97px;
+}
+.recent_postimg_descrip.redclr_post p:before, .recent_postimg_descrip.blu_post p:before{
+    height: 30px;
+}
+.feature_arti img {
+    height: 210px;
+}
+.txt_decripdiv span {
+    display: inline-block;
+    margin: 0 0 6px 0;
+}
+.txt_decripdiv {
+    bottom: 14px;
+    width: 74%;
+}
+/* end of news and articles */
 
 }
 
@@ -4408,7 +4641,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
+.container.news_width,.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
 .req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
@@ -5297,6 +5530,26 @@ width: 100%;
     padding: 10px 12px;
 }
 /* end of career */
+
+/* news and articles */
+.newsarticle_div {
+    padding: 20px 17px;
+}
+.department_view.newsarti_div .tenantscreen_title {
+    margin: 2em 0 3em 0;
+}
+.feature_arti img {
+    height: 222px;
+    border-radius: 12px 12px 0px 0px;
+}
+.recent_postimg_descrip img {
+    height: 141px;
+}
+.listing_newsart_div img {
+    height: 100px;
+}
+/* end of news and articles */
+
 }
 
 @media screen and (max-width: 768px) {
@@ -6374,6 +6627,33 @@ width: 25%;
     width: 20%;
 }
 /* end of our departments */
+
+/* news and articles */
+.newsarticle_div .nav li a {
+    padding: 8px 29px;
+}
+.listing_newsart_div img {
+    height: 77px;
+}
+.container.news_width{
+    max-width: 100%;
+}
+.newsarticle_div .nav li a {
+    margin: 5px 3px 12px 3px;
+}
+.listing_newsart_div img {
+    height: 88px;
+}
+.recent_postimg_descrip img {
+    height: 121px;
+}
+.txt_decripdiv span {
+    font-size: 0.6em;
+}
+.feature_arti img {
+    height: 196px;
+}
+/* end of news and articles */
 }
 
 @media screen and (max-width: 767px) {
@@ -6682,7 +6962,7 @@ margin: 2em 0px 0em 0px;
 .video_div{
 margin: 0 0 2em 0;
 }
-.office_locations p,.process_descrip p,.find_property p,.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
+.arti_descrip p,.office_locations p,.process_descrip p,.find_property p,.video_descrip p,.customer_review p, .recent_descrip p,.tenantscreen_title p,.leaveus_descrip p,
 .leave_us p,.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p {
 line-height: 22px;
 }
@@ -7859,7 +8139,78 @@ padding: 2em 1.5em;
     width: 18%;
 }
 /* end of department */
+
+/* news and articles */
+.nav_backg {
+    padding: 18px 22px;
 }
+.feature_arti img {
+    height: 322px;
+}
+.newsarticle_div .nav li a.search {
+    padding: 5px 11px 9px 11px;
+}
+.feature_arti .readmr_btn .btn.readmore{
+    margin:0;
+}
+.txt_decripdiv span {
+    padding: 5px 8px;
+}
+.arti_descrip p {
+    line-height: 25px;
+}
+.feature_arti{
+    margin:0 0 2em 0;
+}
+.txt_decripdiv span {
+    font-size: 0.8em;
+}
+.container.news_width .tab-content .container {
+    max-width: 95%;
+}
+.arti_descrip{
+    padding:0;
+}
+.bg_recentpost{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 18px;
+    padding: 8px 10px 6px 3px;
+    flex-wrap: wrap;
+}
+.recent_postimg_descrip {
+    margin: 0 0 1.2em 7px;
+    display: flex;
+    flex-basis: 31.33%;
+    flex-direction: column;
+}
+.recentpost_div h3, .feature_arti h3 {
+    font-size: 1.5em;
+}
+.arti_descrip h4 {
+    font-size: 1.35em;
+}
+.recent_postimg_descrip img {
+    height: 105px;
+    border-radius: 15px 15px 0 0;
+}
+.container.news_width.mobi_vwcontainer {
+    max-width: 88%;
+}
+.listing_newsart_div img {
+    height: 161px;
+}
+.newsarticle_div {
+    margin: 0 0 2em 0;
+}
+.mrgn_btm {
+    padding: 0px 10px 0 10px;
+}
+
+/* end of news and articles */
+}
+
 @media screen and (max-width: 640px) {
 /* menu css */
 .nav_backg {
@@ -7936,7 +8287,7 @@ font-size: 0.8em;
 .div_blocks {
 padding: 18px 7px 3px 7px;
 }
-.office_locations p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, 
+.arti_descrip p,.office_locations p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, 
 .management_services p, .tenant_descrip p,.royal_propdiff p, .tenant_placementdescr p, .portal_syst p,
 .our_premium p, .decrip_services p,.contact_client p,.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p{
 font-size: 0.9em;
@@ -8886,6 +9237,54 @@ right: 4.5em;
     padding: 0;
 }
 /* end of our departments */
+
+/* news and articles */
+.department_view.newsarti_div .tenantscreen_title {
+    margin: 2em 0;
+}
+.newsarticle_div .nav li a{
+    font-size: 0.9em;
+}
+.newsarticle_div .nav li a.search {
+    padding: 6px 11px 8px 11px;
+}
+.feature_arti img {
+    height: 267px;
+}
+.txt_decripdiv {
+    bottom: 17px;
+}
+.arti_descrip h4 {
+    font-size: 1.23em;
+}
+.arti_descrip p {
+    line-height: 22px;
+}
+.feature_arti .readmr_btn .btn.readmore {
+    margin: 0;
+    font-size: 0.9em;
+    padding: 6px 23px;
+}
+.recentpost_div h3, .feature_arti h3 {
+    font-size: 1.3em;
+}
+.recent_postimg_descrip img {
+    height: 87px;
+}
+.recent_postimg_descrip p,.bluelist .txtinfolist p{
+    font-size: 13px;
+}
+.listing_newsart_div img {
+    height: 130px;
+}
+.bluelist .txtinfolist p:before{
+    width: 13px;
+}
+.newsarticle_div .nav li a {
+    margin: 5px 3px 12px 3px;
+    padding: 8px 19px;
+}
+/* end of news and articles */
 }
 
 @media screen and (max-width: 568px) {
@@ -9845,6 +10244,44 @@ width: 95%;
     left: 20%;
 }
 /* end of our departments */
+
+/* news and articles */
+.nav_backg {
+    padding: 12px;
+}
+.feature_arti img {
+    height: 240px;
+}
+.newsarticle_div {
+    padding: 10px 9px;
+}
+.arti_descrip p {
+    line-height: 20px;
+}
+.recent_postimg_descrip img {
+    height: 75px;
+}
+.newsarticle_div .nav li a {
+    margin: 0px 3px 12px 3px;
+    font-size: 0.8em;
+}
+.arti_descrip h4 {
+    font-size: 1.1em;
+}
+.recentpost_div h3, .feature_arti h3 {
+    font-size: 1.2em;
+}
+.listing_newsart_div img {
+    height: 125px;
+}
+.recent_postimg_descrip {
+    margin: 0 0 1em 7px;
+}
+.container.news_width.mobi_vwcontainer {
+    max-width: 97%;
+}
+/* end of news and articles */
+
 }
 
 @media screen and (max-width:480px) {
