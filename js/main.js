@@ -88,7 +88,6 @@ slidesToShow: 1,
 }]
 });
 
-
 $('.ourpremium-logos').slick({
 slidesToShow: 5,
 slidesToScroll: 1,
@@ -117,7 +116,6 @@ slidesToShow: 1,
 ]
 });
 });
-
 
 // tenant page our process
 $(document).ready(function(){
@@ -150,5 +148,3 @@ $(document).ready(function(){
         });
     });
 });
-
-
