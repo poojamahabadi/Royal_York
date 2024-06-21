@@ -148,3 +148,32 @@ $(document).ready(function(){
         });
     });
 });
+
+
+// articles details page recent posts
+$(document).ready(function(){
+    $('.recent_posts_news').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
+    });
+  });

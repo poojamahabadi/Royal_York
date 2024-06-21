@@ -381,7 +381,7 @@ font-size: 1.4em;
     top: -112px;
 }
 .list_franchise li.lastlifranch:before {
-    width: 45px;
+    width: 38px;
 }
 .tenant_descrip.why_franch_descrip p {
     width: 100%;
@@ -434,6 +434,12 @@ font-size: 1.4em;
 }
 /* end of franchise */
 
+/* new articles detail page */
+.newsarti_reviews .tenant_descrip .list_provi.up_spacenewsdets p {
+    color: #315D80;
+    line-height: 24px;
+}
+/* end of news articles details page */
 }
 
 @media screen and (max-width: 1600px) {
@@ -1208,6 +1214,16 @@ font-size: 0.9em;
     font-size: 1em;
 }
 /* end of franchise */
+
+/* news and articles details */
+.list_provi ul li {
+    font-size: 1.3em;
+}
+.recent_posts_news .news_img img {
+    height: 238px;
+}
+/* end of news and articles details */
+
 }
 
 
@@ -1620,7 +1636,24 @@ top: 1.2em;
 .becm_franch_decrip p {
     font-size: 0.9em;
 }
+.list_franchise li:before {
+    width: 40px;
+}
+.list_franchise li.lastlifranch:before {
+        width: 53px;
+}
 /* end of franchise */
+
+/* new snad articles details */
+.newsdetail_img img {
+    height: 335px;
+    background-size: cover;
+}
+.list_provi ul li {
+    font-size: 1em;
+}
+/* end of articles details page */
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -2525,6 +2558,16 @@ right: -2px;
     padding: 37px 20px 0 20px;
 }
 /* end of franchise */
+
+/* articles detail page */
+.recent_posts_news .news_img img {
+    height: 235px;
+}
+.tenantscreen_title.article_title{
+    margin: 2em 0 3em 0;
+}
+/* end of articles detail page */
+
 }
 
 @media screen and (max-width: 1136px) {
@@ -3459,6 +3502,24 @@ right: -58px;
     padding: 2em 2em 2em 1em;
 }
 /* end of franchise */
+
+/* newd detail page */
+.newsdetail_img img {
+    height: 288px;
+}
+.list_provi ul li::before{
+    top: 5px;
+}
+.recent_posts_news .news_img img {
+    height: 200px;
+}
+.form-search.recentpost_search {
+    width: 26.2%;
+}
+.newsdetail_img .newsdetail_listinfo span p {
+    padding: 6px 9px 6px 1px;
+}
+/* end of news detail page */
 }
 
 @media screen and (max-width: 1080px) {
@@ -3957,6 +4018,30 @@ padding: 5px 16px;
 }
 /* end of franchise */
 
+/* news and articles details page */
+.newsdetail_img img {
+    height: 279px;
+}
+.newsdetail_listinfo {
+    position: absolute;
+    bottom: 16px;
+    left: 24px;
+}
+.newsdetail_img .newsdetail_listinfo span {
+    margin: 0 0.7em 0 0;
+}
+.newsarti_reviews .card .card {
+    width: 95%;
+}
+.recent_posts_news .news_img img {
+    height: 194px;
+    border: 14px solid #EDF2FA;
+}
+.rece_post {
+    margin: 3em 0 6em 0;
+}
+/* end of news and articles detail page */
+
 }
 
 
@@ -4441,6 +4526,21 @@ right: -60px;
 }
 /* end of franchise */
 
+/* news and articles details */
+.recent_posts_news .news_img img {
+    height: 206px;
+    width: 93%;
+}
+.rece_post .slick-prev, .rece_post .slick-next {
+    top: -34px;
+}
+.slidepost .news_card p{
+    line-height: 18px;
+}
+.list_provi ul li::before{
+    height:15px;
+}
+/* news and articles details end */
 }
 
 
@@ -4809,6 +4909,15 @@ font-size: 1.1em;
     height: 94px;
 }
 /* end of news and article */
+
+/* news detail page */
+.recent_posts_news .news_img img {
+    height: 197px;
+}
+.newsdetail_img img {
+    height: 210px;
+}
+/* end of news details page */
 }
 
 @media screen and (max-width: 991px) {
@@ -5051,7 +5160,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.container.news_width,.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
+.rece_post .container,.newsarti_reviews .container,.newsarti_decrip .container,.news_art_details .container,.container.news_width,.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
 .req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
@@ -5138,7 +5247,7 @@ margin: 4.3em 0px 1px 0px;
 .leave_us p {
 line-height: 18px;
 }
-.office_locations p,.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_descrip p,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
+.list_provi ul li,.office_locations p,.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_descrip p,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
 .management_services p,.royal_propdiff .royal_p, .contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 0.9em;
 }
@@ -6000,6 +6109,19 @@ width: 100%;
     transform: translateY(-24px);
 }
 /* end of franchise */
+
+/* news and articles */
+.newsdetail_img img {
+    height: 251px;
+}
+.form-search.recentpost_search {
+    width: 30.2%;
+    margin-left: 7.1em;
+}
+.recent_posts_news .news_img img {
+    height: 244px;
+}
+/* end of news and articles */
 
 }
 
