@@ -5735,11 +5735,11 @@ padding: 5px;
 background-color: unset;
 }
 .newsdetail_img .newsdetail_listinfo span p{
-    margin: 0;
-    padding: 8px 9px 8px 1px;
-    font-size: 0.8em;
-    font-family: "Outfit", sans-serif;
-    font-weight: 500;
+margin: 0;
+padding: 8px 9px 8px 1px;
+font-size: 0.8em;
+font-family: "Outfit", sans-serif;
+font-weight: 500;
 }
 .newsdetail_img{
 position: relative;
@@ -5753,10 +5753,51 @@ left: 32px;
 font-size: 0.9em;
 }
 .newsdetail_img .newsdetail_listinfo span {
-    display: inline-flex;
-    background: #EDF2FA;
-    box-shadow: inset 4px 4px 10px rgba(49, 93, 128, 0.1);
-    border-radius: 40px;
-    margin: 0 1em 0 0;
-    align-items: center;
+display: inline-flex;
+background: #EDF2FA;
+box-shadow: inset 4px 4px 10px rgba(49, 93, 128, 0.1);
+border-radius: 40px;
+margin: 0 1em 0 0;
+align-items: center;
+}
+.mobileview{
+display: none;
+}
+/* end of news and articles details */
+
+/* verified tenant */
+.contact_view.verif_tenant {
+background-image: linear-gradient(182.19deg, rgba(170, 202, 255, 0) 18.34%, rgba(98, 136, 177, 0.612676) 56.77%, #497AA4 81.19%), url(../images/verified_tenant/veri_tenant.svg);
+}
+.contact_view .contact_descrip .heading {
+font-size: 3em;
+}
+.contact_view .contact_descrip .heading {
+font-size: 3em;
+line-height: 79px;
+}
+.contact_descrip.verif_tenantdescrip {
+top: 78px;
+}
+.imgverfi img{
+width: 17%;
+}
+.publications.verifi_tenan_publi{
+margin:-6em 0 0 0;
+}
+.imgbg{
+    position:relative;
+    width: 51%;
+}
+.imgveri_one,.imgveri_two,.imgveri_three{
+    position:absolute;
+}
+.img_rightveri{
+    text-align: right;
+}
+.imgveri_one{
+    top: 54px;
+    left: 150px;
+    z-index: 10;
+    height: 111px;
 }

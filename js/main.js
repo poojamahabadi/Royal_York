@@ -171,7 +171,16 @@ $(document).ready(function(){
     {
       breakpoint: 767,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 540,
+      settings: {
+        slidesToScroll: 1,
+        centerMode: true,
+        slidesToShow:1,
       }
     }
   ]
