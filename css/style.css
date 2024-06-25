@@ -5767,17 +5767,15 @@ display: none;
 
 /* verified tenant */
 .contact_view.verif_tenant {
-background-image: linear-gradient(182.19deg, rgba(170, 202, 255, 0) 18.34%, rgba(98, 136, 177, 0.612676) 56.77%, #497AA4 81.19%), url(../images/verified_tenant/veri_tenant.svg);
-}
-.contact_view .contact_descrip .heading {
-font-size: 3em;
-}
-.contact_view .contact_descrip .heading {
-font-size: 3em;
-line-height: 79px;
+background-image: url(../images/verified_tenant/veri_tenant.svg);
+height: 368px;
 }
 .contact_descrip.verif_tenantdescrip {
-top: 78px;
+    top: 142px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+font-size: 3em;
+line-height: 79px;
 }
 .imgverfi img{
 width: 17%;
@@ -5793,11 +5791,97 @@ margin:-6em 0 0 0;
     position:absolute;
 }
 .img_rightveri{
-    text-align: right;
+    text-align: center;
 }
-.imgveri_one{
-    top: 54px;
-    left: 150px;
+.imgveri_one {
+    top: 56px;
+    left: 46px;
     z-index: 10;
-    height: 111px;
+    height: 99px;
+}
+.imgveri_two{
+    top: 165px;
+    left: 39px;
+    z-index: 10;
+    height: 24px;
+}  
+.imgveri_three {
+    top: 198px;
+    left: 49px;
+    height: 29px;
+    z-index: 10;
+}
+.btnsys_div .btn.port_systm{
+    background: #376990;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+    border-radius: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    padding: 6px 20px 8px 20px;
+}
+.veri_doc_div{
+    margin: 3em 0 4em 0;
+}
+.veri_royalyork{
+    margin: 1.3em 0 0 0;
+}
+.howsdiv_royal h3.heading{
+    text-align: center;
+}
+.howsdiv_royal.tenant_descrip p{
+    text-align: center;
+    line-height: 23px;
+}
+.blocks_divhows{
+    background: #F8F8F8;
+    box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
+    border-radius: 22px;
+    padding: 29px 35px 15px 35px;
+}
+.blocks_divhows p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #51617C;
+    font-size: 0.9em;
+    text-transform: capitalize;
+}
+.blocks_divhows h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 1em;  
+}
+.blocks_divhows h3.blackclr{
+color:#6B5E7A;
+}
+.blocks_divhows h3.purpleclr{
+color:#C06A87;
+}
+.blocks_divhows h3.skinclr{
+    color:#FFB6A3;
+}
+.cssflex_verif{
+    display:flex;
+    margin:0 0 2em 0;
+}
+.royalbenefit.verifiroyalbenef{
+    margin: 2em 0px;
+}
+.button_specl_all .btn.bookcall{
+    background: #376990;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+    border-radius: 40px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 5px 35px;
+}
+.btncenter{
+    align-items: center;
+}
+.how_does{
+    margin: 0 0 4em 0;
 }
