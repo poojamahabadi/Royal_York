@@ -3662,6 +3662,27 @@ right: -58px;
 .imgbg {
     width: 63%;
 }
+.imgveri_one {
+    top: 60px;
+    left: 85px;
+    height: 94px;
+}
+.imgveri_two {
+    top: 167px;
+    left: 77px;
+    height: 23px;
+}
+.imgveri_three {
+    top: 200px;
+    left: 98px;
+    height: 20px;
+}
+.btnsys_div .btn.port_systm {
+    padding: 6px 26px 8px 26px;
+}
+.button_specl_all .btn.bookcall {
+    padding: 5px 26px;
+}
 /* end of news detail page */
 }
 
@@ -4185,6 +4206,28 @@ padding: 5px 16px;
 }
 /* end of news and articles detail page */
 
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 313px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    line-height: 68px;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 130px;
+}
+.imgveri_three {
+    left: 89px;
+    height: 25px;
+}
+.imgveri_one {
+    left: 79px;
+    height: 98px;
+}
+.howsdiv_royal.tenant_descrip h3.heading {
+    margin: 0em 0px 0.6em 0px;
+}
+/* end of verified tenant */
 }
 
 
@@ -4684,6 +4727,33 @@ right: -60px;
     height:15px;
 }
 /* news and articles details end */
+
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 296px;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 115px;
+}
+.imgverfi img {
+    width: 13%;
+}
+.imgbg {
+    width: 59%;
+}
+.imgveri_one {
+    left: 92px;
+    top: 51px;
+}
+.imgveri_two {
+    top: 157px;
+    left: 86px;
+}
+.imgveri_three {
+    left: 102px;
+    top: 188px;
+}
+/* end of verified tenant */
 }
 
 
@@ -5161,6 +5231,30 @@ margin-top: 4px;
     margin: 4em auto 2em auto;
 }
 /* end of franchise */
+
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 287px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    font-size: 2.3em;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 123px;
+}
+.imgveri_one {
+    height: 91px;
+    left: 101px;
+    top: 57px;
+}
+.imgveri_two {
+    left: 88px;
+}
+.imgveri_three {
+    left: 96px;
+    height: 28px;
+}
+/* end of verified tenant */
 }
 
 @media screen and (max-width: 960px) {
@@ -5303,7 +5397,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.rece_post .container,.newsarti_reviews .container,.newsarti_decrip .container,.news_art_details .container,.container.news_width,.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
+.verifi_monthprice .container,.how_does .container,.veri_doc_div .container,.rece_post .container,.newsarti_reviews .container,.newsarti_decrip .container,.news_art_details .container,.container.news_width,.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
 .req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
@@ -6266,6 +6360,45 @@ width: 100%;
 }
 /* end of news and articles */
 
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 277px;
+}
+.publications.verifi_tenan_publi {
+    margin: -3em 0 0 0;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 110px;
+}
+.imgveri_one {
+    height: 83px;
+    left: 88px;
+    top: 50px;
+}
+.imgveri_two {
+    left: 78px;
+    top: 142px;
+    height: 22px;
+}
+.imgveri_three {
+    left: 86px;
+    height: 26px;
+    top: 175px;
+}
+.veri_royalyork {
+    margin: 0.6em 0 0 0;
+}
+.how_does {
+    margin: 5em 0 4em 0;
+}
+.blocks_divhows {
+    padding: 29px 30px 15px 30px;
+}
+.verifi_monthprice .container .tab-content .container{
+max-width:100%;
+padding:0;
+}
+/* end of verified tenant */
 }
 
 @media screen and (max-width: 768px) {
@@ -7500,6 +7633,42 @@ width: 25%;
 }
 /* end of news details */
 
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 248px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    font-size: 2em;
+    line-height: 54px;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 99px;
+}
+.imgbg {
+    width: 69%;
+}
+.imgveri_one {
+    height: 76px;
+    left: 41px;
+    top: 43px;
+}
+.imgveri_two {
+    left: 35px;
+    top: 127px;
+    height: 19px;
+}
+.imgveri_three {
+    left: 38px;
+    height: 26px;
+    top: 153px;
+}
+.veri_royalyork {
+    margin: 0;
+}
+.button_specl_all .btn.bookcall {
+    padding: 5px 17px;
+}
+/* end of verified tenant */
 }
 
 @media screen and (max-width: 767px) {
@@ -7891,9 +8060,8 @@ margin-bottom: 1em;
 .month_pricing img {
 width: 52%;
 }
-.month_pricing {
-text-align: center;
-margin: 2em 0 0 0;
+.prop_mangmt_services .month_pricing {
+display: none;
 }
 .property_mgmt tbody tr td, .royal_propdiff p {
 font-size: 0.9em;
@@ -9127,6 +9295,67 @@ margin:1.2em 0 0 0;
     max-width: 96%;
 }
 /* news details end*/
+
+/* verified tenant */
+.contact_view.verif_tenant {
+    background-image: url(../images/verified_tenant/mobile_verified.svg);
+    height: 343px;
+}
+.verif_tenant .container{
+    max-width: 100%;
+}
+.imgverfi img {
+    width: 17%;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    font-size: 2.3em;
+    line-height: 60px;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 172px;
+}
+.desktopview_hide{
+    display: block;
+}
+.mobileview_hide{
+    display:none;
+}
+.img_rightveri {
+    text-align: center;
+}
+.desktopview_hide .img_rightveri img {
+    width: 73%;
+    margin:0 0 2em 0;
+}
+.btnsys_div{
+    text-align: center;
+}
+.btnsys_div .btn.port_systm {
+    width: 56%;
+    margin: 1em 0 0 0;
+}
+.blocks_divhows h3.blackclr,.blocks_divhows p{
+    text-align: center;
+}
+.blocks_divhows {
+    width: 80%;
+    margin: 0 auto 1em auto;
+    text-align: center;
+}
+.blocks_divhows h3 {
+    font-size: 1.3em;
+}
+.blocks_divhows p {
+    font-size: 1em;
+    line-height: 23px;
+}
+.btncenter {
+    justify-content: center;
+}
+.button_specl_all .btn.bookcall {
+    padding: 7px 25px;
+}
+/* end of verified tenant */
 }
 
 @media screen and (max-width: 640px) {
@@ -9826,7 +10055,8 @@ right: 4.5em;
 }
 .button_royalbenef button.btn {
     margin: 0px 6px 12px 0px;
-    width: 46%;
+    width: auto;
+    padding: 6px 24px;
 }
 .img_collecdiv{
     text-align: center;
@@ -10250,6 +10480,62 @@ right: 4.5em;
     width: 70%;
 }
 /* end of news and articles details */
+
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 296px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    font-size: 1.7em;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 137px;
+}
+.imgverfi img {
+    width: 23%;
+}
+.desktopview_hide .img_rightveri img {
+    width: 68%;
+}
+.button_royalbenef p {
+    font-size: 1.2em;
+}
+.royalbenefit {
+    background-image: url(../images/verified_tenant/royalbenefit_mobile.svg);
+}
+.verifi_monthprice .container{
+    max-width: 98%;
+}
+.nav-tabs.property_tabs {
+    justify-content: flex-start;
+}
+tr td.blockbef{
+    display: flex;
+    align-items: center;
+}
+.blockbef:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: linear-gradient(0deg, #599FD7 -3.29%, #28517B 114.21%);
+}
+.verifi_monthprice .price_mgmt,.verifi_monthprice .silver,.verifi_monthprice .golden{
+    color: #315D80;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+.verifi_monthprice .silver,.verifi_monthprice .golden {
+    padding: 0px;
+    background: unset;
+    box-shadow: unset;
+}
+/* end of verified tenant */
 }
 
 @media screen and (max-width: 568px) {
@@ -11295,6 +11581,30 @@ width: 95%;
     margin: 1em 0;
 }
 /* end of new and article detail */
+
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 275px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    font-size: 1.5em;
+    line-height: 46px;
+}
+.imgverfi img {
+    width: 20%;
+}
+.btnsys_div .btn.port_systm {
+    width: 71%;
+}
+.logoimg img, .publications .publi_img img {
+    width: 88%;
+}
+.royalbenefit{
+    background-size: 100% 100%;
+    background-position: top;
+}
+/* end of verified tenant */
+
 }
 
 @media screen and (max-width:480px) {
@@ -11586,9 +11896,6 @@ right: -22px;
 }
 .prop_mangmt_services .tab-content .container{
 padding: 0;
-}
-.month_pricing img {
-width: 46%;
 }
 /* owners page end */
 
@@ -12075,9 +12382,8 @@ right: 1.9em;
 .img_collecdiv img {
     height: 39px;
 }
-.button_royalbenef button.btn {
-    margin: 0px 6px 12px 0px;
-    width: 65%;
+.button_royalbenef {
+    text-align: left;
 }
 .portalsystm_image img:nth-child(8) {
     bottom: 10px;
@@ -12341,6 +12647,45 @@ right: 1.9em;
 }
 /* end news and articles detail */
 
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 220px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    font-size: 1.3em;
+    line-height:48px;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 88px;
+}
+.publications.verifi_tenan_publi {
+    margin: -1em 0 0 0;
+}
+.blocks_divhows p {
+    font-size: 0.8em;
+    line-height: 21px;
+}
+.blocks_divhows {
+    width: 90%;
+}
+.blocks_divhows h3 {
+    font-size: 1.1em;
+}
+.imgverfi img {
+    width: 27%;
+}
+.veri_doc_div {
+    margin: 1em 0 2em 0;
+}
+.property_tabs .nav-item a {
+    width: auto;
+    padding: 0.6em 3em;
+}
+.button_royalbenef button.btn {
+    width: auto;
+    padding: 5px 15px;
+}
+/* end of verified tenant */
 }
 
 @media screen and (max-width:414px) {
@@ -13277,6 +13622,21 @@ margin: 0 0 3em 0;
 }
 /* end of news and articles details end */
 
+/* verified tenant */
+.btnsys_div .btn.port_systm {
+    width: 92%;
+}
+.how_does {
+    margin: 3em 0 4em 0;
+}
+.blocks_divhows {
+    width: 100%;
+}
+.img_collecdiv img {
+    margin: 0px 14px 11px 0;
+}
+/* end of verified tenant */
+
 }
 @media screen and (max-width:411px) {
 
@@ -13344,9 +13704,6 @@ top: 138px;
 }
 .leftchat_anim img:nth-child(2) {
 left: -30px;
-}
-.month_pricing img {
-width: 56%;
 }
 .prop_management h3.heading {
 margin: 0px;
@@ -13687,7 +14044,20 @@ left: 0em;
 }
 /* end of news and articles details */
 
-
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 196px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    line-height: 37px;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 83px;
+}
+.blocks_divhows h3 {
+    font-size: 1em;
+}
+/* end of verified tenant */
 }
 @media screen and (max-width:375px) {
 /* footer */
@@ -14154,9 +14524,6 @@ right: 1.8em;
 .portalsystm_image img:nth-child(4) {
     right: -26px;
 }
-.button_royalbenef button.btn {
-    width: 77%;
-}
 .cust_serv_img {
     margin: 4em 0 0 0;
 }
@@ -14372,6 +14739,33 @@ right: 1.8em;
     height: 202px;
 }
 /* end of news and articles details */
+
+/* verified tenant */
+.imgverfi img {
+    width: 29%;
+}
+.how_does {
+    margin: 3em 0 1em 0;
+}
+.royalbenefit.verifiroyalbenef {
+    margin: 0em 0px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    font-size: 1.2em;
+}
+.desktopview_hide .img_rightveri img {
+    width: 84%;
+}
+.btnsys_div .btn.port_systm {
+    width: 100%;
+}
+.blocks_divhows {
+    padding: 29px 21px 15px 21px;
+}
+.img_collecdiv img {
+    height: 37px;
+}
+/* end of verified tenant */
 }
 
 @media screen and (max-width:360px) {
@@ -14560,9 +14954,7 @@ right: -1px;
 bottom: 103px;
 right: -13px;
 }
-.property_tabs .nav-item a {
-width: 149px;
-}
+
 .portal_sys_img img {
 width: 98%;
 }
@@ -14883,6 +15275,35 @@ height: 228px;
     font-size: 0.8em;
 }
 /* end of news and articles details */
+/* verified tenant */
+.contact_view.verif_tenant {
+    height: 169px;
+}
+.contact_descrip.verif_tenantdescrip {
+    top: 63px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    font-size: 1.1em;
+}
+.btnsys_div .btn.port_systm {
+    padding: 6px 33px 8px 33px;
+}
+.blocks_divhows {
+    padding: 29px 16px 15px 16px;
+}
+.img_collecdiv img {
+    margin: 0px 10px 11px 0;
+}
+.nav-tabs.property_tabs{
+    margin-top: 2.2em;
+}
+.publications .publi_img img {
+    width: 98%;
+}
+.desktopview_hide .img_rightveri img {
+    width: 86%;
+}
+/* end of verified tenant */
 
 }
 @media screen and (max-width:340px) {
@@ -15237,9 +15658,6 @@ padding: 8px 14px;
 .portalsystm_image img:nth-child(6) {
     right: -8px;
 }
-.button_royalbenef button.btn {
-    width: 85%;
-}
 .cust_serv_img img:nth-child(4) {
     width: 64%;
 }
@@ -15411,7 +15829,36 @@ padding: 8px 14px;
 bottom: 17px;
 }
 /* news and articles details end */
-
+/* verified */
+.contact_view.verif_tenant {
+    height: 162px;
+}
+.contact_view .contact_descrip.verif_tenantdescrip .heading {
+    line-height: 29px;
+    font-size: 1em;
+}
+.btnsys_div .btn.port_systm {
+    padding: 6px 24px 8px 24px;
+}
+.how_does {
+    margin: 2em 0 1em 0;
+}
+.royalbenefit {
+    padding: 0em 0 4em 0;
+}
+.royalbenefit {
+    background-size: 105% 112%;
+}
+.royalbenefit.verifiroyalbenef {
+    margin: -8em 0px 0 0;
+}
+.property_tabs .nav-item a {
+    padding: 0.6em 2em;
+}
+.royalbenefit.verifiroyalbenef .tenant_descrip.royalbene_p{
+    padding: 11em 0 0 0;
+}
+/* end of verified tenant */
 }
 
 @media screen and (max-width:320px) {
@@ -15803,9 +16250,6 @@ top: 16.1em;
 .cust_serv_img img:nth-child(8) {
     right: 0.3em;
 }
-.button_royalbenef button.btn {
-    width: 89%;
-}
 .portalsystm_image img:nth-child(5) {
     top: 6.3em;
 }
@@ -15958,4 +16402,28 @@ top: 16.1em;
 }
 /* end of news and articles details */
 
+/* verified tenant */
+.btnsys_div .btn.port_systm {
+    padding: 6px 16px 8px 16px;
+}
+.blocks_divhows h3 {
+    font-size: 0.95em;
+}
+.royalbenefit.verifiroyalbenef .tenant_descrip.royalbene_p {
+    padding: 8em 0 0 0;
+}
+.royalbenefit {
+    background-size: 100% 100%;
+}
+.royalbenefit.verifiroyalbenef {
+    margin: 0em 0px 0 0;
+    background-size: 111% 103%;
+}
+.royalbenefit.verifiroyalbenef .tenant_descrip.royalbene_p {
+    padding: 6em 0 0 0;
+}
+.royalbenefit.verifiroyalbenef {
+    margin: -2em 0px 0 0;
+}
+/* end of verified tenant */
 }

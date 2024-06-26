@@ -82,8 +82,7 @@ slidesToShow: 2
 {
 breakpoint: 641,
 settings: {
-arrows: true,
-slidesToShow: 1,
+slidesToShow:2,
 }
 }]
 });
