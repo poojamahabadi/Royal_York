@@ -450,6 +450,62 @@ font-size: 1.4em;
     font-size: 1.5em;
 }
 /* end of vreified tenant */
+
+/* no deposit */
+.money_descrip.tenant_descrip h3.heading {
+    margin: 0.8em 0px 0.6em 0px;
+}
+.nodeposit_req img {
+    width: 90%;
+}
+.money_aplynw .btn.applynw{
+    width: 30%;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 705px;
+    background-position: 100% 39%;
+}
+.deposit_descrip h4 {
+    font-size: 4em;
+}
+.deposit_descrip h2 {
+    font-size: 6em;
+}
+.cnct_now .btn.contactus {
+    padding: 6px 59px;
+    font-size: 2em;
+}
+.ul_listworks ul li {
+    font-size: 1.2em;
+}
+.wid_deposit {
+    width: 91%;
+}
+.paymtdescrip p {
+    width: 74%;
+}
+.widnodeposit {
+    width: 88%;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    padding: 6px 62px;
+}
+.leftbg h3,.rightbg h3 {
+    font-size: 1.4em;
+}
+.leftbg span.btn_dollar,.rightbg span.moneypay{
+    font-size: 1.9em;
+}
+p.smtxt{
+    font-size: 1em;
+}
+.ul_listworks ul li.crcl_widthtwo:before{
+    width: 30px;
+}
+.txt_centerdiv h3.heading{
+    margin: 0px 0px 1.4em 0px;
+}
+/* end of no deposit */
 }
 
 @media screen and (max-width: 1600px) {
@@ -710,6 +766,27 @@ left: 12.7em;
 .blocks_divhows h3 {
     margin: 0 0 0.7em 0;
 }
+/* end of verified tenant */
+
+/* no deposit */
+.leaveus_bgimg.depositbgimg {
+    height: 628px;
+    background-position: 100% 52%;
+}
+.deposit_descrip h4 {
+    font-size: 3.4em;
+}
+.deposit_descrip h2 {
+    font-size: 5.5em;
+    margin: 0 0 0.6em 0;
+}
+.widnodeposit {
+    width: 92%;
+}
+.cnct_now.applytoday_btn .btn.contactus{
+    font-size:1.7em;
+}
+/* end of no deposit */
 }
 
 
@@ -1029,7 +1106,30 @@ margin-bottom: 0em;
     height: 32px;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.nodeposit_req img {
+    width: 100%;
 }
+.deposit_descrip h4 {
+    font-size: 3.2em;
+}
+.deposit_descrip h2 {
+    font-size: 5em;
+}
+.cnct_now .btn.contactus {
+    font-size: 1.7em;
+}
+.money_descrip.tenant_descrip h3.heading {
+    margin: 0.6em 0px 0.6em 0px;
+}
+.paymtdescrip {
+    margin: 0 0 3em 0;
+}
+/* end of deposit */
+}
+
+
 @media screen and (max-width: 1400px) {
 /* menu css */
 .nav_backg {
@@ -1294,6 +1394,27 @@ font-size: 0.9em;
 }
 /* end of verified tenant */
 
+/* no deposit */
+.nodeposit_req img {
+    width: 97%;
+}
+.deposit_descrip h4 {
+    font-size: 3em;
+}
+.cnct_now .btn.contactus {
+    font-size: 1.5em;
+    padding: 6px 45px;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 574px;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 42px;
+}
+.ul_listworks ul li:before{
+    margin: 10px 10px 0 0;
+}
+/* end of no deposit */
 }
 
 
@@ -1757,6 +1878,54 @@ top: 1.2em;
 }
 /* end of verified tenant */
 
+/* no deposit */
+.nodeposit_req img {
+    width: 80%;
+}
+.money_descrip.tenant_descrip h3.heading {
+    margin: 1.3em 0px 0.6em 0px;
+}
+.deposit_descrip h2 {
+    font-size: 4em;
+}
+.cnct_now .btn.contactus {
+    font-size: 1.1em;
+    padding: 6px 35px;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 560px;
+}
+.ul_listworks ul li {
+    font-size: 0.9em;
+}
+.ul_listworks ul li:before {
+    margin: 4px 10px 0 0;
+}
+.howdoes_itworks {
+    padding: 5em 0 2em 0;
+}
+.ul_listworks ul li.crcl_widthtwo:before {
+    width: 22px;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 33px;
+}
+.leftbg span.btn_dollar, .rightbg span.moneypay {
+    font-size: 1.7em;
+}
+p.smtxt {
+    font-size: 0.7em;
+}
+.leftbg h3, .rightbg h3 {
+    font-size: 1.1em;
+}
+.calculate_paymt h3.heading {
+    margin-top: -10px;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    font-size: 1.1em;
+}
+/* end of no deposit */
 }
 
 @media screen and (max-width: 1280px) {
@@ -2173,6 +2342,36 @@ font-size: 0.9em;
     max-width: 87%;
 }
 /* end of franchise */
+
+/* no deposit */
+.money_descrip.tenant_descrip h3.heading {
+    margin: 1em 0px 0.6em 0px;
+}
+.nodeposit_req img {
+    width: 78%;
+}
+.deposit_descrip h4 {
+    font-size: 2.7em;
+}
+.deposit_descrip h2 {
+    font-size: 3.4em;
+}
+.cnct_now .btn.contactus {
+    font-size: 1.1em;
+}
+.deposit_descrip {
+    padding: 8.4em 0 0 0;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 540px;
+}
+.leftbg span.btn_dollar, .rightbg span.moneypay {
+    font-size: 1.5em;
+}
+.leftbg h3, .rightbg h3 {
+    font-size: 1em;
+}
+/* end of no deposit */
 }
 
 
@@ -2708,6 +2907,12 @@ right: -2px;
     margin: 1em 0px 0.6em 0px;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.widnodeposit {
+    width: 79%;
+}
+/* end of no deposit */
 }
 
 @media screen and (max-width: 1136px) {
@@ -3684,6 +3889,49 @@ right: -58px;
     padding: 5px 26px;
 }
 /* end of news detail page */
+
+/* no deposit */
+.nodeposit_req img {
+    width: 100%;
+}
+.money_descrip.tenant_descrip h3.heading {
+    margin: 0em 0px 0.6em 0px;
+}
+.money_aplynw {
+    margin: 1.2em 0 0 0;
+}
+.money_aplynw .btn.applynw {
+    width: 35%;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 482px;
+}
+.deposit_descrip {
+    padding: 7.2em 0 0 0;
+}
+.deposit_descrip h4 {
+    font-size: 2.3em;
+}
+.deposit_descrip h2 {
+    font-size: 3.2em;
+}
+.cnct_now .btn.contactus {
+    font-size: 1em;
+    padding: 6px 37px;
+}
+.ul_listworks ul li.crcl_widthtwo:before {
+    width: 28px;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 40px;
+}
+.paymtdescrip p {
+    width: 64%;
+}
+.paymtdescrip {
+    margin: 0 0 2em 0;
+}
+/* end of no deposit */
 }
 
 @media screen and (max-width: 1080px) {
@@ -4228,6 +4476,36 @@ padding: 5px 16px;
     margin: 0em 0px 0.6em 0px;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.money_descrip.tenant_descrip h3.heading {
+    margin: 1em 0px 0.6em 0px;
+}
+.nodeposit_req img {
+    width: 90%;
+}
+.deposit_descrip h4 {
+    font-size: 2.1em;
+}
+.deposit_descrip {
+    padding: 6.2em 0 0 0;
+}
+.leftbg span.btn_dollar, .rightbg span.moneypay {
+    font-size: 1.4em;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    font-size: 1.1em;
+}
+.deposit_descrip h2 {
+    font-size: 3em;
+}
+.cnct_now .btn.contactus {
+    padding: 6px 33px;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 437px;
+}
+/* end of no deposit */
 }
 
 
@@ -4754,6 +5032,15 @@ right: -60px;
     top: 188px;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.deposit_div {
+    padding: 0 0 4em 0;
+}
+.howdoes_itworks {
+    padding: 5em 0 0em 0;
+}
+/* end of no deposit */
 }
 
 
@@ -5131,6 +5418,38 @@ font-size: 1.1em;
     height: 210px;
 }
 /* end of news details page */
+/* no deposit */
+.nodeposit_req img {
+    width: 86%;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 407px;
+}
+.deposit_descrip h4 {
+    font-size: 1.9em;
+}
+.deposit_descrip h2 {
+    font-size: 2.7em;
+}
+.howdoes_itworks {
+    padding: 4em 0 0em 0;
+}
+.leftbg span.btn_dollar, .rightbg span.moneypay {
+    font-size: 1.3em;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    font-size: 1em;
+}
+.cnct_now.applytoday_btn {
+    margin: 0 0 2em 0;
+}
+.deposit_descrip {
+    padding: 5.9em 0 0 0;
+}
+.widnodeposit {
+    width: 84%;
+}
+/* end of no deposit */
 }
 
 @media screen and (max-width: 991px) {
@@ -5255,6 +5574,9 @@ margin-top: 4px;
     height: 28px;
 }
 /* end of verified tenant */
+
+
+
 }
 
 @media screen and (max-width: 960px) {
@@ -5397,7 +5719,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
-.verifi_monthprice .container,.how_does .container,.veri_doc_div .container,.rece_post .container,.newsarti_reviews .container,.newsarti_decrip .container,.news_art_details .container,.container.news_width,.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
+.deposit_div .container,.verifi_monthprice .container,.how_does .container,.veri_doc_div .container,.rece_post .container,.newsarti_reviews .container,.newsarti_decrip .container,.news_art_details .container,.container.news_width,.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
 .req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
 .featured_prop .container,.publications .container,.news_articles .container,.container.tenant_width {
@@ -6399,6 +6721,42 @@ max-width:100%;
 padding:0;
 }
 /* end of verified tenant */
+/* no deposit */
+.money_descrip.tenant_descrip h3.heading {
+    margin: 0.3em 0px 0.6em 0px;
+}
+.deposit_descrip h4 {
+    font-size: 1.7em;
+}
+.deposit_descrip h2 {
+    font-size: 2.5em;
+}
+.deposit_descrip {
+    padding: 5.3em 0 0 0;
+}
+.wid_deposit {
+    width: 100%;
+}
+.ul_listworks ul li.crcl_widthtwo:before {
+    width: 36px;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 51px;
+}
+.ul_listworks ul li.upcircl:before {
+    width: 27px;
+}
+.paymtdescrip p {
+    width: 77%;
+}
+.widnodeposit {
+    width: 96%;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    padding: 6px 44px;
+}
+/* no deposit */
+
 }
 
 @media screen and (max-width: 768px) {
@@ -7669,6 +8027,38 @@ width: 25%;
     padding: 5px 17px;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.nodeposit_req img {
+    width: 100%;
+}
+.money_descrip.tenant_descrip h3.heading {
+    margin: 0;
+}
+.money_aplynw .btn.applynw {
+    width: 40%;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 330px;
+}
+.deposit_descrip h4 {
+    font-size: 1.5em;
+}
+.deposit_descrip h2 {
+    font-size: 2.2em;
+}
+.deposit_descrip {
+    padding: 4.8em 0 0 0;
+}
+.howdoes_itworks {
+    padding: 3em 0 0em 0;
+    top: -45px;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    padding: 6px 32px;
+}
+/* end of no deposit */
+
 }
 
 @media screen and (max-width: 767px) {
@@ -9356,6 +9746,125 @@ margin:1.2em 0 0 0;
     padding: 7px 25px;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.leaveus_bgimg.depositbgimg{
+    background-image: url(../images/nodeposit/monthbg_mobile.svg);
+}
+.nodeposit_req img {
+    width: 65%;
+}
+.nodeposit_req {
+    text-align: center;
+}
+.tenantscreen_space.nodeposit_div {
+    padding: 0;
+}
+.nodeposit_div .tenantscreen_title {
+    margin: 3.2em 0 2em 0;
+}
+.money_descrip.tenant_descrip {
+    margin: 3em auto 0 auto;
+}
+.money_descrip.tenant_descrip h3.heading {
+    margin: 0 0 1em 0;
+}
+.money_aplynw {
+    text-align: center;
+}
+.money_aplynw .btn.applynw {
+    width: 30%;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 1082px;
+    background-position: 100% 59%;
+}
+.deposit_descrip {
+    padding: 42em 0 0 0;
+    text-align: center;
+}
+.deposit_descrip h4 {
+    font-size: 3.7em;
+    font-weight: bold;
+    margin: 0 0 0.3em 0;
+}
+.deposit_descrip h2 {
+    font-size: 5.7em;
+    margin: 0 0 0.45em 0;
+}
+.cnct_now .btn.contactus {
+    font-size: 2em;
+    padding: 9px 72px;
+}
+.ul_listworks ul {
+    padding: 0;
+    margin: 0;
+}
+.ul_listworks ul li {
+    font-size: 1em;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 31px;
+}
+.ul_listworks ul li.crcl_widthtwo:before,.ul_listworks ul li.upcircl:before {
+    width: 24px;
+}
+.ul_listworks ul li:before{
+    width: 24px;
+}
+.howdoes_itworks .container{
+    max-width: 72%;
+}
+.calculate_paymt .container{
+    max-width: 90%;
+}
+.paymtdescrip p {
+    width: 90%;
+}
+.widnodeposit .padright {
+    padding-right: 15px;
+    max-width: 100%;
+    flex: 100%;
+}
+.padleft {
+    padding-left: 15px;
+    margin-left:0px;
+    max-width: 100%;
+    flex: 100%;
+}
+.rightbg{
+    margin: -25px 0 0 0;
+}
+.widnodeposit {
+    width: 77%;
+}
+.leftbg {
+    padding: 2em 1em 3em 1em;
+}
+.leftbg h3{
+    margin: 0 0 2.2em 0;
+}
+.rightbg h3{
+    margin: 0 0 1em 0;
+}
+.leftbg h3, .rightbg h3 {
+    font-size: 1.5em;
+}
+.leftbg span.btn_dollar, .rightbg span.moneypay {
+    font-size: 2em;
+}
+p.smtxt {
+    font-size: 1em;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    padding: 6px 53px;
+}
+.leftbg span.btn_dollar{
+    padding: 7px 10px;
+    width: 50%;
+}
+/* end of no deposit */
+
 }
 
 @media screen and (max-width: 640px) {
@@ -10536,6 +11045,50 @@ tr td.blockbef{
     box-shadow: unset;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.leaveus_bgimg.depositbgimg {
+    height: 878px;
+    background-position: 100% 59%;
+}
+.cnct_now .btn.contactus {
+    font-size: 1.6em;
+}
+.deposit_descrip {
+    padding: 34em 0 0 0;
+}
+.deposit_descrip h4 {
+    font-size: 3.2em;
+}
+.deposit_descrip h2 {
+    font-size: 4.5em;
+    margin: 0 0 0.3em 0;
+}
+.ul_listworks ul li.crcl_widthtwo:before{
+    width: 28px;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 40px;
+}
+.ul_listworks ul li:before {
+    margin: 5px 10px 0 0;
+}
+.nodeposit_div .tenantscreen_title {
+    margin: 2.3em 0 2em 0;
+}
+.leftbg {
+    padding: 2.6em 1em 3em 1em;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    width: 81%;
+}
+.paymtdescrip p {
+    width: 98%;
+}
+.rightbg span.moneypay {
+    font-size: 3em;
+}
+/* end of no deposit */
 }
 
 @media screen and (max-width: 568px) {
@@ -11605,6 +12158,43 @@ width: 95%;
 }
 /* end of verified tenant */
 
+/* no deposit */
+.leaveus_bgimg.depositbgimg {
+    height: 731px;
+    background-position: 100% 39%;
+}
+.deposit_descrip h4 {
+    font-size: 2em;
+}
+.deposit_descrip h2 {
+    font-size: 3em;
+}
+.cnct_now .btn.contactus {
+    font-size: 1.2em;
+    padding: 9px 53px;
+}
+.deposit_descrip {
+    padding: 30em 0 0 0;
+}
+.deposit_div {
+    padding: 0 0 3em 0;
+}
+.howdoes_itworks .container {
+    max-width: 83%;
+}
+.leftbg h3 {
+    margin: 0 0 2em 0;
+}
+.leftbg span.btn_dollar {
+    padding: 5px 10px;
+}
+.rightbg h3 {
+    margin: 0 0 0.3em 0;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    width: 70%;
+}
+/* end of no deposit */
 }
 
 @media screen and (max-width:480px) {
@@ -12686,6 +13276,45 @@ right: 1.9em;
     padding: 5px 15px;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.nodeposit_div .tenantscreen_title {
+    margin: 2em 0;
+}
+.nodeposit_req img {
+    width: 82%;
+}
+.money_descrip.tenant_descrip {
+    width: 100%;
+}
+.money_aplynw .btn.applynw {
+    width: 58%;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 627px;
+    background-position: 100% 45%;
+}
+.deposit_descrip {
+    padding: 24em 0 0px 0px;
+}
+.ul_listworks ul li.crcl_widthtwo:before {
+    width: 34px;
+}
+.ul_listworks ul li.upcircl:before {
+    width: 26px;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 50px;
+}
+.howdoes_itworks {
+    top: -49px;
+    padding: 2em 0 0em 0;
+}
+.leftbg span.btn_dollar {
+    padding: 3px 10px;
+    width: 83%;
+}
+/* end of no deposit */
 }
 
 @media screen and (max-width:414px) {
@@ -13636,6 +14265,49 @@ margin: 0 0 3em 0;
     margin: 0px 14px 11px 0;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.leftbg {
+    padding: 2.6em 1em 4.5em 1em;
+}
+.money_descrip.tenant_descrip {
+    margin: 2em auto 0 auto;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 563px;
+}
+.deposit_descrip h4 {
+    font-size: 1.5em;
+}
+.deposit_descrip h2 {
+    font-size: 2.4em;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 47px;
+}
+.howdoes_itworks .container {
+    max-width: 95%;
+}
+.deposit_descrip {
+    padding: 22em 0 0px 0px;
+}
+.cnct_now .btn.contactus {
+    font-size: 1em;
+    padding: 9px 46px;
+}
+.paymtdescrip p {
+    width: 100%;
+}
+.calculate_paymt .container {
+    max-width: 96%;
+}
+.widnodeposit {
+    width: 86%;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    width: 79%;
+}
+/* end of no deposit */
 
 }
 @media screen and (max-width:411px) {
@@ -14766,6 +15438,38 @@ right: 1.8em;
     height: 37px;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.nodeposit_req img {
+    width: 100%;
+}
+.leaveus_bgimg.depositbgimg {
+    height: 531px;
+    background-position: 100% 59%;
+}
+.deposit_descrip {
+    padding: 20em 0 0px 0px;
+}
+.cnct_now .btn.contactus {
+    padding: 9px 34px;
+}
+.ul_listworks ul li.upcircl:before {
+    width: 29px;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 53px;
+}
+.widnodeposit {
+    width: 94%;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    width: 87%;
+}
+.rightbg span.moneypay {
+    font-size: 2.7em;
+}
+/* end of no deposit */
+
 }
 
 @media screen and (max-width:360px) {
@@ -15303,8 +16007,44 @@ height: 228px;
 .desktopview_hide .img_rightveri img {
     width: 86%;
 }
+.blockbef:before{
+    width: 16px;
+    height: 12px;
+}
 /* end of verified tenant */
 
+/* no deposit */
+.deposit_div {
+    padding: 0 0 5em 0;
+}
+.leaveus_bgimg.depositbgimg {
+    background-position: 100% 80%;
+}
+.howdoes_itworks {
+    padding: 4em 0 0em 0;
+}
+.calculate_paymt .container {
+    max-width: 100%;
+}
+.ul_listworks ul li.crcl_widthtwo:before {
+    width: 40px;
+}
+.ul_listworks ul li:before {
+    width: 23px;
+}
+.ul_listworks ul li.crcl_width:before {
+    width: 54px;
+}
+.leftbg span.btn_dollar {
+    font-size: 1.7em;
+}
+.widnodeposit {
+    width: 88%;
+}
+.leftbg h3, .rightbg h3 {
+    font-size: 1.3em;
+}
+/* end of no deposit */
 }
 @media screen and (max-width:340px) {
 /* menu css */
@@ -15859,6 +16599,37 @@ bottom: 17px;
     padding: 11em 0 0 0;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.leaveus_bgimg.depositbgimg {
+    background-position: 100% 68%;
+    height: 492px;
+}
+.deposit_descrip {
+        padding: 18em 0 0px 0px;
+    }
+    .deposit_descrip h4 {
+        font-size: 1.3em;
+    }
+    .deposit_descrip h2 {
+        font-size: 2em;
+    }
+    .howdoes_itworks {
+        padding: 2.5em 0 0em 0;
+    }
+    .ul_listworks ul li.upcircl:before {
+        width: 34px;
+    }
+    .ul_listworks ul li:before {
+        width: 25px;
+    }
+    .ul_listworks ul li.crcl_width:before {
+        width: 59px;
+    }
+    .rightbg span.moneypay {
+        font-size: 2.5em;
+    }
+/* end of no deposit */
 }
 
 @media screen and (max-width:320px) {
@@ -16426,4 +17197,34 @@ top: 16.1em;
     margin: -2em 0px 0 0;
 }
 /* end of verified tenant */
+
+/* no deposit */
+.money_descrip.tenant_descrip h3.heading,.paymtdescrip.tenant_descrip h3.heading{
+    line-height: 25px;
+}
+.deposit_div {
+    padding: 0 0 4em 0;
+}
+.leaveus_bgimg.depositbgimg {
+    background-position: 100% 68%;
+}
+.deposit_descrip {
+    padding: 17em 0 0px 0px;
+}
+.leftbg span.btn_dollar {
+    font-size: 1.5em;
+}
+.cnct_now.applytoday_btn .btn.contactus {
+    width: 90%;
+}
+.widnodeposit {
+    width: 94%;
+}
+.rightbg span.moneypay {
+    font-size: 2.2em;
+}
+.howdoes_itworks .container {
+    max-width: 100%;
+}
+/* end of no deposit */
 }
