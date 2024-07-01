@@ -5771,7 +5771,7 @@ background-image: url(../images/verified_tenant/veri_tenant.svg);
 height: 368px;
 }
 .contact_descrip.verif_tenantdescrip {
-    top: 142px;
+top: 142px;
 }
 .contact_view .contact_descrip.verif_tenantdescrip .heading {
 font-size: 3em;
@@ -5784,73 +5784,73 @@ width: 17%;
 margin:-6em 0 0 0;
 }
 .imgbg{
-    position:relative;
-    width: 51%;
+position:relative;
+width: 51%;
 }
 .imgveri_one,.imgveri_two,.imgveri_three{
-    position:absolute;
+position:absolute;
 }
 .img_rightveri{
-    text-align: center;
+text-align: center;
 }
 .imgveri_one {
-    top: 56px;
-    left: 46px;
-    z-index: 10;
-    height: 99px;
+top: 56px;
+left: 46px;
+z-index: 10;
+height: 99px;
 }
 .imgveri_two{
-    top: 165px;
-    left: 39px;
-    z-index: 10;
-    height: 24px;
+top: 165px;
+left: 39px;
+z-index: 10;
+height: 24px;
 }  
 .imgveri_three {
-    top: 198px;
-    left: 49px;
-    height: 29px;
-    z-index: 10;
+top: 198px;
+left: 49px;
+height: 29px;
+z-index: 10;
 }
 .btnsys_div .btn.port_systm{
-    background: #376990;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
-    border-radius: 40px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    font-family: "Outfit", sans-serif;
-    font-weight: 700;
-    padding: 6px 20px 8px 20px;
+background: #376990;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+border-radius: 40px;
+text-transform: capitalize;
+color: #FFFFFF;
+font-family: "Outfit", sans-serif;
+font-weight: 700;
+padding: 6px 20px 8px 20px;
 }
 .veri_doc_div{
-    margin: 3em 0 4em 0;
+margin: 3em 0 4em 0;
 }
 .veri_royalyork{
-    margin: 1.3em 0 0 0;
+margin: 1.3em 0 0 0;
 }
 .howsdiv_royal h3.heading{
-    text-align: center;
+text-align: center;
 }
 .howsdiv_royal.tenant_descrip p{
-    text-align: center;
-    line-height: 23px;
+text-align: center;
+line-height: 23px;
 }
 .blocks_divhows{
-    background: #F8F8F8;
-    box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
-    border-radius: 22px;
-    padding: 29px 35px 15px 35px;
+background: #F8F8F8;
+box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
+border-radius: 22px;
+padding: 29px 35px 15px 35px;
 }
 .blocks_divhows p{
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    color: #51617C;
-    font-size: 0.9em;
-    text-transform: capitalize;
+font-family: "Outfit", sans-serif;
+font-weight: 400;
+color: #51617C;
+font-size: 0.9em;
+text-transform: capitalize;
 }
 .blocks_divhows h3{
-    font-family: "Outfit", sans-serif;
-    font-weight: bold;
-    font-size: 1em;  
+font-family: "Outfit", sans-serif;
+font-weight: bold;
+font-size: 1em;  
 }
 .blocks_divhows h3.blackclr{
 color:#6B5E7A;
@@ -5859,71 +5859,71 @@ color:#6B5E7A;
 color:#C06A87;
 }
 .blocks_divhows h3.skinclr{
-    color:#FFB6A3;
+color:#FFB6A3;
 }
 .cssflex_verif{
-    display:flex;
-    margin:0 0 2em 0;
+display:flex;
+margin:0 0 2em 0;
 }
 .royalbenefit.verifiroyalbenef{
-    margin: 2em 0px;
+margin: 2em 0px;
 }
 .button_specl_all .btn.bookcall{
-    background: #376990;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
-    border-radius: 40px;
-    font-family: "Outfit", sans-serif;
-    font-weight: bold;
-    font-size: 1em;
-    color: #ffffff;
-    text-transform: capitalize;
-    padding: 5px 35px;
+background: #376990;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+border-radius: 40px;
+font-family: "Outfit", sans-serif;
+font-weight: bold;
+font-size: 1em;
+color: #ffffff;
+text-transform: capitalize;
+padding: 5px 35px;
 }
 .btncenter{
-    align-items: center;
+align-items: center;
 }
 .how_does{
-    margin: 0 0 4em 0;
+margin: 0 0 4em 0;
 }
 .desktopview_hide{
-    display:none
+display:none
 }
 /* end of verified tenant */
 
 /* no deposit */
 .nodeposit_req img{
-    width:80%;
+width:80%;
 }
 .nodeposit_req{
-    text-align: right;
+text-align: right;
 }
 .money_aplynw .btn.applynw{
-    background: #376990;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
-    border-radius: 40px;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: "Outfit", sans-serif;
-    text-transform: capitalize;
-    font-size: 0.95em;
-    width: 24%;
+background: #376990;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+border-radius: 40px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Outfit", sans-serif;
+text-transform: capitalize;
+font-size: 0.95em;
+width: 24%;
 }
 .money_descrip.tenant_descrip{
-    width: 92%;
+width: 92%;
 }
 .money_aplynw{
-    margin: 1.9em 0 0 0;
+margin: 1.9em 0 0 0;
 }
 .tenantscreen_space.nodeposit_div{
-    padding:0 0 0.5em 0;
+padding:0 0 0.5em 0;
 }
 .deposit_div{
-    padding: 0 0 5em 0;
+padding: 0 0 5em 0;
 }
 .leaveus_bgimg.depositbgimg {
-    background-image: url(../images/nodeposit/monthbg.svg);
-    height: 560px;
-    background-position: 100% 24%;
+background-image: url(../images/nodeposit/monthbg.svg);
+height: 560px;
+background-position: 100% 24%;
 }
 .cnct_now .btn.contactus{
 background: #315D80;
@@ -5937,114 +5937,114 @@ padding: 6px 36px;
 letter-spacing: 0.4px;
 }
 .deposit_descrip h4{
-    font-family: "Inria Serif", serif;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 3em;
-    margin: 0 0 0.6em 0;
-    text-transform: capitalize;
+font-family: "Inria Serif", serif;
+color: #ffffff;
+font-weight: 400;
+font-size: 3em;
+margin: 0 0 0.6em 0;
+text-transform: capitalize;
 }
 .deposit_descrip h2{
-    color: #ffffff;
-    font-weight: bold;
-    font-family: "Outfit", sans-serif;
-    text-transform: capitalize;
-    font-size:4em; 
-    margin: 0 0 0.8em 0;
+color: #ffffff;
+font-weight: bold;
+font-family: "Outfit", sans-serif;
+text-transform: capitalize;
+font-size:4em; 
+margin: 0 0 0.8em 0;
 }
 .deposit_descrip{
-    padding: 7.4em 0 0 0;
+padding: 7.4em 0 0 0;
 }
 .howdoes_itworks{
-    background-color: #f8f8f8;
-    border-radius: 30px;
-    position: relative;
-    top: -60px;
-    padding: 5em 0 3em 0;
+background-color: #f8f8f8;
+border-radius: 30px;
+position: relative;
+top: -60px;
+padding: 5em 0 3em 0;
 }
 .txt_centerdiv h3.heading{
-    text-align: center;
+text-align: center;
 }
 .ul_listworks ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
+list-style-type: none;
+display: flex;
+flex-direction: column;
 }
 .ul_listworks ul li {
-    font-weight: 400;
-    font-size: 0.9em;
-    font-family: "Outfit", sans-serif;
-    color: #315D80;
-    text-transform: lowercase;
-    margin: 0 0 0.8em 0;
-    display: flex;
-    align-items: flex-start;
+font-weight: 400;
+font-size: 0.9em;
+font-family: "Outfit", sans-serif;
+color: #315D80;
+text-transform: lowercase;
+margin: 0 0 0.8em 0;
+display: flex;
+align-items: flex-start;
 }
 .ul_listworks ul li:before{
-    content: '';
-    display: inline-block;
-    width: 22px;
-    height: 16px;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 40px;
-    background: linear-gradient(0deg, #599FD7 -3.29%, #28517B 114.21%);
-    margin: 4px 10px 0 0;
+content: '';
+display: inline-block;
+width: 22px;
+height: 16px;
+-moz-border-radius: 40px;
+-webkit-border-radius: 40px;
+border-radius: 40px;
+background: linear-gradient(0deg, #599FD7 -3.29%, #28517B 114.21%);
+margin: 4px 10px 0 0;
 }
 .wid_deposit{
-    width: 82%;
-    margin:0 auto;
+width: 82%;
+margin:0 auto;
 }
 .ul_listworks ul li.crcl_width:before{
 width: 37px;
 }
 .paymtdescrip h3.heading,.paymtdescrip p{
-    text-align: center;
+text-align: center;
 }
 .paymtdescrip p{
-    width: 52%;
-    margin: 0 auto;
+width: 52%;
+margin: 0 auto;
 }
 .leftbg{
-    background: #F8F8F8;
-    box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.21), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
-    border-radius: 30px 0px 0px 30px;
-    text-align: center;
-    padding: 2em 1em 1em 1em;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+background: #F8F8F8;
+box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.21), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
+border-radius: 30px 0px 0px 30px;
+text-align: center;
+padding: 2em 1em 1em 1em;
+display: flex;
+flex-direction: column;
+width: 100%;
 }
 .rightbg h3{
-    font-family: "Inria Serif", serif;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 1.1em;
-    margin: 0 0 2em 0;  
+font-family: "Inria Serif", serif;
+color: #FFFFFF;
+font-weight: bold;
+font-size: 1.1em;
+margin: 0 0 2em 0;  
 }
 .leftbg h3{
-    font-family: "Inria Serif", serif;
-    color: #315D80;
-    font-weight: bold;
-    font-size: 1em;
-    margin: 0 0 1.4em 0; 
+font-family: "Inria Serif", serif;
+color: #315D80;
+font-weight: bold;
+font-size: 1em;
+margin: 0 0 1.4em 0; 
 }
 .leftbg span.btn_dollar{
-    background: #EDF2FA;
-    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
-    border-radius: 100px;
-    display: inline-block;
-    font-size: 1.7em;
-    font-family: "Outfit", sans-serif;
-    color: #315D80;
-    font-weight: bold;
-    padding: 9px 10px;
-    width: 45%;
-    margin: 0 auto;
+background: #EDF2FA;
+box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+border-radius: 100px;
+display: inline-block;
+font-size: 1.7em;
+font-family: "Outfit", sans-serif;
+color: #315D80;
+font-weight: bold;
+padding: 9px 10px;
+width: 45%;
+margin: 0 auto;
 }
 p.smtxt{
-    color:#51617C;
-    font-size: 0.7em;
+color:#51617C;
+font-size: 0.7em;
 font-family: "Outfit", sans-serif;
 text-transform: capitalize;
 margin: 10px 0 0 0;
@@ -6060,38 +6060,107 @@ flex-direction: column;
 width: 100%;
 }
 .rightbg span.moneypay{
-    font-size: 1.7em;
-    font-family: "Outfit", sans-serif;
-    color: #ffffff;
-    font-weight: bold;
+font-size: 1.7em;
+font-family: "Outfit", sans-serif;
+color: #ffffff;
+font-weight: bold;
 }
 .flexdepost{
-    display: flex;
+display: flex;
 }
 .padright{
-    padding-right: 0px;
+padding-right: 0px;
 }
 .padleft{
-    padding-left: 0px;
-    margin-left: -14px;
+padding-left: 0px;
+margin-left: -14px;
 }
 .paymtdescrip{
-    margin:0 0 2em 0;
+margin:0 0 2em 0;
 }
 .calculate_paymt{
-    margin:0 0 2.5em 0;
+margin:0 0 2.5em 0;
 }
 .applytoday_btn{
-    text-align: center;
+text-align: center;
 }
 .calculate_paymt h3.heading{
-    margin-top:-20px;
+margin-top:-20px;
 }
 .widnodeposit{
-    width: 80%;
-    margin: 0 auto;
+width: 80%;
+margin: 0 auto;
 }
 .cnct_now.applytoday_btn .btn.contactus{
-    padding: 6px 45px;
+padding: 6px 45px;
+}
+/* end of no deposit */
+
+/* maintenance request */
+.maintenance_request.mainpage_request{
+margin: 0em auto 5em auto;
+width: 80%;
+}
+.tenantscreen_space.btm_mrgn{
+padding:0 0 1em 0;
+}
+.main_reqwid{
+color: #315D80;
+font-weight: 400;
+font-family: "Outfit", sans-serif;
+width: 61%;
+margin: 0 auto 2em auto;
+text-align: center;
+line-height: 29px;   
+}
+.mainte_guide{
+position: relative;
+margin: 0 0 9em 0;
+}
+.mainte_decrip_guide h4{
+font-size: 0.9em;
+font-weight: bold;
+font-family: "Outfit", sans-serif;
+text-transform: capitalize;
+}
+.colr1{
+color:#6B5E7A;
+}
+.colr2{
+color: #C06A87;
+}
+.colr3{
+color:#FFB6A3;
+}
+.colr4{
+color:#6B5E7A;
+}
+.colr5{
+color:#C06A87;
+}
+.mainte_decrip_guide p{
+color:#51617C;
+font-weight: 400;
+font-size: 0.9em;
+line-height: 21px;
+font-family: "Outfit", sans-serif;
+}
+.mainte_decrip_guide{
+background: #F8F8F8;
+box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
+border-radius: 30px;
+position:absolute;
+top:125px;
+padding: 33px 37px;
+}
+.mainte_guide img{
+background: linear-gradient(180deg, rgba(49, 93, 128, 0.1) 0%, rgba(49, 93, 128, 0.3) 100%);
+box-shadow: 0px -2px 12px rgba(214, 229, 255, 0.84), inset 0px 8px 21px -4px rgba(234, 242, 255, 0.51), inset 2px -16px 14px -6px #EAF2FF;
+border-radius: 30px;
+padding: 10px;
+width: 100%;
+}
+.req_btn_main .btn.get_started{
+padding: 6px 0px;
 }
 
