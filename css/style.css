@@ -6163,4 +6163,1230 @@ width: 100%;
 .req_btn_main .btn.get_started{
 padding: 6px 0px;
 }
+/* maintenance request */
 
+/* legal services */
+.legal_image{
+position: relative;
+}
+.legal_image img{
+width: 83%;
+}
+.legal_image img:nth-child(2){
+position: absolute;
+width: 31%;
+right: 8px;
+top: 49px;
+}
+.legal_heading{
+margin: 8em 0 0 0;
+}
+.legal_heading.tenant_descrip h3.heading{
+line-height: 25px;
+margin: 0 0 0.4em 0;
+}
+.heading_legalwork p{
+text-transform: unset;
+}
+/* end of legal services */
+
+
+/* listing page */
+.flex_divmain{
+display:flex;
+}
+.rent_pet_town button{
+background: #3E6B8E;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05), inset 2px 4px 10px 1px #468DC4;
+border-radius: 30px;
+color: #ffffff;
+padding: 7px 11px;
+margin-right: 10px;
+}
+.rent_pet_town button:hover,.rent_pet_town button:active,.rent_pet_town button:focus{
+color: #ffffff;  
+}
+.rent_pet_town span{
+font-family: "Inria Serif", serif;
+font-weight: bold;
+color: #315D80;
+text-transform: capitalize;
+}
+.rent_pet_town{
+margin-right: 30px;
+}
+.buttongrp_rating{
+align-items: baseline;
+}
+.buttongrp_rating,.taketour_rent{
+display: flex;
+justify-content: space-between;
+}
+.butn_green .btn.btn_greenverif{
+background: #9BB997;
+box-shadow: inset 2px 2px 4px #ABCBA7, inset -2px -2px 5px #6A9365;
+border-radius: 28px;
+font-family: "Outfit", sans-serif;
+font-weight: 400;
+font-size: 18px;
+text-transform: capitalize;
+color: #FFFFFF;
+padding: 5px 15px 4px 16px;
+}
+.butn_green i{
+color: rgba(255, 255, 255, 0.34);
+font-weight: 400;
+font-size: 12px;
+padding-right: 5px;
+}
+.butn_green img{
+height: 23px;
+padding: 0 5px 0 5px;
+vertical-align: sub;
+}
+.list_loc_txt span i{
+font-size: 1.6em;
+color: #315D80;
+margin-right: 6px;
+vertical-align: middle;
+}
+.txt_loc{
+color: #6388A5;
+font-weight: 600;
+font-family: "Outfit", sans-serif;
+font-size: 1.1em;
+}
+.ratingdiv_star p{
+margin:0px;
+}
+.ratingdiv_star p span.count{
+font-size: 1.5em;
+color: #315D80;
+font-weight: bold;
+font-family: "Outfit", sans-serif;
+}
+.ratingdiv_star p.startot{
+margin: -5px 0 -10px 0;
+}
+.ratingdiv_star p span.total{
+font-family: "Outfit", sans-serif;
+font-size: 1.2em; 
+color: #315D80;
+}
+.ratingdiv_star p i{
+color: #315D80;
+font-size: 0.8em;
+margin-right: -3px;
+}
+.monthrent_div{
+margin: -16px 0 0 0;
+}
+.monthrent_div h4{
+font-family: "Outfit", sans-serif;
+font-size: 1em;
+font-weight: bold;
+color: #315D80;
+margin: 0 0 2.5px 0;
+}
+.monthrent_div h2{
+font-family: "Outfit", sans-serif;
+font-size: 2em;
+font-weight: 700;
+color: #F2727F;
+}
+.take_tour .btn_taketourcss.get_started{
+width: 153px;
+font-size: 1.1em;
+padding: 9px 0px;
+font-weight: 600;
+letter-spacing: 0.3px;
+}
+.tour_details{
+margin:2em 0 0 0;
+}
+.list_loc_txt{
+padding:0 0 0 16px;
+}
+.take_tour{
+margin: -5px 0 0 0;
+}
+.sliderlist{
+background: #F8F8F8;
+box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
+border-radius: 30px;
+padding: 14px;
+}
+.sliderlistimg .carousel-inner .carousel-item img{
+width: 100%;
+border-radius: 16px;
+}
+.thumbslide{
+display: flex;
+}
+.thumbnails.slide_thumbs{
+display: flex;
+padding: 10px 0 0 5px;
+}
+.thumbnails.slide_thumbs li.span2 {
+display: flex;
+justify-content: start;
+margin: 0 12px 0 0;
+}
+.thumbnails.slide_thumbs li.span2 img{
+box-shadow: 7px 7px 6.9px -1px rgba(53, 96, 129, 0.3);
+border-radius: 16px;
+height: 85px;
+object-fit: cover;
+}
+.allpic_links{
+display: flex;
+text-align: center;
+align-items: center;
+margin-left: 1em;
+}
+.allpic_links p{
+color: #315D80;
+font-family: "Outfit", sans-serif;
+font-size: 14px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.slide.sliderlistimg .carousel-control-prev,.slide.sliderlistimg .carousel-control-next{
+background: #EDF2FA;
+box-shadow: inset 4px 4px 10px 2px rgba(49, 93, 128, 0.1);
+border-radius: 40px;
+height: 13%;
+width: 7%;
+right: 15px;
+left: unset;
+opacity: 1;
+}
+.slide.sliderlistimg .carousel-control-next i,.slide.sliderlistimg .carousel-control-prev i{
+color: #315D80;
+font-size: 1.3em;
+font-weight: 600;
+}
+.slide.sliderlistimg .carousel-control-prev{
+top: 37%;
+}
+.slide.sliderlistimg .carousel-control-next{
+top: 52%;
+}
+.addr_details h2 span{
+color:#F2727F;
+}
+.addr_details h2{
+color: #315D80;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 1.5em;
+margin: 0 0 1em 0;
+}
+.form_addrs .formlabel_addr{
+color: #6388A5;
+font-family: "Outfit", sans-serif;
+font-size: 14px;
+font-weight: 500;
+}
+.form_addrs input.form-control{
+background: #EDF2FA;
+box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+border-radius: 100px;
+color:#315D80;
+font-size:14px;
+font-family: "Outfit", sans-serif;
+font-weight: 500;
+width: 23%;
+border:unset;
+}
+.form_addrs input.form-control.zipcode{
+    width: 12%;
+}
+.form_addrs form.form-inline{
+    justify-content: space-between;
+}
+.form_addrs{
+box-sizing: border-box;
+background: #F8F8F8;
+box-shadow: 0px 4px 10px 2px rgba(214, 229, 255, 0.5);
+border-radius: 21px;
+padding: 1.3em 1em 1.7em 1em;
+}
+.contact_details{
+    background: #F8F8F8;
+    box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
+    border-radius: 30px 30px 0 0;
+    padding: 21px 20px;
+    text-align: center;
+}
+.contact_details h3{
+    font-family: "Outfit", sans-serif;
+    font-weight:bold;
+    font-size: 1.9em;  
+    text-transform: capitalize;
+    color:#315D80;
+}
+.contact_details h3 span{
+    color:#F2727F;
+}
+.cell_phone i{
+    color: #F2727F;
+    font-size: 18px;
+    font-weight: 700;
+}
+.cell_no{
+    color: #315D80;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    vertical-align: text-bottom;
+    padding-left: 6px;
+}
+.btn.ask_quest{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+    border-radius: 100px;
+    color: #315D80;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 9px;
+    font-size: 1.1em;
+}
+.sliderlist,.contact_details{
+    margin:2em 0 0 0;
+}
+.contact_agent h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #315D80;
+    text-transform: capitalize;
+    margin: 0 0 1em 0;
+}
+.contact_agent span{
+    color: #F2727F;
+    font-weight: 700;   
+}
+/* Switch button */
+.contact_agent .nav.nav-tabs{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+border-radius: 100px;
+}
+.contact_agent .nav.nav-tabs li.nav-item a{
+    border: unset;
+    outline: none;
+    font-family: "Inria Serif", serif;
+    text-align: center;
+    color: #315D80;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+.contact_agent .nav.nav-tabs.schedulelinks li.nav-item{
+    width: 49.99%;
+}
+.contact_agent .nav.nav-tabs li.nav-item a.active{
+background: #315D80;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+border-radius: 40px;
+color: #ffffff;
+}
+.flexschedule{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.switch-field {
+	display: flex;
+    background: #EDF2FA;
+    border-radius: 40px;
+    align-items: baseline;
+box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+}
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+}
+.switch-field label {
+    margin:0;
+	font-size: 13px;
+	line-height: 1;
+	text-align: center;
+    font-family: "Outfit", sans-serif;
+    color:#6388A5;
+    padding: 7px 6px 7px 6px;
+	transition: all 0.1s ease-in-out;
+    width: 115px;
+    text-transform: capitalize;
+    height: 32px;
+}
+.switch-field label:hover {
+	cursor: pointer;
+}
+.switch-field input:checked + label {
+	background-color: #315D80;
+    color:#ffffff;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+    border-radius: 40px;
+}
+.switch-field input + label span.person img,.switch-field input + label span.video img{
+    object-fit: cover;
+    margin-right: 4px;
+}
+.switch-field input + label span.person img{
+    height: 20px;
+}
+.switch-field input + label span.video img{
+    height: 14px;
+    vertical-align:bottom;
+}
+.switch-field input:checked + label span.person img{
+    content: url('../images/listing_page/slider/person.svg');
+}
+.switch-field input:checked + label span.video img{
+    content: url('../images/listing_page/slider/video2.svg');
+} 
+.calender{
+    margin: 2em 0 0 0;
+}
+.tour_typetxt{
+    color: #315D80;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.weeknames tr th div{
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 8px 8px 0px 0px;
+    font-family: "Outfit", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.weeknames tr th .days{
+    background-color: #925A79;
+}
+.weeknames tr th .days.selected{
+background: #315D80;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+border-radius: 8px 8px 0px 0px;
+}
+.weeknames tr th .weekend{
+background: linear-gradient(90deg, #E38E7F 0%, #F2727F 100%);
+}
+.table .weeknames tr th{
+    border-bottom: unset;
+    border: unset;
+    padding: 0 2px;
+}
+.contact_agent .tab-content .container{
+    padding: 0;
+}
+.table .cal_date tr td{
+    border: unset;
+    text-align: center;
+    padding:0 2px;
+}
+.table .cal_date tr td.td_selected .caldate_details{
+    border: 1px solid #315D80;
+    border-radius: 0px 0px 8px 8px;
+}
+.table .cal_date tr td.td_selected .caldate_details p{
+    border:unset;
+    margin:0;
+}
+.table .cal_date tr td .caldate_details{
+    padding: 15px 3px;
+}
+.table .cal_date tr td .caldate_details p{
+    border-right: 1px solid rgba(146, 163, 180, 0.3);
+    margin: 0 -3px 0 0;
+}
+table.table{
+    margin:0;
+}
+.calender .caldate_details span.no_cal{
+    font-weight: 700;
+    font-size: 0.8em;
+    font-family: "Outfit", sans-serif;
+    color:#315D80;
+}
+.calender .caldate_details p{
+    margin:0;
+}
+.contact_agent{
+    background: #F8F8F8;
+    padding: 24px 20px;
+    box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
+    border-radius: 30px;
+}
+.selected_txtdate p{
+    font-family: "Outfit", sans-serif;
+    text-transform: capitalize;
+    color: #315D80;
+    font-size: 0.77em;
+    font-weight: 600;
+}
+.selected_txtdate{
+    text-align: center;
+    margin: 0.3em 0 2em 0;
+}
+.schedule_btn .schedule_tourbtn{
+    background: #315D80;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+    border-radius: 40px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    width: 100%;
+    padding: 7px;
+}
+.tabs_multi ul.nav-tabs.multilist .nav-item{
+    text-align: center;
+    margin: 0px 4px;
+}
+.tabs_multi ul.nav-tabs.multilist{
+    border: unset;
+    width: 98%;
+    margin: 0 auto;
+}
+.tabs_multi ul.nav-tabs.multilist .nav-item a{
+    text-transform: capitalize;
+    color: #6388A5;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.8em;
+    background: linear-gradient(180deg, #EDF2FA 0%, rgba(240, 243, 249, 0) 100%);
+    box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 0px 6px 14px rgba(57, 124, 238, 0.12);
+    border-radius: 20px 20px 0 0;
+    padding: 10px 12px;
+    width: 142px;
+}
+.details_all{
+    display:flex;
+    justify-content:space-between;
+}
+.headtxt{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #6388A5;
+    margin: 0 0 0.2em 0;
+}
+.descrip_txt{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #315D80;
+}
+.descrip_txt span img{
+    height: 17px;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
+.listdecrip p{
+    color: #6388A5;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+.listdecrip{
+    margin:1em 0 0 0;
+}
+.headinglist{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #315D80;
+    margin: 0em 0 1em 0;
+}
+.col8div_overall,.polici_fee{
+    background: #F8F8F8;
+    box-shadow: 0px 4px 10px 2px rgba(214, 229, 255, 0.5);
+    border-radius: 30px;
+    padding: 21px 25px;
+    width: 100%;
+}
+.polici_fee.similarpolice_fee{
+    padding: 21px 0px 21px 0px;
+    box-shadow: unset;
+}
+.polici_fee.similarpolice_fee h3{
+    padding-left: 25px;
+}
+.pad_remove{
+    padding: 0;
+}
+.tablist_main{
+    margin: -3px 0 0 0;
+}
+.txt_clrorange{
+    color: #F2727F;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.details_all.policiesdiv{
+    justify-content: left;
+}
+.details_all.policiesdiv .dogs_div{
+    margin-right: 2.2em;
+}
+.padlistright,.padlistleft{
+    display: flex;
+}
+.padlistright{
+    padding-right: 5px;
+}
+.padlistleft{
+    padding-left: 5px;
+}
+.listdecrip.policy{
+    margin: 1.7em 0 0 0;
+}
+.polici_fee h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #315D80;
+    margin: 0em 0 0.96em 0;
+}
+.tabs_multi .nav-tabs.multilist li.nav-item a.active{
+background: #315D80;
+color:#ffffff;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+}
+.tabs_multi{
+    margin:2em 0 0 0;
+}
+.abt_descrip p{
+    font-family: "Outfit", sans-serif; 
+    text-transform: capitalize;
+    color: #315D80;
+    font-size: 0.9em;
+    line-height: 20px;
+}
+.abouttab{
+    margin:1em 0;
+}
+.agent_sec1{
+    display: flex;
+    padding: 1.5em 2em 1em 2em;
+}
+.headcontact{
+    display:flex;
+    flex-basis:100%;
+}
+.agentcontact .contact_agent .nav.nav-tabs.cont_tabs li.nav-item a{
+    box-shadow: unset;
+    background: unset;
+    padding: 7px 28px;
+}
+.agentcontact .contact_agent .nav.nav-tabs.cont_tabs li.nav-item a.active{
+    background: #315D80;
+}
+.agentcontact .contact_agent ul.nav-tabs.cont_tabs {
+    border: unset;
+    width: 77%;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+.agentcontact .contact_agent h3{
+    margin: 0;
+}
+.agentcontact .flexschedule{
+    display: flex;
+}
+.agentcontact .switch-field label{
+    width: 150px;
+    padding: 9px 7px 7px 7px;
+    height: 36px;
+}
+.agentcontact .contact_agent{
+background: #F8F8F8;
+box-shadow: 0px 4px 10px 2px rgba(214, 229, 255, 0.5);
+border-radius: 30px;
+padding:0;
+width: 100%;
+}
+.agentcontact .table .weeknames tr th,.agentcontact .table .cal_date tr td {
+    padding: 0 6px;
+}
+.tab-content.tabagent_list{
+    padding: 1em 3em 2em 3em;
+background: #EDF2FA;
+box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+border-radius: 0px 0px 12px 12px;
+}
+.agentcontact .weeknames tr th div{
+ border-radius: 6px 6px 0px 0px;
+}
+.polici_fee.rentsdiv{
+    padding: 21px 12px 21px 15px;
+}
+.rent_rends{
+    justify-content: space-between;
+    display: flex;
+    margin: 0 0 1em 0;
+}
+.polici_fee .rent_rends h3{
+    margin: 0;
+    font-size: 20px;
+    padding: 7px 0 0 0;
+}
+.agentcontact .polici_fee .rent_rends .switch-field label,
+.agentcontact .polici_fee .rent_rends .switch-field{
+    height: 38px;
+}
+.agentcontact .polici_fee .rent_rends .switch-field{
+    align-items: center;
+}
+.agentcontact .polici_fee .rent_rends .switch-field label{
+    width: 110px;
+}
+.leftzero{
+    padding-left:5px;
+}
+.rightzero{
+    padding-right:5px;
+}
+.rentdiv_bg{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin: 0 0 0.3em 0;
+}
+.rentdiv_bg p{
+font-weight: 500;
+font-size: 13px;
+line-height: 17px;
+text-transform: capitalize;
+color: #6388A5;
+font-family: "Outfit", sans-serif; 
+margin:0;
+}
+.median_txt{
+    margin: 1em 0;
+}
+.median_txt p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #6388A5;
+font-family: "Outfit", sans-serif; 
+padding:0 20px;
+margin:0;
+}
+.flexrent_median{
+    display: flex;
+    justify-content: space-around;
+}
+.flexrent_median p.rect_boxrent{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+    border-radius: 100px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #315D80;
+    margin: 0;
+    padding: 3px 8px;
+}
+.flexrent_median p.renttxt_medi{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: #6388A5;
+}
+.dash_txt{
+    text-align: center;
+}
+.txt_affor h3{
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #315D80;
+    margin: 0 0 1.5em 0;
+}
+.txt_affor select {
+    border: none;
+    height: 30px;
+    width: 12%;
+    padding: 4px 6px 5px 7px;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #315D80;
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+    border-radius: 100px;
+}
+.txt_affor p.first_p{
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #315D80;
+    margin: 0 0 0.4em 0;
+}
+.txt_affor p.second_p{
+    color: #6388A5;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.txt_affor{
+    background: #F8F8F8;
+    box-shadow: 0px 4px 10px 2px rgba(214, 229, 255, 0.5);
+    border-radius: 30px;
+    padding: 1.2em 1.5em;
+    margin: 1.5em 0 0 0;
+}
+.collect_items{
+    display: flex;
+    justify-content: space-between;
+}
+.collect_items span{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+    border-radius: 100px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #315D80;
+    padding: 5px 15px;
+}
+.collect_items span img{
+    height: 17px;
+    margin-right: 5px;
+    vertical-align: sub;
+}
+.mapdiv_list{
+    margin:2em 0 0 0;
+}
+.listmain_div{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+    border-radius: 12px;
+    padding: 13px 10px;
+    margin: 0 0 0.4em 0;
+}
+.flexmap_loc{
+    display: flex;
+    justify-content:space-between;
+}
+.placetxt h3{
+    font-family: "Outfit", sans-serif;
+font-weight: 700;
+font-size: 16px;
+text-transform: capitalize;
+color: #315D80;
+margin: 0;
+}
+.distance_txt p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #6388A5;
+    margin: 0;
+}
+.distance_txt p span img{
+    height: 15px;
+    margin-right: 7px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+.loc_details{
+    margin:1em 0 0 0;
+}
+.loc_details p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #6388A5;
+    margin: 0;
+}
+.dayson_market h3{
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    color: #8BAC8C;
+    margin: 0 0 0.8em 0;
+}
+.dayson_market p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #6388A5;
+    margin: 0;
+    line-height: 18px;
+}
+.dayson_market{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+    border-radius: 12px;
+    padding: 14px 13px;
+    margin: 0 0 0.4em 0;
+}
+.dayson_market.chngcolr h3{
+    color:#6388A5;
+}
+.txt_affor h3.medianh3{
+    margin: 0px 0 0.2em 0;
+}
+.smtxtmedian{
+font-family: "Outfit", sans-serif;
+font-weight: 500;
+font-size: 14px;
+text-transform: capitalize;
+color: #6388A5;
+margin:0 0 0.5em 0;
+}
+.smtxtmedian.mrgn_zero{
+    margin:0;
+}
+.dayson_market.redcolr h3{
+color:#F2727F;
+}
+.details_slider{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 21%;
+    text-align: center;
+    top: 15px;
+    left: 15px;
+}
+.sliderlistimg .carousel-inner .carousel-item .details_slider img,.leaseddetails_slider img{
+    width: auto;
+    border-radius: unset;
+}
+.sliderlistimg .carousel-inner .carousel-item .details_slider .car_details,
+.sliderlistimg .carousel-inner .carousel-item .details_slider .shower_details,
+.sliderlistimg .carousel-inner .carousel-item .details_slider .bed_details{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
+    border-radius: 8px;
+    padding: 4px 16px;
+    margin: 0 10px 0 0;
+}
+.sliderlistimg .carousel-inner .carousel-item .details_slider .car_details img{
+    height: 22px; 
+}
+.sliderlistimg .carousel-inner .carousel-item .details_slider .shower_details img{
+height:20px;
+}
+.sliderlistimg .carousel-inner .carousel-item .details_slider .bed_details img{
+ height:15px;   
+}
+.details_slider p{
+    margin:3px 0 0 0;
+    font-family: "Outfit", sans-serif; 
+    font-size: 12px;
+    font-weight: bold;
+}
+.bottom_details{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 35%;
+    bottom: 14px;
+    left: 14px;
+}
+.sliderlistimg .carousel-inner .carousel-item .bottom_details img{
+    width: auto;
+    border-radius: unset;
+    padding-right: 2px;
+}
+.house span img{
+height:12px;
+vertical-align: inherit;
+border-radius: 0px;
+}
+.clock span img{
+    height:14px;
+    vertical-align: text-top;
+    margin-top: 1px;
+    border-radius: 0px;
+}
+.bottom_details span{
+font-family: "Outfit", sans-serif; 
+font-weight: 500;
+font-size: 14px;
+text-transform: capitalize;
+color: #51617C;
+}
+.house,.clock{
+    background: #EDF2FA;
+    box-shadow: inset 4px 4px 10px rgba(49, 93, 128, 0.1);
+    border-radius: 40px;
+    padding: 3px 12px;
+}
+.leasedslider img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    height: 140px;
+}
+.leasedslider{
+    background: #F8F8F8;
+    box-shadow: 0px 5px 2px #f8f8f8, 0px -6px 8px rgb(133 178 255 / 27%), inset 0px 2px 2px 2px rgba(189, 215, 255, 0.3);
+    border-radius: 20px;
+    padding: 12px;
+    margin: 11px 10px 0 0px;
+}
+.imageover_details{
+    position: relative;
+}
+.just_leased{
+    margin:6em 0 0 0;
+}
+.newly_listed{
+    margin:2em 0 0 0;
+}
+.descrip_details_list{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em 0 0.5em 0;
+    width: 100%;
+    position: relative;
+}
+.descrip_details_list:before {
+    background: linear-gradient(0deg, #599FD7 -3.29%, #28517B 100%);
+}
+.descrip_details_list.redbarcolrchange:before{
+background: linear-gradient(280.77deg, #F8B195 -3.96%, #F2727F 72.68%);
+}
+.descrip_details_list:before {
+    content: '';
+    display: flex;
+    width: 10px;
+    height: 23px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    margin: 0px 9px 0 0;
+}
+.descrip_details_list .price_rate p{
+font-family: "Outfit", sans-serif; 
+font-weight: 700;
+font-size: 20px;
+text-transform: capitalize;
+color: #51617C;
+}
+.descrip_details_list.redbarcolrchange .price_rate p{
+color:#F2727F;
+}
+.descrip_details_list.redbarcolrchange .price_rate p del{
+    font-size: 13px;
+}
+.count_rst span.amtrate{
+    font-weight: bold;
+    font-family: "Outfit", sans-serif; 
+}
+.rat_tot_count p{
+    color: #FFB6A3;
+    margin: 0;
+    line-height: 15px;
+}
+.leasedslider .unverifi_divtxt img{
+    height: 23px;
+    width: auto;
+}
+.rat_tot_count p.count_rst{
+    font-size: 17px;
+    text-align: right;
+}
+.slidervariablewidth .slick-track,.newlyleased .slick-track{
+    margin-left: -170px;
+}
+.descrip_details_list .price_rate p{
+    font-size: 16px;
+    margin:0;
+}
+.descrip_details_list .price_rate{
+    margin-right: 11px;
+}
+.unverifi_divtxt{
+    margin-right: 11px;
+}
+.unverifi_divtxt p{
+    display: inline-flex;
+    margin:0;
+}
+.ratingstar_count i{
+    font-size: 10px;
+    margin-left: -2px;
+}
+.lochouse_details{
+    display: flex;
+    justify-content:left;
+    width:100%;
+}
+.lochouse_details .house,.lochouse_details .clock {
+    background: #EDF2FA;
+    box-shadow: inset 4px 4px 10px rgba(49, 93, 128, 0.1);
+    border-radius: 40px;
+    padding: 2px 10px;
+    line-height: 20px;
+    margin: 0 7px 0 0;
+}
+.lochouse_details .house img,.lochouse_details .clock img{
+    width: auto;
+    display: inline-block;
+    border-radius: 0px;
+    margin: 0 2px 0 0px;
+}
+.lochouse_details .house span,.lochouse_details .clock span{
+font-family: "Outfit", sans-serif; 
+font-weight: 500;
+font-size: 12px;
+text-transform: capitalize;
+color: #51617C;
+}
+.slidelocation_div .txt_loc {
+    color: #6388A5;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9em;
+}
+.leasedslider .slidelocation_div span img{
+    height: 17px;
+    width: auto;
+    margin-right: 7px;
+}
+.slidelocation_div{
+    display: flex;
+    margin: 7px 0 0 0;
+}
+.leasedslider .unverifi_divtxt.verifiedimgdiv img {
+    height: 23px;
+}
+.rat_tot_count.verifiedcountdiv p{
+    color:#315D80;
+}
+.rat_tot_count{
+    position: absolute;
+    right: 0;
+    width: 26%;
+    text-align: right;
+}
+.just_leased .container,.newly_listed .container{
+    max-width: 93%;
+    margin: 0 0 0 auto;
+}
+.top_section1,.top_section2{
+    position: absolute;
+    top: 5px;
+    width: auto;
+} 
+.top_section1{
+    left: 6px;
+}
+.top_section2{
+    right: 6px; 
+}
+.leaseddetails_slider {
+    position: absolute;
+    display: flex;
+    justify-content:flex-end;
+    width: 43%;
+    text-align: center;
+    bottom: 6px;
+    right: 6px;
+}
+.leaseddetails_slider img{
+    width: auto;
+    border-radius: unset;
+}
+.leaseddetails_slider .car_details,
+.leaseddetails_slider .shower_details,
+.leaseddetails_slider .bed_details {
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
+    border-radius: 8px;
+    padding: 6px 10px 2px 10px;
+    margin: 0 0px 0 7px;
+}
+.leaseddetails_slider .car_details img {
+    height: 17px;
+}
+.leaseddetails_slider .shower_details img{
+height:15px;
+}
+.leaseddetails_slider .bed_details img{
+ height:14px;   
+}
+.leaseddetails_slider p{
+    margin:3px 0 0 0;
+    font-family: "Outfit", sans-serif; 
+    font-size: 12px;
+    font-weight: bold;
+}
+.newdiv img,.heartdiv img{
+    width: auto;
+    border-radius: unset;
+}
+.newdiv img{
+    height: 20px;
+}
+.heartdiv img{
+    height: 25px;
+}
+.similarunits .slick-track{
+    margin-left: -239px;
+}
+.similar_unitsdiv .similarunits .slick-next{
+    background-color: #EDF2FA;
+    box-shadow: 1px 2px 9px 1px rgba(49, 93, 128, 0.85);
+    width: 25px;
+    height: 91px;
+    border-radius: 40px;
+    top: 50%;
+    right: 7px;
+}
+.similar_unitsdiv .similarunits .slick-prev{
+    display: none !important;
+}
+.similar_unitsdiv .similarunits .slick-next:before {
+    content: "\f105";
+    padding-left: 3px;
+    font-family: 'FontAwesome';
+    font-size: 19px;
+}
+.similar_unitsdiv .leasedslider{
+    margin: 11px 5px 0 0px;
+}
