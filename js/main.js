@@ -307,3 +307,15 @@ $(document).ready(function(){
     ]
   });
   });
+
+
+// multi form js
+  $(document).ready(function() {
+    $('.btn-next').click(function() {
+      $('.propertypopup .nav-tabs .active').parent().next('li').find('a').trigger('click');
+    });
+  
+    $('.btn-prev').click(function() {
+      $('.propertypopup .nav-tabs .active').parent().prev('li').find('a').trigger('click');
+    });
+  });
