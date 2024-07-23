@@ -308,7 +308,6 @@ $(document).ready(function(){
   });
   });
 
-
 // multi form js
   $(document).ready(function() {
     $('.btn-next').click(function() {
