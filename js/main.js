@@ -273,7 +273,7 @@ $(document).ready(function(){
   });
 
 
-    // similar units
+// similar units
 $(document).ready(function(){
   $('.similarunits').slick({
     slidesToShow: 1.5,
@@ -318,3 +318,40 @@ $(document).ready(function(){
       $('.propertypopup .nav-tabs .active').parent().prev('li').find('a').trigger('click');
     });
   });
+
+  
+// rental listing slider
+$(document).ready(function(){
+  $('.rentallist_slick').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    speed: 300,
+    infinite: true,
+     autoplaySpeed: 5000,
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1920,
+        settings: {
+          slidesToShow: 4.5,
+        }
+      },
+      {
+        breakpoint:1400,
+        settings: {
+          slidesToShow: 3.5,
+        }
+      },
+      {
+        breakpoint: 540,
+        settings: {
+          slidesToScroll: 1,
+          slidesToShow:1.5,
+        }
+      }
+    ]
+  });
+  });
+

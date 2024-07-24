@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Royal York</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- bootsrap css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="css/font-awesome.css">
+<!-- animation css -->
+<link rel="stylesheet" href="css/animation/aos.css">
+<!-- style css -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive css -->
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg nav_backg sticky-top">
+<a class="navbar-brand logo" href="index.html"><img src="images/menu/logo.svg"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarmenu">
+<ul class="navbar-nav mx-auto">
+<li class="nav-item active">
+<a class="nav-link" href="index.html">Properties</a>
+<li class="nav-item">
+<a class="nav-link" href="property_management.html">Owners</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="tenant_placement.html">Tenants</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="review.html">Reviews</a>
+<li class="nav-item">
+<a class="nav-link" href="AboutUs.html">About Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contactus.html">Contact Us</a>
+</li>
+</ul>
+<a class="btn btn-login" href="#"><img src="images/menu/user.svg"> Log In/Sign Up</a>
+</div>
+</nav>
+
+
+<div class="google-map-section">
+    <div class="container">
+      <div class="google-map">
+        <!-- map -->
+        <div style="width: 100vw; height: 100vh;" id="googleMap"></div>
+<!-- end of map -->
+<div class="transpa_backg_div">
+        <div class="row margrow_zero">
+            <div class="col-xl-2 padrightmap">
+                <div class="rental_listingdiv">
+                    <h3 class="heading">Rental <span class="redcolr">Listings</span></h3>
+                    <h4 class="heading"> <span class="redcolr">75 </span>results</h4>
+
+                    <div class="shortby_div">
+                        <label for="shortby">Short By :</label>
+                        <select class="form-control" id="shortby">
+                            <option selected="selected">Random</option>
+                              <option>Random 1</option>
+                              <option>Random 2</option>
+                              <option>Random 3</option>
+                              <option>Random 4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-10 padleftmap">
+                                <section class="rentallist_slick slider" data-target="group-1">
+                                    <div class="leasedslider">
+                                        <a href="javascript:void(0);">
+                                        <div class="imageover_details">
+                                            <img src="images/listing_page/slider/lease_slider/l1.svg">
+                                            <div class="top_section1">
+                                                <div class="newdiv">
+                                                    <img src="images/listing_page/slider/lease_slider/new.svg">
+                                                </div>
+                                            </div>
+                                            <div class="top_section2">
+                                                <div class="heartdiv redheart">
+                                                    <img src="images/listing_page/slider/lease_slider/redheart.svg">
+                                                </div>
+                                            </div>
+                                            <div class="leaseddetails_slider">
+                                              <div class="car_details">
+                                                      <img src="images/listing_page/slider/park.svg">
+                                                      <p>01</p>
+                                              </div>
+                                              <div class="shower_details">
+                                                  <img src="images/listing_page/slider/shower.svg">
+                                                  <p>02</p>
+                                              </div>
+                                              <div class="bed_details">
+                                                  <img src="images/listing_page/slider/bed.svg">
+                                                  <p>03</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    
+                                      <div class="descrip_details_list">
+                                        <div class="price_rate">
+                                            <p>$1,200</p>
+                                        </div>
+                                        <div class="unverifi_divtxt">
+                                            <p><img src="images/listing_page/slider/lease_slider/unverified.svg" class="redcolrimage" data-toggle="modal" data-target="#popuprental_status"></p>
+                                        </div>
+                                       <div class="rat_tot_count">
+                                        <p class="count_rst">
+                                            <span class="amtrate">3.7</span><span>/5</span>
+                                        </p>
+                                        <p class="ratingstar_count">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                           </p>
+                                       </div>
+                                      </div>
+                    
+                                    <div class="lochouse_details">
+                                        <div class="house">
+                                            <span><img src="images/listing_page/slider/house.svg"> House</span>
+                                        </div>
+                                        <div class="clock">
+                                            <span><img src="images/listing_page/slider/clock.svg"> 1 days on market</span>
+                                        </div>
+                                    </div>
+                                    <div class="slidelocation_div">
+                                        <span><img src="images/listing_page/slider/lease_slider/loc.svg"></span>
+                                        <span class="txt_loc">Union & West | 95 West St, Walpole </span>
+                                    </div>
+                                  </a>
+                                </div>
+                    
+                    
+                                    <div class="leasedslider">
+                                        <a href="javascript:void(0);">
+                                        <div class="imageover_details">
+                                            <img src="images/listing_page/slider/lease_slider/l2.svg">
+                    
+                                            <div class="top_section2">
+                                                <div class="heartdiv blueheart">
+                                                    <img src="images/listing_page/slider/lease_slider/blueheart.svg">
+                                                </div>
+                                            </div>
+                                            <div class="leaseddetails_slider">
+                                              <div class="car_details">
+                                                      <img src="images/listing_page/slider/park.svg">
+                                                      <p>01</p>
+                                              </div>
+                                              <div class="shower_details">
+                                                  <img src="images/listing_page/slider/shower.svg">
+                                                  <p>02</p>
+                                              </div>
+                                              <div class="bed_details">
+                                                  <img src="images/listing_page/slider/bed.svg">
+                                                  <p>03</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      <div class="descrip_details_list redbarcolrchange">
+                                        <div class="price_rate">
+                                            <p class="redpricecolr">$1,435 | <del>$1,500</del>  </p>
+                                        </div>
+                                        <div class="unverifi_divtxt verifiedimgdiv">
+                                            <p><img src="images/listing_page/slider/lease_slider/leased_verified.svg"  data-toggle="modal" data-target="#popuprental_status"></p>
+                                        </div>
+                                       <div class="rat_tot_count verifiedcountdiv">
+                                        <p class="count_rst">
+                                            <span class="amtrate">4.6</span><span>/5</span>
+                                        </p>
+                                        <p class="ratingstar_count">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                           </p>
+                                       </div>
+                                      </div>
+                    
+                                    <div class="lochouse_details">
+                                        <div class="house">
+                                            <span><img src="images/listing_page/slider/house.svg"> condominium</span>
+                                        </div>
+                                        <div class="clock">
+                                            <span><img src="images/listing_page/slider/clock.svg">2 days on market</span>
+                                        </div>
+                                    </div>
+                                    <div class="slidelocation_div">
+                                        <span><img src="images/listing_page/slider/lease_slider/loc.svg"></span>
+                                        <span class="txt_loc">Bathurs & King 1336 Kingston Rd, Toronto</span>
+                                    </div>
+                                </a>
+                                    </div>
+                    
+                                    <div class="leasedslider">
+                                        <a href="javascript:void(0);">
+                                        <div class="imageover_details">
+                                            <img src="images/listing_page/slider/lease_slider/l3.svg">
+                                            <div class="top_section1">
+                                                <div class="newdiv">
+                                                    <img src="images/listing_page/slider/lease_slider/new.svg">
+                                                </div>
+                                            </div>
+                                            <div class="top_section2">
+                                                <div class="heartdiv redheart">
+                                                    <img src="images/listing_page/slider/lease_slider/redheart.svg">
+                                                </div>
+                                            </div>
+                                            <div class="leaseddetails_slider">
+                                              <div class="car_details">
+                                                      <img src="images/listing_page/slider/park.svg">
+                                                      <p>01</p>
+                                              </div>
+                                              <div class="shower_details">
+                                                  <img src="images/listing_page/slider/shower.svg">
+                                                  <p>02</p>
+                                              </div>
+                                              <div class="bed_details">
+                                                  <img src="images/listing_page/slider/bed.svg">
+                                                  <p>03</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      <div class="descrip_details_list">
+                                        <div class="price_rate">
+                                            <p>$1,8500</p>
+                                        </div>
+                                        <div class="unverifi_divtxt">
+                                             <p><img src="images/listing_page/slider/lease_slider/unverified.svg" class="redcolrimage" data-toggle="modal" data-target="#popuprental_status"></p>
+                                        </div>
+                                       <div class="rat_tot_count">
+                                        <p class="count_rst">
+                                            <span class="amtrate">3.7</span><span>/5</span>
+                                        </p>
+                                        <p class="ratingstar_count">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                           </p>
+                                       </div>
+                                      </div>
+                    
+                                    <div class="lochouse_details">
+                                        <div class="house">
+                                            <span><img src="images/listing_page/slider/house.svg"> House</span>
+                                        </div>
+                                        <div class="clock">
+                                            <span><img src="images/listing_page/slider/clock.svg"> 1 days on market</span>
+                                        </div>
+                                    </div>
+                                    <div class="slidelocation_div">
+                                        <span><img src="images/listing_page/slider/lease_slider/loc.svg"></span>
+                                        <span class="txt_loc">95 West St, Walpole</span>
+                                    </div>
+                                    </a>
+                                    </div>
+                    
+                    
+                                    <div class="leasedslider">
+                                        <a href="javascript:void(0);">
+                                        <div class="imageover_details">
+                                            <img src="images/listing_page/slider/lease_slider/l4.svg">
+                                            <div class="top_section1">
+                                                <div class="newdiv">
+                                                    <img src="images/listing_page/slider/lease_slider/new.svg">
+                                                </div>
+                                            </div>
+                                            <div class="top_section2">
+                                                <div class="heartdiv redheart">
+                                                    <img src="images/listing_page/slider/lease_slider/redheart.svg">
+                                                </div>
+                                            </div>
+                                            <div class="leaseddetails_slider">
+                                              <div class="car_details">
+                                                      <img src="images/listing_page/slider/park.svg">
+                                                      <p>01</p>
+                                              </div>
+                                              <div class="shower_details">
+                                                  <img src="images/listing_page/slider/shower.svg">
+                                                  <p>02</p>
+                                              </div>
+                                              <div class="bed_details">
+                                                  <img src="images/listing_page/slider/bed.svg">
+                                                  <p>03</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      <div class="descrip_details_list">
+                                        <div class="price_rate">
+                                            <p>$1,300</p>
+                                        </div>
+                                        <div class="unverifi_divtxt rympverified">
+                                            <p><img src="images/listing_page/slider/lease_slider/rymp_verified.svg"  data-toggle="modal" data-target="#popuprental_status"></p>
+                                        </div>
+                                       <div class="rat_tot_count">
+                                        <p class="count_rst">
+                                            <span class="amtrate">3.7</span><span>/5</span>
+                                        </p>
+                                        <p class="ratingstar_count">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                           </p>
+                                       </div>
+                                      </div>
+                    
+                                    <div class="lochouse_details">
+                                        <div class="house">
+                                            <span><img src="images/listing_page/slider/house.svg"> House</span>
+                                        </div>
+                                        <div class="clock">
+                                            <span><img src="images/listing_page/slider/clock.svg"> 1 days on market</span>
+                                        </div>
+                                    </div>
+                                    <div class="slidelocation_div">
+                                        <span><img src="images/listing_page/slider/lease_slider/loc.svg"></span>
+                                        <span class="txt_loc">Union & West | 1336 Kingston rd, Toronto</span>
+                                    </div>
+                                    </a>
+                                    </div>
+                                  </section>
+
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- The Modal -->
+  <div class="modal fade propty_popupstatus" id="popuprental_status">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body tooltipbody">
+            <div class="tooltipdivs">
+                <div class="divone">
+                    <h4>unverified</h4>
+                    <p>Absence of government ID from the owner and incomplete property information.</p>
+                </div>
+                <div class="divtwo">
+                    <div>
+                        <img src="images/listing_page/rental_listing/veri.svg">
+                    </div>
+                    <p>Government ID from the owner (Inspected by RYPM) and all unit details completed by the property owner.</p>
+                </div>
+                <div class="divthree">
+                    <img src="images/listing_page/rental_listing/rymp_verif.svg">
+                    <p>Verified by an RYPM Representative present during verification.</p>
+                </div>
+            </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<!--  slick js -->
+<script src="js/slick.min.js"></script>
+<!-- animation js -->
+<script src="js/animation/aos.js"></script>
+<!-- custom main js -->
+<script src="js/main.js"></script>
+
+
+<!-- MAP -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDacJcoyPCr-jdlP9HK93h3YKNyf710J0"></script>
+<script>
+
+var markers = {
+  "group-1": [
+    {
+      title: "$1,200",
+      lat: "42.144970",
+      lng: "-71.256950",
+      description:
+        "Union & West  95 West St, Walpole 1"
+    },
+    {
+      title: "$1,435",
+      lat: "43.715700",
+      lng: "-79.412480",
+      description: "Bathurs & King 1336 Kingston Rd, Toronto 1"
+    },
+    {
+      title: "$1,850",
+      lat: "42.144970",
+      lng: "-71.256950",
+      description: "95 West St, Walpole 1"
+    },
+    {
+      title: "$1,300",
+      lat: "37.078400",
+      lng: "-79.796150",
+      description: "Scarborough"
+    }
+  ]
+};
+
+(function ($) {
+  "use strict";
+
+  var infoWindow,
+    bounds,
+    map,
+    markerIcon,
+    markerActiveIcon,
+    mapMarkers = [];
+
+  function initializeMap() {
+    var mapOptions = {
+      scrollwheel: false
+    };
+    markerIcon = {
+      url:
+        "https://github.com/a7mg/Map-with-markers/blob/master/marker.png?raw=true",
+      size: new google.maps.Size(50, 50),
+      scaledSize: new google.maps.Size(50, 50),
+      origin: new google.maps.Point(0, 0)
+    };
+    markerActiveIcon = {
+      url:
+        "https://github.com/a7mg/Map-with-markers/blob/master/marker-active.png?raw=true",
+      size: new google.maps.Size(50, 50),
+      scaledSize: new google.maps.Size(50, 50),
+      origin: new google.maps.Point(0, 0)
+    };
+    infoWindow = new google.maps.InfoWindow();
+    bounds = new google.maps.LatLngBounds();
+    map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+
+    dropMarkers("group-1");
+  }
+
+  function dropMarkers(target) {
+    for (var i in markers[target]) {
+      var data = markers[target][i];
+
+      var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+      var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        icon: markerIcon,
+        title: data.title,
+        animation: google.maps.Animation.DROP
+      });
+
+      mapMarkers.push(marker);
+
+      bounds.extend(marker.getPosition());
+
+      (function (marker, data) {
+        google.maps.event.addListener(marker, "click", function (e) {
+          for (var j = 0; j < mapMarkers.length; j++) {
+            mapMarkers[j].setIcon(markerIcon);
+          }
+          this.setIcon(markerActiveIcon);
+
+          infoWindow.setContent(
+            '<div style="width: 100%; text-align: center;"><h3>' +
+              data.title +
+              "</h3></div>"
+          );
+          infoWindow.open(map, marker);
+        });
+      })(marker, data);
+    }
+    map.fitBounds(bounds);
+  }
+//   function DeleteMarkers() {
+//     for (var i = 0; i < mapMarkers.length; i++) {
+//       mapMarkers[i].setMap(null);
+//     }
+//     mapMarkers = [];
+//   }
+
+  $(document).on("click", ".rentallist_slick", function (e) {
+    e.preventDefault();
+    // DeleteMarkers();
+    dropMarkers($(this).data("target"));
+  });
+  $(document).on("click", ".leasedslider a", function (e) {
+    e.preventDefault();
+    google.maps.event.trigger(mapMarkers[$(this).parent().index()], "click");
+  });
+  window.addEventListener('load', (event) => { initializeMap(); });
+})(jQuery);
+
+
+</script>
+
+
+</body>
+</html>

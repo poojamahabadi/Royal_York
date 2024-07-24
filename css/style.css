@@ -7356,6 +7356,7 @@ margin:3px 0 0 0;
 font-family: "Outfit", sans-serif; 
 font-size: 12px;
 font-weight: bold;
+color:#315D80;
 }
 .newdiv img,.heartdiv img{
 width: auto;
@@ -7402,7 +7403,7 @@ font-weight: 700;
 font-size: 14px;
 }
 .ptxt{
-    margin-bottom: 1em;
+margin-bottom: 1em;
 }
 .formpopup{
 width: 92%;
@@ -7424,9 +7425,9 @@ position: relative;
 z-index: 1;
 }
 .propertypopup ul.nav-tabs li{
-    display: inline-block;
-    width: 32.33%;
-    text-align: center;
+display: inline-block;
+width: 32.33%;
+text-align: center;
 }
 .propertypopup ul.nav-tabs li a.active{
 background: #315D80;
@@ -7445,19 +7446,19 @@ padding: 10px;
 padding: 0;
 }
 .propertypopup .modal-body.stepsmodal_body .tab-content{
-    background: #315D80;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
-    border-radius: 16px;
-    margin: -15px 0 0 0;
-    position: relative;
-    z-index: 10;
+background: #315D80;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+border-radius: 16px;
+margin: -15px 0 0 0;
+position: relative;
+z-index: 10;
 }
 .propertypopup .modal-content{
 background-color: unset;
 border:unset;
 }
 .listmodal_popup{
-    padding: 30px 49px;
+padding: 30px 49px;
 }
 .listmodal_popup .form-group label{
 font-weight: 400;
@@ -7506,8 +7507,239 @@ font-weight: bold;
 font-size: 18px;
 }
 .flexnext_btnalign{
-    align-items: end;
+align-items: end;
 }
 #step1 .btn.btn-next{
-    width: 100%;
+width: 100%;
+}
+/* end of popup */
+
+/* map listing */
+.google-map-section{
+margin:-45px 0 0 0;
+}
+#googleMap{
+width: 100% !important;
+/* filter: grayscale(100%); */
+}
+.google-map-section .container{
+padding: 0;
+max-width: 100%;
+}
+.margrow_zero{
+margin:0;
+}
+.rentallist_slick .slick-track{
+margin-left: -147px;
+display: flex;
+}
+.rentallist_slick.slick-initialized .slick-slide{
+display: flex;
+flex-direction: column;
+}
+.transpa_backg_div{
+background-color: rgba(255, 255, 255, 0.78);
+box-shadow: 0px -10px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px rgba(189, 215, 255, 0.3);
+backdrop-filter: blur(0px);
+border-radius: 20px 0px 0px 20px;
+width: 98%;
+margin: -310px 0 0 auto;
+}
+.rental_listingdiv h4,.rental_listingdiv h3{
+font-family: "Outfit", sans-serif; 
+text-transform: capitalize;  
+}
+.rental_listingdiv h3{
+font-size: 2.7em;
+line-height: 43px;
+margin: 0 0 22px 0;
+}
+.rental_listingdiv h4{
+font-weight: 600;
+font-size: 1.7em;
+}
+.rental_listingdiv h3 span{
+display: block;
+}
+.padrightmap{
+padding-right: 0;
+}
+.padleftmap{
+padding-left: 7px;
+}
+.rental_listingdiv{
+padding: 23px 0 0 28px;
+}
+.shortby_div select.form-control{
+background: linear-gradient(280.77deg, #F8B195 -3.96%, #F2727F 72.68%);
+box-shadow: inset 4px 3px 15px rgba(97, 19, 19, 0.45);
+border-radius: 40px;
+border: unset;
+color: #ffffff;
+padding: 1px 12px 2px 7px;
+height: 31px;
+font-size: 13px;
+text-transform: capitalize;
+width: 60%;
+background-color: #F2727F;
+}
+.shortby_div{
+display: flex;
+justify-content: start;
+align-items: baseline;
+}
+.shortby_div label{
+font-family: "Outfit", sans-serif; 
+text-transform: capitalize;  
+color:#51617C; 
+margin-right: 5px;
+font-size: 13px;
+}
+.rentallist_slick .slidelocation_div .txt_loc {
+font-size: 0.75em;
+}
+.rentallist_slick .slidelocation_div span img {
+height: 14px;
+margin-right: 5px;
+}
+.rentallist_slick .lochouse_details .house span,.rentallist_slick .lochouse_details .clock span {
+font-size: 0.7em;
+}
+.rentallist_slick .house span img {
+height: 10px;
+}
+.clock span img {
+height: 11px;
+}
+.rentallist_slick .lochouse_details .house,.rentallist_slick .lochouse_details .clock{
+padding: 1px 10px 3px 10px;
+line-height: 18px;
+}
+.rentallist_slick .slick-prev.slick-arrow,
+.rentallist_slick .slick-next.slick-arrow{
+background: #EDF2FA;
+width: 54px;
+height: 44px;
+background: #F8F8F8;
+box-shadow: -2px 4px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
+border-radius: 30px;
+}
+.rentallist_slick .slick-next.slick-arrow:before,.rentallist_slick .slick-prev.slick-arrow:before{
+font-family: 'FontAwesome';
+font-size: 27px;
+font-weight: 800;
+}
+.rentallist_slick .slick-next.slick-arrow:before {
+content: "\f105";
+padding-left: 3px;
+}
+.rentallist_slick .slick-prev.slick-arrow:before{
+content: "\f104";
+padding-right: 3px;
+}
+.rentallist_slick .slick-prev.slick-arrow{
+right: 76px;
+left: unset;
+}
+.rentallist_slick .slick-prev.slick-arrow,.rentallist_slick .slick-next.slick-arrow{
+top: -36px;
+}
+
+/* map */
+.gm-style-iw-d{
+max-height: unset !important;
+overflow: unset !important;
+}
+.gm-style-iw-d div h3{
+font-size: 14px;
+margin: 0;
+font-family: "Outfit", sans-serif; 
+color:#ffffff;
+}
+/* cross button display none */
+.gm-style-iw-chr{
+display: none !important;
+}
+/* .gm-style-iw-chr button{
+width: 29px !important;
+height: 29px !important;
+}
+.gm-style-iw-chr button span{
+width: 15px !important;
+height: 15px !important;
+margin: 0;
+} */
+.gm-style .gm-style-iw-c{
+padding:0px !important;
+padding: 6px 12px !important;
+background: #315D80;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px #468DC4;
+border-radius: 40px;
+}
+.gm-style .gm-style-iw-tc::after{
+background: #315D80; 
+clip-path: polygon(0 0, 50% 73%, 100% 0);
+height: 10px;
+left: 6px;
+top: 0px;
+width: 12px;
+}
+.tooltipdivs h4{
+font-family: "Outfit", sans-serif; 
+font-weight: 700;
+font-size: 14px;
+text-transform: capitalize;
+color: #F2727F;
+}
+.tooltipdivs div p{
+font-family: "Outfit", sans-serif;
+font-weight: 400;
+font-size: 13px;
+text-transform: capitalize;
+color: #6388A5;
+line-height: 18px;
+}
+.tooltipdivs div img{
+height: 23px;
+width: auto;
+border-radius: unset;
+}
+.tooltipdivs{
+background: #FFFBFB;
+box-shadow: 0px 3px 5px rgba(242, 114, 127, 0.5), inset 0px 0px 14px rgba(242, 114, 127, 0.27);
+border-radius: 13px;
+padding: 16px;
+}
+/* .tooltipdivs::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -5px;
+border-width: 12px;
+border-style: solid;
+border-color: rgb(255 218 218) transparent transparent transparent;
+} */
+.propty_popupstatus .modal-body.tooltipbody{
+padding: 0;
+}
+.propty_popupstatus .modal-header .close {
+padding: 0;
+margin: 0;
+position: absolute;
+right: 7px;
+float: unset;
+opacity: 1;
+top: 3px;
+z-index: 1;
+font-size: 22px;
+font-weight: 600;
+}
+.propty_popupstatus .modal-header{
+padding: 0;
+background: unset;
+border: unset;
+}
+.propty_popupstatus .modal-content{
+border-radius: 13px;
 }
