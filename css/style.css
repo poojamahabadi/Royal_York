@@ -1833,10 +1833,10 @@ right: -111px;
 .servicesmobile_image img{
 width: 82%;
 }
-.management_services .card-deck .card-body{
+.management_services .card-deck .card-body,.services_offerdiv .card-deck .card-body{
 padding:0.9em;
 }
-.management_services .card-deck h3{
+.management_services .card-deck h3,.services_offerdiv .card-deck h3{
 font-family: "Outfit", sans-serif;
 font-weight: 700;
 font-size: 1em;	
@@ -1875,7 +1875,7 @@ text-align: center;
 margin: 0 auto 3em auto;
 width: 88%;
 }
-.management_services .card-deck p{
+.management_services .card-deck p,.services_offerdiv .card-deck p{
 font-family: "Outfit", sans-serif;
 font-weight: 400;
 font-size: 0.7em;
@@ -1887,13 +1887,13 @@ margin: 0 0 1em 0;
 .icon_services img {
 height: 60px;
 }
-.management_services .card-deck{
+.management_services .card-deck {
 background: #F8F8F8;
 box-shadow:0px -10px 19px 0px rgba(133 ,178,255,0.31), 0px 12px 7px 0px #F8F8F8,0px 4px 4px 2px rgba(189, 215, 255,0.30) inset;
 margin: 15px 8px;
 border-radius: 20px;
 }
-.management_services .card-deck .card{
+.management_services .card-deck .card,.services_offerdiv .card-deck .card{
 background-color: unset;
 border: unset;
 margin: 5px;
@@ -7742,4 +7742,270 @@ border: unset;
 }
 .propty_popupstatus .modal-content{
 border-radius: 13px;
+}
+.legal_startbtn .btn.get_started{
+    padding: 7px 0px;
+    width: 140px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.imgcollec_two{
+    text-align: right;
+}
+.imgcollec_one,.imgcollec_one img:nth-child(3),.legal_images {
+position: relative;
+}
+.imgcollec_one img:first-child {
+    height: 134px;
+    position: absolute;
+    top: 13px;
+    left: -53px;
+    z-index: 1;
+}
+.imgcollec_one img:nth-child(3) {
+    left: 0px;
+    height: 414px;
+    object-fit: cover;
+    position: absolute;
+    top: -22px;
+}
+.imgcollec_one img:nth-child(2) {
+    height: 39px;
+    position: absolute;
+    top: 153px;
+    left: -82px;
+}
+.legal_images .imgcollec_two img:first-child {
+    height: 414px;
+    object-fit: cover;
+    margin: 53px 27px 0px 0px;
+}
+.imgcollec_two img:nth-child(2) {
+    height: 45px;
+    position: absolute;
+    top: 11px;
+    right: -2px;
+    z-index: 1;
+}
+.imgcollec_two img:nth-child(3){
+    height: 42px;
+    position: absolute;
+    top: 48px;
+    right: -30px;
+}
+.legal_workus{
+    margin: 8em 0 0 0;
+}
+.heading_legalwork.tenant_descrip p{
+    line-height: 22px;
+    margin: 0 93px 10px 0px;
+}
+.legal_startbtn{
+    margin: 2em 0 0 0;
+}
+.legal_expertliti h3.heading,.services_offerdiv h3.heading{
+    text-align: center;
+}
+.expertinfo_descrip.tenant_descrip{
+    text-align: center;
+}
+.expertinfo_descrip.tenant_descrip p{
+    width: 83%;
+    margin: 0 auto 3em auto;
+    line-height: 24px;
+}
+.services_offerdiv .card-deck.evic h3,.services_offerdiv .card-deck.litig h3{
+color:#6B5E7A;
+}
+.services_offerdiv .card-deck.tarion h3,.services_offerdiv .card-deck.ltb_notice h3{
+    color:#C06A87;
+}
+.services_offerdiv .card-deck.smallclaim h3,.services_offerdiv .card-deck.tenant_board h3{
+    color:#FFB6A3;
+}
+.services_offerdiv .card-deck{
+    background: #F8F8F8;
+    box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 11px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
+    border-radius: 30px;
+    margin: 0 -9px 26px -9px;
+    padding: 1em 0;
+    width: 100%;
+}
+.services_offerdiv .flex_css {
+    padding: 0px 7px;
+    margin: 0 0 1em 0;
+}
+.legal_expertliti{
+    margin:1em 0 2em 0;
+}
+.box_div_legal{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn.btn_bookcall.get_started {
+    width: 208px;
+    font-weight: 500;
+    padding: 7px 0;
+}
+.legal_bookbtn{
+    text-align: center;
+    margin: 0 0 5em 0;
+}
+.serv_img_collection{
+    text-align: center;
+    position: relative;
+}
+.serv_img_collection img:nth-child(4) {
+    height: 457px;
+}
+.serv_img_collection img:first-child,.serv_img_collection img:nth-child(2){
+    height: 63px;
+}
+.serv_img_collection img:nth-child(3),.serv_img_collection img:nth-child(2),.serv_img_collection img:first-child{
+    position: absolute;
+}
+.serv_img_collection img:nth-child(3){
+    height: 55px;
+    left: 15em;
+    top: 16.5em;
+    object-fit: cover;
+}
+.serv_img_collection img:nth-child(2){
+    top: 24em;
+    left: 23em;
+    height: 55px;
+}
+.serv_img_collection img:first-child{
+    top: 20em;
+    left: 19em;
+    height: 55px;
+}
+.serv_img_collection img:nth-child(5),.serv_img_collection img:nth-child(6),.serv_img_collection img:nth-child(7){
+    position: absolute;
+}
+.serv_img_collection img:nth-child(5) {
+    height: 79px;
+    right: 16em;
+    top: 4.3em;
+}
+.serv_img_collection img:nth-child(7),.serv_img_collection img:nth-child(6){
+    height: 72px;
+    z-index: -1;
+}
+.serv_img_collection img:nth-child(6){
+    top: 9.4em;
+    right: 12em;
+}
+.serv_img_collection img:nth-child(7){
+    bottom: 9.8em;
+    right: 7.5em;
+}
+.serv_img_collection h3{
+    color: #C9D7E5;
+    font-weight: 500;
+    position: absolute;
+    top: 6.3em;
+    width: 18%;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 1.6em;
+    left: 164px;
+}
+ul.tenant_landlord{
+    list-style-type: none;
+    padding: 0px 5px 0px 99px;
+    margin-bottom: 2em;
+}
+ul.tenant_landlord li {
+    margin-bottom: 0.7em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: #315D80;
+    font-size: 0.9em;
+    text-transform: lowercase;
+}
+ul.tenant_landlord li:before {
+    content: '';
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: linear-gradient(90deg, #28517B 0%, #599FD7 100%);
+    box-shadow: 4px 4px 10px 2px rgba(214, 229, 255, 0.48) inset;
+}
+.property_tabs.Landlordtab .nav-item{
+    margin-right:10px;
+}
+.property_tabs.Landlordtab .nav-item a {
+    width: auto;
+    padding: 7px 14px;
+    font-weight: bold;
+}
+.nav-tabs.property_tabs.Landlordtab {
+    margin-bottom: 1.2em;
+}
+.c1left_css{
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.c2right_css{
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.comp_cultimg.comp1 img,.comp_cultimg.comp2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 620px;
+}
+.comp_cultimg.comp1 img{
+    background: #C06A87;
+    box-shadow: 4px 6px 6px rgba(22, 22, 22, 0.1), inset 0px 11px 6px rgba(162, 76, 105, 0.5), inset 1px -10px 6px 2px #D6849F;
+    border-radius: 0px 10px 10px 0px;
+    padding: 14px 14px 14px 0px;
+}
+.comp_cultimg.comp2 img{
+    background: #6B5E7A;
+    box-shadow: 3px 6px 6px rgba(22, 22, 22, 0.1), inset -2px -7px 14px rgba(170, 151, 191, 0.5), inset -3px 8px 12px 2px #5E4F6F;
+    border-radius: 10px 0px 0px 10px;
+    padding: 14px 0px 14px 14px;
+}
+.container.comp_cult{
+    max-width: 100%;
+}
+.company_culturediv h3.heading{
+    text-align: center;
+}
+.review_img.legalexp:hover img {
+    background: linear-gradient(180deg, #3F76A1 0%, #3F76A1 100%);
+    box-shadow: 0px -8px 12px rgba(56, 111, 155, 0.84), inset 0px 8px 21px -4px rgba(24, 85, 134, 0.51), inset 2px -16px 14px -6px #67BCFF;
+    border: 9px solid transparent;
+}
+.imgdets_review p.namereview{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Outfit", sans-serif;
+    color: #386F9B;
+    margin: 10px 0 0 0;
+}
+.imgdets_review p.descripreview{
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+text-transform: lowercase;
+font-family: "Outfit", sans-serif;
+color: #51617C;
+margin:0;
+}
+.review_img.legalexp img{
+    background: linear-gradient(180deg, rgba(49, 93, 128, 0.4) 100%, rgba(49, 93, 128, 0.4) 100%);
+box-shadow: 0px -8px 12px rgba(56, 111, 155, 0.4), inset 0px 8px 21px -4px rgba(207, 234, 255, 0.51), inset 2px -16px 14px -6px #D0EAFF;
+}
+.legal_expertliti h3.heading{
+    margin: 1.3em 0px 1.5em 0px;
 }
