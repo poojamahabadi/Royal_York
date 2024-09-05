@@ -1,6 +1,11 @@
 
 body{
 background: #F8F8F8;
+font-family: 'Helvetica';
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.ttf'),url('../fonts/Helvetica-BoldOblique.ttf'),url('../fonts/Helvetica-Bold.ttf'),url('../fonts/Helvetica-BoldOblique.ttf'),url('../fonts/Helvetica-BoldOblique.ttf'),url('../fonts/helvetica-compressed-5871d14b6903a.otf'),url('../fonts/helvetica-light-587ebe5a59211.ttf'),url('../fonts/Helvetica-Oblique.ttf'),url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
 }
 .btn:hover,.btn:focus,.btn:active{
 outline: none;
@@ -41,7 +46,7 @@ box-shadow: 4px 4px 5px 0px #27577C,4px 4px 10px 6px #3773A1 inset;
 border-radius: 40px;
 color: #B6CFF9;
 line-height: 28.78px;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 margin: 0.5em 0em 0px 2em;
 }
@@ -52,7 +57,7 @@ height: 25px;
 color: #B6CFF9;
 line-height: 28.78px;
 font-size:1em;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 padding: 5px 15px;
 }
@@ -71,7 +76,7 @@ padding-top:2.5em;
 }
 .text_heading{
 line-height: 41.2px;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 30px;
 color: #315D80;
@@ -80,7 +85,7 @@ span.redcolr{
 color: #F2727F;
 }
 .text_description{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 1em;
 color: #315D80;
@@ -100,7 +105,7 @@ display: flex;
 padding-left: 10px;
 }
 .select_options .custom-control-label{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 300;
 font-size: 0.8em;
 color: #315D80;
@@ -111,7 +116,7 @@ padding: 0 23px 0px 25px;
 .select_options p{
 margin-bottom: 0px;
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 0.9em;
 }
@@ -127,7 +132,7 @@ margin-bottom: 5em;
 }
 .Contact_Us h3{
 margin: 25px 0 20px 0px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 1.7em;
 color: #315D80;
@@ -145,7 +150,7 @@ height: 24px;
 }
 .phone_details span{
 color: #F2727F;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 1em;
 }
@@ -158,7 +163,7 @@ align-items: baseline;
 border-radius: 40px;
 background: #315D80;
 border: none;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 line-height: 28px;
 text-align: center;
@@ -176,7 +181,7 @@ background: rgba(49,93,128,0.20);
 border-radius: 40px;
 height: 45px;
 margin:0px 8px 15px 0px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 14px;
 }
 .mobile_image{
@@ -201,13 +206,13 @@ text-transform: uppercase;
 width: 100%;
 }
 .div_blocks p{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 border-radius: 14px;
 padding: 7px;
 color: #ffffff;
 }
 .div_blocks h4{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 40px;
 }
@@ -237,7 +242,7 @@ color:#ffffff;
 background: linear-gradient(360deg, #F8B195 -3.29%, #F2727F 31.84%, #C06C83 80.19%, #6C5B7B 114.88%, #335E7E 151.44%);
 }
 .heading{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size:2.3em;
 text-transform: capitalize;
@@ -249,7 +254,7 @@ margin: 0px 0px 0.8em 0px;
 margin-top: 1em;
 }
 .decrip_services > span{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 color: #ffffff;
 font-weight: 700;
 font-size: 1em;
@@ -270,7 +275,7 @@ background: #C06A87;
 box-shadow: 3px 6px 6px 0px rgba(22,22,22,0.2), 5px 2px 6px 2px #D6849F inset;
 }
 .decrip_services h3{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 1.4em;
 text-align: left;
@@ -279,7 +284,7 @@ margin: 1.5em 0px 0.8em 0px;
 color: #315D80;
 }
 .decrip_services p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 1em;
 text-align: justify;
@@ -305,7 +310,7 @@ text-align: center;
 }
 .list_services ul li{
 margin-bottom: 0.7em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 color: #315D80;
 font-size: 0.9em;
@@ -353,7 +358,7 @@ bottom: 1px;
 height: 335px;
 }
 .maintenance h3,.news_articles h3,.contact_client h3{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 2em;
 color: #EEF4FF;
@@ -362,7 +367,7 @@ text-transform: capitalize;
 }
 .maintenance p{
 color: #EEF4FF;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 margin-bottom: 3em;
 }
@@ -396,7 +401,7 @@ margin-right: 20px;
 .property_tabs .nav-item a{
 border-radius: 40px;
 padding: 10px 0 10px 0;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 width: 170px;
 text-align: center;
@@ -425,7 +430,7 @@ border: unset;
 padding: 0 10px;
 margin-bottom: 1em;
 font-weight: 700;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 .table-striped tbody tr:nth-of-type(odd){
 background-color: rgba(232, 238, 243, 0.5);
@@ -439,14 +444,14 @@ padding: 7px 10px;
 font-size: 1em;
 color: #315D80;
 font-weight: 400;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 .property_mgmt tbody tr td img{
 height: 25px;
 }
 .price_mgmt{
 color: #F2727F;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 600;
 font-size: 2em;
 }
@@ -455,7 +460,7 @@ text-align: center;
 color: #EEF4FF;	
 border-radius: 30px 30px 0 0;
 font-weight: 700;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 1.4em;
 padding: 15px 10px;
 }
@@ -479,7 +484,7 @@ top: 13px;
 }
 .tenant_decrip{
 text-transform: capitalize;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 color: #315D80;
 font-size: 1em;
@@ -494,7 +499,7 @@ margin-bottom: 2em;
 }
 .tenantservices_list ul li,.financial_interest ul li,.list_government ul li{
 margin-bottom: 0.7em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 color: #315D80;
 font-size: 0.9em;
@@ -515,7 +520,7 @@ background: linear-gradient(0deg, #599FD7 -3.29%, #28517B 114.21%);
 box-shadow: 5px 4px 4px 0px #28517B inset;
 }
 .get_touch .btn{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 color: #ffffff;
 border-radius: 30px;
@@ -655,7 +660,7 @@ background: linear-gradient(280.77deg, #8F5877 -3.96%, #864B6C 72.68%);
 box-shadow: 7px 7px 15px 0px #A86C8E inset,-4px -4px 12px 0px #FFD4DF33,4px 4px 12px 0px #BC546770;
 border-radius: 30px;
 color: #ffffff;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 padding: 8px 24px;
 }
@@ -665,7 +670,7 @@ text-align: center;
 }
 p.name,p.qualif{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 14px;
 }
 p.qualif{
@@ -710,7 +715,7 @@ box-shadow: 7px 7px 15px 0px #FFB0AB inset, -3px -3px 10px 0px rgba(255, 170 ,17
 border-radius: 100px;
 color: #ffffff;
 font-weight: 700;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 padding: 8px 26px;
 }
 .featured_rental{
@@ -745,14 +750,14 @@ height: 42px;
 margin-bottom: 10px;
 }
 .properties_decrip_rental p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 300;
 font-size: 13px;
 }
 .descrip_rental p{
 color: #315D80;
 font-size: 15px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 }
 .descrip_rental{
@@ -923,21 +928,21 @@ height: 15px;
 margin-right: 6px;
 }
 .article_details > div > p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 300;
 font-size: 13px;
 color: #EDF2FA;
 margin: 0px;
 }
 .news_card p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;	
 font-size: 0.9em;
 color: #ffffff;
 margin-bottom: 1em;
 }
 .news_update{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 1.2em;
 color: #ffffff;
@@ -949,7 +954,7 @@ margin-bottom: 1.5em;
 margin-top: 1em;
 }
 .read_more a{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 color:#ffffff;
 text-decoration: underline;
@@ -979,7 +984,7 @@ display: flex;
 }
 .areas p{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 1em;
 }
@@ -990,7 +995,7 @@ width: 33%;
 }
 .footer_list ul li{
 margin-bottom: 0.7em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 color: #315D80;
 font-size: 0.9em;
@@ -1013,7 +1018,7 @@ margin-bottom: 0.5em;
 }
 .addrone li,.addrtwo li{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 300;
 font-size: 14px;
 margin-bottom: 0.5em;
@@ -1044,7 +1049,7 @@ margin-right: 13px;
 }
 .address_txt h4,.social_links h4{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 1em;
 text-transform: capitalize;
@@ -1065,14 +1070,14 @@ box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.10), 4px 4px 10px 1px #468DC3 inset;
 border-radius: 100px;
 color: #ffffff;
 font-weight: 700;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 padding: 8px 26px;
 text-transform: capitalize;
 }
 .copyright{
 color: #315D80;
 font-weight: 300;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.9em;
 margin: 4em 0 1em 0;
 }
@@ -1093,7 +1098,7 @@ text-align: right;
 width: 80%;
 }
 .contact_view .contact_descrip .heading{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 6.5em;
 color: #ffffff;
@@ -1111,7 +1116,7 @@ left: 0;
 .contact_descrip p{
 text-transform: capitalize;
 color: #ffffff;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 1em;
 margin: 0px;
@@ -1132,7 +1137,7 @@ background-image: url(../images/contact/Rectangle.svg);
 }
 .form_contact h2{
 color: #315D80;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 2em;
 width: 62%;
@@ -1140,7 +1145,7 @@ line-height: 40px;
 text-transform: capitalize;
 }
 .form_contact p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 1em;
 color: #315D80;
@@ -1148,7 +1153,7 @@ text-transform: capitalize;
 }
 .form_contact input.form-control{
 border-radius: 40px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 color:#6388A5;
 background: rgba(49, 93, 128, 0.2);
@@ -1158,7 +1163,7 @@ font-size: 14px;
 border: unset;
 }
 .btn.btn-submitcontact{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 background: #315D80;
 color: #ffffff;
@@ -1181,7 +1186,7 @@ border: none;
 height: 24px;
 width: 43px;
 padding-left: 7px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 15px;
 font-weight: 400;
 line-height: 24px;
@@ -1191,7 +1196,7 @@ background: rgba(49, 93, 128, 0.2);
 border-radius: 20px;
 }
 .hear_about label{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color:#315D80;
 font-size: 0.8em;
 font-weight: 300;
@@ -1237,7 +1242,7 @@ text-align: center;
 margin: 2em 0px 0px 0px;
 }
 .headquarters p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 1em;
 color: #315D80;
@@ -1252,7 +1257,7 @@ margin: 5em 0px 3em 0px;
 background-repeat: no-repeat;
 }
 .contact_client p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 1em;
 color: #ffffff;
@@ -1385,7 +1390,7 @@ width: 65%;
 align-items: center;
 }
 .name_describe span:first-child,.name_describe span:nth-child(2),.name_describe span:nth-child(3){
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 }
 .name_describe span:first-child{
@@ -1401,7 +1406,7 @@ color: #B6C2D1;
 font-size: 0.8em;
 }
 .ratings_count{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 color: #ffffff;
 font-size: 1em;	
@@ -1425,7 +1430,7 @@ margin: 2em 0px 0px 0px;
 background: #EDF2FA;
 box-shadow: 4px 4px 14px 0px rgba(57, 124, 238, 0.122) inset, 5px 6px 5px -1px rgba(137, 174, 234, 0.039);
 color: #315D80;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 width: 190px;
 text-align: center;
@@ -1456,7 +1461,7 @@ text-align: center;
 color: #EEF4FF;
 border-radius: 24px 24px 0 0;
 font-weight: 700;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.9em;
 padding: 11px 10px;
 }
@@ -1475,7 +1480,7 @@ border: unset;
 }
 .schedule_timings tr td p{
 font-weight: 600;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.7em;
 text-align: center;
 color: #51617C;
@@ -1503,7 +1508,7 @@ border-radius: 100px;
 .appointment_txt p,.appointments .hours_details p{
 font-weight: 400;
 font-size: 1em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 margin-bottom: 3px;
 text-transform: capitalize;
 color:#315D80;
@@ -1526,7 +1531,7 @@ margin: 1.5em 0px 0.5em 0px;
 .office_locations p{
 font-weight: 400;
 font-size: 1em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #315D80;
 text-align: center;
 text-transform: capitalize;
@@ -1642,7 +1647,7 @@ color: #A5C4DD;
 .commonslider h3{
 font-weight: 600;
 font-size: 14px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 margin-bottom: 0px;
 color: #315D80;
 text-align: left;
@@ -1658,7 +1663,7 @@ font-weight: 400;
 font-size: 13px;
 padding: 0px;
 text-align: left;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 #map_canvas{
 height: 400px;
@@ -1684,7 +1689,7 @@ margin: 8.4em 0px 0px 0px;
 font-weight: 400;
 font-size: 1em;
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 }
 .video_div iframe{
@@ -1705,13 +1710,13 @@ font-weight: 700;
 font-size: 1em;
 text-transform: capitalize;
 padding: 11px 0px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 .video_descrip p,.tenant_descrip p,.recent_descrip p,.find_property p{
 font-weight: 400;
 font-size: 1em;
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 line-height: 27px;
 text-transform: capitalize;
 }
@@ -1744,7 +1749,7 @@ position: relative;
 }
 .section_imagesdetails h3,.section_imagesdetails p{
 font-size: 1em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 .section_imagesdetails p{
 font-weight: 600;
@@ -1769,7 +1774,7 @@ font-weight: 600;
 line-height: 19px;
 }
 .absol_div h3,.absol_div p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #ffffff;
 }
 .section_fourprop{
@@ -1837,7 +1842,7 @@ width: 82%;
 padding:0.9em;
 }
 .management_services .card-deck h3,.services_offerdiv .card-deck h3{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 1em;	
 }
@@ -1868,7 +1873,7 @@ margin: 0 0 0.4em 0;
 }
 .management_services p{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 1em;
 text-align: center;
@@ -1876,7 +1881,7 @@ margin: 0 auto 3em auto;
 width: 88%;
 }
 .management_services .card-deck p,.services_offerdiv .card-deck p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 0.7em;
 color: #51617C;
@@ -1909,7 +1914,7 @@ width: 100%;
 display:none;
 }
 .btn.btn-letsstart{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 1em;	
 width: 170px;
@@ -1932,7 +1937,7 @@ line-height: 50px;
 .royal_propdiff .royal_p{
 font-weight: 400;
 font-size: 1em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #315D80;
 text-transform: capitalize;
 margin: 0 0 2.5em 0;
@@ -1940,13 +1945,13 @@ margin: 0 0 2.5em 0;
 .royal_propdiff p,.tenant_placementdescr p{
 font-weight: 400;
 font-size: 0.9em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #315D80;
 text-transform: capitalize;
 margin: 0px;
 }
 .royal_propdiff .table thead th,.tenantscreen_table .table thead th{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 color: #315D80;
 font-size: 14px;
@@ -2038,14 +2043,14 @@ width: 48%;
 margin: 2em 0 0.4em 0;
 }
 .portal_syst h4{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 color: #315D80;
 font-size: 17px;
 margin-bottom: 1em;
 }
 .portal_syst p,.our_premium p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 color: #315D80;	
 font-size: 14px;
@@ -2276,14 +2281,14 @@ width: 45%;
 }
 .leftsidemapinfo h3{
 color: #C9D7E5;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 text-transform: capitalize;
 width: 32%;
 }
 .rightsidemapinfo h3{
 color: #C9D7E5;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 text-transform: capitalize;
 position: absolute;
@@ -2323,7 +2328,7 @@ font-size: 0.9em;
 text-transform: capitalize;
 }
 .rental_gua p.royal_p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 color: #51617C;
 font-size: 14px;
@@ -2354,7 +2359,7 @@ border: unset;
 }
 .card.card_monthly .card-header{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 1em;
 padding: 20px 42px 0px 42px;
@@ -2362,7 +2367,7 @@ padding: 20px 42px 0px 42px;
 .rate_monthly{
 font-size: 2.5em;
 color: #F2727F;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 margin: 0;
 }
@@ -2374,7 +2379,7 @@ margin: 0 auto;
 background: #315D80;
 box-shadow:3px 4px 5px 0px rgba(0, 0 ,0 ,0.10), 4px 4px 10px 1px #468DC3 inset;
 color: #ffffff;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 border-radius: 40px;
 padding: 5px 40px;
@@ -2389,7 +2394,7 @@ text-align: center;
 color: #EEF4FF;
 border-radius: 30px 30px 0 0;
 font-weight: 700;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 1.4em;
 padding: 15px 10px;
 }
@@ -2608,7 +2613,7 @@ margin: 0 0 17px 0;
 .services_offer p.serv_descrip{
 color: #315D80;
 font-weight: 400;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 width: 69%;
 margin: 0 auto 4em auto;
 text-align: center;
@@ -2617,13 +2622,13 @@ line-height: 29px;
 .section_servdetails h3{
 color: #315D80;
 font-weight: 700;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 1em;
 }
 .section_servdetails p{
 color: #51617C;
 font-weight: 400;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.8em;
 }
 .serv_absol_div.absol_div{
@@ -2646,7 +2651,7 @@ width: 89%;
 .req_content p,.painting_serv_div p{
 color: #51617C;
 font-weight: 400;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.96em;
 line-height: 26px;
 text-transform: capitalize;
@@ -2668,7 +2673,7 @@ margin: 3.5em 0 0 0;
 .pricing_div h4{
 color: #F2727F;
 font-weight: 700;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 1em;
 margin: 0 0 1em 0;
 }
@@ -2680,7 +2685,7 @@ margin:0 0 0.4em 0;
 }
 .price_one li:first-child,.price_two li:first-child{
 font-weight: 400;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.8em;
 color:#315D80;
 }
@@ -2695,7 +2700,7 @@ margin-bottom: 18px;
 }
 .list_services ul.price_one li{
 font-weight: 400;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color:#315D80;
 margin-bottom: 1.9em;
 }
@@ -3024,7 +3029,7 @@ margin: 0 auto;
 }
 .rating_star h4 span{
 color:#F2727F;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 .rating_star h4{
 color:#315D80;
@@ -3033,7 +3038,7 @@ font-size: 2em;
 }
 .rating_star p.rating_txt{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.8em;
 margin: 1em 0 0 0;
 }
@@ -3060,14 +3065,14 @@ vertical-align: middle;
 }
 .progress_no{
 color: #4485B8;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 600;
 font-size: 0.73em;
 margin:5px 0;
 }
 .rating_overview h4{
 color:#315D80;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 1.6em;
 }
@@ -3128,7 +3133,7 @@ width: 65%;
 align-items: center;
 }
 .recentname_describe span:first-child,.recentname_describe span:nth-child(2),.recentname_describe span:nth-child(3){
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 }
 .recentname_describe span:first-child{
@@ -3157,7 +3162,7 @@ color: #ffffff;
 background: #EDF2FA;
 box-shadow: 4px 4px 14px 0px rgba(57, 124, 238, 0.122) inset, 5px 6px 5px -1px rgba(137, 174, 234, 0.039);
 color: #315D80;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 width: 250px;
 text-align: center;
@@ -3182,7 +3187,7 @@ border: 9px solid transparent;
 }
 .btn.see_more{
 color: rgba(49, 93, 128, 0.80);
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.8em;
 }
 .btn_seemore{
@@ -3237,7 +3242,7 @@ margin: 0 0 0.5em 0;
 color:#F9FBFF;
 font-size: 0.9em;
 text-transform: capitalize;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 }
 .leaveus_descrip {
@@ -3266,14 +3271,14 @@ width: 78%;
 }
 .our_pricing h3{
 color: #E8E8E8;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 0.9em;
 letter-spacing: 0.4px;
 margin: 0 0 2em 0;
 }
 .our_pricing h4{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 2.3em;
 color: #FFFFFF;
@@ -3281,7 +3286,7 @@ margin: 0 0 0.7em 0;
 }
 .our_pricing p{
 color:#E8E8E8;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: normal;
 font-size: 0.9em;
 }
@@ -3293,7 +3298,7 @@ margin: 1.2em 0 0 0;
 .tenantscreen_table p{
 font-weight: 400;
 font-size: 0.9em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #315D80;
 text-transform: capitalize;
 margin: 0px;
@@ -3386,7 +3391,7 @@ right: 29px;
 font-weight: 400;
 font-size: 1em;
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 line-height: 27px;
 text-transform: capitalize;
 }
@@ -3438,7 +3443,7 @@ margin:0 0 0.4em 0;
 font-weight: 400;
 font-size: 1em;
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 line-height: 27px;
 text-transform: capitalize; 
 width: 45%;
@@ -3469,14 +3474,14 @@ color: #F2727F;
 color: #C9D7E5;
 font-weight: bold;
 line-height: 28.78px;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-size: 3.5em;
 display: inline-block;
 margin-left: -27px;
 }
 .ellipse_div .media-body h4{
 color:#315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 0.8em;
 text-align: left;
@@ -3487,7 +3492,7 @@ color:#F2727F;
 .ellipse_div .media-body p{
 color:#51617C;
 font-size: 0.9em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 text-align: left;
 }
@@ -3540,7 +3545,7 @@ margin: 0 auto;
 .button_royalbenef p{
 color: #315D80;
 font-size: 0.9em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-align: left;
 margin-bottom: 0.7em;
 }
@@ -3548,7 +3553,7 @@ margin-bottom: 0.7em;
 background-color: #F8F8F8;
 color: #315D80;
 font-size: 0.9em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 border-radius: 20px;
 margin: 0px 10px 10px 0px;
 }
@@ -3622,7 +3627,7 @@ box-shadow: 3px 6px 6px 0px rgba(54, 106, 148, 0.6), 5px 2px 6px 2px rgba(183, 1
 background-color: #EDF2FA;
 box-shadow: 5px 6px 5px 1px rgba(137, 174, 234, 0.2), 4px 4px 14px 0px rgba(57, 124, 238, 0.239) inset;
 border-radius: 32px;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: bold;
 color: #315D80;
 border: unset;
@@ -3720,7 +3725,7 @@ padding: 10px 68px 10px 21px;
 border: unset;
 background: #ffffff;
 border-radius: 24px !important;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-size: 0.9em;
 height: 42px;
 outline: none;
@@ -3728,7 +3733,7 @@ outline: none;
 .form-search button {
 padding: 7px 20px;
 color: white;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-size: 0.9em;
 border:unset;
 cursor: pointer;
@@ -4021,7 +4026,7 @@ width: 69%;
 color: #315D80;
 font-weight: bold;
 font-size: 1.2em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 margin: 0 0 2em 0;
 }
 .prop_img.aboutimgteam{
@@ -4101,7 +4106,7 @@ transition: all 1s;
 min-height:135px;
 }
 .showactive_div p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color:#315D80;
 text-align: center;
 font-size: 0.77em;
@@ -4130,7 +4135,7 @@ height: 295px;
 margin-bottom: 5px;
 }
 .descrip_team_mem .names p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color:#315D80;
 text-align: center;
 }
@@ -4248,7 +4253,7 @@ margin: 0 auto;
 }
 .bottomwidth_section p{
 color: #ffffff;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 font-size: 2em;
 font-weight: 500;
@@ -4258,7 +4263,7 @@ font-weight: 400;
 font-size: 1em;
 text-align: justify;
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 line-height: 27px;
 text-transform: capitalize;
 margin: 0 0 0.1em 0;
@@ -4285,7 +4290,7 @@ background-position: 100% 7%;
 height: 471px;
 }
 .aboutimg_nathan .nathan_pdiv p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #ffffff;
 text-transform: capitalize;
 font-size: 2em;
@@ -4319,7 +4324,7 @@ height: 40px;
 font-weight: 400;
 font-size: 1em;
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 line-height: 27px;
 text-transform: capitalize;
 margin: 0 0 0.3em 0;
@@ -4336,7 +4341,7 @@ margin: 0 0 1em 0;
 padding: 0 0em 0 16.5em;
 }
 .authr_txt{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 line-height: 27px;
 text-transform: capitalize;
 font-weight: 600;
@@ -4371,13 +4376,13 @@ flex-direction: column;
 align-items: center;
 }
 .person_details p:first-child{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.9em;
 font-weight: bold;
 margin: 0px 0px 0.2em 0px;
 }
 .person_details p:nth-child(2){
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 font-size: 0.7em;
 }
 .aboutnathan_descrip.left p:first-child{
@@ -4411,7 +4416,7 @@ cursor: pointer;
 .about_teamselect .dropdown__filter {
 position: relative;
 display: flex;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size:1em;
 letter-spacing: 0.5px;
 font-weight: bold;
@@ -4505,7 +4510,7 @@ margin:0 0 0.2em 0;
 text-align: center;
 }
 .growing_idea p{
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 font-size: 1em;
 color:#315D80;
 }
@@ -4516,7 +4521,7 @@ margin: 0 0 0.2em 0;
 margin:1em 0 0 0;
 }
 .careers_tabdecrip h3.heading{
-font-family: "Outfit", sans-serif;   
+font-family: 'Helvetica';   
 }
 .careers_tab .client_schedule {
 margin: 2em auto 0px auto;
@@ -4536,7 +4541,7 @@ margin: 9px 0 0 7px;
 
 /* our department */
 .departmenthead_div h3.heading{
-font-family: "Outfit", sans-serif;  
+font-family: 'Helvetica';  
 text-align: left;
 }
 .department_careers{
@@ -4568,7 +4573,7 @@ cursor: pointer;
 justify-content: space-between;
 color: #315D80;
 font-weight: bold;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 }
 .select-menu .options,.select-menu2 .options {
 width: 330px;
@@ -4628,7 +4633,7 @@ background-color: #376990;
 border-radius: 30px;
 color: #ffffff;
 padding: 10px 37px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 letter-spacing: 0.5px;
 margin: 0.9em 0 0 0;
@@ -4656,14 +4661,14 @@ box-shadow:4px 4px 14px 0px rgba(57, 124, 238,0.12) inset;
 margin-bottom:0.5em;
 }
 .search_city label{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 0.95em;
 color: #315D80;
 display: block;
 }
 .block_bluered h3{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #ffffff;
 font-size: 0.9em;
 padding: 10px 16px;
@@ -4711,13 +4716,13 @@ text-align: center;
 font-weight: bold;
 color:#315D80;
 font-size: 0.9em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 .locdepart h3{
 color:#F2727F;
 }
 .block_blueredtwo h3,.locdepart h3{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.9em;
 padding: 10px 16px;
 margin: 0;
@@ -4776,7 +4781,7 @@ color: #FFFFFF;
 .department_tabs .nav.nav-tabs li.nav-item a {
 background-color: #EDF2FA;
 border-radius: 32px;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: bold;
 color: #315D80;
 border: unset;
@@ -4815,7 +4820,7 @@ border-image: linear-gradient(to bottom, #F8B195, #F2727F) 1 100%;
 position:relative;
 }
 .department_propmgmt h3.heading{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 margin: 0 0 0.7em 0;
 font-size: 2em;
 padding-left: 0.5em;
@@ -4870,7 +4875,7 @@ box-shadow: 0px 12px 7px #F8F8F8, 0px -6px 5px rgba(133, 178, 255, 0.28), inset 
 background: #EDF2FA;
 box-shadow: 4px 4px 14px 0px rgba(57, 124, 238, 0.122) inset, 5px 6px 5px -1px rgba(137, 174, 234, 0.039);
 color: #315D80;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: 700;
 width: auto;
 text-align: center;
@@ -4923,14 +4928,14 @@ left: 18px;
 background: linear-gradient(280.77deg, #F8B195 -3.96%, #F2727F 72.68%);
 padding: 10px;
 color: #ffffff;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 0.8em;
 letter-spacing: 0.25px;
 border-radius: 3px;
 }
 .arti_descrip h4{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 color: #F2727F;
 font-size: 1.4em;
@@ -4943,7 +4948,7 @@ padding: 0 0 0 13px;
 .arti_descrip p{
 color: #51617C;
 font-size: 1em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 line-height: 26px;
 }
@@ -4952,14 +4957,14 @@ background-color: #315D80;
 border-radius: 30px;
 color: #ffffff;
 padding: 10px 37px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 letter-spacing: 0.5px;
 margin: 0 0 0 9px;
 box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC3;
 }
 .recent_postimg_descrip p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 14px;
 margin: 10px 0;
 display: flex;
@@ -4993,7 +4998,7 @@ background: linear-gradient(0deg, #F8B195 -3.29%, #F2727F 100%);
 background: linear-gradient(0deg, #599FD7 -3.29%, #28517B 114.21%);
 }
 .recentpost_div h3,.feature_arti h3{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 1.6em;
 color: #315D80;
@@ -5006,7 +5011,7 @@ width: 100%;
 border-radius: 18px 18px 0 0;
 }
 .bluelist .txtinfolist p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 14px;
 margin: 10px 0;
 display: flex;
@@ -5046,7 +5051,7 @@ padding: 0.2em 0 1em 0;
 .date_year_info p{
 font-size: 0.75em;
 color: #6388A5;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 margin: 0px;
 }
 .listing_newsart_div.bluelist:hover{
@@ -5073,7 +5078,7 @@ width: 100%;
 border-radius: 25px;
 display: block;
 margin: 0;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 }
 .mrgn_btm{
@@ -5108,7 +5113,7 @@ margin: -14px 0 0 0;
 }
 .card.faq_card .card-body p{
 color:#315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 line-height: 25px;
 text-transform: capitalize;
 font-size: 1em;
@@ -5150,7 +5155,7 @@ padding: 13px 28px;
 .cardgroup .card-header a.btn-header-link{
 color: #315D80;
 font-weight: 510;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 margin: 0;
 position: relative;
 background-color: #EDF2FA;
@@ -5191,7 +5196,7 @@ text-align: center;
 .see_more a{
 color:#315D80;
 font-size: 0.9em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 /* end of faq */
 
@@ -5220,7 +5225,7 @@ width:100%;
 }
 .list_franchise li{
 margin-bottom: 0.7em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 color: #315D80;
 font-size: 0.9em;
@@ -5321,7 +5326,7 @@ left: 0px;
 display:none;
 }
 .see_details a{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #ffffff;
 font-size: 0.9em;
 }
@@ -5334,7 +5339,7 @@ top: 6px;
 margin:0 0 4em 0;
 }
 .text_title{
-font-family: "Inria Serif", serif; 
+font-family: 'Helvetica'; 
 font-weight: bold;
 color:#315D80;
 font-size: 0.96em;
@@ -5359,7 +5364,7 @@ padding: 19px 25px;
 margin: -26px 0px 0px 0px; 
 }
 .whyjoin_descrip h3,.whyjoin_descrip h4{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 color: #315D80;
 }
@@ -5375,7 +5380,7 @@ min-height: 60px;
 }
 .whyjoin_descrip p{
 color:#51617C;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.98em;
 }
 .franch_flexcss{
@@ -5422,7 +5427,7 @@ border-radius: 13px;
 padding: 29px 20px;
 }
 .becm_left h3 {
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: bold;
 color: #ffffff;
 font-size: 2.8em;
@@ -5430,7 +5435,7 @@ line-height: 49px;
 text-transform: capitalize;
 }
 .becm_franch_decrip p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: normal;
 font-size: 0.9em; 
 color:#ffffff;
@@ -5438,7 +5443,7 @@ font-weight: 400;
 text-transform: capitalize;
 }
 .btnstart_bcmfran .btn.getstart{ 
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 background: linear-gradient(280.77deg, #F8B195 -3.96%, #F2727F 72.68%);
 box-shadow: inset 4px 3px 15px rgba(97, 19, 19, 0.45);
@@ -5579,7 +5584,7 @@ border-radius: 40px;
 }
 .card-header.news_details,.card-header.bluenews_details{
 color: #ffffff;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: bold;
 padding-left: 27px;
 font-size: 1.1em;
@@ -5602,11 +5607,11 @@ padding-right: 18px;
 }
 .newsarti_reviews .tenant_descrip .list_provi p{
 color:#63829E;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: bold;
 }
 .newsarti_reviews .tenant_descrip .list_provi p.txt_styl{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400; 
 }
 .newsarti_reviews .tenant_descrip .list_provi p.headclr{
@@ -5616,7 +5621,7 @@ margin: 3em 0 1.2em 0;
 }
 .list_provi ul li{
 color: #63829E;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 font-size: 1em;
 position: relative;
@@ -5674,7 +5679,7 @@ width: 23.2%;
 .recentpost_search .input-group input.form-control{
 background-color: #EDF2FA;
 text-transform: capitalize;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: bold;
 }
 .form-search.recentpost_search .input-group input.form-control{
@@ -5739,7 +5744,7 @@ background-color: unset;
 margin: 0;
 padding: 8px 9px 8px 1px;
 font-size: 0.8em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 }
 .newsdetail_img{
@@ -5818,7 +5823,7 @@ box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 border-radius: 40px;
 text-transform: capitalize;
 color: #FFFFFF;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 padding: 6px 20px 8px 20px;
 }
@@ -5842,14 +5847,14 @@ border-radius: 22px;
 padding: 29px 35px 15px 35px;
 }
 .blocks_divhows p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 color: #51617C;
 font-size: 0.9em;
 text-transform: capitalize;
 }
 .blocks_divhows h3{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 1em;  
 }
@@ -5873,7 +5878,7 @@ margin: 2em 0px;
 background: #376990;
 box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 border-radius: 40px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 1em;
 color: #ffffff;
@@ -5904,7 +5909,7 @@ box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 border-radius: 40px;
 color: #ffffff;
 font-weight: bold;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 font-size: 0.95em;
 width: 24%;
@@ -5932,13 +5937,13 @@ box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 border-radius: 40px;
 color: #ffffff;
 font-weight: 500;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 padding: 6px 36px;
 letter-spacing: 0.4px;
 }
 .deposit_descrip h4{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 color: #ffffff;
 font-weight: 400;
 font-size: 3em;
@@ -5948,7 +5953,7 @@ text-transform: capitalize;
 .deposit_descrip h2{
 color: #ffffff;
 font-weight: bold;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 font-size:4em; 
 margin: 0 0 0.8em 0;
@@ -5974,7 +5979,7 @@ flex-direction: column;
 .ul_listworks ul li {
 font-weight: 400;
 font-size: 0.9em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #315D80;
 text-transform: lowercase;
 margin: 0 0 0.8em 0;
@@ -6017,14 +6022,14 @@ flex-direction: column;
 width: 100%;
 }
 .rightbg h3{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 color: #FFFFFF;
 font-weight: bold;
 font-size: 1.1em;
 margin: 0 0 2em 0;  
 }
 .leftbg h3{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 color: #315D80;
 font-weight: bold;
 font-size: 1em;
@@ -6036,7 +6041,7 @@ box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(
 border-radius: 100px;
 display: inline-block;
 font-size: 1.7em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #315D80;
 font-weight: bold;
 padding: 9px 10px;
@@ -6046,7 +6051,7 @@ margin: 0 auto;
 p.smtxt{
 color:#51617C;
 font-size: 0.7em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 margin: 10px 0 0 0;
 }
@@ -6062,7 +6067,7 @@ width: 100%;
 }
 .rightbg span.moneypay{
 font-size: 1.7em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #ffffff;
 font-weight: bold;
 }
@@ -6108,7 +6113,7 @@ padding:0 0 1em 0;
 .main_reqwid{
 color: #315D80;
 font-weight: 400;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 width: 61%;
 margin: 0 auto 2em auto;
 text-align: center;
@@ -6121,7 +6126,7 @@ margin: 0 0 9em 0;
 .mainte_decrip_guide h4{
 font-size: 0.9em;
 font-weight: bold;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 }
 .colr1{
@@ -6144,7 +6149,7 @@ color:#51617C;
 font-weight: 400;
 font-size: 0.9em;
 line-height: 21px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 .mainte_decrip_guide{
 background: #F8F8F8;
@@ -6208,7 +6213,7 @@ margin-right: 10px;
 color: #ffffff;  
 }
 .rent_pet_town span{
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 font-weight: bold;
 color: #315D80;
 text-transform: capitalize;
@@ -6227,7 +6232,7 @@ justify-content: space-between;
 background: #9BB997;
 box-shadow: inset 2px 2px 4px #ABCBA7, inset -2px -2px 5px #6A9365;
 border-radius: 28px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 18px;
 text-transform: capitalize;
@@ -6254,7 +6259,7 @@ vertical-align: middle;
 .txt_loc{
 color: #6388A5;
 font-weight: 600;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 1.1em;
 }
 .ratingdiv_star p{
@@ -6264,13 +6269,13 @@ margin:0px;
 font-size: 1.5em;
 color: #315D80;
 font-weight: bold;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 }
 .ratingdiv_star p.startot{
 margin: -5px 0 -10px 0;
 }
 .ratingdiv_star p span.total{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 1.2em; 
 color: #315D80;
 }
@@ -6283,14 +6288,14 @@ margin-right: -3px;
 margin: -16px 0 0 0;
 }
 .monthrent_div h4{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 1em;
 font-weight: bold;
 color: #315D80;
 margin: 0 0 2.5px 0;
 }
 .monthrent_div h2{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 2em;
 font-weight: 700;
 color: #F2727F;
@@ -6347,7 +6352,7 @@ margin-left: 1em;
 }
 .allpic_links p{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 14px;
 font-weight: 600;
 text-transform: capitalize;
@@ -6385,7 +6390,7 @@ margin: 0 0 1em 0;
 }
 .form_addrs .formlabel_addr{
 color: #6388A5;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 14px;
 font-weight: 500;
 }
@@ -6395,7 +6400,7 @@ box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 1
 border-radius: 100px;
 color:#315D80;
 font-size:14px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 width: 23%;
 border:unset;
@@ -6421,7 +6426,7 @@ padding: 21px 20px;
 text-align: center;
 }
 .contact_details h3{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight:bold;
 font-size: 1.9em;  
 text-transform: capitalize;
@@ -6437,7 +6442,7 @@ font-weight: 700;
 }
 .cell_no{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 16px;
 vertical-align: text-bottom;
@@ -6448,7 +6453,7 @@ background: #EDF2FA;
 box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
 border-radius: 100px;
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 text-transform: capitalize;
 width: 100%;
@@ -6459,7 +6464,7 @@ font-size: 1.1em;
 margin:2em 0 0 0;
 }
 .contact_agent h3{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 1.3em;
 color: #315D80;
@@ -6479,7 +6484,7 @@ border-radius: 100px;
 .contact_agent .nav.nav-tabs li.nav-item a{
 border: unset;
 outline: none;
-font-family: "Inria Serif", serif;
+font-family: 'Helvetica';
 text-align: center;
 color: #315D80;
 font-weight: bold;
@@ -6519,7 +6524,7 @@ margin:0;
 font-size: 13px;
 line-height: 1;
 text-align: center;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color:#6388A5;
 padding: 7px 6px 7px 6px;
 transition: all 0.1s ease-in-out;
@@ -6558,7 +6563,7 @@ margin: 2em 0 0 0;
 }
 .tour_typetxt{
 color: #315D80;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 15px;
 text-transform: capitalize;
@@ -6568,7 +6573,7 @@ padding: 5px 10px;
 font-size: 12px;
 font-weight: 500;
 border-radius: 8px 8px 0px 0px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #ffffff;
 text-align: center;
 }
@@ -6617,7 +6622,7 @@ margin:0;
 .calender .caldate_details span.no_cal{
 font-weight: 700;
 font-size: 0.8em;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color:#315D80;
 }
 .calender .caldate_details p{
@@ -6630,7 +6635,7 @@ box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.31), inse
 border-radius: 30px;
 }
 .selected_txtdate p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 text-transform: capitalize;
 color: #315D80;
 font-size: 0.77em;
@@ -6644,7 +6649,7 @@ margin: 0.3em 0 2em 0;
 background: #315D80;
 box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 border-radius: 40px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: bold;
 font-size: 16px;
 text-transform: capitalize;
@@ -6664,7 +6669,7 @@ margin: 0 auto;
 .tabs_multi ul.nav-tabs.multilist .nav-item a{
 text-transform: capitalize;
 color: #6388A5;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.8em;
 background: linear-gradient(180deg, #EDF2FA 0%, rgba(240, 243, 249, 0) 100%);
 box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 0px 6px 14px rgba(57, 124, 238, 0.12);
@@ -6677,7 +6682,7 @@ display:flex;
 justify-content:space-between;
 }
 .headtxt{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 15px;
 display: flex;
@@ -6687,7 +6692,7 @@ color: #6388A5;
 margin: 0 0 0.2em 0;
 }
 .descrip_txt{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 17px;
 text-transform: capitalize;
@@ -6700,7 +6705,7 @@ vertical-align: text-bottom;
 }
 .listdecrip p{
 color: #6388A5;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 0.9em;
 }
@@ -6708,7 +6713,7 @@ font-size: 0.9em;
 margin:1em 0 0 0;
 }
 .headinglist{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 600;
 font-size: 24px;
 text-transform: capitalize;
@@ -6737,7 +6742,7 @@ margin: -3px 0 0 0;
 }
 .txt_clrorange{
 color: #F2727F;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 600;
 text-transform: capitalize;
 }
@@ -6760,7 +6765,7 @@ padding-left: 5px;
 margin: 1.7em 0 0 0;
 }
 .polici_fee h3{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 600;
 font-size: 24px;
 text-transform: capitalize;
@@ -6776,7 +6781,7 @@ box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 margin:2em 0 0 0;
 }
 .abt_descrip p{
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 text-transform: capitalize;
 color: #315D80;
 font-size: 0.9em;
@@ -6879,7 +6884,7 @@ font-size: 13px;
 line-height: 17px;
 text-transform: capitalize;
 color: #6388A5;
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 margin:0;
 }
 .median_txt{
@@ -6891,7 +6896,7 @@ font-size: 13px;
 line-height: 22px;
 text-transform: capitalize;
 color: #6388A5;
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 padding:0 20px;
 margin:0;
 }
@@ -6903,7 +6908,7 @@ justify-content: space-around;
 background: #EDF2FA;
 box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
 border-radius: 100px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 13px;
 line-height: 28px;
@@ -6914,7 +6919,7 @@ margin: 0;
 padding: 3px 8px;
 }
 .flexrent_median p.renttxt_medi{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 600;
 font-size: 13px;
 line-height: 22px;
@@ -6927,7 +6932,7 @@ color: #6388A5;
 text-align: center;
 }
 .txt_affor h3{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-style: normal;
 font-weight: 700;
 font-size: 1.3em;
@@ -6941,7 +6946,7 @@ border: none;
 height: 30px;
 width: 12%;
 padding: 4px 6px 5px 7px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 15px;
 font-weight: 600;
 line-height: 24px;
@@ -6952,7 +6957,7 @@ box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 1
 border-radius: 100px;
 }
 .txt_affor p.first_p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 14px;
 font-weight: 400;
 color: #315D80;
@@ -6960,7 +6965,7 @@ margin: 0 0 0.4em 0;
 }
 .txt_affor p.second_p{
 color: #6388A5;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 14px;
 }
@@ -6979,7 +6984,7 @@ justify-content: space-between;
 background: #EDF2FA;
 box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
 border-radius: 100px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 600;
 font-size: 15px;
 line-height: 20px;
@@ -7007,7 +7012,7 @@ display: flex;
 justify-content:space-between;
 }
 .placetxt h3{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 16px;
 text-transform: capitalize;
@@ -7015,7 +7020,7 @@ color: #315D80;
 margin: 0;
 }
 .distance_txt p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 13px;
 text-transform: capitalize;
@@ -7032,7 +7037,7 @@ margin-top: -4px;
 margin:1em 0 0 0;
 }
 .loc_details p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 13px;
 text-transform: capitalize;
@@ -7042,12 +7047,12 @@ margin: 0;
 .dayson_market h3{
 font-weight: 600;
 font-size: 15px;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #8BAC8C;
 margin: 0 0 0.8em 0;
 }
 .dayson_market p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 13px;
 text-transform: capitalize;
@@ -7069,7 +7074,7 @@ color:#6388A5;
 margin: 0px 0 0.2em 0;
 }
 .smtxtmedian{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 500;
 font-size: 14px;
 text-transform: capitalize;
@@ -7115,7 +7120,7 @@ height:15px;
 }
 .details_slider p{
 margin:3px 0 0 0;
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 font-size: 12px;
 font-weight: bold;
 }
@@ -7144,7 +7149,7 @@ margin-top: 1px;
 border-radius: 0px;
 }
 .bottom_details span{
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 font-weight: 500;
 font-size: 14px;
 text-transform: capitalize;
@@ -7202,7 +7207,7 @@ border-radius: 40px;
 margin: 0px 9px 0 0;
 }
 .descrip_details_list .price_rate p{
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 font-weight: 700;
 font-size: 20px;
 text-transform: capitalize;
@@ -7216,7 +7221,7 @@ font-size: 13px;
 }
 .count_rst span.amtrate{
 font-weight: bold;
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 }
 .rat_tot_count p{
 color: #FFB6A3;
@@ -7272,7 +7277,7 @@ border-radius: 0px;
 margin: 0 2px 0 0px;
 }
 .lochouse_details .house span,.lochouse_details .clock span{
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 font-weight: 500;
 font-size: 12px;
 text-transform: capitalize;
@@ -7281,7 +7286,7 @@ color: #51617C;
 .slidelocation_div .txt_loc {
 color: #6388A5;
 font-weight: 400;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-size: 0.9em;
 }
 .leasedslider .slidelocation_div span img{
@@ -7353,7 +7358,7 @@ height:14px;
 }
 .leaseddetails_slider p{
 margin:3px 0 0 0;
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 font-size: 12px;
 font-weight: bold;
 color:#315D80;
@@ -7546,7 +7551,7 @@ width: 98%;
 margin: -310px 0 0 auto;
 }
 .rental_listingdiv h4,.rental_listingdiv h3{
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 text-transform: capitalize;  
 }
 .rental_listingdiv h3{
@@ -7589,7 +7594,7 @@ justify-content: start;
 align-items: baseline;
 }
 .shortby_div label{
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 text-transform: capitalize;  
 color:#51617C; 
 margin-right: 5px;
@@ -7653,7 +7658,7 @@ overflow: unset !important;
 .gm-style-iw-d div h3{
 font-size: 14px;
 margin: 0;
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 color:#ffffff;
 }
 /* cross button display none */
@@ -7685,14 +7690,14 @@ top: 0px;
 width: 12px;
 }
 .tooltipdivs h4{
-font-family: "Outfit", sans-serif; 
+font-family: 'Helvetica'; 
 font-weight: 700;
 font-size: 14px;
 text-transform: capitalize;
 color: #F2727F;
 }
 .tooltipdivs div p{
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 font-weight: 400;
 font-size: 13px;
 text-transform: capitalize;
@@ -7918,7 +7923,7 @@ ul.tenant_landlord{
 }
 ul.tenant_landlord li {
     margin-bottom: 0.7em;
-    font-family: "Outfit", sans-serif;
+    font-family: 'Helvetica';
     font-weight: 500;
     color: #315D80;
     font-size: 0.9em;
@@ -7989,7 +7994,7 @@ ul.tenant_landlord li:before {
     font-size: 16px;
     text-align: center;
     text-transform: capitalize;
-    font-family: "Outfit", sans-serif;
+    font-family: 'Helvetica';
     color: #386F9B;
     margin: 10px 0 0 0;
 }
@@ -7998,7 +8003,7 @@ font-weight: 400;
 font-size: 15px;
 text-align: center;
 text-transform: lowercase;
-font-family: "Outfit", sans-serif;
+font-family: 'Helvetica';
 color: #51617C;
 margin:0;
 }
@@ -8009,3 +8014,123 @@ box-shadow: 0px -8px 12px rgba(56, 111, 155, 0.4), inset 0px 8px 21px -4px rgba(
 .legal_expertliti h3.heading{
     margin: 1.3em 0px 1.5em 0px;
 }
+
+/* secure document page */
+.sec_doc_backg{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04);
+    border-radius: 14px;
+    padding: 20px;
+    width: 83%;
+    margin: 2em auto 7em auto;
+}
+.leftsecure_content{
+background: rgba(49, 93, 128, 0.2);
+box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
+border-radius: 14px;
+padding: 20px;
+}
+.leftsecure_content p{
+    color: #315D80;
+    font-size: 13px;
+    text-transform: capitalize;
+    line-height: 24px;
+    margin: 0;
+}
+.leftsecure_content p a{
+    display: inline-block;
+    background: #315D80;
+    box-shadow: 3px 6px 6px rgba(11, 11, 11, 0.06), inset 5px 2px 6px 2px #366A94;
+    border-radius: 40px;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 1px 15px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.rightside_secure_content p{
+    color: #315D80;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 19px;
+    margin: 0;
+}
+h3.sec_h3head{
+    color: #315D80;
+    font-family: 'Helvetica Rounded';
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.secure_p1,.secure_p2{
+    color: #315D80;
+    text-align: center;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    width: 66%;
+    margin: 0 auto;
+}
+.secure_p1{
+    margin: 0 auto 30px auto;
+}
+.rightcol_secure{
+    align-items: center;
+    display: flex;
+}
+.ten_docu_div h3{
+    font-family: 'Helvetica Rounded';
+    font-weight: bold;
+    color: #315D80;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 27px;
+    width: 90%;
+    margin: 0 auto 2em auto;
+}
+.ten_docu_div .form-group label{
+ font-family: 'Helvetica'; 
+ color: #315D80;
+ font-size: 14px;
+}
+.ten_docu_div .form-group input.form-control{
+background: rgba(49, 93, 128, 0.2);
+box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
+border-radius: 40px;
+font-size: 13px;
+height: 42px;
+width: 80%;
+}
+.ten_docu_div{
+    width: 83%;
+    margin: 0 auto;
+}
+.btn.sub_btn{
+    background: #315D80;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+    border-radius: 40px;
+    font-family: 'Helvetica Rounded';
+    font-weight: 400;
+    border: unset;
+    color: #ffffff;
+    padding: 7px 30px;
+}
+.btn.reset_btn{
+    color:#315D80;
+    font-family: 'Helvetica Rounded';
+    font-weight: bold;
+}
+.secure_portaldiv{
+    margin: 0 0 9em 0;
+}
+.attach{/* Rectangle 55 */
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04);
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 11px;
+}
+.ten_docu_div .form-group.attach input.form-control{
+    width: 98%;
+    margin: 0 auto;
+}
+
