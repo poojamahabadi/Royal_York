@@ -56,7 +56,7 @@
 <div class="secure_portaldiv">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h3 class="sec_h3head">Secure Document Portal</h3>
                 <p class="secure_p1"><span>All files uploaded are encrypted</span> at rest with 256-bit Advanced Encryption Standard (AES). Our servers and clients are connected through SSL and secured with an RSA-based 2048-bit encryption key.</p>
                 <p class="secure_p2">It is best to put the document on a flat surface before scanning it with your phone. Please ensure that the document is cropped properly so that we can see all the relevant information.</p>
@@ -65,12 +65,12 @@
 
     <div class="sec_doc_backg">
         <div class="row">
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-12">
                 <div class="leftsecure_content">
                     <p>For a list of required documents, please  <a href="">Click Here</a></p>
                 </div>
             </div>
-            <div class="col-xl-8 rightcol_secure">
+            <div class="col-xl-8 col-lg-7 col-md-7 col-sm-6 col-12 rightcol_secure">
                 <div class="rightside_secure_content">
                     <p>Use the email given in the rental application to upload the required documents to your Royal York Property Management profile.</p>
                 </div>
@@ -80,34 +80,46 @@
 
 <div class="ten_docu_div">
     <div class="row">
-        <div class="col-xl-12">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
           <h3>Each tenant must upload their documents using their own email. This will sort the documents to the correct profile.</h3>
         </div>
     </div>
           <form>
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 marg_btm">
                     <div class="form-group">
                         <label for="eml">Email *</label>
                         <input type="email" class="form-control" id="eml" placeholder="Email" name="eml" required>
                       </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 marg_btm mobiledocview">
+                    <div class="form-group">
+                        <label for="custno">Royal York Customer Account Number *</label>
+                        <input type="number" class="form-control" id="custno" placeholder="Account Number " name="custno" required>
+                      </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mobiledochide">
                     <div class="form-group attach">
                         <label>Attach Document</label>
                         <input type="file" class="form-control"required>
                       </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-6">
+            <div class="row flexrow_secure">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mobiledochide">
                     <div class="form-group">
                         <label for="custno">Royal York Customer Account Number *</label>
                         <input type="number" class="form-control" id="custno" placeholder="Account Number " name="custno" required>
                       </div>
                 </div>
-                <div class="col-xl-6">
-                    <div class="form-group">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 marg_btm mobiledocview">
+                    <div class="form-group attach">
+                        <label>Attach Document</label>
+                        <input type="file" class="form-control"required>
+                      </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-group btncentr">
                       <button class="btn sub_btn">Submit</button>
                       <button class="btn reset_btn">Reset</button>
                     </div>
@@ -117,19 +129,9 @@
 
    
 </div>
-
-
 </div>
 </div>
-
-
-
 <!-- end of secure portal -->
-
-
-
-
-
 
 
 

@@ -8060,6 +8060,7 @@ h3.sec_h3head{
     font-family: 'Helvetica Rounded';
     text-align: center;
     margin: 0 0 20px 0;
+    font-size: 2.3em;
 }
 .secure_p1,.secure_p2{
     color: #315D80;
@@ -8091,6 +8092,7 @@ h3.sec_h3head{
  font-family: 'Helvetica'; 
  color: #315D80;
  font-size: 14px;
+ display: block;
 }
 .ten_docu_div .form-group input.form-control{
 background: rgba(49, 93, 128, 0.2);
@@ -8112,7 +8114,7 @@ width: 80%;
     font-weight: 400;
     border: unset;
     color: #ffffff;
-    padding: 7px 30px;
+    padding: 6px 37px;
 }
 .btn.reset_btn{
     color:#315D80;
@@ -8132,5 +8134,19 @@ width: 80%;
 .ten_docu_div .form-group.attach input.form-control{
     width: 98%;
     margin: 0 auto;
+    border-radius: 15px;
 }
-
+.btncentr {
+    text-align: center;
+    margin: 0;
+}
+.flexrow_secure{
+    display:flex;
+    align-items: center;
+}
+.btn.sub_btn,.btn.reset_btn {
+    font-size: 14px;
+}
+.mobiledocview{
+    display: none;
+}

@@ -1,5 +1,5 @@
 /*  ***************************media query******************************************  */
-@media (max-width: 1920px){
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
 /* menu css  */
 .nav_backg {
 height: 150px;
@@ -550,7 +550,7 @@ padding: 6px 18px;
 /* end of maintenance request */
 }
 
-@media (min-width:1600px) and (max-width: 1919px){
+@media (min-width:1537px) and (max-width: 1600px){
     .maintenance{
         background-size: cover;
     }
@@ -3051,6 +3051,20 @@ margin: 0 0 0 3.2em;
 }
 
 @media screen and (max-width: 1136px) {
+/* secure document */
+.secure_p1, .secure_p2 {
+    width: 79%;
+}
+.sec_doc_backg {
+    width: 90%;
+    margin: 2em auto 6em auto;
+}
+.ten_docu_div h3 {
+    font-size: 23px;
+    width: 97%;
+}
+/* end of secure document portal */
+
 /* menu */
 .nav_backg{
 padding: 12px 31px 0px 31px;
@@ -3081,7 +3095,7 @@ width: 74%;
 width: 91%;
 margin-top: -2em;
 }
-.heading,.department_propmgmt h3.heading{
+.heading,.department_propmgmt h3.heading,h3.sec_h3head{
 font-size: 2.1em;
 }
 .client_schedule .nav.nav-pills {
@@ -4081,6 +4095,21 @@ margin: 0 0 0 2.7em;
 }
 
 @media screen and (max-width: 1080px) {
+/* secure document portal */
+.secure_p1, .secure_p2 {
+        width: 75%;
+}
+.sec_doc_backg {
+    width: 81%;
+}
+.ten_docu_div {
+    width: 75%;
+}
+.ten_docu_div h3 {
+    font-size: 21px;
+    width: 97%;
+}
+/* end of secure doc portal */
 /* menu css */
 .nav_backg .navbar-nav li.nav-item a {
 font-size: 0.9em;
@@ -4098,7 +4127,7 @@ height: 109px;
 }
 /* end of css */
 /* footer */
-.heading,.department_propmgmt h3.heading {
+.heading,.department_propmgmt h3.heading,h3.sec_h3head {
 font-size: 2em;
 }
 /* end of footer */
@@ -4662,6 +4691,16 @@ margin: 0 0 0 2.6em;
 
 
 @media screen and (max-width: 1024px) {
+
+/* secure document portal  */
+.sec_doc_backg {
+    width: 89%;
+}
+.secure_p1, .secure_p2 {
+    width: 71%;
+}
+/* end of secure document portal */
+
 /* menu */
 .nav_backg {
 height: 103px;
@@ -5826,7 +5865,7 @@ word-break: break-all;
 height: 42px;
 line-height: 28px;
 }
-.heading,.department_propmgmt h3.heading {
+.heading, .department_propmgmt h3.heading, h3.sec_h3head {
 font-size: 1.7em;
 }
 .contact_client .container{
@@ -5892,6 +5931,7 @@ width: 100%;
 .propmgmt_video.ready_rental {
 width: 100%;
 }
+.secure_portaldiv .container,
 .guidemainte .container,.deposit_div .container,.verifi_monthprice .container,.how_does .container,.veri_doc_div .container,.rece_post .container,.newsarti_reviews .container,.newsarti_decrip .container,.news_art_details .container,.container.news_width,.our_departmentsec .container,.container.departwidth,.department_view .container,.container.careers_tab,.container.career_width,.careerhead_img .container,.grow_ideas .container,.container.nathandescrip,.aboutinfonathan_div .container,.visimisi_div .container,.meet_vision_mission .container,.job_opening .container,.aboutusmandate .container,.section_fourprop.aboutus_sec .container,.aboutwidth .container,.container.aboutdiv_video,.container.main_tenant,.map_near_prop .container,.our_process .container,.royalbenefit .container,.customer_service .container,
 .req_doc .container,.leave_us .container,.financial_interest .container,.container.tenantscreen_width,.leaveus_bgimg .container,.screen_pricing .container,.container.review_width,.container.main_serv_width,.container.rental_width,.contact_formprop,.top-rated .container,.descrip_width,.ourserv_width,.container.serv_blockswidth,
 .maintain_widthserv .container,.prop_widthmob .container,.tenant .container,.employeddiv .container,.our_team .container,
@@ -6947,6 +6987,27 @@ font-size: 1em;
 line-height: 19px;
 }
 /* end of maintenance reuest */
+}
+
+@media screen and (max-width: 800px) {
+    /* secure doc portal */
+    .secure_portaldiv {
+        margin: 3em 0 7em 0;
+    }
+    .secure_p1, .secure_p2 {
+        width: 95%;
+    }
+    .sec_doc_backg {
+        width: 100%;
+        margin: 2em auto 4em auto;
+    }
+    .leftsecure_content p a {
+        line-height: 23px;
+    }
+    .ten_docu_div {
+        width: 94%;
+    }
+       /* secure doc portal end */
 }
 
 @media screen and (max-width: 768px) {
@@ -8279,6 +8340,17 @@ padding: 22px 27px 15px 27px;
 }
 
 @media screen and (max-width: 767px) {
+/* secure doc portal */
+.secure_p1, .secure_p2 {
+    width: 100%;
+}
+
+.ten_docu_div h3 {
+    font-size: 19px;
+    width: 100%;
+}
+/* end of secure doc portal */
+
 /* footer css */
 .footerservices_img {
 margin: 0em 0 2em 0;
@@ -10102,7 +10174,55 @@ margin: 0;
 /* maintenance request end */
 }
 
+@media screen and (max-width: 750px) {
+    /* secure doc portal */
+.secure_p1, .secure_p2 {
+    font-size: 13px;
+}
+.rightside_secure_content p {
+    font-size: 13px;
+}
+.ten_docu_div .form-group input.form-control {
+    width: 93%;
+}
+/* secure doc portal end */
+}
+
 @media screen and (max-width: 640px) {
+
+    /* secure doc portal */
+    .secure_p1, .secure_p2 {
+        font-size: 12px;
+    }
+    .ten_docu_div h3 {
+        font-size: 15px;
+        width: 100%;
+    }
+    .leftsecure_content p a {
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .sec_doc_backg {
+        padding: 14px;
+    }
+    .ten_docu_div .form-group input.form-control {
+        width: 100%;
+        font-size: 12px;
+    }
+    .ten_docu_div .form-group label {
+        font-size: 13px;
+        margin: 0 0 5px 0;
+    }
+    .leftsecure_content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .rightside_secure_content p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    /* secure doc portal end */
+
 /* menu css */
 .nav_backg {
 padding: 12px 30px;
@@ -11189,7 +11309,10 @@ font-size: 0.9em;
 display: none;
 }
 .mobileview{
-display: block;
+    display:block;
+}
+.mobilehide{
+    display: none;
 }
 .newsdetail_img img {
 height: 328px;
@@ -11333,7 +11456,56 @@ width: 100%;
 
 }
 
+@media screen and (max-width: 575px) {
+   /* secure doc portal */
+    .mobiledocview{
+        display: block;
+    }
+    .marg_btm{
+        margin:0 0 15px 0;
+    }
+    .mobiledochide{
+        display: none;
+    }
+    .attach {
+        border-radius: 15px;
+        padding: 18px 11px;
+    }
+    .ten_docu_div .form-group label {
+        font-size: 15px;
+        margin: 0 0 5px 0;
+    }
+    .ten_docu_div .form-group.attach label{
+        margin: 0 0 16px 0;
+    }
+    .secure_portaldiv {
+        margin: 2em 0 7em 0;
+    }
+    .secure_p1 span{
+        font-weight: bold;
+    }
+    .rightside_secure_content p {
+        text-align: center;
+        margin: 2em auto 0.5em auto;
+        width: 86%;
+    }
+    .ten_docu_div .form-group.attach input.form-control {
+        border-radius: 8px;
+    }
+    .secure_portaldiv .container{
+        max-width: 100%;
+    }
+    .btncentr {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* end of secure doc portal */
+}
+
+
+
 @media screen and (max-width: 568px) {
+
 
 /* footer */
 .footer {
@@ -11415,7 +11587,7 @@ width: 50%;
 .client_schedule .nav-pills li a {
 font-size: 0.9em;
 }
-.heading,.department_propmgmt h3.heading {
+.heading,.department_propmgmt h3.heading, h3.sec_h3head {
 font-size: 1.4em;
 }
 .department_propmgmt h3.heading {
@@ -12461,6 +12633,32 @@ line-height: 21px;
 }
 
 @media screen and (max-width:480px) {
+/* secure doc portal */
+.secure_p1, .secure_p2 {
+    width: 89%;
+}
+.secure_portaldiv {
+    margin: 2em 0 4em 0;
+}
+.ten_docu_div h3 {
+    font-size: 16px;
+    line-height: 23px;
+}
+.sec_doc_backg {
+    margin: 2em auto 2.5em auto;
+}
+.leftsecure_content p a {
+    padding: 3px 11px;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.ten_docu_div .form-group.attach input.form-control {
+    width: 100%;
+}
+.rightside_secure_content p {
+    width: 95%;
+}
+/* end of secure doc portal */
 /* menu css */
 .nav_backg {
 padding: 12px 17px;
@@ -14625,6 +14823,26 @@ font-size: 1.1em;
 }
 @media screen and (max-width:411px) {
 
+/* secure doc portal */
+.rightside_secure_content p {
+    font-size: 13px;
+}
+.leftsecure_content p {
+    font-size: 15px;
+    line-height: 28px;
+}
+.ten_docu_div h3 {
+    font-size: 15px;
+    line-height: 19px;
+}
+.secure_p1, .secure_p2 {
+    width: 96%;
+    font-size: 13px;
+}
+.ten_docu_div {
+    width: 100%;
+}
+/* end of secure doc portal */
 /* contact page */
 .testimonial_card .card .card-carousel .carousel-item {
 height: 390px;
@@ -15121,7 +15339,7 @@ height: 174px;
 .maintenance h3, .news_articles h3, .contact_client h3 {
 font-size: 1.1em;
 }
-.heading,.department_propmgmt h3.heading {
+.heading,.department_propmgmt h3.heading,h3.sec_h3head {
 font-size: 1.2em;
 }
 .schedule_timings tr td {
@@ -15799,6 +16017,12 @@ padding: 6px 26px;
 }
 
 @media screen and (max-width:360px) {
+/* secure doc portal */
+.ten_docu_div h3 {
+    font-size: 16px;
+    line-height: 22px;
+}
+/* end of secure doc portal */
 /* menu css */
 .logo img {
 height: 43px;
@@ -15808,8 +16032,8 @@ margin-top: 8px;
 }
 /* end of menu css */
 /* footer */
-.heading,.maintenance h3, .news_articles h3, .contact_client h3,.department_propmgmt h3.heading{
-
+.heading,.maintenance h3, .news_articles h3, .contact_client h3,.department_propmgmt h3.heading,
+h3.sec_h3head{
 font-size: 1.4em;
 }
 .areas p {
@@ -16373,6 +16597,21 @@ font-size: 1.3em;
 /* end of no deposit */
 }
 @media screen and (max-width:340px) {
+
+/* secure doc portal */
+.leftsecure_content p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.leftsecure_content {
+    padding: 14px 15px;
+}
+.rightside_secure_content p {
+    width: 100%;
+    line-height: 18px;
+}
+/* end of secure doc portal */
+
 /* menu css */
 .nav_backg {
 padding: 12px 10px;
@@ -16412,9 +16651,6 @@ height: 301px;
 }
 .btn.get_started{
 padding: 8px 0px;
-}
-.heading, .maintenance h3, .news_articles h3, .contact_client h3,.department_propmgmt h3.heading {
-font-size: 1.3em;
 }
 .absol_div h3 {
 font-size: 1.3em;
@@ -16875,7 +17111,8 @@ width: 47%;
 .news_art_details .container {
 max-width: 99%;
 }
-.heading, .maintenance h3, .news_articles h3, .contact_client h3, .department_propmgmt h3.heading {
+.heading, .maintenance h3, .news_articles h3, .contact_client h3, .department_propmgmt h3.heading,
+h3.sec_h3head {
 font-size: 1.2em;
 }
 .recent_posts_news .news_img img {
@@ -16978,6 +17215,12 @@ top: 87px;
 
 @media screen and (max-width:320px) {
 
+/* secure doc portal */
+.secure_p1, .secure_p2 {
+    width: 100%;
+    font-size: 13px;
+}
+/* end of secure doc portal */
 /* contact page */
 .testimonial_card .card .carousel .carousel-item img {
 height: 145px;
