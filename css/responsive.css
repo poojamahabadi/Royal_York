@@ -1,5 +1,5 @@
 /*  ***************************media query******************************************  */
-@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+@media only screen and (max-width: 1920px) {
 /* menu css  */
 .nav_backg {
 height: 150px;
@@ -550,7 +550,7 @@ padding: 6px 18px;
 /* end of maintenance request */
 }
 
-@media (min-width:1537px) and (max-width: 1600px){
+@media only screen and (max-width: 1600px){
     .maintenance{
         background-size: cover;
     }
