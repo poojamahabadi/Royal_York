@@ -88,7 +88,7 @@ width: 100%;
 }
 .office_locations p,.decriptionnathan_txt p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
-font-size: 1.4em;
+font-size: 1.2em;
 }
 .tenantscreen_descrip p {
 font-size: 1.5em;
@@ -551,6 +551,18 @@ padding: 6px 18px;
 }
 
 @media only screen and (max-width: 1600px){
+
+/* devloper page */
+.developer_rentalincome {
+    margin: 4em 0 6em 0;
+}
+.whatwe_offer h2.heading {
+    font-size: 9em;
+}
+.portal_systm {
+    margin: 6.5em 0 5.5em 0;
+}
+/* end of developer page */
     .maintenance{
         background-size: cover;
     }
@@ -850,7 +862,18 @@ margin: 0 0 0 3.6em;
 /* maintenance request end */
 }
 
-@media (min-width:1536px) and (max-width: 1599px){
+@media only screen and (max-width: 1536px){
+/* developer */
+.developer_rentalincome .img_franchisewhy img {
+    height: 377px;
+}
+.main_img > .splide__track > .splide__list > .splide__slide {
+    height: 460px !important;
+}
+.whatwe_offer h2.heading {
+    font-size: 8em;
+}
+/* developer end */
     .maintenance{
         background-size: cover;
     }
@@ -1208,6 +1231,13 @@ margin: 0 0 3em 0;
 
 
 @media screen and (max-width: 1400px) {
+
+/* developers */
+.developer_rentalincome .tenant_descrip.why_franch_descrip p {
+    width: 100%;
+}
+/* end of developers */
+
 /* menu css */
 .nav_backg {
 height: 123px;

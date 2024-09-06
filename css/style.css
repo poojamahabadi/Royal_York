@@ -5903,7 +5903,7 @@ width:80%;
 .nodeposit_req{
 text-align: right;
 }
-.money_aplynw .btn.applynw{
+.money_aplynw .btn.applynw,.callusnow,.portal_systmowner .login_portal {
 background: #376990;
 box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 border-radius: 40px;
@@ -8124,7 +8124,7 @@ width: 80%;
 .secure_portaldiv{
     margin: 0 0 9em 0;
 }
-.attach{/* Rectangle 55 */
+.attach{
     background: #EDF2FA;
     box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04);
     border-radius: 30px;
@@ -8150,3 +8150,179 @@ width: 80%;
 .mobiledocview{
     display: none;
 }
+/* end of secure document portal */
+/* devlopers */
+.money_descrip.tenant_descrip.develop_descrip h3.heading{
+    margin-top:0px;
+}
+.develop_video .video_div iframe {
+    padding: 13px 13px 0px 13px;
+}
+.developer_rentalincome .img_franchisewhy img{
+    padding: 13px 13px 0px 13px;
+    background: linear-gradient(180deg, rgba(170, 202, 255, 0.14) -21.45%, rgba(148, 165, 194, 0.14) 58.96%, rgba(148, 165, 194, 0.035) 108.1%);
+    box-shadow: 4px 5px 5px 0px rgba(208, 226, 255, 0.10) inset;
+    border-radius: 40px 40px 0px 0px;
+}
+.developer_rentalincome .img_franchisewhy{
+    text-align: left;
+}
+.developer_rentalincome .why_franch_descrip{
+    text-align: right;
+}
+.developer_rentalincome .why_franch_descrip h2.heading{
+width: 70%;
+margin: 0 0 25px auto;
+text-align: right;
+}
+.developer_rentalincome .tenant_descrip.why_franch_descrip p{
+    width: 92%;
+    margin: 0 0 0 auto;
+}
+.callusnow{
+    margin: 1.5em 0 0 0;
+    font-family: 'Helvetica Rounded';
+    width: 31%;
+}
+.callusnow:hover,.callusnow:active,.callusnow:focus{
+    color:#ffffff;
+}
+.developer_rentalincome{
+    margin:4em 0;
+}
+.whatwe_offer h2.heading{
+    font-family: 'Helvetica Rounded';
+    font-size: 7em;
+    text-align: center;
+} 
+.offerimg_div{
+    text-align: center;
+}
+.offerimg_div img{
+    width: 72%;
+    margin: 0;
+    position: relative;
+    z-index: 10;
+    top: -147px;
+}
+.whyjoin_descrip.developwhatoffer{
+    margin: -146px 0px 0px 0px;
+}
+.whyjoin_descrip h4{
+    margin:0 0 10px 0;
+}
+.portal_systmowner h2.heading{
+    font-family: 'Helvetica Rounded';
+    margin: 0 0 10px 0;
+}
+.tenant_descrip.portal_systmowner  > p{
+    font-size: 19px;
+}
+.portal_systmowner p{
+    color: #315D80;
+    margin: 0 0 31px 0;
+}
+.portal_systmowner .login_portal{
+    width: 46%;
+    font-family: 'Helvetica Rounded';
+    padding: 6px;
+}
+.tenant_descrip.portal_systmowner p.smtxt_develop{
+    font-size: 14px;
+    line-height: 21px;
+}
+.main_image,.main_image2{
+    position: relative;
+    width: 33%;
+}
+.absol_images1,.absol_images2,.absol_images3,.absol_images4{
+    position: absolute;
+    height: 48px;
+    object-fit: contain;
+    z-index: -1;
+}
+.absol_images5,.absol_images6,.absol_images7{
+    position: absolute;
+    object-fit: contain;
+    z-index: -1;
+}
+.absol_images1{
+    left: 38px;
+    height: 102px;
+    top: 39px;
+}
+.develop_images{
+    text-align: center;
+}
+.absol_images2{
+    top: 86px;
+    right: 32px;
+}
+.absol_images3{
+    top: 128px;
+    right: 40px;
+}
+.absol_images4{
+    top: 171px;
+    right: 47px;
+}
+.absol_images5{
+    bottom: 59px;
+    right: 64px;
+    z-index: 10;
+    height: 24px;
+}
+.absol_images6{
+    bottom: 34px;
+}
+.absol_images7{
+    bottom: 8px;
+}
+.absol_images6,.absol_images7{
+    right: 69px;
+    height: 21px;
+}
+.portal_systm{
+    margin:4.5em 0;
+}
+
+/* Slider CSS Start  */
+.company_culture h2.heading{
+    text-align: center;
+}
+.sm_img_slider{
+    padding:16px 0 0 0;
+}
+.splide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    transition: .2s;
+}
+.splide--nav > .splide__track > .splide__list > .splide__slide.is-active {
+    box-shadow: 2px 3px 8px #000000a3;
+}
+.main_img > .splide__track > .splide__list > .splide__slide{
+    border-radius: 10px 10px 0px 0px;
+    height: 493px !important;
+    background-size: cover !important;
+}
+
+.splide__slide img {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.thumbnail_sliderdiv{
+padding:23px;
+background: linear-gradient(180deg, rgba(170, 202, 255, 0.14) -21.45%, rgba(148, 165, 194, 0.14) 58.96%, rgba(148, 165, 194, 0.035) 108.1%);
+box-shadow: inset 2.50426px 3.13033px 3.13033px rgba(208, 226, 255, 0.1);
+border-radius: 10px 10px 0px 0px;
+}
+
+/* devlopers end */
