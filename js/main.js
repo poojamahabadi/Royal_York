@@ -357,34 +357,5 @@ $(document).ready(function(){
 
 
 
-  // Primary slider.
-var primarySlider = new Splide('#primary_slider', {
-  type: 'fade',
-  heightRatio: 0.5,
-  pagination: false,
-  arrows: true,
-  cover: true,
-});
 
-// Thumbnails slider.
-var thumbnailSlider = new Splide('#thumbnail_slider', {
-  rewind: true,
-  fixedWidth: 160,
-  fixedHeight: 130,
-  isNavigation: true,
-  gap: 20,
-  arrows: false,
-  focus: 'center',
-  pagination: false,
-  cover: true,
-  breakpoints: {
-      '600': {
-          fixedWidth: 66,
-          fixedHeight: 40,
-      }
-  }
-}).mount();
-
-// sync the thumbnails slider as a target of primary slider.
-primarySlider.sync(thumbnailSlider).mount();
 

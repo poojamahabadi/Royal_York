@@ -4,6 +4,23 @@ display: none;
 
 /*  ***************************media query******************************************  */
 @media only screen and (max-width: 1920px) {
+/* realtor */
+    .days_div.realtor_days {
+        top: -136px;
+    }
+    .realtordiv .nodeposit_req img {
+        height: 325px;
+    }
+    .realtordiv.revenuebg .nodeposit_req img {
+        height: 383px;
+    }
+    .developer_rentalincome.realdiv .img_franchisewhy img {
+        height: 329px;
+    }
+    .offerimg_div img {
+        top: -140px;
+    }
+/* end of realtor */
 /* menu css  */
 .nav_backg {
 height: 150px;
@@ -555,7 +572,15 @@ padding: 6px 18px;
 }
 
 @media only screen and (max-width: 1600px){
-
+    .whyjoin_descrip.developwhatoffer {
+        margin: -165px 0px 0px 0px;
+    }
+    .days_div.realtor_days {
+        top: -112px;
+    }
+    .offerimg_div img {
+        top: -168px;
+    }
 /* devloper page */
 .developer_rentalincome {
 margin: 4em 0 6em 0;
@@ -867,6 +892,21 @@ margin: 0 0 0 3.6em;
 }
 
 @media only screen and (max-width: 1536px){
+    .days_div.realtor_days {
+        top: -103px;
+    }
+    .offerimg_div img {
+        top: -149px;
+    }
+    .realtordiv .nodeposit_req img {
+        height: 349px;
+    }
+    .whyjoin_descrip.developwhatoffer {
+        margin: -147px 0px 0px 0px;
+    }
+    .developer_rentalincome.realdiv .img_franchisewhy img {
+        height: 347px;
+    }
 /* developer */
 .developer_rentalincome .img_franchisewhy img {
 height: 377px;
@@ -1235,7 +1275,21 @@ margin: 0 0 3em 0;
 
 
 @media screen and (max-width: 1400px) {
-
+    .realtordiv .nodeposit_req img {
+        height: 366px;
+    }
+    .realtordiv.revenuebg .nodeposit_req img {
+        height: 403px;
+    }
+    .whatwe_offer h2.heading {
+        font-size: 7em;
+    }
+    .offerimg_div img {
+        top: -141px;
+    }
+    .whyjoin_descrip.developwhatoffer {
+        margin: -140px 0px 0px 0px;
+    }
 /* developers */
 .developer_rentalincome .tenant_descrip.why_franch_descrip p {
 width: 100%;
@@ -1537,6 +1591,18 @@ width: 100%;
 
 @media screen and (max-width: 1366px) {
 
+    .realtordiv .nodeposit_req img {
+        height: 315px;
+    }
+    .realtordiv.revenuebg .nodeposit_req img {
+        height: 337px;
+    }
+    .offerimg_div img {
+        top: -134px;
+    }
+    .whyjoin_descrip.developwhatoffer {
+        margin: -128px 0px 0px 0px;
+    }
 /*developer*/
 .main_img > .splide__track > .splide__list > .splide__slide {
 height: 372px !important;
@@ -1707,7 +1773,7 @@ right: 1em;
 
 /* tenant main page */
 .days_div {
-top: -97px;
+    top: -94px;
 }
 .maintenant_descrip {
 width: 80%;
@@ -3106,7 +3172,33 @@ margin: 0 0 0 3.2em;
 }
 
 @media screen and (max-width: 1136px) {
-
+    .real_images24 {
+        top: 222px;
+        right: 61px;
+    }
+    .real_images25, .real_images26 {
+        right: 63px;
+    }
+    .real_images12 {
+        left: 29px;
+        height: 54px;
+        top: 171px;
+    }
+    .real_images11 {
+        left: 40px;
+        height: 62px;
+        top: 28px;
+    }
+    .real_images25 {
+        top: 247px;
+    }
+    .real_images13 {
+        top: -27px;
+        left: 117px;
+    }
+    .real_images26 {
+        top: 269px;
+    }
 /* developer page */
 .whatwe_offer h2.heading {
 font-size: 6.3em;
@@ -3154,6 +3246,13 @@ height: 105px !important;
 }
 .whatwe_offer h2.heading {
 font-size: 6em;
+}
+.realdiv .callusnow {
+    margin: 4em 0 0 0;
+    width: 36%;
+}
+.whyjoin_descrip.developwhatoffer {
+    margin: -99px 0px 0px 0px;
 }
 .absol_images2 {
 top: 62px;
@@ -3219,8 +3318,17 @@ width: 74%;
 width: 91%;
 margin-top: -2em;
 }
-.heading,.department_propmgmt h3.heading,h3.sec_h3head{
-font-size: 2.1em;
+.heading, .department_propmgmt h3.heading, h3.sec_h3head {
+    font-size: 1.9em;
+}
+.developer_rentalincome.realdiv .img_franchisewhy img {
+    height: 316px;
+}
+.developer_rentalincome.realdiv .why_franch_descrip h2.heading {
+    width: 83%;
+}
+.office_locations p, .decriptionnathan_txt p, .aboutnathan_descrip p, .aboutnathan_descrip.right p, .process_descrip p, .find_property p, .customer_review p, .recent_descrip p, .tenantscreen_title p, .leaveus_descrip p, .video_descrip p, .tenant_descrip p, .ready_rental .video_descrip p, .leave_us p {
+    line-height: 25px;
 }
 .client_schedule .nav.nav-pills {
 margin: 1.5em 0px 2em 0;
@@ -8701,6 +8809,29 @@ padding: 22px 27px 15px 27px;
 
 @media screen and (max-width: 767px) {
 /*developer*/
+.thumbnail_sliderdiv {
+    padding: 0px;
+    background:unset;
+    border-radius: unset;
+    box-shadow: unset;
+}
+/* .main_img .splide__arrows{
+    display: none;
+} */
+.main_img > .splide__track > .splide__list > .splide__slide {
+    background-image: unset !important;
+    height: 562px !important;
+    border-radius: unset;
+}
+.main_img .splide__slide img {
+    border-radius: 14px;
+}
+.mobileview{
+    display:block;
+}
+.desktopview{
+    display:none;
+}
 .absol_images1 {
 height: 114px;
 left: 40px;
@@ -10726,7 +10857,7 @@ left: 12px;
 top: 42px;
 }
 .main_img > .splide__track > .splide__list > .splide__slide {
-height: 269px !important;
+    height: 443px !important;
 }
 /*end of developer */
 /* secure doc portal */
@@ -12044,13 +12175,19 @@ justify-content: space-between;
 
 
 @media screen and (max-width: 568px) {
-/* developer */    
+/* developer */  
+.absol_images6, .absol_images7 {
+    right: 36px;
+}  
+.absol_images5 {
+    right: 49px;
+}
 .whyjoin_descrip.developwhatoffer h4 {
 font-size: 1.3em;
 line-height: 24px;
 }
 .main_img > .splide__track > .splide__list > .splide__slide {
-height: 237px !important;
+    height: 401px !important;
 }
 .whyjoin_descrip.developwhatoffer p {
 font-size: 1em;
@@ -13193,6 +13330,9 @@ line-height: 21px;
 .developer_rentalincome .img_franchisewhy img {
 height: 309px;
 }
+.main_img > .splide__track > .splide__list > .splide__slide {
+    height: 451px !important;
+}
 .main_image, .main_image2 {
 width: 36%;
 }
@@ -13204,9 +13344,6 @@ margin: 3em 0 5em 0;
 }
 .portal_systm .container {
 max-width: 95%;
-}
-.main_img > .splide__track > .splide__list > .splide__slide {
-height: 198px !important;
 }
 .whyjoin_descrip.developwhatoffer {
 width: 92%;
@@ -14443,6 +14580,9 @@ margin: 2em 0 0 0;
 .developerdiv .nodeposit_req img {
 width: 90%;
 }
+.absol_images2, .absol_images3, .absol_images4 {
+    height: 47px;
+}
 .develop_descrip .money_aplynw .btn.applynw {
 padding: 6px 28px;
 }
@@ -14453,7 +14593,7 @@ margin: 0 0 15px 0;
 height: 260px;
 }
 .main_img > .splide__track > .splide__list > .splide__slide {
-height: 166px !important;
+    height: 390px !important;
 }
 .offerimg_div img {
 width: 97%;
@@ -15471,6 +15611,9 @@ font-size: 1.1em;
 @media screen and (max-width:411px) {
 
 /*developer*/
+.main_img > .splide__track > .splide__list > .splide__slide {
+    height: 428px !important;
+}
 .portal_systm {
 margin: 2em 0 5em 0;
 }
@@ -16008,7 +16151,7 @@ font-size: 15px;
 font-size: 0.8em;
 }
 .main_img > .splide__track > .splide__list > .splide__slide {
-height: 153px !important;
+    height: 400px !important;
 }
 .absol_images1 {
 height: 62px;
@@ -16786,6 +16929,15 @@ padding: 6px 26px;
 .absol_images2, .absol_images3, .absol_images4 {
 height: 36px;
 }
+.whatwe_offer h2.heading {
+    font-size: 2em;
+}
+.portal_systm {
+    margin: 2em 0 3em 0;
+}
+.developerdiv .tenant_descrip.develop_descrip h3.heading {
+    line-height: 27px;
+}
 .absol_images2 {
 top: 56px;
 right: -4px;
@@ -17396,7 +17548,13 @@ font-size: 1.3em;
 
 /*developer*/
 .main_img > .splide__track > .splide__list > .splide__slide {
-height: 136px !important;
+    height: 350px !important;
+}
+.whyjoin_descrip.developwhatoffer h3 {
+    font-size: 1.2em;
+}
+.whyjoin_descrip.developwhatoffer h4 {
+    font-size: 1em;
 }
 .developerdiv .nodeposit_req img {
 width: 94%;
@@ -18023,6 +18181,14 @@ top: 87px;
 
 @media screen and (max-width:320px) {
 
+/* developer */
+.developerdiv .nodeposit_req img {
+    width: 100%;
+}
+.main_img > .splide__track > .splide__list > .splide__slide {
+    height: 364px !important;
+}
+/* end of developer */
 /* secure doc portal */
 .secure_p1, .secure_p2 {
 width: 100%;
