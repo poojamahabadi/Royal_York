@@ -3193,7 +3193,7 @@ margin: 0 0 0 3.2em;
         top: 247px;
     }
     .real_images13 {
-        top: -27px;
+        top: -37px;
         left: 117px;
     }
     .real_images26 {
@@ -4327,6 +4327,61 @@ margin: 0 0 0 2.7em;
 }
 
 @media screen and (max-width: 1080px) {
+/* realtor */
+.realtordiv .nodeposit_req img {
+    height: 280px;
+}
+.realtordiv .tenant_descrip h3.heading {
+    line-height: 34px;
+}
+.realtordiv.revenuebg .nodeposit_req img {
+    height: 303px;
+}
+.realtordiv .deposit_div {
+    padding: 0 0 2em 0;
+}
+.developer_rentalincome.realdiv .why_franch_descrip h2.heading {
+    width: 77%;
+}
+.developer_rentalincome.realdiv .img_franchisewhy img {
+    height: 289px;
+}
+.whatwe_offer h2.heading {
+    font-size: 5em;
+}
+.offerimg_div img {
+    width: 64%;
+    top: -98px;
+}
+.whyjoin_descrip.developwhatoffer {
+    margin: -95px 0px 0px 0px;
+}
+.whyjoin_descrip h3 {
+    margin: 7px 0 0.7em 0;
+}
+.real_images11 {
+    left: 38px;
+}
+.real_images22 {
+    top: 107px;
+    right: 37px;
+}
+.real_images24 {
+    top: 224px;
+    right: 55px;
+}
+.real_images25, .real_images26 {
+    right: 59px;
+}
+.real_images23 {
+    top: 141px;
+    right: 43px;
+}
+.real_images21 {
+    top: 73px;
+    right: 29px;
+}
+/* end of realtors */
 /* secure document portal */
 .secure_p1, .secure_p2 {
 width: 75%;
@@ -4359,8 +4414,8 @@ height: 109px;
 }
 /* end of css */
 /* footer */
-.heading,.department_propmgmt h3.heading,h3.sec_h3head {
-font-size: 2em;
+.heading, .department_propmgmt h3.heading, h3.sec_h3head {
+    font-size: 1.7em;
 }
 /* end of footer */
 /* contact us */
@@ -5500,13 +5555,29 @@ width: 72%;
 
 
 @media screen and (max-width: 992px) {
+/* realtor */
+.developer_rentalincome.realdiv .tenant_descrip.why_franch_descrip p {
+    width: 95%;
+}
+.whatwe_offer h2.heading {
+    font-size: 5em;
+}
+.whyjoin_descrip.developwhatoffer {
+    margin: -84px 0px 0px 0px;
+}
+.absol_images1 {
+    left: 28px;
+    height: 89px;
+}
+/* end of realtor */
+
 
 /*developer */
 .developerdiv .nodeposit_req img{
 width: 93%;
 }
 .offerimg_div img {
-top: -97px;
+top: -87px;
 }
 /*developer end */
 /* menu */
@@ -7254,7 +7325,46 @@ line-height: 19px;
 }
 
 @media screen and (max-width: 800px) {
-
+/* realtor */
+.contact_view.About_us {
+    top: -7px;
+    height: 264px;
+}
+.portal_systm {
+    margin: 3.5em 0 5em 0;
+}
+.realtor_benefityou .portal_systmowner .login_portal {
+    padding: 6px 26px;
+}
+.realtordiv.revenuebg .nodeposit_req img {
+    height: 246px;
+}
+.offerimg_div img {
+    width: 76%;
+}
+.realdiv .callusnow {
+    width: auto;
+    padding: 7px 27px;
+}
+.developer_rentalincome.realdiv .img_franchisewhy img {
+    height: 252px;
+}
+.realtordiv .nodeposit_req img {
+    height: 239px;
+}
+.realtordiv .tenant_descrip h3.heading {
+    line-height: 27px;
+}
+.contact_view .contact_descrip .heading {
+    line-height: 62px;
+}
+.About_us.realtr_div .contact_descrip {
+    top: 106px;
+}
+.days_div.realtor_days {
+    top: -53px;
+}
+/* end of realtor */
 /* developer*/
 .developerdiv .nodeposit_req img {
 width: 100%;
@@ -7288,7 +7398,7 @@ width: auto;
 margin: 4em 0;
 }
 .offerimg_div img {
-top: -74px;
+top: -72px;
 }
 .whatwe_offer h2.heading {
 font-size: 4.5em;
@@ -7369,6 +7479,12 @@ height: 38px;
 
 
 /* secure doc portal */
+.contact_view {
+    height: 227px;
+}
+.contact_descrip {
+    top: 91px;
+}
 .secure_portaldiv {
 margin: 3em 0 7em 0;
 }
