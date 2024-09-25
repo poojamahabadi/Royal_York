@@ -330,149 +330,6 @@ $(document).ready(function(){
   });
   });
 
-
-// our team slider
-$(document).ready(function(){
-  $('.teamslide').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: false,
-    speed: 300,
-    infinite: true,
-     autoplaySpeed: 5000,
-    autoplay: true,
-    responsive: [
-      {
-        breakpoint: 1920,
-        settings: {
-          slidesToShow: 4,
-        }
-      },
-      {
-        breakpoint:1400,
-        settings: {
-          slidesToShow: 3,
-        }
-      },
-      {
-        breakpoint: 540,
-        settings: {
-          slidesToScroll: 1,
-          slidesToShow:1.5,
-        }
-      }
-    ]
-  });
-  });
-
-  // property logo slider home page
-  $(document).ready(function(){
-    $('.homepagesliderpub').slick({
-      slidesToShow: 6,
-      slidesToScroll: 1,
-      arrows: false,
-      dots: false,
-      speed: 300,
-      infinite: true,
-       autoplaySpeed: 5000,
-      autoplay: true,
-      responsive: [
-        {
-          breakpoint: 1920,
-          settings: {
-            slidesToShow: 6,
-          }
-        },
-        {
-          breakpoint:1400,
-          settings: {
-            slidesToShow: 6,
-          }
-        },
-        {
-          breakpoint: 540,
-          settings: {
-            slidesToScroll: 1,
-            slidesToShow:4,
-          }
-        }
-      ]
-    });
-    });
-
-// Our Tenants are Employed by
-$(document).ready(function(){
-  $('.tenant_employedslider,.tenant_employedslidertwo').slick({
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: false,
-    speed: 300,
-    infinite: true,
-     autoplaySpeed: 5000,
-    autoplay: true,
-    responsive: [
-      {
-        breakpoint: 1920,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint:1400,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 540,
-        settings: {
-          slidesToScroll: 1,
-          slidesToShow:2,
-        }
-      }
-    ]
-  });
-  });
-
-
-
-  // property logo slider home page
-$(document).ready(function(){
-  $('.logoslideprop').slick({
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: false,
-    speed: 300,
-    infinite: true,
-     autoplaySpeed: 5000,
-    autoplay: true,
-    responsive: [
-      {
-        breakpoint: 1920,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint:1400,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 540,
-        settings: {
-          slidesToScroll: 1,
-          slidesToShow:4,
-        }
-      }
-    ]
-  });
-  });
-
   $('.publicationImg').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -499,3 +356,39 @@ $(document).ready(function(){
     }
     }]
     });
+
+
+    // tenant ajax find rental homes slider
+    $(document).ready(function(){
+      $('.rentallist_slick.tenantslick').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        speed: 300,
+        infinite: true,
+         autoplaySpeed: 5000,
+        autoplay: true,
+        responsive: [
+          {
+            breakpoint: 1920,
+            settings: {
+              slidesToShow: 5,
+            }
+          },
+          {
+            breakpoint:1400,
+            settings: {
+              slidesToShow: 4,
+            }
+          },
+          {
+            breakpoint: 540,
+            settings: {
+              slidesToScroll: 1,
+              slidesToShow:1.5,
+            }
+          }
+        ]
+      });
+      });

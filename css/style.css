@@ -3623,6 +3623,9 @@ background-color: #315D80;
 color:#FFFFFF;
 box-shadow: 3px 6px 6px 0px rgba(54, 106, 148, 0.6), 5px 2px 6px 2px rgba(183, 183, 183, 0.16) inset;
 }
+.rew_doc_tabs .nav.nav-tabs li.nav-item .more.active{
+   color:#315D80; 
+}
 .rew_doc_tabs .nav.nav-tabs li.nav-item a{
 background-color: #EDF2FA;
 box-shadow: 5px 6px 5px 1px rgba(137, 174, 234, 0.2), 4px 4px 14px 0px rgba(57, 124, 238, 0.239) inset;
@@ -8465,3 +8468,97 @@ text-transform: capitalize;
     display: none;
 }
 /* end of realtor */
+
+/* tenant ajax */
+.tenantajax_btn .btn.ajax_call{
+    font-family: 'Helvetica Rounded';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #376990;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+    border-radius: 40px;
+    border: unset;
+    width: 27%;
+}
+.tenantajax_btn{
+    margin: 1.2em 0 0 0;
+}
+.tenantajax_contact img{
+    width: 100%;
+}
+.tenantajax_div{
+    margin: 2em 0 4em 0;
+}
+.becm_tenant p{
+    font-family: 'Helvetica';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #315D80;
+}
+.tenantajax_btn.ajax_department .btn.ajax_call{
+    width: 50%;
+}
+.ajaximg_tenant img{
+    background: linear-gradient(180deg, rgba(170, 202, 255, 0.14) -21.45%, rgba(148, 165, 194, 0.14) 58.96%, rgba(148, 165, 194, 0.035) 108.1%);
+    box-shadow: inset 4px 5px 5px rgba(208, 226, 255, 0.1);
+    border-radius: 40px 40px 0px 0px;
+    width: 82%;
+    padding: 11px;
+    object-fit: cover;
+    height: 288px;
+    object-position: top;
+    margin: 26px 0 0 0;
+}
+.tenant_ajaxslider .rentallist_slick .slick-prev.slick-arrow, 
+.tenant_ajaxslider .rentallist_slick .slick-next.slick-arrow{
+    display: none !important;
+}
+.tenantportal_btn.tenantajax_portal .btn.get_started{
+    width: 27%;
+    border: unset;
+    letter-spacing: 1px;
+}
+.resources_tenantajax h3.heading,.resources_tenantajax .txttenant_ajax{
+    text-align:center;
+}
+.resources_tenantajax{
+    margin: 3em auto 0 auto;
+}
+.resources_tenantajax h3.heading{
+    margin: 0 0 0.3em 0;
+}
+.tenantajax_contact{
+    margin: 0 0 2em 0;
+}
+.tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3){
+    font-size: 0.83em;
+    line-height: 20px;
+}
+.req_doc.tenantreq_docajax {
+    margin: 2em 0 0 0;
+}
+.tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2){
+    width: 64%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+p.txttenant_ajax{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 17px;
+line-height: 30px;
+text-transform: capitalize;
+color: #315D80;
+}
+.resource_txt{
+    margin:0 0 1em 0;
+}
+
+.tenant_ajaxslider .rentallist_slick .slick-track {
+    margin-left: 131px;
+}
