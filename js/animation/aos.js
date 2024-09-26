@@ -616,3 +616,9 @@
     duration:1000,
     easing: 'ease-in-out',
   });
+
+
+  let samt = 0;
+window.addEventListener('scroll', function() {
+samt <= 10 ? samt++ : AOS.refresh();
+});
