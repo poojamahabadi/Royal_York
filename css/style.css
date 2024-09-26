@@ -8331,7 +8331,7 @@ background: linear-gradient(180deg, rgba(170, 202, 255, 0.14) -21.45%, rgba(148,
 box-shadow: inset 2.50426px 3.13033px 3.13033px rgba(208, 226, 255, 0.1);
 border-radius: 10px 10px 0px 0px;
 }
-.mobileview{
+.comp_cult .mobileview{
     display:none;
 }
 /* devlopers end */
@@ -8537,7 +8537,7 @@ text-transform: capitalize;
 }
 .tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3){
     font-size: 0.83em;
-    line-height: 20px;
+    line-height: 26px;
 }
 .req_doc.tenantreq_docajax {
     margin: 2em 0 0 0;
