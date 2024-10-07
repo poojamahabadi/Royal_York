@@ -285,16 +285,25 @@ $(document).ready(function(){
 
 // multi form js
   $(document).ready(function() {
-    $('.btn-next').click(function() {
-      $('.propertypopup .nav-tabs .active').parent().next('li').find('a').trigger('click');
+    $('.propertypopup.takeprop .btn-next').click(function() {
+      $('.propertypopup.takeprop .nav-tabs .active').parent().next('li').find('a').trigger('click');
     });
   
-    $('.btn-prev').click(function() {
-      $('.propertypopup .nav-tabs .active').parent().prev('li').find('a').trigger('click');
+    $('.propertypopup.takeprop .btn-prev').click(function() {
+      $('.propertypopup.takeprop .nav-tabs .active').parent().prev('li').find('a').trigger('click');
     });
   });
 
+  $(document).ready(function() {
+    $('.propertypopup.contactpopup .btn-next').click(function() {
+      $('.propertypopup.contactpopup .nav-tabs .active').parent().next('li').find('a').trigger('click');
+    });
   
+    $('.propertypopup.contactpopup .btn-prev').click(function() {
+      $('.propertypopup.contactpopup .nav-tabs .active').parent().prev('li').find('a').trigger('click');
+    });
+  });
+
 // rental listing slider
 $(document).ready(function(){
   $('.rentallist_slick').slick({
@@ -354,41 +363,13 @@ $(document).ready(function(){
     settings: {
     slidesToShow:2,
     }
+
     }]
     });
 
 
-    // tenant ajax find rental homes slider
-    $(document).ready(function(){
-      $('.rentallist_slick.tenantslick').slick({
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        arrows: false,
-        dots: false,
-        speed: 300,
-        infinite: true,
-         autoplaySpeed: 5000,
-        autoplay: true,
-        responsive: [
-          {
-            breakpoint: 1920,
-            settings: {
-              slidesToShow: 5,
-            }
-          },
-          {
-            breakpoint:1400,
-            settings: {
-              slidesToShow: 4,
-            }
-          },
-          {
-            breakpoint: 540,
-            settings: {
-              slidesToScroll: 1,
-              slidesToShow:1.5,
-            }
-          }
-        ]
+    $(document).ready(function () {
+      $('.companyculture_homepg .property_tabs .nav-item a').on('click', function () {
+        $('.rev_slider').slick('refresh');
       });
-      });
+    });
