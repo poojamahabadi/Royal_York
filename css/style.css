@@ -232,6 +232,8 @@ margin: 2.5em 0px 1.5em 0px;
 .list_services ul{
 list-style-type: none;
 padding: 0px 5px 0px 0px;
+display: flex;
+flex-direction: column;
 }
 .price_two{
 text-align: center;
@@ -242,6 +244,7 @@ font-family: 'Helvetica';
 font-weight: 500;
 color: #315D80;
 font-size: 0.9em;
+display: flex;
 }
 .list_services ul li:before{
 content: '';
@@ -427,6 +430,8 @@ margin-bottom: 0.4em;
 list-style-type: none;
 padding: 0px 5px 0px 0px;
 margin-bottom: 2em;
+display: flex;
+flex-direction: column;
 }
 .tenantservices_list ul li,.financial_interest ul li,.list_government ul li{
 margin-bottom: 0.7em;
@@ -434,7 +439,9 @@ font-family: 'Helvetica';
 font-weight: 500;
 color: #315D80;
 font-size: 0.9em;
+display: flex;
 }
+
 .tenantservices_list ul li:before,.financial_interest ul li:before,.list_government ul li:before{
 content: '';
 display: inline-block;
@@ -588,8 +595,9 @@ display: none;
 .our_team{
 margin:3em 0px;
 }
-.our_team h3.heading{
-margin-bottom: 0.5em;
+.our_team h3.heading {
+    margin-bottom: 0.5em;
+    line-height: 29px;
 }
 .btn.btn_team{
 background: linear-gradient(280.77deg, #8F5877 -3.96%, #864B6C 72.68%);
@@ -8920,58 +8928,7 @@ font-size: 19px;
 }
 /*End USE CSS for Slider*/
 
-@media screen and (max-width : 991px) {
 
-.banner-slider .slider.slider-for,
-.banner-slider .slider.slider-nav {
-max-width: 100%;
-float: none;
-}
-.banner-slider .slider.slider-for {
-padding-right: 0;
-}
-.banner-slider .slider.slider-nav {
-height: auto;
-}
-.slider.slider-nav.thumb-image {
-padding: 10px 30px 0;
-}
-.banner-section .slick-arrow {
-padding: 0;
-width: 30px;
-height: 30px;
-top: 50%;
-bottom: 0;
--webkit-transform: translateY(-50%) rotate(-90deg);
--moz-transform: translateY(-50%) rotate(-90deg);
--ms-transform: translateY(-50%) rotate(-90deg);
-transform: translateY(-50%) rotate(-90deg);
-}
-.banner-section .slick-prev {
-left: 0;
-right: unset;
-}
-.banner-section .slick-next {
-left: unset;
-right: 0;
-background-color: transparent;
-}
-.vehicle-detail-banner .car-slider-desc {
-max-width: 340px;
-}
-.bid-tag {
-padding: 10px 0 15px;
-}
-.slider.slider-nav.thumb-image {
-white-space: nowrap;
-}
-.thumbnail-image.slick-slide {
-padding: 0px 5px;
-min-width: 75px;
-display: inline-block;
-float: none;
-}
-}
 
 @media screen and (max-width : 767px) {
 .slider.slider-nav.thumb-image {
@@ -9197,4 +9154,7 @@ width: 48%;
     position: absolute;
     left: -70px;
     z-index:1;
+}
+.mobileview_newshow{
+    display: none;
 }

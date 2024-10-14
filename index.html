@@ -17,6 +17,8 @@
 <link rel="stylesheet" href="css/style.css">
 <!-- Responsive css -->
 <link rel="stylesheet" href="css/responsive.css">
+<!-- Responsive css -->
+<link rel="stylesheet" href="css/responsive_new.css">
 </head>
 
 <body>
@@ -68,17 +70,18 @@
 </div>
 
 <!-- contact us -->
-<div class="container contact_formprop">
+<div class="container contact_formprop homecontactbg">
 <div class="row">
   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-   <a href="#takeproperty" data-toggle="modal"><img src="images/Home/contactbghome.svg"></a> 
+   <a href="#takeproperty" data-toggle="modal"><img src="images/Home/contactbghome.svg" class="mobileview_newhide"></a> 
+   <a href="#takeproperty" data-toggle="modal"><img src="images/Home/contactbghome_mobile.svg" class="mobileview_newshow"></a> 
   </div>
 </div>
 </div>
 
 
 
-<section class="banner-section">
+<section class="banner-section homevideosli">
   <div class="container">
       <div class="vehicle-detail-banner banner-content clearfix">
           <div class="banner-slider">
@@ -299,41 +302,41 @@
 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
 <ul class="maintenance_list">
 <li>
-<div class="">
+<div class="main_links showimage">
 <img src="images/Home/maintenance/m1.svg">
-<button class="btn btn-active">HVAC Services</button>
+<button class="btn btn-active main_service">HVAC Services</button>
 </div>
 </li>
 <li>
-<div class="">
+<div class="main_links">
 <img src="images/Home/maintenance/m2.svg">
-<button class="btn">Painting Services</button>
+<button class="btn main_service">Painting Services</button>
 </div>
 </li>
 <li>
-<div class="">
+<div class="main_links">
 <img src="images/Home/maintenance/m3.svg">
-<button class="btn">Electrical Services</button>
+<button class="btn main_service">Electrical Services</button>
 </div>
 </li>
 </ul>
 <ul class="maintenance_list">
 <li>
-<div class="">
+<div class="main_links">
 <img src="images/Home/maintenance/m4.svg">
-<button class="btn">Plumbing Services</button>
+<button class="btn main_service">Plumbing Services</button>
 </div>
 </li>
 <li>
-<div class="">
+<div class="main_links">
 <img src="images/Home/maintenance/m5.svg">
-<button class="btn">Restoration Services</button>
+<button class="btn main_service">Restoration Services</button>
 </div>
 </li>
 <li>
-<div class="">
+<div class="main_links">
 <img src="images/Home/maintenance/m6.svg">
-<button class="btn">Cleaning Services</button>
+<button class="btn main_service">Cleaning Services</button>
 </div>
 </li>
 </ul>
@@ -377,9 +380,9 @@
 <table class="table table-striped property_mgmt">
 <thead>
 <tr>
-  <th class="col-xl-6 col-lg-6 col-md-6 col-sm-4 col-4 price_mgmt">price match guarantee</th>
-  <th class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-4 pricesilver"><div class="silver">Silver</div></th>
-  <th class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-4 pricesgold"><div class="golden">Gold</div></th>
+  <th class="col-xl-6 col-lg-6 col-md-6 col-sm-4 col-6 price_mgmt">price match guarantee</th>
+  <th class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-3 pricesilver"><div class="silver">Silver</div></th>
+  <th class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-3 pricesgold"><div class="golden">Gold</div></th>
 </tr>
 </thead>
 <tbody>
@@ -765,7 +768,7 @@
 
 <div class="tenantservices_list">
 <div class="row">
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 <ul>
 <li>Property Assessment</li>
 <li>Photos And Video Tour</li>
@@ -776,7 +779,7 @@
 </ul>
 </div>
 
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 <ul>
 <li>Move-In Inspection</li>
 <li>Key Delivery</li>
@@ -812,7 +815,7 @@
 <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
 <h3 class="heading">featured <span class="redcolr">rental</span> properties</h3>
 </div>
-<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 mobileview_newhide">
 <div class="viewprop">
 <button class="btn btn-viewmoreprop">View More Properties</button>
 </div>
@@ -820,7 +823,7 @@
 </div>
 
 <div class="row">
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mobileview_newhide">
 <div class="rental_prop">
 <div class="rent_prop_img">
 <img src="images/Home/rental/r1.svg">
@@ -870,8 +873,119 @@
 </div>
 </div>
 </div>
-
 </div>
+
+
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mobileview_newshow">
+  <div class="feature_rental_propslider slider">
+    <div class="rental_prop">
+      <div class="rent_prop_img">
+      <img src="images/Home/rental/r1.svg">
+      </div>
+      <div class="propertyrental">
+      <div class="properties_decrip_rental">
+      <div class="bed">
+      <img src="images/Home/rental/bed.svg">
+      <p>02</p>
+      </div>
+      <div class="shower">
+      <img src="images/Home/rental/shower.svg">
+      <p>02</p>
+      </div>
+      <div class="car">
+      <img src="images/Home/rental/car.svg">
+      <p>05</p>
+      </div>
+      </div>
+      <div class="descrip_rental">
+      <p>2006-2550 Simcoe Street North, Oshawa, Ontario L1L 0R5</p>
+      </div>
+      </div>
+    </div>
+
+      <div class="rental_prop">
+        <div class="rent_prop_img">
+        <img src="images/Home/rental/r1.svg">
+        </div>
+        <div class="propertyrental">
+        <div class="properties_decrip_rental">
+        <div class="bed">
+        <img src="images/Home/rental/bed.svg">
+        <p>02</p>
+        </div>
+        <div class="shower">
+        <img src="images/Home/rental/shower.svg">
+        <p>02</p>
+        </div>
+        <div class="car">
+        <img src="images/Home/rental/car.svg">
+        <p>05</p>
+        </div>
+        </div>
+        <div class="descrip_rental">
+        <p>2006-2550 Simcoe Street North, Oshawa, Ontario L1L 0R5</p>
+        </div>
+        </div>
+        </div>
+
+        <div class="rental_prop">
+          <div class="rent_prop_img">
+          <img src="images/Home/rental/r1.svg">
+          </div>
+          <div class="propertyrental">
+          <div class="properties_decrip_rental">
+          <div class="bed">
+          <img src="images/Home/rental/bed.svg">
+          <p>02</p>
+          </div>
+          <div class="shower">
+          <img src="images/Home/rental/shower.svg">
+          <p>02</p>
+          </div>
+          <div class="car">
+          <img src="images/Home/rental/car.svg">
+          <p>05</p>
+          </div>
+          </div>
+          <div class="descrip_rental">
+          <p>2006-2550 Simcoe Street North, Oshawa, Ontario L1L 0R5</p>
+          </div>
+          </div>
+          </div>
+
+          <div class="rental_prop">
+            <div class="rent_prop_img">
+            <img src="images/Home/rental/r1.svg">
+            </div>
+            <div class="propertyrental">
+            <div class="properties_decrip_rental">
+            <div class="bed">
+            <img src="images/Home/rental/bed.svg">
+            <p>02</p>
+            </div>
+            <div class="shower">
+            <img src="images/Home/rental/shower.svg">
+            <p>02</p>
+            </div>
+            <div class="car">
+            <img src="images/Home/rental/car.svg">
+            <p>05</p>
+            </div>
+            </div>
+            <div class="descrip_rental">
+            <p>2006-2550 Simcoe Street North, Oshawa, Ontario L1L 0R5</p>
+            </div>
+            </div>
+            </div>
+    </div>
+</div>
+
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mobileview_newshow">
+  <div class="viewprop">
+  <button class="btn btn-viewmoreprop">View More Properties</button>
+  </div>
+</div>
+
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 <div class="featured_rental">
 <img src="images/Home/rental.svg">
@@ -941,7 +1055,7 @@
   <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
   <p class="tenant_decrip">Our Ontario local team is ready to find you a <span class="redcolr">qualified tenant</span> while ensuring that your financial interests are protected!</p>
   </div>
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 meet_btn-align">
+  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 meet_btn-align mobileview_newhide">
   <button class="btn btn_team">Meet The Team</button>
   </div>
   </div>
@@ -1006,6 +1120,12 @@
   </div>
   </div>
   </div>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 meet_btn-align mobileview_newshow">
+    <button class="btn btn_team">Meet The Team</button>
+    </div>
+</div>
   </div>
   </div>
 
@@ -1013,9 +1133,16 @@
   
   <div class="companyculture_homepg">
     <div class="container-fluid">
-      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col_zero">
         <h3 class="heading">Company’s Culture</span></h3>
-        <ul class="nav nav-tabs property_tabs" role="tablist">
+
+
+<div class="img_movileviewsdiv mobileview_newshow">
+<img src="images/Home/company1.svg">
+<img src="images/Home/company2.svg">
+</div>
+
+        <ul class="nav nav-tabs property_tabs mobileview_newshide" role="tablist">
           <li class="nav-item">
           <a class="nav-link" data-toggle="tab" href="#Albania">Albania</a>
           </li>
@@ -1038,7 +1165,7 @@
             </li>
           </ul>
 
-          <div class="tab-content">
+          <div class="tab-content mobileview_newshide">
             <div id="Albania" class="container-fluid tab-pane tableprop_width">
               <div class="rev_slider Albania">
                 <div class="rev_slide">
@@ -1138,7 +1265,6 @@
                 <div class="rev_slide">
                   <div class="test"><img src="images/contact/contactbg.svg"></div>
                 </div>
-
               </div>
             </div>
             </div>
@@ -1154,14 +1280,14 @@
 <h3 class="heading">featured <span class="redcolr">publications</span> & <span class="redcolr">news</span> coverage</h3>
 </div>
 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightget_alignmob">
-<div class="get_touch">
+<div class="get_touch mobileview_newhide">
 <button class="btn btn-viewmoreprop">Get In Touch</button>
 </div>
 </div>
 </div>
 
 <div class="row">
-<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mobileview_newhide">
 <p class="tenant_decrip">For inquiries, interview requests with our public relations coordinators, or to obtain a comment from one of our executive team members on current events, please contact our public relations team.</p>
 </div>
 </div>
@@ -1196,6 +1322,22 @@
 </div>
 </div>
 </div>
+
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mobileview_newshow">
+  <p class="tenant_decrip">For inquiries, interview requests with our public relations coordinators, or to obtain a comment from one of our executive team members on current events, please contact our public relations team.</p>
+  </div>
+  </div>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 rightget_alignmob">
+    <div class="get_touch mobileview_newshow">
+    <button class="btn btn-viewmoreprop">Get In Touch</button>
+    </div>
+    </div>
+</div>
+
 </div>
 </div>
 
@@ -1204,7 +1346,9 @@
 <div class="container">
 <h3>News & Articles</h3>
 <p class="news_update">Stay informed with the newest updates in real estate! Explore the latest trends in renting, buying, and selling properties to stay ahead in the market.</p>
-<div class="row">
+
+
+<div class="row mobileview_newhide">
 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
 <div class="news_card">
 <div class="news_img">
@@ -1290,13 +1434,187 @@
 </div>
 </div>
 </div>
+
+<div class="row mobileview_newshow">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="news_articles_slider slider">
+      <div class="news_card">
+        <div class="news_img">
+        <img src="images/Home/news/n4.svg">
+        </div>
+        <div class="article_details">
+        <div class="">
+        <img src="images/Home/news/date.svg">
+        <p>20/01/2023</p>
+        </div>
+        <div class="">
+        <img src="images/Home/news/profile.svg">
+        <p>Ontario</p>
+        </div>
+        </div>
+        <p>Royal York Property Management: A Guide to Protecting Your Assets</p>
+        <div class="read_more">
+        <a href="">Read More</a>
+        </div>
+        </div>
+
+        <div class="news_card">
+          <div class="news_img">
+          <img src="images/Home/news/n4.svg">
+          </div>
+          <div class="article_details">
+          <div class="">
+          <img src="images/Home/news/date.svg">
+          <p>20/01/2023</p>
+          </div>
+          <div class="">
+          <img src="images/Home/news/profile.svg">
+          <p>Ontario</p>
+          </div>
+          </div>
+          <p>Royal York Property Management: A Guide to Protecting Your Assets</p>
+          <div class="read_more">
+          <a href="">Read More</a>
+          </div>
+          </div>
+
+          <div class="news_card">
+            <div class="news_img">
+            <img src="images/Home/news/n4.svg">
+            </div>
+            <div class="article_details">
+            <div class="">
+            <img src="images/Home/news/date.svg">
+            <p>20/01/2023</p>
+            </div>
+            <div class="">
+            <img src="images/Home/news/profile.svg">
+            <p>Ontario</p>
+            </div>
+            </div>
+            <p>Royal York Property Management: A Guide to Protecting Your Assets</p>
+            <div class="read_more">
+            <a href="">Read More</a>
+            </div>
+            </div>
+
+            <div class="news_card">
+              <div class="news_img">
+              <img src="images/Home/news/n4.svg">
+              </div>
+              <div class="article_details">
+              <div class="">
+              <img src="images/Home/news/date.svg">
+              <p>20/01/2023</p>
+              </div>
+              <div class="">
+              <img src="images/Home/news/profile.svg">
+              <p>Ontario</p>
+              </div>
+              </div>
+              <p>Royal York Property Management: A Guide to Protecting Your Assets</p>
+              <div class="read_more">
+              <a href="">Read More</a>
+              </div>
+              </div>
+      </div>
+  </div>
+</div>
+
+<div class="row mobileview_newshow">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="news_articles_slidertwo slider">
+      <div class="news_card">
+        <div class="news_img">
+        <img src="images/Home/news/n4.svg">
+        </div>
+        <div class="article_details">
+        <div class="">
+        <img src="images/Home/news/date.svg">
+        <p>20/01/2023</p>
+        </div>
+        <div class="">
+        <img src="images/Home/news/profile.svg">
+        <p>Ontario</p>
+        </div>
+        </div>
+        <p>Royal York Property Management: A Guide to Protecting Your Assets</p>
+        <div class="read_more">
+        <a href="">Read More</a>
+        </div>
+        </div>
+
+        <div class="news_card">
+          <div class="news_img">
+          <img src="images/Home/news/n4.svg">
+          </div>
+          <div class="article_details">
+          <div class="">
+          <img src="images/Home/news/date.svg">
+          <p>20/01/2023</p>
+          </div>
+          <div class="">
+          <img src="images/Home/news/profile.svg">
+          <p>Ontario</p>
+          </div>
+          </div>
+          <p>Royal York Property Management: A Guide to Protecting Your Assets</p>
+          <div class="read_more">
+          <a href="">Read More</a>
+          </div>
+          </div>
+
+          <div class="news_card">
+            <div class="news_img">
+            <img src="images/Home/news/n4.svg">
+            </div>
+            <div class="article_details">
+            <div class="">
+            <img src="images/Home/news/date.svg">
+            <p>20/01/2023</p>
+            </div>
+            <div class="">
+            <img src="images/Home/news/profile.svg">
+            <p>Ontario</p>
+            </div>
+            </div>
+            <p>Royal York Property Management: A Guide to Protecting Your Assets</p>
+            <div class="read_more">
+            <a href="">Read More</a>
+            </div>
+            </div>
+
+            <div class="news_card">
+              <div class="news_img">
+              <img src="images/Home/news/n4.svg">
+              </div>
+              <div class="article_details">
+              <div class="">
+              <img src="images/Home/news/date.svg">
+              <p>20/01/2023</p>
+              </div>
+              <div class="">
+              <img src="images/Home/news/profile.svg">
+              <p>Ontario</p>
+              </div>
+              </div>
+              <p>Royal York Property Management: A Guide to Protecting Your Assets</p>
+              <div class="read_more">
+              <a href="">Read More</a>
+              </div>
+              </div>
+      </div>
+  </div>
+</div>
+
+
 </div>
 </div>
 
 
 <div class="footbgvideo">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/m0L2hG-4j4Y?si=Kr1VNM9DTxb997ZN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-  </div>
+</div>
 
 
 <!-- footer -->

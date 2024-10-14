@@ -6,39 +6,39 @@ display: none;
 @media only screen and (max-width: 1920px) {
 /* tenant ajax */
 .resources_tenantajax .listing_newsart_div img {
-    height: 140px;
+height: 140px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 205px;
+margin-left: 205px;
 }
 .tenant_ajaxslider .date_year_info p {
 font-size: 0.9em;
 }
 .tenantajax_div .container,.tenant_ajax .container{
-    max-width: 90%;
+max-width: 90%;
 }
 .container.news_width {
-    max-width: 67%;
+max-width: 67%;
 }
 .tenant_ajaxslider .leasedslider .imageover_details >img {
-    height: 157px;
+height: 157px;
 }
 .container.tenant_ajaxslider {
-    max-width: 95%;
-    margin: 0 0 0 auto;
+max-width: 95%;
+margin: 0 0 0 auto;
 }
 .becm_tenant p {
-    line-height: 34px;
+line-height: 34px;
 }
 .ajaximg_tenant img {
-    height: 377px;
+height: 377px;
 }
 .portalsystm_image img:nth-child(3) {
-    right: -22px;
+right: -22px;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    width: 71%;
-    line-height: 30px;
+width: 71%;
+line-height: 30px;
 }
 /* tenant ajax end */
 /* realtor */
@@ -141,7 +141,7 @@ right: 5px;
 .prop_img.tenant_screenimg img {
 width: 100%;
 }
-p.txttenant_ajax,.becm_tenant p,.tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3),
+p.txttenant_ajax,.becm_tenant p,.tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3),.maintenance p,
 .office_locations p,.decriptionnathan_txt p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p,.royal_propdiff .royal_p,.video_descrip p,.management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
 font-size: 1.2em;
@@ -605,34 +605,34 @@ padding: 6px 18px;
 @media only screen and (max-width: 1600px){
 /* tenant ajax */
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 169px;
+margin-left: 169px;
 }
 .container.news_width {
-    max-width: 77%;
+max-width: 77%;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 137px;
+height: 137px;
 }
 .ajaximg_tenant img {
-    width: 100%;
+width: 100%;
 }
 .tenantajax_btn.ajax_department .btn.ajax_call {
-    width: 39%;
+width: 39%;
 }
 .becm_tenant p {
-    line-height: 27px;
+line-height: 27px;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    width: 72%;
+width: 72%;
 }
 .list_government ul li {
-    font-size: 1.2em;
+font-size: 1.2em;
 }
 .descrip_details_list .price_rate p {
-    font-size: 14px;
+font-size: 14px;
 }
 .rat_tot_count p.count_rst {
-    font-size: 15px;
+font-size: 15px;
 }
 /* end of tenant ajax */
 .whyjoin_descrip.developwhatoffer {
@@ -675,7 +675,7 @@ margin: 2em 0 2em 0;
 /* footer end */
 /* menu */
 .nav_backg {
-    height: 127px;
+height: 127px;
 }
 /* menu css end */
 /* contact page */
@@ -952,32 +952,32 @@ margin: 0 0 0 3.6em;
 }
 
 @media only screen and (max-width: 1536px){
-  /* footer */
-  .footerservices_img img {
-    margin: 0 10px 0 0;
+/* footer */
+.footerservices_img img {
+margin: 0 10px 0 0;
 }
 .footerservices_img {
-    width: 75%;
+width: 75%;
 }
 /* end of footer */
-    /* tenant ajax */
-    .tenant_ajaxslider .rat_tot_count p.count_rst {
-        font-size: 13px;
-    }
-    .becm_tenant p {
-        font-size: 1.2em;
-        line-height: 30px;
-    }
-    .resources_tenantajax .listing_newsart_div img {
-        height: 131px;
-    }
-    .list_government ul li {
-        font-size: 1.1em;
-    }
-    .tenant_ajaxslider .leasedslider .imageover_details >img {
-        height: 135px;
-    }
-    /* end of tenant ajax */
+/* tenant ajax */
+.tenant_ajaxslider .rat_tot_count p.count_rst {
+font-size: 13px;
+}
+.becm_tenant p {
+font-size: 1.2em;
+line-height: 30px;
+}
+.resources_tenantajax .listing_newsart_div img {
+height: 131px;
+}
+.list_government ul li {
+font-size: 1.1em;
+}
+.tenant_ajaxslider .leasedslider .imageover_details >img {
+height: 135px;
+}
+/* end of tenant ajax */
 .days_div.realtor_days {
 top: -103px;
 }
@@ -1058,12 +1058,12 @@ font-size: 1.1em;
 font-size: 0.9em;
 }
 .absol_div p {
-    line-height: 21px;
-    font-size: 0.9em;
+line-height: 21px;
+font-size: 0.9em;
 }
 .tenant_width .royal_propdiff .royal_p {
 margin:0 auto 2.5em auto;
-    width: 71%;
+width: 71%;
 }
 .tenantservices_list.placement_serv ul li{
 text-transform: lowercase;
@@ -1368,52 +1368,52 @@ margin: 0 0 3em 0;
 @media screen and (max-width: 1400px) {
 /* tenant ajax */
 .container.news_width {
-    max-width: 86%;
+max-width: 86%;
 }
 .tenantajax_btn .btn.ajax_call {
-    width: auto;
-    padding: 3px 34px;
+width: auto;
+padding: 3px 34px;
 }
 .property_mgmt tbody tr td, .royal_propdiff p,p.txttenant_ajax,.becm_tenant p,.tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3) {
-    font-size: 1.1em;
+font-size: 1.1em;
 }
 .ajaximg_tenant img {
-    height: 338px;
+height: 338px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 147px;
+margin-left: 147px;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    width: 77%;
+width: 77%;
 }
 .tenant_ajaxslider .descrip_details_list:before {
-    margin: 0px 6px 0 0;
+margin: 0px 6px 0 0;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 125px;
+height: 125px;
 }
 .resources_tenantajax .bluelist .txtinfolist p {
-    font-size: 13px;
+font-size: 13px;
 }
 .resources_tenantajax .date_year_info p {
-    font-size: 0.75em;
+font-size: 0.75em;
 }
 .list_government ul li {
-    font-size: 1em;
+font-size: 1em;
 }
 .tenant_ajaxslider .descrip_details_list .price_rate p {
-    font-size: 13px;
+font-size: 13px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img,
 .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 19px;
+height: 19px;
 }
 .tenantajax_process .process_descrip p {
-    width: 56%;
+width: 56%;
 }
 .tenantajax_btn.ajax_department .btn.ajax_call {
-    width: auto;
-    padding: 3px 28px;
+width: auto;
+padding: 3px 28px;
 }
 /* end of tenant ajax */
 
@@ -1734,71 +1734,71 @@ width: 100%;
 @media screen and (max-width: 1366px) {
 /* news and articles */
 .newsarticle_div .nav li a {
-    padding: 10px 24px;
+padding: 10px 24px;
 }
 .newsarticle_div .nav li a{
-    margin: 5px 12px;
-    }
-    .feature_arti img {
-        height: 331px;
-    }
-    .txt_decripdiv {
-        bottom: 27px;
-        left: 27px;
-    }
-    .recent_postimg_descrip img {
-    height: 149px;
-    }
-    .listing_newsart_div img {
-    height: 129px;
-    }
-    .newsarticle_div .nav li a.search {
-    padding: 6px 12px 11px 12px;
-    }
-    .feature_arti img {
-    height: 328px;
-    }
-    /* end of news and articles */
+margin: 5px 12px;
+}
+.feature_arti img {
+height: 331px;
+}
+.txt_decripdiv {
+bottom: 27px;
+left: 27px;
+}
+.recent_postimg_descrip img {
+height: 149px;
+}
+.listing_newsart_div img {
+height: 129px;
+}
+.newsarticle_div .nav li a.search {
+padding: 6px 12px 11px 12px;
+}
+.feature_arti img {
+height: 328px;
+}
+/* end of news and articles */
 /* tenant ajax */
 .nav_backg {
-    height: 112px;
+height: 112px;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    line-height: 24px;
+line-height: 24px;
 }
 .tenant_ajaxslider .clock span img{
 vertical-align: middle;
 }
 .tenantajax_process .process_descrip p {
-    width: 45%;
+width: 45%;
 }
 .resources_tenantajax .bluelist .txtinfolist p {
-    font-size: 12px;
+font-size: 12px;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 130px;
+height: 130px;
 }
 .resources_tenantajax .date_year_info p {
-    font-size: 0.7em;
+font-size: 0.7em;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    width: 64%;
+width: 64%;
 }
 .ajaximg_tenant img {
-    height: 317px;
+height: 317px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 188px;
+margin-left: 188px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img,.tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 24px;
+height: 24px;
 }
 .tenant_ajaxslider .rat_tot_count p.count_rst {
-    font-size: 14px;
+font-size: 14px;
 }
 .tenant_ajaxslider .ratingstar_count i {
-    font-size: 11px;
-    margin-left: -2px;
+font-size: 11px;
+margin-left: -2px;
 }
 /* end of tenant ajax */
 .realtordiv .nodeposit_req img {
@@ -1811,7 +1811,7 @@ height: 337px;
 top: -134px;
 }
 .whyjoin_descrip.developwhatoffer {
-    margin: -132px 0px 0px 0px;
+margin: -132px 0px 0px 0px;
 }
 /*developer*/
 .main_img > .splide__track > .splide__list > .splide__slide {
@@ -1829,7 +1829,7 @@ font-size: 7em;
 height: 45px;
 }
 .footerservices_img {
-    width: 92%;
+width: 92%;
 }
 /* end of footer */
 
@@ -1856,13 +1856,13 @@ background-size: 105% 100%;
 p.txttenant_ajax,.becm_tenant p,.tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3),
 .office_locations p,.decriptionnathan_txt p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p,.tenant_descrip p,
 .royal_propdiff p, .tenant_placementdescr p,.portal_syst p, .our_premium p,.decrip_services p{
-    font-size: 0.9em;
+font-size: 0.9em;
 }
 .growing_idea p{
 font-size: 0.9em;
 }
 .management_services .card-deck p {
-    font-size: 0.8em;
+font-size: 0.8em;
 }
 .icon_services img {
 height: 50px;
@@ -1892,7 +1892,7 @@ font-size: 1em;
 font-size: 0.9em;
 }
 .maintenance_request {
-    margin: 5em auto 4em auto;
+margin: 5em auto 4em auto;
 }
 .section_servdetails h3 {
 font-size: 1em;
@@ -1928,7 +1928,7 @@ line-height: 22px;
 width: 80%;
 }
 .tenantportal_btn .btn.get_started, .free_constit .btn.get_started {
-    width: 268px;
+width: 268px;
 }
 /* end of reviews */
 
@@ -1944,8 +1944,8 @@ font-size: 1em;
 width: 192px;
 }
 .btn.get_started.tenant_screenbtn {
-    width: 43%;
-    font-size: 0.9em;
+width: 43%;
+font-size: 0.9em;
 }
 .our_pricing h3 {
 font-size: 0.9em;
@@ -2006,13 +2006,13 @@ width: 91%;
 width: 44%;
 }
 .royalbenefit {
-    height: 485px;
+height: 485px;
 }
 .list_government ul li {
-    font-size: 0.9em;
+font-size: 0.9em;
 }
 .customer_service .tenant_descrip h3.heading {
-    margin: 0 0px 0.6em 0px;
+margin: 0 0px 0.6em 0px;
 }
 /* end of tenant main page */
 
@@ -2181,11 +2181,11 @@ padding-right: 0em;
 
 /* franchise */
 .list_franchise li {
-    font-size: 0.8em;
+font-size: 0.8em;
 }
 .franchise_foursec .absol_div p {
-    line-height: 28px;
-    font-size: 1.3em;
+line-height: 28px;
+font-size: 1.3em;
 }
 .franchise_div.royal_propdiff {
 width: 71%;
@@ -2238,10 +2238,10 @@ font-size: 1.4em;
 font-size: 0.9em;
 }
 .list_franchise li:before {
-    width: 35px;
+width: 35px;
 }
 .list_franchise li.lastlifranch:before {
-    width: 46px;
+width: 46px;
 }
 /* end of franchise */
 
@@ -2260,7 +2260,7 @@ font-size: 1em;
 height: 391px;
 }
 .howsdiv_royal.tenant_descrip p {
-    line-height: 24px;
+line-height: 24px;
 }
 .contact_descrip.verif_tenantdescrip {
 top: 165px;
@@ -2286,8 +2286,8 @@ height: 26px;
 font-size: 1em;
 }
 .blocks_divhows p {
-    font-size: 0.85em;
-    line-height: 23px;
+font-size: 0.85em;
+line-height: 23px;
 }
 /* end of verified tenant */
 
@@ -2367,17 +2367,17 @@ line-height: 21px;
 @media screen and (max-width: 1280px) {
 /* tenant ajax */
 .ajaximg_tenant img {
-    height: 308px;
+height: 308px;
 }
 .container.news_width {
-    max-width: 88%;
+max-width: 88%;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 174px;
+margin-left: 174px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, 
 .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 20px;
+height: 20px;
 }
 /* end of tenant ajax */
 /*developer*/
@@ -2418,7 +2418,7 @@ font-size: 0.95em;
 line-height: 20px;
 }
 .services_img img {
-height: 275px;
+height: 312px;
 }
 .images_services img {
 width: 90%;
@@ -2836,26 +2836,26 @@ font-size: 1em;
 
 
 @media screen and (max-width: 1200px) {
-    /* tenant ajax */
-    .tenant_ajaxslider .rentallist_slick .slick-track {
-        margin-left: 163px;
-    }
-    .resources_tenantajax .listing_newsart_div.bluelist:hover .artreadmore_div .btn.read_more {
-        font-size: 13px;
-    }
-    .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-        height: 17px;
-    }
-    .tenant_ajaxslider .descrip_details_list .price_rate p {
-        font-size: 12px;
-    }
-    .becm_tenant p {
-        line-height: 25px;
-    }
-    .container.news_width {
-        max-width: 94%;
-    }
-    /* end of tenant ajax */
+/* tenant ajax */
+.tenant_ajaxslider .rentallist_slick .slick-track {
+margin-left: 163px;
+}
+.resources_tenantajax .listing_newsart_div.bluelist:hover .artreadmore_div .btn.read_more {
+font-size: 13px;
+}
+.tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
+height: 17px;
+}
+.tenant_ajaxslider .descrip_details_list .price_rate p {
+font-size: 12px;
+}
+.becm_tenant p {
+line-height: 25px;
+}
+.container.news_width {
+max-width: 94%;
+}
+/* end of tenant ajax */
 /* menu */
 .logo img {
 height: 53px;
@@ -2864,7 +2864,7 @@ height: 53px;
 margin-right: 0;
 }
 .nav_backg {
-    height: 106px;
+height: 106px;
 }
 .btn-login {
 margin: 0.2em 0em 0px 2em;
@@ -2937,7 +2937,7 @@ font-size: 1.7em;
 height: 289px;
 }
 .services_img img {
-height: 258px;
+height: 309px;
 }
 .tenant_image img {
 height: 342px;
@@ -3424,35 +3424,35 @@ margin: 0 0 0 3.2em;
 @media screen and (max-width: 1136px) {
 /* tenant ajax */
 .ajaximg_tenant img {
-    height: 288px;
+height: 288px;
 }
 .resources_tenantajax .bluelist .txtinfolist p {
-    font-size: 11px;
+font-size: 11px;
 }
 .tenantportal_btn.tenantajax_portal .btn.get_started {
-    padding: 6px 24px;
-    width: auto;
+padding: 6px 24px;
+width: auto;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 126px;
+height: 126px;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    width: 76%;
+width: 76%;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 155px;
+margin-left: 155px;
 }
 .tenant_ajaxslider .descrip_details_list .price_rate p {
-    font-size: 12px;
+font-size: 12px;
 }
 .descrip_details_list:before {
-    height: 21px;
+height: 21px;
 }
 .tenantajax_process .process_descrip p {
-    width: 55%;
+width: 55%;
 }
 .tenant_ajaxslider .ratingstar_count i {
-    font-size: 10px;
+font-size: 10px;
 }
 /* end of tenant ajax */
 .real_images24 {
@@ -3686,7 +3686,7 @@ height: 275px;
 margin-bottom: 1em;
 }
 .tenant_image img {
-height: 318px;
+height: 349px;
 }
 .team.slick-slide img {
 width: 91%;
@@ -4217,8 +4217,8 @@ top: 46px;
 height: 50px;
 }
 .portalsystm_image img:nth-child(3) {
-    top: 5em;
-    right: -42px;
+top: 5em;
+right: -42px;
 }
 .portalsystm_image img:nth-child(4) {
 top: 7.6em;
@@ -4595,42 +4595,42 @@ margin: 0 0 0 2.7em;
 
 /* tenant ajax */
 .becm_tenant p {
-    line-height: 22px;
+line-height: 22px;
 }
 .tenantreq_docajax .list_government ul li {
-    font-size: 0.95em;
+font-size: 0.95em;
 }
 .tenant_ajaxslider .rentallist_slick .lochouse_details .house span,
 .tenant_ajaxslider .rentallist_slick .lochouse_details .clock span {
-    font-size: 0.6em;
+font-size: 0.6em;
 }
 .portalsystm_image img:first-child {
-    left: -25px;
-    top: 51px;
+left: -25px;
+top: 51px;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 121px;
+height: 121px;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div .txt_loc {
-    font-size: 0.65em;
+font-size: 0.65em;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 110px;
+height: 110px;
 }
 .tenant_ajaxslider .ratingstar_count i {
-    margin-left: -4px;
+margin-left: -4px;
 }
 .tenant_ajaxslider .descrip_details_list {
-    padding: 0.5em 0 0.9em 0;
+padding: 0.5em 0 0.9em 0;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 145px;
+margin-left: 145px;
 }
 .resources_tenantajax .date_year_info {
-    flex-direction: row;
+flex-direction: row;
 }
 .resources_tenantajax .date_year_info p {
-    font-size: 0.6em;
+font-size: 0.6em;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -4832,7 +4832,7 @@ width: 149px;
 font-size: 1em;
 }
 .tenant_image img {
-height: 305px;
+height: 332px;
 }
 .Contact_Us{
 margin:0 0 3.5em 0;
@@ -4878,7 +4878,6 @@ margin-bottom: 0;
 height: 177px;
 }
 .news_update {
-font-size: 0.9em;
 line-height: 24px;
 margin-bottom: 1em;
 }
@@ -5287,37 +5286,37 @@ margin: 0 0 0 2.6em;
 @media screen and (max-width: 1024px) {
 /* tenant ajax */
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 17px;
+height: 17px;
 }
 .becm_tenant p {
-    line-height: 25px;
+line-height: 25px;
 }
 .tenant_ajaxslider .descrip_details_list .price_rate p {
-    font-size: 11px;
+font-size: 11px;
 }
 .tenant_ajaxslider .rentallist_slick .lochouse_details .house, 
 .tenant_ajaxslider .rentallist_slick .lochouse_details .clock {
-    font-size: 13px;
+font-size: 13px;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div .txt_loc {
-    font-size: 0.7em;
+font-size: 0.7em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3) {
-    right: -31px;
+right: -31px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4) {
-    right: -21px;
+right: -21px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    right: -11px;
+right: -11px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    bottom: 4em;
-    height: 21px;
-    right: 5px;
+bottom: 4em;
+height: 21px;
+right: 5px;
 }
 .resources_tenantajax .listing_newsart_div.bluelist:hover .artreadmore_div .btn.read_more {
-    font-size: 12px;
+font-size: 12px;
 }
 /* end of tenant ajax */
 /* developer */
@@ -5410,7 +5409,7 @@ font-size: 1.5em;
 line-height: 27px;
 }
 .home_image img {
-width: 88%;
+width: 100%;
 margin: 13px 0 0 0;
 }
 .decrip_services h3 {
@@ -5477,7 +5476,7 @@ font-size: 14px;
 font-size: 0.85em;
 }
 .featured_rental img {
-height: 352px;
+height: 335px;
 }
 .publications {
 margin: 2.5em 0px 0em 0px;
@@ -5885,67 +5884,67 @@ width: 72%;
 
 @media screen and (max-width: 992px) {
 /* tenant ajax */
-p.txttenant_ajax, .becm_tenant p, .tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3), .office_locations p, .decriptionnathan_txt p, .process_descrip p, .find_property p, .leave_us p, .leaveus_descrip p, .tenantscreen_title p, .recent_descrip p, .services_offer p.serv_descrip, .serv_absol_div.absol_div p, .req_content p, .painting_serv_div p, .rental_gua p.royal_p, .ready_rental .video_descrip p, .news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p, .tenant_descrip p, .royal_propdiff p, .tenant_placementdescr p, .portal_syst p, .our_premium p, .decrip_services p {
-    font-size: 0.9em;
+p.txttenant_ajax, .becm_tenant p,.maintenance p, .tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3), .office_locations p, .decriptionnathan_txt p, .process_descrip p, .find_property p, .leave_us p, .leaveus_descrip p, .tenantscreen_title p, .recent_descrip p, .services_offer p.serv_descrip, .serv_absol_div.absol_div p, .req_content p, .painting_serv_div p, .rental_gua p.royal_p, .ready_rental .video_descrip p, .news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p, .tenant_descrip p, .royal_propdiff p, .tenant_placementdescr p, .portal_syst p, .our_premium p, .decrip_services p {
+font-size: 0.9em;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 102px;
+height: 102px;
 }
 .nav_backg {
-    padding: 9px 22px 0px 22px;
+padding: 9px 22px 0px 22px;
 }
 .leaseddetails_slider p {
-    font-size: 11px;
+font-size: 11px;
 }
 .ellipse_div .media-body p {
-    line-height: 19px;
+line-height: 19px;
 }
 .ajaximg_tenant img {
-    height: 304px;
+height: 304px;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 98px;
+height: 98px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3) {
-    right: -14px;
+right: -14px;
 }
 .becm_tenant p {
-    line-height: 23px;
+line-height: 23px;
 }
 .tenant_ajaxslider .leasedslider .imageover_details >img {
-    height: 107px;
+height: 107px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 16px;
+height: 16px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4) {
-    right: -3px;
+right: -3px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    right: 5px;
+right: 5px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    right: 18px;
+right: 18px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7) {
-    bottom: 34px;
+bottom: 34px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7) {
-    bottom: 34px;
+bottom: 34px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 134px;
+margin-left: 134px;
 }
 .tenant_ajaxslider .rentallist_slick .lochouse_details .house,
- .tenant_ajaxslider .rentallist_slick .lochouse_details .clock {
-    font-size: 12px;
+.tenant_ajaxslider .rentallist_slick .lochouse_details .clock {
+font-size: 12px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, 
 .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 16px;
+height: 16px;
 }
 .container.news_width {
-    max-width: 93%;
+max-width: 93%;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -6028,7 +6027,7 @@ font-size: 1.4em;
 line-height: 23px;
 }
 .home_image img {
-width: 90%;
+width: 100%;
 }
 /* end of property page */
 
@@ -6736,11 +6735,7 @@ p.txttenant_ajax,
 .leave_us p {
 line-height: 18px;
 }
-p.txttenant_ajax,.becm_tenant p,
-.list_provi ul li,.office_locations p,.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.leave_us p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_descrip p,.descrip_rental p, .decrip_services p, .text_description, .select_options p, .prop_management p, .video_descrip p,
-.management_services p,.royal_propdiff .royal_p, .contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
-font-size: 0.9em;
-}
+
 .growing_idea p{
 font-size: 0.8em;  
 }
@@ -7710,95 +7705,95 @@ line-height: 19px;
 @media screen and (max-width: 800px) {
 /* tenant ajax */
 .ajaximg_tenant img {
-    height: 233px;
+height: 233px;
 }
 .portalsystm_image img:first-child {
-    left: -36px;
-    top: 3.9em;
+left: -36px;
+top: 3.9em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4) {
-            top: 6.2em;
-            right: -28px;
+top: 6.2em;
+right: -28px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    right: -19px;
-    top: 8.5em;
+right: -19px;
+top: 8.5em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7) {
-    bottom: 30px;
+bottom: 30px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    bottom: 3.2em;
+bottom: 3.2em;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    width: 90%;
+width: 90%;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3) {
-    right: -37px;
-    top: 4em;
+right: -37px;
+top: 4em;
 }
 .portalsystm_image img:nth-child(7), .portalsystm_image img:nth-child(8) {
-    right: -22px;
+right: -22px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    right: -24px;
+right: -24px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 152px;
+margin-left: 152px;
 }
 .heading, .department_propmgmt h3.heading, h3.sec_h3head {
-    font-size: 1.5em;
+font-size: 1.5em;
 }
 .becm_tenant p {
-    line-height: 20px;
+line-height: 20px;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div .txt_loc {
-    font-size: 0.65em;
+font-size: 0.65em;
 }
 .div2 {
-    top: 12.8em;
+top: 12.8em;
 }
 .tenant_ajaxslider .descrip_details_list .price_rate p {
-    font-size: 12px;
+font-size: 12px;
 }
 .tenant_ajaxslider .rentallist_slick .lochouse_details .house span, 
 .tenant_ajaxslider .rentallist_slick .lochouse_details .clock span {
-    font-size: 0.7em;
+font-size: 0.7em;
 }
 .tenantajax_process .process_descrip p {
-    width: 65%;
+width: 65%;
 }
 .tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3) {
-    line-height: 23px;
+line-height: 23px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 17px;
+height: 17px;
 }
 .portalsystm_image img:nth-child(2) {
-    width: 91%;
+width: 91%;
 }
 .ajaximg_tenant img {
-    height: 250px;
+height: 250px;
 }
 .tenantreq_docajax .list_government ul li {
-    display: flex;
-    align-items: baseline;
+display: flex;
+align-items: baseline;
 }
 .listing_newsart_div.bluelist {
-    border-radius: 22px;
-    padding: 8px;
+border-radius: 22px;
+padding: 8px;
 }
 .resources_tenantajax .listing_newsart_div.bluelist:hover .artreadmore_div .btn.read_more {
-    font-size: 11px;
+font-size: 11px;
 }
 .bluelist .txtinfolist p {
-    line-height: 15px;
+line-height: 15px;
 }
 .resources_tenantajax .date_year_info p {
-    font-size: 0.5em;
+font-size: 0.5em;
 }
 .resources_tenantajax .bluelist .txtinfolist p {
-    font-size: 10px;
+font-size: 10px;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -7982,25 +7977,55 @@ width: 94%;
 }
 
 @media screen and (max-width: 768px) {
-
+.news_card p {
+line-height: 16px;
+}
+.footbgvideo iframe {
+    height: 347px;
+}
+.addrone, .addrtwo {
+    padding-left: 10px;
+}
+.addrone li {
+    width: 100%;
+    word-wrap: break-word;
+}
+.footer .HQ_one h3.heading, .footer .HQ_two h3.heading {
+    font-size: 1em;
+}
+.addrone li:nth-child(2):before {
+    margin-right: 6px;
+}
+.addrone li:first-child:before {
+    margin-right: 4px;
+}
+.links_foot div a {
+    font-size: 14px;
+}
+.news_update{
+    line-height: 19px;
+}
+.read_more a {
+    font-size: 0.8em;
+}
 /* tenant ajax */
 .tenantajax_btn.ajax_department .btn.ajax_call {
-    padding: 5px 20px;
+padding: 5px 20px;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 86px;
+height: 86px;
 }
 .container.tenant_ajaxslider {
-    max-width: 96%;
+max-width: 96%;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 147px;
+margin-left: 147px;
 }
 .tenant_ajaxslider .rat_tot_count p.count_rst {
-    font-size: 13px;
+font-size: 13px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 19px;
+height: 19px;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -8060,8 +8085,8 @@ line-height: 61px;
 .tenantscreen_title.developer {
 margin: 2em 0 3em 0;
 }
-.heading, .department_propmgmt h3.heading, h3.sec_h3head {
-font-size: 1.5em;
+.heading, .department_propmgmt h3.heading, h3.sec_h3head,.our_team h3.heading {
+font-size: 1.4em;
 }
 .developerdiv .tenant_descrip.develop_descrip h3.heading {
 line-height: 29px;
@@ -9460,56 +9485,80 @@ padding: 22px 27px 15px 27px;
 }
 
 @media screen and (max-width: 767px) {
-
- /* tenant ajax    */
- .tenant_ajaxslider .clock span img {
-    vertical-align: baseline;
+    .vehicle-detail-banner {
+        padding: 11px 11px 0px 11px;
+    }
+    .maintenance_list img {
+        height: 48px;
+        margin-right: 7px;
+    }
+    .maintenance_list .btn {
+        padding: 6px 7px;
+        font-size: 0.8em;
+        width: 140px;
+    }
+    .maintenance_list img {
+        height: 44px;
+        margin-right: 4px;
+    }
+    .div_blocks h4 {
+        font-size: 1.7em;
+    }
+    .decrip_services > span {
+        padding: 14px 43px;
+    }
+    .services_img img {
+        height: 363px;
+    }
+/* tenant ajax    */
+.tenant_ajaxslider .clock span img {
+vertical-align: baseline;
 }
- .tenantajax_btn{
-    text-align: center;
- }
- .ajaximg_tenant img {
-    height: 400px;
-    width: 71%;
-}
- .resources_tenantajax .bluelist .txtinfolist p {
-    font-size: 14px;
-    line-height: 20px;
-}
-.resources_tenantajax .date_year_info p {
-    font-size: 0.8em;
-}
-
- .resources_tenantajax .listing_newsart_div img {
-    height: 164px;
-}
- .tenantajax_process .process_descrip p {
-    width: 71%;
-}
-.number_txt {
-    font-size: 3em;
-}
-.ajaximg_tenant {
-    text-align: center;
-    margin: 3em 0 0 0;
+.tenantajax_btn{
+text-align: center;
 }
 .ajaximg_tenant img {
-    height: 399px;
-    width: 71%;
-    margin: 0 auto;
+height: 400px;
+width: 71%;
+}
+.resources_tenantajax .bluelist .txtinfolist p {
+font-size: 14px;
+line-height: 20px;
+}
+.resources_tenantajax .date_year_info p {
+font-size: 0.8em;
+}
+
+.resources_tenantajax .listing_newsart_div img {
+height: 164px;
+}
+.tenantajax_process .process_descrip p {
+width: 71%;
+}
+.number_txt {
+font-size: 3em;
+}
+.ajaximg_tenant {
+text-align: center;
+margin: 3em 0 0 0;
+}
+.ajaximg_tenant img {
+height: 399px;
+width: 71%;
+margin: 0 auto;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, 
 .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 14px;
+height: 14px;
 }
 .tenant_ajaxslider .leasedslider .imageover_details >img {
-    height: 112px;
+height: 112px;
 }
 .ellipse_div .media-body p {
-    line-height: 18px;
-    font-size: 0.85em;
+line-height: 18px;
+font-size: 0.85em;
 }
- /* tenant ajax end   */
+/* tenant ajax end   */
 /* realtor */
 .real_images11 {
 left: 71px;
@@ -9636,7 +9685,7 @@ border-radius: 14px;
 display:block;
 }
 .comp_cult .mobileview {
-    display:block;
+display:block;
 }
 .desktopview{
 display:none;
@@ -9874,11 +9923,9 @@ text-align: center;
 line-height: 27px;
 }
 .text_description {
-line-height: 22px;
+    line-height: 25px;
 }
-.home_image img {
-width: 76%;
-}
+
 .div_blocks {
 padding: 23px 13px 3px 13px;
 margin: 0 0 1.5em 0;
@@ -9915,34 +9962,38 @@ font-size: 0.9em;
 width: 140px;
 }
 .maintenance_list {
-height: auto;
-background-size: unset;
-padding: 2.3em 0px 2em 0em;
-background-position: center;
-display: inline-block;
-margin-right: 11px;
+margin-bottom: 0;
+display: flex;
+flex-direction: column;
+margin-right: 0px;
 }
 .maintenance_list img {
-height: 38px;
-vertical-align: top;
-margin-right: 8px;
+    height: 95px;
+margin-right:0px;
+margin:0 auto;
+display: block;
 }
-.maintenance_img img {
-height: 217px;
-top: 50%;
+.maintenance .maintenance_list {
+    margin-bottom: 0;
+}
+.maintenance_list li{
+    width: 62%;
+    margin: 0 auto 25px auto;
+    display: block;
 }
 .maintenance {
-padding: 3em 0em 2em 0em;
-position: unset;
+    padding: 7em 0em 2em 0em;
+    position: unset;
+    background-size: cover;
 }
 .maintenance_img{
-position: relative;
+text-align: right;
 }
 .maintenance_img img {
-height: 224px;
-position: absolute;
-bottom: -26px;
-top: unset;
+    height: 469px;
+    position: unset;
+    bottom:unset;
+    top: unset;
 }
 .property_mgmt thead tr th.price_mgmt {
 font-size: 1em;
@@ -9978,32 +10029,44 @@ height: 22px;
 font-size: 1em;
 }
 .rent_prop_img img {
-height: 162px;
-border-radius: 52px;
+    height: 225px;
+    border-radius: 74px;
+    margin: 0 auto;
 }
 .rent_prop_img {
-flex-basis: 32%;
+    display: block;
+    margin:0;
 }
-.rental_prop{
-align-items: center;
+.feature_rental_propslider .slick-list{
+    padding:0 !important;
+}
+.properties_decrip_rental {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.propertyrental {
+    text-align: center;
+    width: 89%;
+    margin: 14px auto;
 }
 .featured_rental img {
 height: 383px;
 }
-p.txttenant_ajax,.becm_tenant p,
+p.txttenant_ajax,.becm_tenant p,.maintenance p,
 .office_locations p,.decriptionnathan_txt p,.aboutnathan_descrip p, .aboutnathan_descrip.right p,.process_descrip p,.find_property p,.leave_us p,.tenant_descrip p,.leaveus_descrip p,.tenantscreen_title p,.recent_descrip p,.services_offer p.serv_descrip,.serv_absol_div.absol_div p,.req_content p, .painting_serv_div p,.rental_gua p.royal_p,.ready_rental .video_descrip p,.news_update,.tenant_decrip,.descrip_rental p,.decrip_services p,.text_description,.select_options p,.prop_management p,.video_descrip p,
 .management_services p,.royal_propdiff .royal_p,.contact_client p,.portal_syst p, .our_premium p,.tenant_placementdescr p{
 font-size: 1em;
 text-align: center;
 }
 .list_services ul li, .tenantservices_list ul li,.financial_interest ul li,.list_government ul li {
-font-size: 1em;
+font-size: 0.9em;
 }
 .news_img img {
 height: 243px;
 }
 .maintenance_list img{
-margin-bottom: 1.7em;
+margin-bottom: 1em;
 }
 .maintenance p{
 margin-bottom: 1.5em;
@@ -10017,22 +10080,53 @@ height: 339px;
 .select_options .custom-control-label {
 font-size: 1em;
 }
+.news_img{
+    margin: 0 10px 10px 10px;
+}
+.article_details {
+    justify-content: space-between;
+    margin: 0.9em 0;
+}
 .news_img img {
-height: 235px;
-width: 82%;
+    height: 247px;
+    width: 100%;
+    object-fit: cover;
 }
 .article_details > div > p {
 font-size: 14px;
 }
+.news_update {
+    line-height: 23px;
+}
+.footbgvideo iframe {
+    height: 417px;
+}
+.img_movileviewsdiv img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.article_details,.news_card p,.read_more{
+    width: 91%;
+    margin:0 auto;
+}
+.read_more{
+    margin-top:10px;
+}
 .news_card p {
 font-size: 0.9em;
+line-height: 21px;
+margin-top:10px;
+}
+.article_details > div {
+    margin-right: 0em;
 }
 .news_card {
 margin: 0 0 3em 0;
 }
 .news_articles {
-padding: 3.5em 0px 0em 0px;
-margin: 0;
+    padding: 4.5em 0px 5em 0px;
+    margin: 0;
 }
 /* property page end */
 
@@ -10811,29 +10905,29 @@ width: 43%;
 left: 24px;
 }
 .portalsystm_image img:nth-child(2) {
-    width: 58%;
+width: 58%;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3) {
-    right: 58px;
-    top: 5em;
+right: 58px;
+top: 5em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4) {
-    top: 7.5em;
-    right: 46px;
+top: 7.5em;
+right: 46px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    right: 33px;
-    top: 10.1em;
+right: 33px;
+top: 10.1em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    bottom: 4em;
-    right: 96px;
+bottom: 4em;
+right: 96px;
 }
 .portalsystm_image.tenantportal_ajaximg:nth-child(7),.portalsystm_image.tenantportal_ajaximg:nth-child(8) {
-    right: 97px;
+right: 97px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7) {
-    bottom: 39px;
+bottom: 39px;
 }
 .portalsystm_image img:first-child {
 left: 17px;
@@ -11620,26 +11714,26 @@ margin: 0;
 @media screen and (max-width: 750px) {
 /* tenant ajax */
 .our_process {
-    margin: 4em 0 3em 0;
+margin: 4em 0 3em 0;
 }
 .portalsystm_image.tenantportal_ajaximg img:first-child {
-    left: 68px;
-    height: 103px;
-    top: 49px;
+left: 68px;
+height: 103px;
+top: 49px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7),
- .portalsystm_image.tenantportal_ajaximg img:nth-child(8) {
-    right: 99px;
-    height: 20px;
+.portalsystm_image.tenantportal_ajaximg img:nth-child(8) {
+right: 99px;
+height: 20px;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 154px;
+height: 154px;
 }
 .tenantreq_docajax .rew_doc_tabs .nav.nav-tabs li.nav-item a {
-    width: 137px;
+width: 137px;
 }
 .tenantajax_process .process_descrip p {
-    width: 79%;
+width: 79%;
 }
 /* end of tenant ajax */
 /* secure doc portal */
@@ -11658,76 +11752,76 @@ width: 93%;
 @media screen and (max-width: 640px) {
 /* tenant ajax  */
 .ajaximg_tenant img {
-    height: 326px;
+height: 326px;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 130px;
+height: 130px;
 }
 .resources_tenantajax .bluelist .txtinfolist p {
-    font-size: 13px;
+font-size: 13px;
 }
 .resources_tenantajax .date_year_info p {
-    font-size: 0.75em;
+font-size: 0.75em;
 }
 .portalsystm_image.tenantportal_ajaximg img:first-child {
-    left: -1px;
-    height: 85px;
-    top: 63px;
+left: -1px;
+height: 85px;
+top: 63px;
 }
 .mrgn_btm {
-    margin: 0 0 3em 0;
+margin: 0 0 3em 0;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3) {
-    right: -22px;
-    top: 7em;
+right: -22px;
+top: 7em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4) {
-    top: 9.5em;
-    right: -12px;
+top: 9.5em;
+right: -12px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    right: 0px;
-    top: 12.1em;
+right: 0px;
+top: 12.1em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    bottom: 4.6em;
-    right: 21px;
+bottom: 4.6em;
+right: 21px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7), .portalsystm_image.tenantportal_ajaximg img:nth-child(8) {
-    right: 22px;
+right: 22px;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    line-height: 21px;
+line-height: 21px;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    width: 100%;
+width: 100%;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 199px;
+margin-left: 199px;
 }
 .tenant_ajaxslider .leasedslider .imageover_details >img {
-    height: 163px;
+height: 163px;
 }
 .tenant_ajaxslider .rentallist_slick .lochouse_details .house span, .tenant_ajaxslider .rentallist_slick .lochouse_details .clock span {
-    font-size: 0.9em;
+font-size: 0.9em;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div .txt_loc {
-    font-size: 0.9em;
+font-size: 0.9em;
 }
 .leaseddetails_slider p {
-    font-size: 13px;
+font-size: 13px;
 }
 .tenant_ajaxslider .ratingstar_count i {
-    font-size: 12px;
+font-size: 12px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 20px;
+height: 20px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 20px;
+height: 20px;
 }
 .tenant_ajaxslider .descrip_details_list .price_rate p {
-    font-size: 14px;
+font-size: 14px;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -11959,14 +12053,17 @@ p.txttenant_ajax,.becm_tenant p,.tenant_descrip.portaldescrip.ajax_tenantdescrip
 font-size: 0.9em;
 }
 .news_img img {
-height: 195px;
-width: 87%;
+    height: 206px;
+    width: 100%;
 }
 .div_blocks h4 {
 font-size: 1.6em;
 }
 .custom-control.custom-radio .custom-control-label::before{
 top: 5px;
+}
+.news_img {
+    margin: 0 6px 10px 6px;
 }
 .decrip_services p {
 line-height: 21px;
@@ -11976,10 +12073,6 @@ height: 278px;
 }
 .images_services img {
 width: 90%;
-}
-.maintenance_img img {
-height: 224px;
-top: 63%;
 }
 .maintenance {
 padding: 3em 0em 8em 0em;
@@ -11996,10 +12089,6 @@ font-size: 1.2em;
 }
 .services_img{
 margin: 1em 0 0 0;
-}
-.maintenance_img img {
-bottom: -114px;
-top: unset;
 }
 .property_tabs .nav-item a {
 width: 126px;
@@ -12035,20 +12124,20 @@ height: 287px;
 }
 .logoimg img,.publications .publi_img img{
 height: 72px;
-width: 70%;
+width: 85%;
 margin: 0 auto;
+}
+p.name, p.qualif {
+    font-size: 1.4em;
 }
 .get_touch {
 margin: 0em 0 1.5em 0;
 }
 .team.slick-slide img {
-width: 57%;
+    width: 82%;
 }
 .decrip_services h3{
 margin: 1.7em 0px 0.8em 0px;
-}
-.tenant_decrip,.maintenance p{
-font-size: 0.9em;
 }
 /* end of property page */
 
@@ -13151,54 +13240,61 @@ justify-content: space-between;
 
 
 @media screen and (max-width: 568px) {
-
+    .slider-banner-image iframe {
+        height: 376px;
+    }
+    .maintenance{
+        background-image: url(../images/Home/maintenance/maintain_mobile.svg);
+        background-position: bottom;
+        
+    }
 /* tenant_ajax */
 .div1, .div2, .div3 {
-    width: 90%;
-    margin: 3em auto 1em auto;
+width: 90%;
+margin: 3em auto 1em auto;
 }
 .resources_tenantajax .bluelist .txtinfolist p {
-    font-size: 15px;
+font-size: 15px;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 205px;
+height: 205px;
 }
 .resources_tenantajax .listing_newsart_div.bluelist {
-    width: 70%;
-    margin: 0 auto;
+width: 70%;
+margin: 0 auto;
 }
 .resources_tenantajax .date_year_info p {
-    font-size: 0.9em;
+font-size: 0.9em;
 }
 .resources_tenantajax .mrgn_btm{
-    justify-content: center;
+justify-content: center;
 }
 .tenantreq_docajax .list_government ul li {
-    font-size: 0.9em;
+font-size: 0.9em;
 }
 .tenant_ajaxslider .leasedslider .imageover_details >img {
-    height: 133px;
+height: 133px;
 }
 .slidelocation_div {
-    align-items: center;
+align-items: center;
 }
 p.txttenant_ajax, .becm_tenant p, .tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3), .arti_descrip p, .office_locations p, .process_descrip p, .find_property p, .leave_us p, .leaveus_descrip p, .tenantscreen_title p, .recent_descrip p, .services_offer p.serv_descrip, .serv_absol_div.absol_div p, .req_content p, .painting_serv_div p, .rental_gua p.royal_p, .ready_rental .video_descrip p, .news_update, .tenant_decrip, .prop_management p, .royal_propdiff .royal_p, .video_descrip p, .management_services p, .tenant_descrip p, .royal_propdiff p, .tenant_placementdescr p, .portal_syst p, .our_premium p, .decrip_services p, .contact_client p, .decriptionnathan_txt p, .aboutnathan_descrip p, .aboutnathan_descrip.right p {
-    font-size: 0.8em;
+font-size: 0.85em;
 }
 .ellipse_div .media-body p {
-    line-height: 20px;
+line-height: 20px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 175px;
+margin-left: 175px;
 }
 .becm_tenant p{
-    line-height: 20px;
+line-height: 20px;
 }
 .tenantajax_contact {
-    margin: 0 0 1em 0;
+margin: 0 0 1em 0;
 }
 .ajaximg_tenant img {
-    width: 75%;
+width: 75%;
 }
 /* end of tenant ajax */
 /* developer */  
@@ -13336,14 +13432,10 @@ padding: 0;
 margin: 0;
 }
 .maintenance_img img {
-height: 195px;
-bottom: 105px;
+height: 366px;
 }
 p.name, p.qualif {
 font-size: 1.3em;
-}
-.rent_prop_img {
-flex-basis: 43%;
 }
 .team.slick-slide img {
 width: 78%;
@@ -14342,127 +14434,137 @@ line-height: 21px;
 }
 
 @media screen and (max-width:480px) {
+    .slider-banner-image iframe {
+        height: 390px;
+    }
+    .services_img img {
+        height: 305px;
+    }
+        .maintenance_list img {
+            height: 79px;
+        }
+
 /* tenant ajax */
 .tenantajax_div .container, .tenant_ajax .container {
-    max-width: 100%;
+max-width: 100%;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 174px;
+height: 174px;
 }
 .descrip_details_list.redbarcolrchange .price_rate p del {
-    font-size: 10px;
+font-size: 10px;
 }
 .resources_tenantajax .listing_newsart_div.bluelist {
-    width: 78%;
-    height: auto;
+width: 78%;
+height: auto;
 }
 
 .descrip_details_list .price_rate {
-    margin-right: 6px;
+margin-right: 6px;
 }
 .tenantreq_docajax .list_government ul li {
-    font-size: 0.82em;
+font-size: 0.82em;
 }
 .tenantreq_docajax .tenant_descrip.reqdoc_decrip p:nth-child(2) {
-    line-height: 18px;
+line-height: 18px;
 }
 .tenantreq_docajax .rew_doc_tabs .nav.nav-tabs li.nav-item a {
-    width: 129px;
+width: 129px;
 }
 .tenant_ajaxslider .descrip_details_list .price_rate p {
-    font-size: 13px;
+font-size: 13px;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div span img {
-    height: 15px;
+height: 15px;
 }
 .tenant_ajaxslider .slidelocation_div {
-    align-items: flex-start;
+align-items: flex-start;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div .txt_loc {
-    font-size: 0.8em;
+font-size: 0.8em;
 }
 .tenant_ajaxslider .rat_tot_count p.count_rst {
-    font-size: 12px;
+font-size: 12px;
 }
 .tenant_ajaxslider .ratingstar_count i {
-    font-size: 11px;
+font-size: 11px;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, 
 .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 18px;
+height: 18px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 150px;
+margin-left: 150px;
 }
 .tenantajax_btn .btn.ajax_call {
-    font-size: 13px;
-    line-height: 29px;
-    padding: 3px 23px;
+font-size: 13px;
+line-height: 29px;
+padding: 3px 23px;
 }
 .tenantajax_div {
-    margin: 1em 0 4em 0;
+margin: 1em 0 4em 0;
 }
 .ajaximg_tenant img {
-    width: 82%;
+width: 82%;
 }
 .container.tenant_ajaxslider {
-    max-width: 98%;
+max-width: 98%;
 }
 .tenantajax_process .process_descrip p {
-    width: 100%;
+width: 100%;
 }
 .tenant_descrip.portaldescrip.ajax_tenantdescrip p:nth-child(3) {
-    line-height: 21px;
+line-height: 21px;
 }
 .ellipse_div .media-body p {
-    line-height: 19px;
-    margin: 0;
-    font-size: 0.8em;
+line-height: 19px;
+margin: 0;
+font-size: 0.8em;
 }
 .tenantportal_btn.tenantajax_portal .btn.get_started {
-    padding: 4px 25px;
-    font-size: 14px;
+padding: 4px 25px;
+font-size: 14px;
 }
 .portalsystm_image img:nth-child(2) {
-    width: 70%;
+width: 70%;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3), 
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4), 
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    height: 39px;
+height: 39px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3) {
-    right: -12px;
-    top: 3.7em;
+right: -12px;
+top: 3.7em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4) {
-    top: 5.7em;
-    right: -4px;
+top: 5.7em;
+right: -4px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    right: 7px;
-    top: 7.7em;
+right: 7px;
+top: 7.7em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    bottom: 3.1em;
-    right: 31px;
-    height: 18px;
+bottom: 3.1em;
+right: 31px;
+height: 18px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7), 
 .portalsystm_image.tenantportal_ajaximg img:nth-child(8) {
-    height: 16px;
-    right: 32px;
+height: 16px;
+right: 32px;
 }
 .portalsystm_image.tenantportal_ajaximg img:first-child {
-    left: 15px;
-    height: 71px;
-    top: 35px;
+left: 15px;
+height: 71px;
+top: 35px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7) {
-    bottom: 29px;
+bottom: 29px;
 }
 .number_txt {
-    font-size: 2.7em;
+font-size: 2.7em;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -14470,10 +14572,10 @@ line-height: 21px;
 line-height: 28px;
 }
 .realtor_divportal .absol_images5 {
-    right: 5px;
+right: 5px;
 }
 .realtor_divportal .absol_images6,.realtor_divportal .absol_images7 {
-    right: 5px;
+right: 5px;
 }
 .realdiv .callusnow {
 width: 61%;
@@ -14604,25 +14706,25 @@ top: 40px;
 height: 44px;
 }
 .absol_images2 {
-    right: -11px;
-    top: 71px;
+right: -11px;
+top: 71px;
 }
 .absol_images3 {
-    top: 106px;
-    right: -4px;
+top: 106px;
+right: -4px;
 }
 .absol_images4 {
-    top: 142px;
-    right: 2px;
+top: 142px;
+right: 2px;
 }
 .absol_images5 {
-    bottom: 56px;
-    right: 21px;
-    height: 23px;
+bottom: 56px;
+right: 21px;
+height: 23px;
 }
 .absol_images6, .absol_images7 {
-    right: 22px;
-    height: 21px;
+right: 22px;
+height: 21px;
 }
 .absol_images6 {
 bottom: 32px;
@@ -14781,15 +14883,10 @@ margin: 0 5px 12px 0px;
 .list_services ul {
 padding: 0px 0px 0px 6em;
 }
-.maintenance {
-padding: 2em 0em 10em 0em;
-}
-.maintenance_img img {
-bottom: -154px;
-}
 .tenant_image img {
 height: 267px;
 }
+
 p.name, p.qualif {
 font-size: 1.1em;
 }
@@ -14803,7 +14900,7 @@ margin: 2em 0 0 0;
 text-align: center;
 }
 .news_articles {
-padding: 2.3em 0px 0em 0px;
+    padding: 5.3em 0px 4em 0px;
 }
 .news_articles h3 {
 margin-bottom: 0.7em;
@@ -14814,17 +14911,15 @@ text-align: left;
 .news_update{
 line-height: 21px;
 }
-.rent_prop_img {
-flex-basis: 63%;
+.services_img img {
+    height: 285px;
 }
-
-
 .div_blocks h4 {
 font-size: 1.4em;
 }
 .decrip_services > span {
-padding: 12px 18px;
-font-size: 0.9em;
+    padding: 12px 24px;
+    font-size: 0.85em;
 }
 .div_blocks p {
 font-size: 0.9em;
@@ -14836,12 +14931,10 @@ display: block;
 height: 250px;
 }
 .news_img img {
-height: 174px;
-width: 100%;
+    height: 275px;
+    width: 100%;
 }
-.article_details > div > p {
-font-size: 13px;
-}
+
 .text_heading {
 font-size: 1.2em;
 line-height: 23px;
@@ -15020,6 +15113,7 @@ margin-bottom: 0;
 .contact_client {
 padding: 2.3em 0 8em 0;
 }
+
 /* end of tenant page  */
 
 /* rental guarantee */
@@ -15713,8 +15807,11 @@ width: 27%;
 margin: 1em 0 2em 0;
 }
 .property_tabs .nav-item a {
-width: auto;
-padding: 0.6em 3em;
+    width: auto;
+    padding: 0.6em 2em;
+}
+.properties_decrip_rental img {
+    height: 28px;
 }
 .button_royalbenef button.btn {
 width: auto;
@@ -15804,87 +15901,87 @@ margin: 2em 0 0 0;
 @media screen and (max-width:414px) {
 /* tenant ajax */
 .ajaximg_tenant img {
-    width: 100%;
-    height: 340px;
+width: 100%;
+height: 340px;
 }
 
 .resources_tenantajax .listing_newsart_div.bluelist {
-    width: 87%;
+width: 87%;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 174px;
+height: 174px;
 }
 .resources_tenantajax .bluelist .txtinfolist p {
-    font-size: 14px;
+font-size: 14px;
 }
 .resources_tenantajax .date_year_info p {
-    font-size: 0.8em;
+font-size: 0.8em;
 }
 .portalsystm_image.tenantportal_ajaximg img:first-child {
-    left: 5px;
-    height: 60px;
-    top: 37px;
+left: 5px;
+height: 60px;
+top: 37px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3) {
-    right: -29px;
+right: -29px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4) {
-    right: -22px;
+right: -22px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    right: -13px;
+right: -13px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    bottom: 2.9em;
-    right: 15px;
-    height: 16px;
+bottom: 2.9em;
+right: 15px;
+height: 16px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7) {
-    bottom: 26px;
+bottom: 26px;
 }
 .tenantreq_docajax .rew_doc_tabs .nav.nav-tabs li.nav-item a {
-    width: 169px;
+width: 169px;
 }
 .portalsystm_image.tenantportal_ajaxim img:nth-child(8) {
-    bottom: 7px;
+bottom: 7px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7), 
 .portalsystm_image.tenantportal_ajaximg img:nth-child(8) {
-    height: 16px;
-    right: 16px;
+height: 16px;
+right: 16px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 129px;
+margin-left: 129px;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div .txt_loc {
-    font-size: 0.7em;
+font-size: 0.7em;
 }
 .tenant_ajaxslider .descrip_details_list .price_rate p {
-    font-size: 12px;
+font-size: 12px;
 }
 .leaseddetails_slider p {
-    font-size: 12px;
+font-size: 12px;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div span img {
-    height: 13px;
+height: 13px;
 }
 .descrip_details_list:before {
-    height: 20px;
-    width: 8px;
+height: 20px;
+width: 8px;
 }
 .leasedslider {
-    padding: 8px;
-    margin: 11px 8px 0 0px;
+padding: 8px;
+margin: 11px 8px 0 0px;
 }
 .number_txt {
-    font-size: 2.6em;
+font-size: 2.6em;
 }
 .tenant_ajaxslider .rentallist_slick .lochouse_details .house, .tenant_ajaxslider .rentallist_slick .lochouse_details .clock {
-    font-size: 11px;
+font-size: 11px;
 }
 .rentallist_slick .lochouse_details .house, 
 .rentallist_slick .lochouse_details .clock {
-    padding: 1px 3px 3px 4px;
+padding: 1px 3px 3px 4px;
 }
 /* end of tenant ajax  */
 /* realtor */
@@ -16091,7 +16188,6 @@ font-size: 1.3em;
 font-size: 0.8em;
 }
 .decrip_services > span {
-padding: 10px 13px;
 margin: 0 0 1em 0;
 }
 .list_services ul {
@@ -16103,15 +16199,8 @@ width: 72%;
 .properties_decrip_rental img {
 height: 30px;
 }
-.article_details > div > p {
-font-size: 12px;
-}
-.news_img img {
-height: 140px;
-}
-.maintenance_img img {
-bottom: -172px;
-}
+
+
 .rent_prop_img img {
 height: 128px;
 border-radius: 46px;
@@ -16130,21 +16219,19 @@ margin-bottom: 0.7em;
 .tenant_image img {
 height: 236px;
 }
-.article_details > div > p {
-font-size: 11px;
-}
+.news_card p {
+    font-size: 0.9em;
+    }
+    .read_more a {
+    font-size: 0.8em;
+    }
 .news_articles {
 padding: 3em 0px 2em 0px;
 }
 .news_card {
 margin: 0 0 1em 0;
 }
-.news_card p {
-font-size: 0.8em;
-}
-.read_more a {
-font-size: 0.8em;
-}
+
 .mobile_image img{
 height: 162px;
 }
@@ -16574,7 +16661,7 @@ margin: 2em 0 3em 0;
 top: 3.2em;
 }
 .portalsystm_image img:nth-child(2) {
-    width: 76%;
+width: 76%;
 }
 .portalsystm_image img:first-child {
 height: 69px;
@@ -16976,27 +17063,27 @@ font-size: 1.1em;
 @media screen and (max-width:411px) {
 /* tenant ajax */
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    bottom: 2.8em;
-    right: 14px;
+bottom: 2.8em;
+right: 14px;
 }
 .tenant_ajaxslider .descrip_details_list:before {
-    margin: 0px 4px 0 0;
+margin: 0px 4px 0 0;
 }
 .tenant_ajaxslider .descrip_details_list .price_rate p {
-    font-size: 11px;
+font-size: 11px;
 }
 .tenant_ajaxslider .ratingstar_count i {
-    font-size: 10px;
+font-size: 10px;
 }
 .ellipse_div .media-body p {
-    line-height: 17px;
-    font-size: 0.75em;
+line-height: 17px;
+font-size: 0.75em;
 }
 .number_txt {
-    font-size: 2.4em;
+font-size: 2.4em;
 }
 .leaseddetails_slider .car_details img {
-    height: 15px;
+height: 15px;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -17561,37 +17648,37 @@ font-size: 1em;
 
 /* tenant ajax */
 .resources_tenantajax .bluelist .txtinfolist p {
-    font-size: 13px;
+font-size: 13px;
 }
 .resources_tenantajax .date_year_info p {
-    font-size: 0.7em;
+font-size: 0.7em;
 }
 .portalsystm_image.tenantportal_ajaximg img:first-child {
-    left: -15px;
+left: -15px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    bottom: 3em;
-    right: -2px;
+bottom: 3em;
+right: -2px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7), .portalsystm_image.tenantportal_ajaximg img:nth-child(8) {
-    right: 0px;
+right: 0px;
 }
 .tenantreq_docajax .rew_doc_tabs .nav.nav-tabs li.nav-item a {
-    width: 156px;
-    height: 70px;
+width: 156px;
+height: 70px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7) {
-    bottom: 29px;
+bottom: 29px;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 156px;
+height: 156px;
 }
 .ajaximg_tenant img {
-    width: 100%;
-    height: 302px;
+width: 100%;
+height: 302px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 114px;
+margin-left: 114px;
 }
 /* tenant ajax end */
 /* realtor */
@@ -17627,10 +17714,10 @@ font-size: 2.2em;
 line-height: 38px;
 }
 .absol_images3 {
-    right: 8px;
+right: 8px;
 }
 .absol_images4 {
-    right: 14px;
+right: 14px;
 }
 .tenant_descrip.portal_systmowner p.smtxt_develop {
 font-size: 0.8em;
@@ -17740,7 +17827,7 @@ font-size: 10px;
 height: 174px;
 }
 .maintenance h3, .news_articles h3, .contact_client h3 {
-font-size: 1.1em;
+    font-size: 1.5em;
 }
 .heading,.department_propmgmt h3.heading,h3.sec_h3head {
 font-size: 1.2em;
@@ -17770,7 +17857,10 @@ font-size: 0.9em;
 /* end of contact page */
 /* property page */
 .team.slick-slide img {
-width: 88%;
+width: 100%;
+}
+p.name, p.qualif {
+    font-size: 0.9em;
 }
 .maintenance {
 padding: 2em 0em 12em 0em;
@@ -18429,80 +18519,80 @@ padding: 6px 26px;
 @media screen and (max-width:360px) {
 /* tenant ajax */
 .ajaximg_tenant img {
-    height: 261px;
+height: 261px;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 108px;
+margin-left: 108px;
 }
 .leaseddetails_slider .car_details img,
 .leaseddetails_slider .bed_details img {
-    height: 13px;
+height: 13px;
 }
 .leaseddetails_slider .shower_details img{
-    height: 14px;
+height: 14px;
 }
 .resources_tenantajax .listing_newsart_div.bluelist {
-    width: 95%;
+width: 95%;
 }
 .tenant_ajaxslider .clock span img {
-    vertical-align: middle;
+vertical-align: middle;
 }
 .leaseddetails_slider p {
-    font-size: 11px;
+font-size: 11px;
 }
 .tenant_ajaxslider .leasedslider .imageover_details >img {
-    height: 110px;
+height: 110px;
 }
 .resources_tenantajax .listing_newsart_div img {
-    height: 136px;
+height: 136px;
 }
 .descrip_details_list:before {
-    height: 17px;
+height: 17px;
 }
 .resources_tenantajax .bluelist .txtinfolist p {
-    line-height: 17px;
+line-height: 17px;
 }
 .tenant_ajaxslider .rentallist_slick .lochouse_details .house span, .tenant_ajaxslider .rentallist_slick .lochouse_details .clock span {
-    font-size: 0.7em;
+font-size: 0.7em;
 }
 .tenant_ajaxslider .ratingstar_count i {
-    font-size: 9px;
+font-size: 9px;
 }
 .tenantreq_docajax .rew_doc_tabs .nav.nav-tabs li.nav-item a {
-    width: 154px;
-    padding: 0.6em;
-    height: 67px;
+width: 154px;
+padding: 0.6em;
+height: 67px;
 }
 .ellipse_div .media-body h4 {
-    font-size: 0.9em;
+font-size: 0.9em;
 }
 .number_txt {
-    font-size: 2.2em;
-    margin-left: -19px;
+font-size: 2.2em;
+margin-left: -19px;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div .txt_loc {
-    font-size: 0.6em;
+font-size: 0.6em;
 }
 .tenant_ajaxslider .leasedslider .unverifi_divtxt.verifiedimgdiv img, .tenant_ajaxslider .leasedslider .unverifi_divtxt img {
-    height: 15px;
+height: 15px;
 }
 .tenant_ajaxslider .rat_tot_count p.count_rst {
-    font-size: 10px;
+font-size: 10px;
 }
 .descrip_details_list.redbarcolrchange .price_rate p del {
-    font-size: 9px;
+font-size: 9px;
 }
 .leaseddetails_slider .car_details, .leaseddetails_slider .shower_details, .leaseddetails_slider .bed_details {
-    margin: 0 0px 0 5px;
+margin: 0 0px 0 5px;
 }
 .leaseddetails_slider .shower_details img {
-    height: 13px;
+height: 13px;
 }
 .tenant_ajaxslider .rentallist_slick .slidelocation_div .txt_loc {
-    font-size: 0.55em;
+font-size: 0.55em;
 }
 .leaseddetails_slider .bed_details img {
-    height: 10px;
+height: 10px;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -18729,9 +18819,6 @@ max-width: 100%;
 .btn.btn-viewmoreprop{
 font-size: 0.9em;
 }
-.rent_prop_img {
-flex-basis: 69%;
-}
 .list_services ul {
 padding: 0px 0px 0px 2em;
 }
@@ -18750,6 +18837,19 @@ font-size: 0.8em;
 }
 .news_img img {
 height: 125px;
+}
+.news_img img {
+    height: 192px;
+}
+.news_articles {
+    padding: 10em 0px 12em 0px;
+}
+.properties_decrip_rental {
+    justify-content: space-around;
+}
+.propertyrental {
+    width: 100%;
+    margin: 15px auto 10px auto;
 }
 /* end of property page */
 
@@ -19212,38 +19312,38 @@ font-size: 1.3em;
 
 /* tenant ajax */
 .resources_tenantajax .listing_newsart_div img {
-    height: 146px;
+height: 146px;
 }
 .tenantajax_btn .btn.ajax_call {
-    font-size: 12px;
-    padding: 1px 17px;
+font-size: 12px;
+padding: 1px 17px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(8) {
-    bottom: 8px;
+bottom: 8px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7) {
-    bottom: 27px;
+bottom: 27px;
 }
 .tenantreq_docajax .rew_doc_tabs .nav.nav-tabs li.nav-item a {
-    width: 139px;
+width: 139px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    bottom: 2.8em;
-    right: -2px;
+bottom: 2.8em;
+right: -2px;
 }
 .heartdiv img {
-    height: 20px;
+height: 20px;
 }
 .tenant_ajaxslider .descrip_details_list .price_rate p {
-    font-size: 9px;
+font-size: 9px;
 }
 .newdiv img {
-    height: 16px;
+height: 16px;
 }
 .leasedslider {
-    padding: 6px;
-    margin: 11px 5px 0 0px;
-    border-radius: 10px;
+padding: 6px;
+margin: 11px 5px 0 0px;
+border-radius: 10px;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -19948,34 +20048,34 @@ top: 87px;
 @media screen and (max-width:320px) {
 /* tenant ajax */
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 99px;
+margin-left: 99px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3), 
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4), 
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    height: 33px;
+height: 33px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(6) {
-    height: 13px;
+height: 13px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(7), 
 .portalsystm_image.tenantportal_ajaximg img:nth-child(8) {
-    height: 14px;
+height: 14px;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(3) {
-    top: 2.8em;
+top: 2.8em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(4) {
-    top: 4.5em;
+top: 4.5em;
 }
 .portalsystm_image.tenantportal_ajaximg img:nth-child(5) {
-    top: 6.3em;
+top: 6.3em;
 }
 .our_process.tenantajax_process {
-    margin: 2em 0 3em 0;
+margin: 2em 0 3em 0;
 }
 .tenant_ajaxslider .rentallist_slick .slick-track {
-    margin-left: 99px;
+margin-left: 99px;
 }
 /* end of tenant ajax */
 /* realtor */
@@ -20014,7 +20114,7 @@ width: 85%;
 /* end of contact page */
 /* property page */
 .news_img img {
-height: 117px;
+    height: 146px;
 }
 /* end of property page */
 /* owmer page */
