@@ -1,19 +1,19 @@
 
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.ttf'),
+    url('../fonts/Helvetica-BoldOblique.ttf'),
+    url('../fonts/Helvetica-Bold.ttf'),
+    url('../fonts/Helvetica-BoldOblique.ttf'),
+    url('../fonts/Helvetica-BoldOblique.ttf'),
+    url('../fonts/helvetica-compressed-5871d14b6903a.otf'),
+    url('../fonts/helvetica-light-587ebe5a59211.ttf'),
+    url('../fonts/Helvetica-Oblique.ttf'),
+    url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
+    }
 body{
 background: #F8F8F8;
 font-family: 'Helvetica';
-}
-@font-face {
-font-family: 'Helvetica';
-src: url('../fonts/Helvetica.ttf'),
-url('../fonts/Helvetica-BoldOblique.ttf'),
-url('../fonts/Helvetica-Bold.ttf'),
-url('../fonts/Helvetica-BoldOblique.ttf'),
-url('../fonts/Helvetica-BoldOblique.ttf'),
-url('../fonts/helvetica-compressed-5871d14b6903a.otf'),
-url('../fonts/helvetica-light-587ebe5a59211.ttf'),
-url('../fonts/Helvetica-Oblique.ttf'),
-url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
 }
 .btn:hover,.btn:focus,.btn:active{
 outline: none;
@@ -864,16 +864,15 @@ object-fit: cover;
 margin: 0 auto;
 }
 .article_details{
-display: flex;
-width: 100%;
-justify-content: flex-start;
-margin: 1em 0px 1em 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1em 15px 1em 2px;
 }
 .article_details > div{
 display: flex;
 align-items: center;
-justify-content: center;
-margin-right: 2em;
+justify-content: space-around;
 }
 .article_details > div > img {
 height: 15px;
@@ -9156,5 +9155,8 @@ width: 48%;
     z-index:1;
 }
 .mobileview_newshow{
+    display: none;
+}
+.desktophidedivprop{
     display: none;
 }
