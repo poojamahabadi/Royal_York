@@ -32,6 +32,7 @@ slidesToShow: 1,
 ]
 });
 
+$(document).ready(function(){
 $('.customer-logos').slick({
 slidesToShow: 5,
 slidesToScroll: 1,
@@ -70,6 +71,45 @@ centerMode: true,
 ]
 });
 
+$('.customer-logostwo').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+    breakpoint: 768,
+    settings: {
+    slidesToShow: 4,
+    }
+    }, {
+    breakpoint: 767,
+    settings: {
+    slidesToShow: 2,
+    }
+    },
+    {
+    breakpoint: 641,
+    settings: {
+    arrows: false,
+    slidesToShow: 2,
+    centerMode: true,
+    }
+    },
+    {
+        breakpoint: 481,
+        settings: {
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 1,
+        }
+        }
+    ]
+    });
+
+});
 
 
 $('.ourpremium-logos').slick({
@@ -484,6 +524,37 @@ centerMode: true,
 }
 ]
 });
+
+
+$('.publicationImgtwo').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+    breakpoint: 768,
+    settings: {
+    slidesToShow: 4
+    }
+    }, {
+    breakpoint: 767,
+    settings: {
+    slidesToShow: 2
+    }
+    },
+    {
+    breakpoint: 640,
+    settings: {
+    slidesToShow:1,
+    centerMode: true,
+    }
+    }
+    ]
+    });
+
 });
 
 $(document).ready(function () {

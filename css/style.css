@@ -490,7 +490,7 @@ filter: grayscale(0%);
 filter: grayscale(100%) sepia(100%) hue-rotate(180deg);
 }
 .employeddiv .slick-slide {
-margin: 0px 20px;
+margin: 0px 20px 10px 20px;
 }
 .employeddiv .slick-slider
 {
@@ -1341,10 +1341,10 @@ margin: 4em 0px 0px 0px;
 .testi_right_image img{
 height: 230px;
 }
-.navi{
-position: absolute;
-right: -37px;
-top: 129px;
+.navi {
+    position: absolute;
+    right: -70px;
+    top: 129px;
 }
 .testimonial_card .carousel-control-prev-icon,.testimonial_card .carousel-control-next-icon{
 vertical-align: sub;
@@ -1930,6 +1930,7 @@ box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.102), 4px 4px 10px 1px #468DC3 inset
 background: #376990;
 border-radius: 40px;
 border:unset;
+text-transform: capitalize;
 }
 .owners_monthprice{
 margin: 5em 0 6em 0;
@@ -2059,15 +2060,19 @@ margin:5em 0 6em 0;
 text-align: center;
 }
 .tenantservices_list.placement_serv ul li:before{
-background: linear-gradient(90deg, #28517B 0%, #599FD7 100%);
-box-shadow: 4px 4px 10px 2px rgba(214, 229, 255,0.48) inset;
+    display: block;
+    margin-bottom: 0px;
+    content:url('../images/owner/dots_list.svg');
+    background: unset;
+    height:auto;
+    width: auto;
 }
 .tenant_gettouch{
 text-align: center;
 }
-.btn.btn-letsstart.btn_portalsystm{
-width: 48%;
-} 
+.btn.btn-letsstart.btn_portalsystm {
+    width: 58%;
+}
 .portal_syst h3.heading{
 margin: 2em 0 0.4em 0;
 }
@@ -2121,8 +2126,9 @@ margin: 0px;
 font-size: 0.9em;
 font-weight: 400;
 }
-.tenant_placementdescr.tenantservices_list ul li.monthrent{
-font-size: 1.1em;
+.tenant_placementdescr.tenantservices_list ul li.monthrent {
+    font-size: 1.1em;
+    align-items: center;
 }
 .tenant_placementdescr.tenantservices_list ul li.monthrent:before{
 background: linear-gradient(0deg, #599FD7 -3.29%, #28517B 114.21%);
@@ -2133,7 +2139,7 @@ margin-right: 10px;
 vertical-align: middle;
 }
 .our_premium{
-margin: 5em 0 2em 0;
+margin: 5em 0 8em 0;
 }
 .our_premium h3.heading{
 text-align: center;
