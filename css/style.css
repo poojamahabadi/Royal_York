@@ -8832,18 +8832,40 @@ border-radius: 25.0426px 25.0426px 0px 0px;
 }
 
 /* home page thumbnail slider */
+.slider_numbertext{
+    position: absolute;
+    top: 59px;
+    left: 23px;
+}
+.slider_numbertext span{
+    color: #315D80;
+    font-weight: bold;
+    font-size: 31px;
+}
+.thumbImg{
+    position: relative;
+}
+.thumbImg .slider_numbertext{
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+.thumbImg .slider_numbertext span {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 31px;
+}
 .vehicle-detail-banner{
 background: linear-gradient(180deg, rgba(170, 202, 255, 0.14) -21.45%, rgba(148, 165, 194, 0.14) 58.96%, rgba(148, 165, 194, 0.035) 108.1%);
 box-shadow: inset 4px 5px 5px rgba(208, 226, 255, 0.1);
-border-radius: 40px 40px 0px 0px;
+border-radius: 22px 22px 0px 0px;
 padding: 20px 20px 0px 20px;
 }
 .slider-banner-image iframe{
-width: 100%;
-height: 490px;
-background: linear-gradient(179.77deg, rgba(170, 202, 255, 0) 57.17%, rgba(98, 136, 177, 0.612676) 78.79%, #345F7F 118.7%);
-border-radius: 27px 26px 0px 0px;
-
+    width: 100%;
+    height: 490px;
+    background: linear-gradient(179.77deg, rgba(170, 202, 255, 0) 57.17%, rgba(98, 136, 177, 0.612676) 78.79%, #345F7F 118.7%);
+    border-radius: 14px 14px 0px 0px;
 }
 .thumbImg img{
 width: 100%;

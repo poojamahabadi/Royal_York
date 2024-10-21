@@ -425,6 +425,9 @@ height: 141px;
 line-height: 32.2px;
 font-size: 27px;
 }
+.slider_numbertext span,.thumbImg .slider_numbertext span {
+    display: none;
+}
 .news_card p {
     font-size: 0.85em;
 }
