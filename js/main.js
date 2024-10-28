@@ -31,9 +31,10 @@ slidesToShow: 1,
 }
 ]
 });
+});
 
 $(document).ready(function(){
-$('.customer-logos').slick({
+$('.customer-logos,.customer-logostwo').slick({
 slidesToShow: 5,
 slidesToScroll: 1,
 autoplay: true,
@@ -112,7 +113,7 @@ $('.customer-logostwo').slick({
 });
 
 
-$('.ourpremium-logos').slick({
+$('.ourpremium-logos,.ourpremium-logostwo').slick({
 slidesToShow: 5,
 slidesToScroll: 1,
 autoplay: true,
@@ -147,7 +148,7 @@ slidesToShow: 1,
     }
 ]
 });
-});
+
 
 $(document).ready(function(){
 $('.feature_rental_propslider').slick({
